@@ -1,0 +1,23 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    @media screen and (min-width: 64rem) {
+      width: 64rem;
+    }
+  }
+  
+  .menu__buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    @media screen and (min-width: 64rem) {
+      justify-content: space-between;
+    }
+  }
+  
+  .menu__content {
+    @media screen and (min-width: 48rem) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }

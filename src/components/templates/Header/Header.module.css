@@ -1,0 +1,21 @@
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .header__content {
+    display: flex;
+    align-items: center;
+    background-color: var(--header-background-transparent);
+  }
+  
+  .header__content--mobile {
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    @media screen and (min-width: 64rem) {
+      justify-content: center;
+    }
+  }

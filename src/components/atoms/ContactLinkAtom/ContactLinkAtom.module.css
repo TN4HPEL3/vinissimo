@@ -1,0 +1,7 @@
+.ContactLinkAtom {
+  border-radius: 20%;
+  &:hover {
+    transition: background-color linear 1s;
+    background-color: hsla(192, 36%, 69%, 0.5);
+  }
+}

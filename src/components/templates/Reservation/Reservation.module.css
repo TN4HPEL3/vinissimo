@@ -1,0 +1,5 @@
+.reservation {
+    @media screen and (min-width: 64rem) {
+      max-width: 64rem;
+    }
+  }

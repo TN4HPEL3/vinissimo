@@ -1,0 +1,12 @@
+.rateUs__icons {
+    display: flex;
+    justify-content: space-between;
+    & > a > svg {
+      fill: var(--website-secondary-color);
+      height: 82px;
+      max-width: 180px;
+    }
+    @media screen and (min-width: 64rem) {
+      width: 64rem;
+    }
+  }

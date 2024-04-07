@@ -1,0 +1,9 @@
+.logo {
+    fill: var(--website-secondary-color);
+    height: 4.5rem;
+    max-width: 4.75rem;
+    @media screen and (min-width: 48rem) {
+      height: 4.375rem;
+      max-width: none;
+    }
+  }
