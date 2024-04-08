@@ -9,7 +9,7 @@ function About() {
   const screen = CheckMediaQuery();
   return (
     <Section title="o nas">
-      {screen === 'desktop' ? (
+      {screen === 'desktop' && (
         <div className={css.about}>
           <div>
             <img
@@ -62,7 +62,24 @@ function About() {
             />
           </div>
         </div>
-      ) : (
+      )}
+      {screen === 'tablet' && (
+        <div className={css.about}>
+          <img
+            src={publicAccess('/Wall.jpg')}
+            alt={'A restaurant table set with a bottle of wine and a dish.'}
+          />
+          <p>
+            Vinissimo Restaurant & Wine Bar to nowa marka, pod którą od lutego
+            2024, działa, obecna na Bema 6 od 2017 roku - Sztuczka Bistro.
+            Restauracja, prowadzona od 2022 roku przez Łukasza Chwojnickiego, w
+            delikatnie zmienionym formacie i z tym samym, niezastąpionym teamem,
+            niezmiennie serwuje przepyszną i minimalistyczną kuchnię, wspartą
+            ogromną selekcją win i nienagannym serwisem.
+          </p>
+        </div>
+      )}
+      {screen === 'mobile' && (
         <div className={css.about}>
           <img
             src={publicAccess('/Seabass.jpg')}
