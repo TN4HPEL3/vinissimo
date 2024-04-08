@@ -12,7 +12,7 @@ function ListMolecule({ items }) {
       <li key={id}>
         <ContactLinkAtom
           href={href}
-          text={text}
+          children={text}
           className={css.ContactLinkAtom}
         />
       </li>
