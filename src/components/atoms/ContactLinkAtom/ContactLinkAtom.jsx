@@ -1,8 +1,6 @@
-import css from './ContactLinkAtom.module.css';
-
-function ContactLinkAtom({ href, children }) {
+function ContactLinkAtom({ href, children, className }) {
   return (
-    <a className={css.ContactLinkAtom} href={href}>
+    <a className={className} href={href}>
       {children}
     </a>
   );
