@@ -1,35 +1,39 @@
 :root {
-    --font-primary: 'Nunito Sans';
-    --font-weight-regular: 400;
-    --font-weight-bold: 700;
-  
-    --website-main-color: rgb(5, 43, 17);
-    --website-secondary-color: rgb(131, 97, 49);
-    --header-background: rgb(0, 0, 0);
-  
-    --text-color: rgb(255, 255, 255);
-  
-    --font-size-small: 1rem;
-  
-    /* 20px */
-    --font-size-medium: 1.25rem;
-  
-    /* 28px */
-    --font-size-large: 1.625rem;
-  
-    /* 48px */
-    --font-size-title-desktop: 3rem;
-  
-    /* 24px */
-    --font-size-drop-down-menu: 1.5rem;
-  
-    /* 34px */
-    --font-size-buttons-desktop: 2.125rem;
-  
-    /* 26px */
-    --font-size-buttons-tablet: 1.625rem;
-  
-    --bp-mobile: 30rem;
-    --bp-tablet: 48rem;
-    --bp-desktop: 80rem;
-  }
+  --font-primary: 'Nunito Sans';
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --website-main-color: rgb(5, 43, 17);
+  --website-secondary-color: rgb(131, 97, 49);
+  --header-background: rgb(0, 0, 0);
+  --header-background-transparent: rgb(0, 0, 0, 0.7);
+
+  --text-color: rgb(255, 255, 255);
+
+  --font-size-small: 1rem;
+
+  /* 20px */
+  --font-size-medium: 1.25rem;
+
+  /* 28px */
+  --font-size-large: 1.625rem;
+
+  /* 48px */
+  --font-size-title-desktop: 3rem;
+
+  /* 24px */
+  --font-size-drop-down-menu: 1.5rem;
+
+  /* 34px */
+  --font-size-buttons-desktop: 2.125rem;
+
+  /* 26px */
+  --font-size-buttons-tablet: 1.625rem;
+
+  --gap--small: 3.125rem;
+  --gap--large: 4.5rem;
+
+  --bp-mobile: 30rem;
+  --bp-tablet: 48rem;
+  --bp-desktop: 80rem;
+}
