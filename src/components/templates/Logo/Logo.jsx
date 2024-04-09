@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import { Icon } from '../../atoms/Icon/Icon.jsx';
 import { CheckMediaQuery } from '../../../helpers/checkMediaQuery.js';
 
@@ -7,11 +9,13 @@ function Logo() {
   const screen = CheckMediaQuery();
   return (
     <>
-      {screen === 'mobile' ? (
-        <Icon id="logo-mobile" className={css.logo} />
-      ) : (
-        <Icon id="logo-desktop" className={css.logo} />
-      )}
+      <Link to="/" className={css.logo}>
+        {screen === 'mobile' ? (
+          <Icon id="logo-mobile" />
+        ) : (
+          <Icon id="logo-desktop" />
+        )}
+      </Link>
     </>
   );
 }
