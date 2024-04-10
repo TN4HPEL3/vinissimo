@@ -6,7 +6,7 @@
   align-items: center;
   background: var(--website-main-color);
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   color: var(--text-color);
   @media screen and (min-width: 64rem) {
     padding: 1rem 1rem var(--gap--large) 1rem;
