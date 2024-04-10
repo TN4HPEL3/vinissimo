@@ -1,6 +1,9 @@
+import { useState } from 'react';
+
 import { Icon } from '../../atoms/Icon/Icon.jsx';
 import { Section } from '../Section/Section.jsx';
 import { Button } from '../../atoms/Button/Button.jsx';
+import { DropDownMenu } from '../../organisms/DropDownMenu.jsx';
 import { CheckMediaQuery } from '../../../helpers/checkMediaQuery.js';
 import { MenuListOrganism } from '../../../pages/Home/organisms/MenuListOrganism.jsx';
 
@@ -9,6 +12,10 @@ import menu from '../../../data/menu.json';
 import css from './Menu.module.css';
 
 function Menu() {
+  const [isOpen, setIsOpen] = useState(false);
+  const openDropDownMenu = () => {
+    isOpen ? setIsOpen(false) : setIsOpen(true);
+  };
   const screen = CheckMediaQuery();
   const soups = MenuListOrganism('soups', menu, 'zupa');
   const sides = MenuListOrganism('sides', menu, 'dodatki');
@@ -16,6 +23,7 @@ function Menu() {
   const mains = MenuListOrganism('mains', menu, 'dania główne');
   const desserts = MenuListOrganism('desserts', menu, 'na słodko');
   const starters = MenuListOrganism('starters', menu, 'przystawki');
+  const menuOptions = ['winana butelki', 'wina na kieliski', 'alkohole'];
 
   return (
     <Section title="menu">
@@ -40,10 +48,18 @@ function Menu() {
               <Button text="alkohole" />
             </>
           ) : (
-            <Button
-              text={<span>Więcej</span>}
-              icon={<Icon id="arrow-down" />}
-            />
+            <>
+              <Button
+                handleClick={openDropDownMenu}
+                text={<span>Więcej</span>}
+                icon={<Icon id="arrow-down" />}
+              />
+              {isOpen && (
+                <>
+                  <DropDownMenu options={menuOptions} />
+                </>
+              )}
+            </>
           )}
         </div>
       </div>
