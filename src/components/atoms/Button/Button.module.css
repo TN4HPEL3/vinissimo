@@ -1,16 +1,26 @@
 .button {
+  font-family: var(--font-primary);
+  --offset: 10px;
+  --border-size: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 6px;
-  font-family: var(--font-primary);
+  padding: 15px;
+  display: flex;
+  position: relative;
+  gap: 0.5rem;
+  appearance: none;
+  border: 0;
   background-color: transparent;
-  min-width: 12.25rem;
-  min-height: 1.75rem;
-  text-align: center;
+  color: var(--website-secondary-color);
+  letter-spacing: 0.25em;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0;
+  box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+  transition: all 0.8s ease;
   font-size: var(--font-size-medium);
-  color: var(--text-color);
-  border: 0.25rem double var(--website-secondary-color);
   & > svg {
     fill: var(--website-secondary-color);
     height: 1.25rem;
@@ -19,11 +29,59 @@
   & > span {
     flex: 1;
   }
-  @media screen and (min-width: 48rem) {
-    font-size: var(--font-size-buttons-tablet);
-    min-width: 17.813rem;
-  }
   @media screen and (min-width: 64rem) {
-    font-size: var(--font-size-buttons-desktop);
+    padding: 1.5rem 3rem;
+    font-size: var(--font-size-large);
+  }
+  .button__horizontal,
+  .button__vertical {
+    color: var(--website-secondary-color);
+    position: absolute;
+    top: var(--horizontal-offset, 0);
+    right: var(--vertical-offset, 0);
+    bottom: var(--horizontal-offset, 0);
+    left: var(--vertical-offset, 0);
+    transition: transform 0.8s ease;
+    will-change: transform;
+
+    &::before {
+      content: '';
+      position: absolute;
+      border: inherit;
+    }
+  }
+
+  .button__horizontal {
+    --vertical-offset: calc(var(--offset) * -1);
+    border-top: var(--border-size) solid currentcolor;
+    border-bottom: var(--border-size) solid currentcolor;
+
+    &::before {
+      top: calc(var(--vertical-offset) - var(--border-size));
+      bottom: calc(var(--vertical-offset) - var(--border-size));
+      left: calc(var(--vertical-offset) * -1);
+      right: calc(var(--vertical-offset) * -1);
+    }
+  }
+
+  &:hover .button__horizontal {
+    transform: scaleX(0);
+  }
+
+  .button__vertical {
+    --horizontal-offset: calc(var(--offset) * -1);
+    border-left: var(--border-size) solid currentcolor;
+    border-right: var(--border-size) solid currentcolor;
+
+    &::before {
+      top: calc(var(--horizontal-offset) * -1);
+      bottom: calc(var(--horizontal-offset) * -1);
+      left: calc(var(--horizontal-offset) - var(--border-size));
+      right: calc(var(--horizontal-offset) - var(--border-size));
+    }
+  }
+
+  &:hover .button__vertical {
+    transform: scaleY(0);
   }
 }
