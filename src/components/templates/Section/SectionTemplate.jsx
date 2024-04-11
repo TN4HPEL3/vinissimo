@@ -1,4 +1,4 @@
-import css from './Section.module.css';
+import css from './SectionTemplate.module.css';
 
 function Section({ title, children }) {
   return (
