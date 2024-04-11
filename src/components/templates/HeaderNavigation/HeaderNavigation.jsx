@@ -1,9 +1,8 @@
 import { Link } from 'react-router-dom';
-import css from './HeaderNavigation.module.css';
 
-function HeaderNavigation() {
+function HeaderNavigation({ className }) {
   return (
-    <nav className={css.header__navigation}>
+    <nav className={className}>
       <Link to="/">home</Link>
       <Link to="/menu">menu</Link>
       <Link to="/wine">wino</Link>

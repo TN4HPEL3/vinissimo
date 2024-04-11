@@ -11,7 +11,7 @@ function Header() {
         className={`${css.header__content} ${css['header__content--mobile']}`}
       >
         <Logo />
-        <HeaderNavigation />
+        <HeaderNavigation className={css.header__navigation} />
         <MobileMenuButton />
       </div>
     </header>
