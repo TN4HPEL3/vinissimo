@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   background: var(--website-main-color);
-  width: 100vw;
+  width: 100%;
   color: var(--text-color);
   @media screen and (min-width: 64rem) {
     padding: 1rem 1rem var(--gap--large) 1rem;
