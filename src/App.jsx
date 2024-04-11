@@ -1,7 +1,12 @@
-import { TestPage } from './pages/TestPage/TestPage.jsx';
+// import { TestPage } from './pages/TestPage/TestPage.jsx';
+
+import { NavigationTemplate } from './components/templates/NavigationTemplate/NavigationTemplate';
 
 function App() {
-  return <TestPage />;
+  return (
+    // <TestPage />;
+    <NavigationTemplate />
+  );
 }
 
 export { App };
