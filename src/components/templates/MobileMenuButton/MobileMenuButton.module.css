@@ -1,18 +1,43 @@
 .mobileMenuButton {
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
+  height: 4.5rem;
+  width: 4.75rem;
+  & > svg {
+    fill: var(--website-secondary-color);
     height: 4.5rem;
     width: 4.75rem;
-    & > svg {
-      fill: var(--website-secondary-color);
-      height: 4.5rem;
-      width: 4.75rem;
-      @media screen and (min-width: 48rem) {
-        height: 4.375rem;
-      }
-    }
-  
-    @media screen and (min-width: 64rem) {
-      display: none;
+    @media screen and (min-width: 48rem) {
+      height: 4.375rem;
     }
   }
+
+  @media screen and (min-width: 64rem) {
+    display: none;
+  }
+}
+
+.header__navigation {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--website-main-color);
+  z-index: 4;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: var(--font-size-drop-down-menu);
+}
+
+.closeButton {
+  background-color: transparent;
+  border: none;
+  position: fixed;
+  z-index: 5;
+  font-size: 40px;
+  top: 0;
+  right: 0;
+}
