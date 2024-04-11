@@ -7,4 +7,9 @@
   background: var(--website-main-color);
   width: 100vw;
   color: var(--text-color);
+  & > h2 {
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-large);
+    padding: var(--gap--small) 0;
+  }
 }
