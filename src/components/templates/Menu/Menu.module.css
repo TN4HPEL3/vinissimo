@@ -31,10 +31,21 @@
 }
 
 .dropdownMenu {
-  color: var(--website-secondary-color);
+  visibility: hidden;
+  border: 2px solid var(--website-secondary-color-hover);
+  border-top: 0;
+  max-height: 0;
+  transition: max-height 0.8s ease-out;
+  color: var(--website-secondary-color-hover);
   background-color: var(--header-background);
   padding: 0.938rem;
   & > li {
-    padding: 2px 0 2px 0;
+    padding: 0.25rem 0 0.25rem 0;
+  }
+  &.active {
+    transition: max-height 1s ease;
+    max-height: 500px;
+    visibility: visible;
+    transform: translateY(0);
   }
 }

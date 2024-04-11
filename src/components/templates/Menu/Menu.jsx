@@ -14,7 +14,7 @@ import css from './Menu.module.css';
 function Menu() {
   const [isOpen, setIsOpen] = useState(false);
   const openDropDownMenu = () => {
-    isOpen ? setIsOpen(false) : setIsOpen(true);
+    setIsOpen(prevState => !prevState);
   };
   const screen = CheckMediaQuery();
   const soups = MenuListOrganism('soups', menu, 'zupa');
@@ -54,14 +54,13 @@ function Menu() {
                 text={<span>Więcej</span>}
                 icon={<Icon id="arrow-down" />}
               />
-              {isOpen && (
-                <>
-                  <DropDownMenu
-                    options={menuOptions}
-                    className={css.dropdownMenu}
-                  />
-                </>
-              )}
+
+              <>
+                <DropDownMenu
+                  options={menuOptions}
+                  className={`${css.dropdownMenu} ${isOpen ? css.active : ''}`}
+                />
+              </>
             </>
           )}
         </div>
