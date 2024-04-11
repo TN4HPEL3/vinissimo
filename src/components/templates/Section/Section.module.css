@@ -16,6 +16,10 @@
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-large);
     padding: var(--gap--small) 0;
+    @media screen and (min-width: 64rem) {
+      font-size: var(--font-size-title-desktop);
+      padding: var(--gap--large) 0;
+    }
   }
 }
 
