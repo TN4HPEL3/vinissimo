@@ -3,8 +3,8 @@ import { useState } from 'react';
 import { Icon } from '../../atoms/Icon/Icon.jsx';
 import { Section } from '../Section/Section.jsx';
 import { Button } from '../../atoms/Button/Button.jsx';
-import { DropDownMenu } from '../../organisms/DropDownMenu.jsx';
 import { CheckMediaQuery } from '../../../helpers/checkMediaQuery.js';
+import { DropDownMenu } from '../../organisms/DropDownMenu/DropDownMenu.jsx';
 import { MenuListOrganism } from '../../../pages/Home/organisms/MenuListOrganism.jsx';
 
 import menu from '../../../data/menu.json';
@@ -23,7 +23,7 @@ function Menu() {
   const mains = MenuListOrganism('mains', menu, 'dania główne');
   const desserts = MenuListOrganism('desserts', menu, 'na słodko');
   const starters = MenuListOrganism('starters', menu, 'przystawki');
-  const menuOptions = ['winana butelki', 'wina na kieliski', 'alkohole'];
+  const menuOptions = ['wina na butelki', 'wina na kieliszki', 'alkohole'];
 
   return (
     <Section title="menu">
@@ -56,7 +56,10 @@ function Menu() {
               />
               {isOpen && (
                 <>
-                  <DropDownMenu options={menuOptions} />
+                  <DropDownMenu
+                    options={menuOptions}
+                    className={css.dropdownMenu}
+                  />
                 </>
               )}
             </>

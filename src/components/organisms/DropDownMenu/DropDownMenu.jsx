@@ -1,8 +1,6 @@
 import { nanoid } from 'nanoid';
 
-import css from './DropDownMenu.module.css';
-
-function DropDownMenu({ options, handleClick }) {
+function DropDownMenu({ options, handleClick, className }) {
   const listItems = options.map(item => {
     const id = nanoid();
     return (
@@ -11,7 +9,7 @@ function DropDownMenu({ options, handleClick }) {
       </li>
     );
   });
-  return <ul className={css.dropdownMenu}>{listItems}</ul>;
+  return <ul className={className}>{listItems}</ul>;
 }
 
 export { DropDownMenu };

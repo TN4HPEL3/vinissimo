@@ -4,7 +4,8 @@
   gap: var(--gap--large);
   align-items: center;
   @media screen and (min-width: 64rem) {
-    width: 64rem;
+    width: 100%;
+    max-width: 64rem;
     align-items: normal;
   }
 }
@@ -26,5 +27,14 @@
     display: flex;
     justify-content: space-between;
     gap: var(--gap--small);
+  }
+}
+
+.dropdownMenu {
+  color: var(--website-secondary-color);
+  background-color: var(--header-background);
+  padding: 0.938rem;
+  & > li {
+    padding: 2px 0 2px 0;
   }
 }
