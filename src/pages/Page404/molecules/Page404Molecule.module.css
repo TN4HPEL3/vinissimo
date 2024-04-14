@@ -1,0 +1,22 @@
+.page404Molecule {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.page404Molecule__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+}
+
+.page404Molecule__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
