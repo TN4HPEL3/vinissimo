@@ -16,8 +16,8 @@
   text-align: center;
 }
 
-.about__content--left,
-.about__content--right {
+.about__content--top,
+.about__content--bottom {
   display: flex;
   align-items: center;
   gap: 5%;
