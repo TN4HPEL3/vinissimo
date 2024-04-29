@@ -6,11 +6,13 @@ import { Outlet } from 'react-router-dom';
 
 function SharedLayout() {
   return (
-    // <Container>
-    //   <Header />
-    <Outlet />
-    //   <Footer />
-    // </Container>
+    <>
+      {/*  <Container>
+     <Header /> */}
+      <Outlet />
+      {/* <Footer />
+    </Container> */}
+    </>
   );
 }
 
