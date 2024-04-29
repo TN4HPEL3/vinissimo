@@ -17,7 +17,7 @@ function MenuListOrganism(category, data, title) {
           {secondLineName && <ParagraphAtom text={secondLineName} />}
           {thirdLineName && <ParagraphAtom text={thirdLineName} />}
         </div>
-        <p>{price}</p>
+        <ParagraphAtom text={price} />
       </li>
     ) : null;
   });
