@@ -7,6 +7,10 @@ import { ContactLinkAtom } from '../../../pages/TestPage/atoms/ContactLinkAtom/C
 
 import css from './ReservationTemplate.module.css';
 
+// To fix:
+// 1. Beautiful button take from AtomButton
+// 2. Href take from JSON
+
 function ReservationTemplate() {
   const screen = CheckMediaQuery();
   return (
@@ -22,7 +26,7 @@ function ReservationTemplate() {
           <button type="button">
             <ContactLinkAtom
               href="https://mojstolik.pl/restauracja/sztuczka-bistro-wino/c04bbd833ddf1bc466c75b19370dceaa/"
-              text="rezerwacja"
+              text="zarezerwuj stolik"
             />
           </button>
         </div>
