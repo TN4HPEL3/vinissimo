@@ -1,9 +1,9 @@
-import { CheckMediaQuery } from '../../../helpers/checkMediaQuery';
-import { ContactLinkAtom } from '../../../pages/TestPage/atoms/ContactLinkAtom/ContactLinkAtom';
 import { ParagraphAtom } from '../../atoms/ParagraphAtom';
+import { SectionTemplate } from '../Section/SectionTemplate';
+import { CheckMediaQuery } from '../../../helpers/checkMediaQuery';
 import { ReservationMapAtom } from '../../atoms/Reservation/ReservationMapAtom';
 import { ReservationTextAtom } from '../../atoms/Reservation/ReservationTextAtom';
-import { SectionTemplate } from '../Section/SectionTemplate';
+import { ContactLinkAtom } from '../../../pages/TestPage/atoms/ContactLinkAtom/ContactLinkAtom';
 
 import css from './ReservationTemplate.module.css';
 
@@ -12,11 +12,7 @@ function ReservationTemplate() {
   return (
     <SectionTemplate title="rezerwacja">
       <div className={css.reservation}>
-        {screen === 'mobile' ? (
-          <>
-            <p>Mobile</p>
-          </>
-        ) : (
+        {screen !== 'mobile' && (
           <>
             <ReservationMapAtom />
           </>
