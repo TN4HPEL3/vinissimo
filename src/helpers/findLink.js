@@ -11,6 +11,7 @@ const { href: hrefFacebook } = findLink('facebook');
 const { href: hrefInstagram } = findLink('instagram');
 const { href: hrefTrojmiasto } = findLink('trojmiasto');
 const { href: hrefTripAdvisor } = findLink('tripadvisor');
+const { href: hrefReservation } = findLink('reservation');
 
 export {
   findLink,
@@ -21,4 +22,5 @@ export {
   hrefEmail,
   hrefGoogle,
   hrefTrojmiasto,
+  hrefReservation,
 };
