@@ -13,11 +13,11 @@ function ReservationTemplate() {
     <SectionTemplate title="rezerwacja">
       <div className={css.reservation}>
         {screen !== 'mobile' && (
-          <>
+          <div className={css.reservation__map}>
             <ReservationMapAtom />
-          </>
+          </div>
         )}
-        <div>
+        <div className={css.reservation__content}>
           <ParagraphAtom text={<ReservationTextAtom />} />
           <button type="button">
             <ContactLinkAtom
