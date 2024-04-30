@@ -9,6 +9,9 @@ import css from './MenuTemplate.module.css';
 
 function MenuTemplate() {
   const screen = CheckMediaQuery();
+  const wineBottleBtnText = 'wina';
+  const alcoholBtnText = 'alkohole';
+  const wineGlassBtnText = 'wina na kieliszki';
   const soups = MenuListOrganism('soups', menu, 'zupa');
   const sides = MenuListOrganism('sides', menu, 'dodatki');
   const cheeses = MenuListOrganism('cheeses', menu, 'sery');
@@ -38,9 +41,9 @@ function MenuTemplate() {
         <div className={css.menu__buttons}>
           {screen === 'desktop' ? (
             <>
-              <Button text="wina" />
-              <Button text="wina na kieliszki" />
-              <Button text="alkohole" />
+              <Button text={wineBottleBtnText} />
+              <Button text={alcoholBtnText} />
+              <Button text={wineGlassBtnText} />
             </>
           ) : (
             <>
@@ -51,9 +54,9 @@ function MenuTemplate() {
                 id="menuButtons"
                 name="menuButtons"
               >
-                <option value="winesBottle">wina</option>
-                <option value="winesGlasses">wina na kieliszki</option>
-                <option value="alcohols">alkohole</option>
+                <option value="winesBottle">{wineBottleBtnText}</option>
+                <option value="winesGlasses">{wineGlassBtnText}</option>
+                <option value="alcohols">{alcoholBtnText}</option>
                 <option value="more" hidden>
                   więcej
                 </option>
