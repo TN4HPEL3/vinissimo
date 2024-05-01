@@ -7,6 +7,10 @@ import menu from '../../../data/menu.json';
 
 import css from './MenuTemplate.module.css';
 
+// To fix:
+// 1. Beautiful button from atom
+// 2. Function handleChange
+
 function MenuTemplate() {
   const screen = CheckMediaQuery();
   const wineBottleBtnText = 'wina';
