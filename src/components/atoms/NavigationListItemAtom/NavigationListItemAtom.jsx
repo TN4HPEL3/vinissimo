@@ -1,7 +1,20 @@
 import { NavLink } from 'react-router-dom';
 
+import css from './NavigationListItemAtom.module.css';
+
 function NavigationListItemAtom({ element }) {
-  return <NavLink to={element}>{element}</NavLink>;
+  return (
+    <NavLink
+      className={({ isActive }) =>
+        isActive
+          ? [css['header__navigation__link--active']]
+          : [css['header__navigation__link']]
+      }
+      to={element}
+    >
+      {element}
+    </NavLink>
+  );
 }
 
 export { NavigationListItemAtom };
