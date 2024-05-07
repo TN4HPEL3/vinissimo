@@ -1,0 +1,163 @@
+{
+    "starters": [
+      {
+        "isActive": true,
+        "firstLineName": "ostryga Fine de Claire N°2 (1szt.)",
+        "secondLineName": "różany mignonette",
+        "price": 26
+      },
+      {
+        "isActive": true,
+        "firstLineName": "chleb na zakwasie z własnego wypieku",
+        "secondLineName": "masło cebulowe . pikle",
+        "price": 17
+      },
+      {
+        "isActive": true,
+        "firstLineName": "oliwki sycylijskie . cytryna confit",
+        "price": 25
+      },
+      {
+        "isActive": true,
+        "firstLineName": "bakłażan . ricotta . szpinak",
+        "secondLineName": "orzechy laskowe . dressing truflowy",
+        "price": 45
+      },
+      {
+        "isActive": true,
+        "firstLineName": "grillowane krewetki . marakuja",
+        "secondLineName": "habanero . pomarańcza",
+        "price": 53
+      },
+      {
+        "isActive": true,
+        "firstLineName": "tatar wołowy . estragon . ogórek",
+        "secondLineName": "croûtons",
+        "price": 55
+      },
+      {
+        "isActive": true,
+        "firstLineName": "terrina z kaczki . śliwka",
+        "secondLineName": "Foie Gras . cykoria",
+        "price": 59
+      },
+      {
+        "isActive": true,
+        "firstLineName": "podpłomyk . Chorizo . kiszona cytryna",
+        "secondLineName": "kwaśna śmietana",
+        "price": 44
+      },
+      {
+        "isActive": true,
+        "firstLineName": "pieczony por . piana miso . szałwia",
+        "secondLineName": "orzechy ziemne",
+        "price": 37
+      },
+      {
+        "isActive": true,
+        "firstLineName": "krokiety z dorsza Skrei . tzatziki curry",
+        "secondLineName": "kolendra . nori",
+        "price": 43
+      }
+    ],
+    "cheeses": [
+      {
+        "isActive": true,
+        "firstLineName": "Roquefort . Roncal . Murcia al Vino",
+        "secondLineName": "chutney z gruszki",
+        "price": 59
+      }
+    ],
+    "soups": [
+      {
+        "isActive": true,
+        "firstLineName": "zupa cebulowa . grzanki . Gruyère",
+        "price": 39
+      }
+    ],
+    "mains": [
+      {
+        "isActive": true,
+        "firstLineName": "fish & chips z dorsza . kimchi",
+        "secondLineName": "frytki . sos tatarski z szafranem i cytryną",
+        "price": 71
+      },
+      {
+        "isActive": true,
+        "firstLineName": "pierś z kurczaka zagrodowego",
+        "secondLineName": "sałata rzymska . sos Cezar . jus",
+        "price": 75
+      },
+      {
+        "isActive": true,
+        "firstLineName": "dorsz Skrei . emulsja maślana",
+        "secondLineName": "mule . brokuł",
+        "price": 99
+      },
+      {
+        "isActive": true,
+        "firstLineName": "gicz jagnięca . polenta . papryka",
+        "secondLineName": "radicchio",
+        "price": 105
+      },
+      {
+        "isActive": true,
+        "firstLineName": "cavatelli . koper włoski . burrata",
+        "secondLineName": "pesto . orzechy piniowe",
+        "price": 65
+      },
+      {
+        "isActive": true,
+        "firstLineName": "sezonowany antrykot (300g)",
+        "secondLineName": "sos musztardowy",
+        "price": 165
+      },
+      {
+        "isActive": true,
+        "firstLineName": "picanha Rubia Gallega (300g)",
+        "secondLineName": "papryczki padron . sos musztardowy",
+        "thirdLineName": "chimichurri",
+        "price": 189
+      }
+    ],
+    "sides": [
+      {
+        "isActive": true,
+        "firstLineName": "frytki z aioli",
+        "price": 19
+      },
+      {
+        "isActive": true,
+        "firstLineName": "klasyczne kimchi",
+        "price": 16
+      },
+      {
+        "isActive": true,
+        "firstLineName": "maślane purée ziemniaczane . cebula",
+        "price": 16
+      },
+      {
+        "isActive": true,
+        "firstLineName": "sałaty . dressing balsamiczny",
+        "price": 16
+      },
+      {
+        "isActive": true,
+        "firstLineName": "młoda kapusta zasmażana . panko",
+        "price": 18
+      }
+    ],
+    "desserts": [
+      {
+        "isActive": true,
+        "firstLineName": "delicja czekoladowa . financier",
+        "secondLineName": "słony karmel",
+        "price": 36
+      },
+      {
+        "isActive": true,
+        "firstLineName": "crème brûlée . sorbet malinowy",
+        "price": 34
+      }
+    ]
+  }
