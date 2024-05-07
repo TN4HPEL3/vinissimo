@@ -1,8 +1,10 @@
 import { NavigationListOrganisms } from '../../organisms/NavigationListOrganisms/NavigationListOrganisms';
 
+import css from './NavigationTemplate.module.css';
+
 function NavigationTemplate() {
   return (
-    <div>
+    <div className={css.header}>
       <NavigationListOrganisms />
     </div>
   );
