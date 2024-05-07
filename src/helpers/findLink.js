@@ -1,7 +1,8 @@
-import links from '../data/contactLinks.json';
+import linksJSON from '../data/contactLinks.json';
 
 function findLink(id) {
-  return links.links.find(link => link.id === id);
+  const { links } = linksJSON;
+  return links.find(link => link.id === id);
 }
 
 const { href: hrefEmail } = findLink('mail');
