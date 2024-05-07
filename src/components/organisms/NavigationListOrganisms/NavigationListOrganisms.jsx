@@ -1,9 +1,11 @@
 import { NavigationListItemMolecule } from '../../molecules/NavigationListItemMolecule/NavigationListItemMolecule';
 
+import css from './NavigationListOrganisms.module.css';
+
 function NavigationListOrganisms() {
   return (
-    <div>
-      <nav>
+    <div className={css.header__content}>
+      <nav className={css.header__navigation}>
         <NavigationListItemMolecule item={'home'} />
         <NavigationListItemMolecule item={'menu'} />
         <NavigationListItemMolecule item={'wino'} />
