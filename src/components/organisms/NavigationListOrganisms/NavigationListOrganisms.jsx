@@ -8,7 +8,7 @@ import css from './NavigationListOrganisms.module.css';
 
 function NavigationListOrganisms() {
   const [isOpen, setIsOpen] = useState(false);
-  const handleClick = () => {
+  const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
   return (
@@ -21,8 +21,9 @@ function NavigationListOrganisms() {
         <NavigationListItemMolecule item={'team'} />
         <NavigationListItemMolecule item={'rezerwacja'} />
       </nav>
-      <OpenMobileMenuButtonAtom handleClick={handleClick} />
-      {isOpen && <MobileMenuOrganism handleClick={handleClick} />}
+      <OpenMobileMenuButtonAtom handleClick={toggleMenu} />
+
+      <MobileMenuOrganism isOpen={isOpen} handleClick={toggleMenu} />
     </div>
   );
 }
