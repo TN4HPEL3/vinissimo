@@ -1,11 +1,15 @@
-// import { TestPage } from './pages/TestPage/TestPage.jsx';
+import { Route, Routes } from 'react-router-dom';
 
-import { NavigationTemplate } from './components/templates/NavigationTemplate/NavigationTemplate';
+import { SharedLayout } from './components/templates/SharedLayout/SharedLayout';
 
 function App() {
   return (
-    // <TestPage />;
-    <NavigationTemplate />
+    <Routes>
+      <Route path="/" element={<SharedLayout />}>
+        {/* <Route index element={<Home />} /> */}
+      </Route>
+      {/* <Route path="*" element={<Page404 />} /> */}
+    </Routes>
   );
 }
 

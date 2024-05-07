@@ -1,0 +1,29 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.125rem;
+  @media screen and (min-width: 48rem) {
+    flex-direction: row;
+  }
+  @media screen and (min-width: 64rem) {
+    gap: var(--gap--large);
+    flex-direction: column;
+  }
+}
+
+.about__content__text {
+  text-align: center;
+}
+
+.about__content--top,
+.about__content--bottom {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  max-width: 64rem;
+}
+
+.about__content__image {
+  width: 50%;
+}
