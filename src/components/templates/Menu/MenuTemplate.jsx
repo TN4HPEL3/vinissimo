@@ -1,5 +1,5 @@
-import { Button } from '../../atoms/Button/Button.jsx';
 import { SectionTemplate } from '../Section/SectionTemplate.jsx';
+import { ButtonAtom } from '../../atoms/buttonAtom/ButtonAtom.jsx';
 import { CheckMediaQuery } from '../../../helpers/checkMediaQuery.js';
 import { MenuListOrganism } from '../../organisms/MenuListOrganism/MenuListOrganism.jsx';
 
@@ -8,8 +8,7 @@ import menu from '../../../data/menu.json';
 import css from './MenuTemplate.module.css';
 
 // To fix:
-// 1. Beautiful button from atom
-// 2. Function handleChange
+// 1. Function handleChange and handleClick for opening pages with menu
 
 function MenuTemplate() {
   const screen = CheckMediaQuery();
@@ -25,6 +24,10 @@ function MenuTemplate() {
 
   const handleChange = event => {
     console.log(event.target.value);
+  };
+
+  const handleClick = event => {
+    console.log(event.target);
   };
 
   return (
@@ -45,9 +48,9 @@ function MenuTemplate() {
         <div className={css.menu__buttons}>
           {screen === 'desktop' ? (
             <>
-              <Button text={wineBottleBtnText} />
-              <Button text={alcoholBtnText} />
-              <Button text={wineGlassBtnText} />
+              <ButtonAtom handleClick={handleClick} text={wineBottleBtnText} />
+              <ButtonAtom handleClick={handleClick} text={wineGlassBtnText} />
+              <ButtonAtom handleClick={handleClick} text={alcoholBtnText} />
             </>
           ) : (
             <>
