@@ -4,7 +4,6 @@ import { NavigationListItemMolecule } from '../../molecules/NavigationListItemMo
 import css from './MobileMenuOrganism.module.css';
 
 function MobileMenuOrganism({ handleClick, isOpen }) {
-  console.log(isOpen);
   return (
     <>
       <nav
