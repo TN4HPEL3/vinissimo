@@ -1,40 +1,37 @@
 import { ParagraphAtom } from '../../atoms/ParagraphAtom';
 import { SectionTemplate } from '../Section/SectionTemplate';
-import { CheckMediaQuery } from '../../../helpers/checkMediaQuery';
-import { ReservationMapAtom } from '../../atoms/Reservation/ReservationMapAtom';
 import { ReservationTextAtom } from '../../atoms/Reservation/ReservationTextAtom';
 import { ContactLinkAtom } from '../../../pages/TestPage/atoms/ContactLinkAtom/ContactLinkAtom';
 
 import css from './ReservationTemplate.module.css';
 import { ButtonAtom } from '../../atoms/buttonAtom/ButtonAtom';
+import { ReservationMapMolecule } from '../../molecules/ReservationMapMolecule/ReservationMapMolecule';
 
 // To fix:
 // 1. Href take from JSON
 // 2. ContactLinkAtom  - styles from Test page to delete
 
 function ReservationTemplate() {
-  const screen = CheckMediaQuery();
   return (
-    <SectionTemplate title="rezerwacja">
-      <div className={css.reservation}>
-        {screen !== 'mobile' && (
-          <div className={css.reservation__map}>
-            <ReservationMapAtom />
+    <SectionTemplate
+      title="rezerwacja"
+      children={
+        <div className={css.reservation}>
+          <ReservationMapMolecule />
+          <div className={css.reservation__content}>
+            <ParagraphAtom text={<ReservationTextAtom />} />
+            <ButtonAtom
+              text={
+                <ContactLinkAtom
+                  href="https://mojstolik.pl/restauracja/sztuczka-bistro-wino/c04bbd833ddf1bc466c75b19370dceaa/"
+                  text="zarezerwuj stolik"
+                />
+              }
+            />
           </div>
-        )}
-        <div className={css.reservation__content}>
-          <ParagraphAtom text={<ReservationTextAtom />} />
-          <ButtonAtom
-            text={
-              <ContactLinkAtom
-                href="https://mojstolik.pl/restauracja/sztuczka-bistro-wino/c04bbd833ddf1bc466c75b19370dceaa/"
-                text="zarezerwuj stolik"
-              />
-            }
-          />
         </div>
-      </div>
-    </SectionTemplate>
+      }
+    ></SectionTemplate>
   );
 }
 
