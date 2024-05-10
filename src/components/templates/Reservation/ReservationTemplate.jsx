@@ -1,11 +1,11 @@
 import { ParagraphAtom } from '../../atoms/ParagraphAtom';
 import { SectionTemplate } from '../Section/SectionTemplate';
-import { ReservationTextAtom } from '../../atoms/Reservation/ReservationTextAtom';
+import { ButtonAtom } from '../../atoms/buttonAtom/ButtonAtom';
 import { ContactLinkAtom } from '../../../pages/TestPage/atoms/ContactLinkAtom/ContactLinkAtom';
+import { ReservationTextAtom } from '../../atoms/Reservation/ReservationTextAtom/ReservationTextAtom';
+import { ReservationMapMolecule } from '../../molecules/ReservationMapMolecule/ReservationMapMolecule';
 
 import css from './ReservationTemplate.module.css';
-import { ButtonAtom } from '../../atoms/buttonAtom/ButtonAtom';
-import { ReservationMapMolecule } from '../../molecules/ReservationMapMolecule/ReservationMapMolecule';
 
 // To fix:
 // 1. Href take from JSON
@@ -19,7 +19,10 @@ function ReservationTemplate() {
         <div className={css.reservation}>
           <ReservationMapMolecule />
           <div className={css.reservation__content}>
-            <ParagraphAtom text={<ReservationTextAtom />} />
+            <ParagraphAtom
+              className={css.reservation__content__text}
+              text={<ReservationTextAtom />}
+            />
             <ButtonAtom
               text={
                 <ContactLinkAtom
