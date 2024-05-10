@@ -1,14 +1,14 @@
 .mobile-menu {
   display: flex;
   position: fixed;
-  width: 100%;
+  width: 0;
   flex-direction: column;
   top: 0;
-  left: 0;
+  right: 0;
   opacity: 0;
   visibility: hidden;
-  height: 0%;
-  transition: opacity 0.75s, visibility 0.75s, height 0.75s;
+  height: 100vh;
+  transition: opacity 0.75s, visibility 0.75s, width 0.75s;
   overflow: hidden;
   background-color: var(--website-main-color);
   z-index: 4;
@@ -20,5 +20,5 @@
 .mobile-menu--open {
   opacity: 1;
   visibility: visible;
-  height: 100vh;
+  width: 100%;
 }
