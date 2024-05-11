@@ -1,11 +1,12 @@
 import { SectionTemplate } from '../Section/SectionTemplate.jsx';
 import { CheckMediaQuery } from '../../../helpers/checkMediaQuery.js';
 import { MenuListOrganism } from '../../organisms/MenuListOrganism/MenuListOrganism.jsx';
+import { MenuButtonMobileMolecule } from '../../molecules/MenuButtonMobileMolecule/MenuButtonMobileMolecule.jsx';
+import { MenuButtonsDesktopMolecule } from '../../molecules/MenuButtonsDesktopMolecule/MenuButtonsDesktopMolecule.jsx';
 
 import menu from '../../../data/menu.json';
 
 import css from './MenuTemplate.module.css';
-import { MenuButtonsDesktopMolecule } from '../../molecules/MenuButtonsDesktopMolecule/MenuButtonsDesktopMolecule.jsx';
 
 // To fix:
 // 1. Function handleChange and handleClick for opening pages with menu
@@ -54,22 +55,12 @@ function MenuTemplate() {
               wineGlassBtnText={wineGlassBtnText}
             />
           ) : (
-            <>
-              <select
-                onChange={handleChange}
-                defaultValue="more"
-                className={css.menu__select}
-                id="menuButtons"
-                name="menuButtons"
-              >
-                <option value="winesBottle">{wineBottleBtnText}</option>
-                <option value="winesGlasses">{wineGlassBtnText}</option>
-                <option value="alcohols">{alcoholBtnText}</option>
-                <option value="more" hidden>
-                  więcej
-                </option>
-              </select>
-            </>
+            <MenuButtonMobileMolecule
+              handleChange={handleChange}
+              wineBottleBtnText={wineBottleBtnText}
+              alcoholBtnText={alcoholBtnText}
+              wineGlassBtnText={wineGlassBtnText}
+            />
           )}
         </div>
       </div>

@@ -30,22 +30,3 @@
     gap: var(--gap--small);
   }
 }
-
-.menu__select {
-  position: relative;
-  font-family: var(--font-primary);
-  --border-size: 0.125rem;
-  padding: 0.938rem;
-  border: 0;
-  background-color: transparent;
-  color: var(--website-secondary-color);
-  letter-spacing: 0.25em;
-  cursor: pointer;
-  font-weight: bold;
-  box-shadow: inset 0 0 0 var(--border-size) currentcolor;
-  font-size: var(--font-size-medium);
-  text-align: center;
-  & > option {
-    background-color: var(--header-background);
-  }
-}
