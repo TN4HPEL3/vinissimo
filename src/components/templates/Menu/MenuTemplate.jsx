@@ -1,18 +1,15 @@
 import { SectionTemplate } from '../Section/SectionTemplate.jsx';
-import { CheckMediaQuery } from '../../../helpers/checkMediaQuery.js';
 import { MenuListOrganism } from '../../organisms/MenuListOrganism/MenuListOrganism.jsx';
-import { MenuButtonMobileMolecule } from '../../molecules/MenuButtonMobileMolecule/MenuButtonMobileMolecule.jsx';
-import { MenuButtonsDesktopMolecule } from '../../molecules/MenuButtonsDesktopMolecule/MenuButtonsDesktopMolecule.jsx';
 
 import menu from '../../../data/menu.json';
 
 import css from './MenuTemplate.module.css';
+import { MenuButtonsOrganism } from '../../organisms/MenuButtonsOrganism/MenuButtonsOrganism.jsx';
 
 // To fix:
 // 1. Function handleChange and handleClick for opening pages with menu
 
 function MenuTemplate() {
-  const screen = CheckMediaQuery();
   const wineBottleBtnText = 'wina';
   const alcoholBtnText = 'alkohole';
   const wineGlassBtnText = 'wina na kieliszki';
@@ -47,21 +44,13 @@ function MenuTemplate() {
           </div>
         </div>
         <div className={css.menu__buttons}>
-          {screen === 'desktop' ? (
-            <MenuButtonsDesktopMolecule
-              handleClick={handleClick}
-              wineBottleBtnText={wineBottleBtnText}
-              alcoholBtnText={alcoholBtnText}
-              wineGlassBtnText={wineGlassBtnText}
-            />
-          ) : (
-            <MenuButtonMobileMolecule
-              handleChange={handleChange}
-              wineBottleBtnText={wineBottleBtnText}
-              alcoholBtnText={alcoholBtnText}
-              wineGlassBtnText={wineGlassBtnText}
-            />
-          )}
+          <MenuButtonsOrganism
+            handleClick={handleClick}
+            handleChange={handleChange}
+            wineBottleBtnText={wineBottleBtnText}
+            alcoholBtnText={alcoholBtnText}
+            wineGlassBtnText={wineGlassBtnText}
+          />
         </div>
       </div>
     </SectionTemplate>
