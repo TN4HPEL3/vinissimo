@@ -1,10 +1,11 @@
 import { nanoid } from 'nanoid';
 
-import { ParagraphAtom } from '../../atoms/ParagraphAtom';
+import { MenuTitleAtom } from '../../atoms/MenuTitleAtom/MenuTitleAtom';
+import { MenuTextMolecule } from '../../molecules/MenuTextMolecule/MenuTextMolecule';
 
 import css from './MenuListOrganism.module.css';
 
-function MenuListOrganism(category, data, title) {
+function MenuListOrganism({ category, data, title }) {
   const itemsByCategory = data[category];
   const items = itemsByCategory.map(item => {
     const id = nanoid();
@@ -13,17 +14,17 @@ function MenuListOrganism(category, data, title) {
     return isActive ? (
       <li className={css['menu__list-item']} key={id}>
         <div>
-          <ParagraphAtom text={firstLineName} />
-          {secondLineName && <ParagraphAtom text={secondLineName} />}
-          {thirdLineName && <ParagraphAtom text={thirdLineName} />}
+          <MenuTextMolecule text={firstLineName} />
+          <MenuTextMolecule text={secondLineName} />
+          <MenuTextMolecule text={thirdLineName} />
         </div>
-        <ParagraphAtom text={price} />
+        <MenuTextMolecule text={price} />
       </li>
     ) : null;
   });
   return (
     <>
-      <h3>{title}</h3>
+      <MenuTitleAtom title={title} />
       <ul>{items}</ul>
     </>
   );
