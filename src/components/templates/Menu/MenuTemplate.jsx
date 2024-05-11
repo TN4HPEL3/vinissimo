@@ -1,11 +1,11 @@
 import { SectionTemplate } from '../Section/SectionTemplate.jsx';
-import { ButtonAtom } from '../../atoms/buttonAtom/ButtonAtom.jsx';
 import { CheckMediaQuery } from '../../../helpers/checkMediaQuery.js';
 import { MenuListOrganism } from '../../organisms/MenuListOrganism/MenuListOrganism.jsx';
 
 import menu from '../../../data/menu.json';
 
 import css from './MenuTemplate.module.css';
+import { MenuButtonsDesktopMolecule } from '../../molecules/MenuButtonsDesktopMolecule/MenuButtonsDesktopMolecule.jsx';
 
 // To fix:
 // 1. Function handleChange and handleClick for opening pages with menu
@@ -47,11 +47,12 @@ function MenuTemplate() {
         </div>
         <div className={css.menu__buttons}>
           {screen === 'desktop' ? (
-            <>
-              <ButtonAtom handleClick={handleClick} text={wineBottleBtnText} />
-              <ButtonAtom handleClick={handleClick} text={wineGlassBtnText} />
-              <ButtonAtom handleClick={handleClick} text={alcoholBtnText} />
-            </>
+            <MenuButtonsDesktopMolecule
+              handleClick={handleClick}
+              wineBottleBtnText={wineBottleBtnText}
+              alcoholBtnText={alcoholBtnText}
+              wineGlassBtnText={wineGlassBtnText}
+            />
           ) : (
             <>
               <select
