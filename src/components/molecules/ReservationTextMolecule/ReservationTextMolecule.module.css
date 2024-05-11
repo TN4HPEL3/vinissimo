@@ -1,0 +1,6 @@
+.reservation__content__text {
+  text-align: center;
+  @media screen and (min-width: 48rem) {
+    text-align: left;
+  }
+}
