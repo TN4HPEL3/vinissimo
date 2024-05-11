@@ -1,3 +1,5 @@
+import { IconAtom } from '../IconAtom/IconAtom';
+
 import css from './OpenMobileMenuButtonAtom.module.css';
 
 function OpenMobileMenuButtonAtom({ handleClick }) {
@@ -6,8 +8,7 @@ function OpenMobileMenuButtonAtom({ handleClick }) {
       className={[css['header__mobile-menu-button']]}
       onClick={handleClick}
     >
-      {/* <IconAtom id="burger-menu" /> */}
-      Open
+      <IconAtom id="burger-menu" />
     </button>
   );
 }
