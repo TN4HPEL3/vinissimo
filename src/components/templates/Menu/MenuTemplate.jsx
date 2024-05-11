@@ -10,9 +10,11 @@ import { MenuButtonsOrganism } from '../../organisms/MenuButtonsOrganism/MenuBut
 // 1. Function handleChange and handleClick for opening pages with menu
 
 function MenuTemplate() {
-  const wineBottleBtnText = 'wina';
-  const alcoholBtnText = 'alkohole';
-  const wineGlassBtnText = 'wina na kieliszki';
+  const buttonsText = {
+    wineBottleBtnText: 'wina',
+    alcoholBtnText: 'alkohole',
+    wineGlassBtnText: 'wina na kieliszki',
+  };
   const soups = MenuListOrganism('soups', menu, 'zupa');
   const sides = MenuListOrganism('sides', menu, 'dodatki');
   const cheeses = MenuListOrganism('cheeses', menu, 'sery');
@@ -47,9 +49,7 @@ function MenuTemplate() {
           <MenuButtonsOrganism
             handleClick={handleClick}
             handleChange={handleChange}
-            wineBottleBtnText={wineBottleBtnText}
-            alcoholBtnText={alcoholBtnText}
-            wineGlassBtnText={wineGlassBtnText}
+            text={buttonsText}
           />
         </div>
       </div>
