@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 //import { MobileMenuOrganism } from '../MobileMenuOrganism/MobileMenuOrganism.jsx';
-//import { NavigationLogoMolecule } from '../../molecules/NavigationLogoMolecule/NavigationLogoMolecule.jsx';
+import { NavigationLogoMolecule } from '../../molecules/NavigationLogoMolecule/NavigationLogoMolecule.jsx';
 import { OpenMobileMenuButtonAtom } from '../../atoms/OpenMobileMenuButtonAtom/OpenMobileMenuButtonAtom.jsx';
 import { NavigationListItemMolecule } from '../../molecules/NavigationListItemMolecule/NavigationListItemMolecule.jsx';
 
@@ -14,7 +14,7 @@ function NavigationListOrganisms() {
   };
   return (
     <div className={css.header__content}>
-      {/* <NavigationLogoMolecule /> */}
+      <NavigationLogoMolecule />
       <nav className={css.header__navigation}>
         <NavigationListItemMolecule item={'home'} />
         <NavigationListItemMolecule item={'menu'} />

@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-import { IconAtom } from '../../../atoms/IconAtom/IconAtom.jsx';
+import { IconAtom } from '../../atoms/IconAtom/IconAtom.jsx';
 import { CheckMediaQuery } from '../../../helpers/checkMediaQuery.js';
 
 import css from './NavigationLogoMolecule.module.css';
