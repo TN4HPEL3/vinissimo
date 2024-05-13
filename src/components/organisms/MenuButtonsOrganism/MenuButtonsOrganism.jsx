@@ -4,19 +4,19 @@ import { MenuButtonsDesktopMolecule } from '../../molecules/MenuButtonsDesktopMo
 
 function MenuButtonsOrganism({ handleClick, handleChange, text }) {
   const screen = CheckMediaQuery();
-  const { wineBottleBtnText, alcoholBtnText, wineGlassBtnText } = text;
+  const { winesBottlesBtnText, alcoholBtnText, wineGlassBtnText } = text;
 
   return screen === 'desktop' ? (
     <MenuButtonsDesktopMolecule
       handleClick={handleClick}
-      wineBottleBtnText={wineBottleBtnText}
+      winesBottlesBtnText={winesBottlesBtnText}
       alcoholBtnText={alcoholBtnText}
       wineGlassBtnText={wineGlassBtnText}
     />
   ) : (
     <MenuButtonMobileMolecule
       handleChange={handleChange}
-      wineBottleBtnText={wineBottleBtnText}
+      winesBottlesBtnText={winesBottlesBtnText}
       alcoholBtnText={alcoholBtnText}
       wineGlassBtnText={wineGlassBtnText}
     />

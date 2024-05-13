@@ -2,7 +2,7 @@ import css from './MenuButtonMobileMolecule.module.css';
 
 function MenuButtonMobileMolecule({
   handleChange,
-  wineBottleBtnText,
+  winesBottlesBtnText,
   wineGlassBtnText,
   alcoholBtnText,
 }) {
@@ -14,7 +14,7 @@ function MenuButtonMobileMolecule({
       id="menuButtons"
       name="menuButtons"
     >
-      <option value="winesBottle">{wineBottleBtnText}</option>
+      <option value="winesBottles">{winesBottlesBtnText}</option>
       <option value="winesGlasses">{wineGlassBtnText}</option>
       <option value="alcohols">{alcoholBtnText}</option>
       <option value="more" hidden>

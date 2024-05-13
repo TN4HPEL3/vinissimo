@@ -11,7 +11,7 @@ import css from './MenuTemplate.module.css';
 
 function MenuTemplate() {
   const buttonsText = {
-    wineBottleBtnText: 'wina',
+    winesBottlesBtnText: 'wina',
     alcoholBtnText: 'alkohole',
     wineGlassBtnText: 'wina na kieliszki',
   };
