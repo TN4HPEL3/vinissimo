@@ -1,0 +1,18 @@
+.footer {
+  color: var(--text-color);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2.43rem 0.93rem;
+  align-items: center;
+  max-width: 64rem;
+  margin: 0 auto;
+
+  @media screen and (min-width: 23rem) {
+    font-size: var(--font-size-medium);
+    justify-content: space-between;
+  }
+  @media screen and (min-width: 65rem) {
+    padding: 2.43rem 0;
+    gap: 25px;
+  }
+}
