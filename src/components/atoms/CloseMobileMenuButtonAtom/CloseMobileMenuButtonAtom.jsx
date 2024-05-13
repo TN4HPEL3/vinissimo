@@ -1,9 +1,11 @@
+import { IconAtom } from '../IconAtom/IconAtom';
+
 import css from './CloseMobileMenuButtonAtom.module.css';
 
 function CloseMobileMenuButtonAtom({ handleClick }) {
   return (
     <button className={[css['mobile-menu__button']]} onClick={handleClick}>
-      x{/* <IconAtom id="close" /> */}
+      <IconAtom className={[css['mobile-menu__button__icon']]} id="close" />
     </button>
   );
 }
