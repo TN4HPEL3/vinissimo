@@ -25,10 +25,6 @@
   }
 }
 
-.section:first-child {
-  padding: 0;
-}
-
 .section::after {
   content: '';
   position: absolute;
