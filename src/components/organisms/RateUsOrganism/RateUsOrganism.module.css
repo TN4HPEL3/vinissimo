@@ -1,0 +1,6 @@
+.rateUs__icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--gap--large);
+  width: 100%;
+}
