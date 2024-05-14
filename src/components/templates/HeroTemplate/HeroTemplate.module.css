@@ -1,12 +1,26 @@
 .hero {
+  width: 100vw;
   position: relative;
-  &::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 0.125rem;
-    background-color: var(--website-secondary-color);
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  @media screen and (min-width: 64rem) {
+    width: 99.58vw;
+  }
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 0.125rem;
+  background-color: var(--website-secondary-color);
+}
+
+@media screen and (min-width: 64rem) {
+  .hero::after {
+    width: 99.58vw;
   }
 }
