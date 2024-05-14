@@ -1,6 +1,8 @@
 import { nanoid } from 'nanoid';
 
-import { ContactLinkAtom } from '../atoms/ContactLinkAtom/ContactLinkAtom.jsx';
+import { ContactLinkAtom } from '../../../components/atoms/ContactLinkAtom/ContactLinkAtom';
+
+import css from './ListMolecule.module.css';
 
 function ListMolecule({ items }) {
   const listItems = items.map(item => {
@@ -8,7 +10,11 @@ function ListMolecule({ items }) {
     const id = nanoid();
     return (
       <li key={id}>
-        <ContactLinkAtom href={href} text={text} />
+        <ContactLinkAtom
+          href={href}
+          children={text}
+          className={css.contact__link}
+        />
       </li>
     );
   });
