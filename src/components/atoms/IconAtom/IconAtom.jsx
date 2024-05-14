@@ -1,4 +1,4 @@
-//We need to import svg sprite here
+import sprite from '../../../data/sprite.svg';
 
 function IconAtom({ id, className }) {
   return (
