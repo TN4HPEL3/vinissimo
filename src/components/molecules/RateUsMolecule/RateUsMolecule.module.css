@@ -1,0 +1,14 @@
+.rate__us__icons--icon > svg {
+  fill: var(--website-secondary-color);
+  height: 5rem;
+  max-width: 10rem;
+  transition: fill linear 0.6s;
+  &:hover {
+    fill: var(--website-secondary-color-hover);
+  }
+
+  @media screen and (min-width: 64rem) {
+    height: 5.125rem;
+    max-width: 11.25rem;
+  }
+}
