@@ -2,15 +2,19 @@ import { ParagraphAtom } from '../../atoms/ParagraphAtom';
 import { hrefEmail, hrefPhoneNumber } from '../../../helpers/findLink';
 import { ContactLinkAtom } from '../../atoms/ContactLinkAtom/ContactLinkAtom';
 
+import JSON from '../../../data/contactLinks.json';
+
 function FooterLinksMolecule() {
+  const { links } = JSON;
+  const linkPhone = links.find(link => link.id === 'phone');
+  const linkEmail = links.find(link => link.id === 'mail');
+  const phoneNumber = linkPhone.text;
+  const email = linkEmail.text;
   return (
     <div>
-      <ContactLinkAtom children="tel. +48 881 334 449" href={hrefPhoneNumber} />
+      <ContactLinkAtom children={phoneNumber} href={hrefPhoneNumber} />
       <br />
-      <ContactLinkAtom
-        children="booking@vinissimorestaurant.pl"
-        href={hrefEmail}
-      />
+      <ContactLinkAtom children={email} href={hrefEmail} />
       <ParagraphAtom text="Polityka prywatności" />
     </div>
   );
