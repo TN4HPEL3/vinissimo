@@ -1,0 +1,5 @@
+.link--active {
+  & > button {
+    color: var(--text-color);
+  }
+}
