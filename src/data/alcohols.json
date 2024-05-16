@@ -1,5 +1,5 @@
 {
-  "cocktails 37": [
+  "cocktails": [
     {
       "isActive": true,
       "name": "aperol spritz",
@@ -70,7 +70,7 @@
       "name": "baczewski suweren 4cl . 22"
     }
   ],
-  "highland park single malt whisky": [
+  "highlandPark": [
     {
       "isActive": true,
       "name": "10yo . 4cl . 35"
@@ -94,7 +94,7 @@
       "descriptionThirdLine": "3 x 2cl . 69"
     }
   ],
-  "whisky | bourbon | whiskey": [
+  "whisky": [
     {
       "isActive": true,
       "name": "bushmills black bush 4cl . 23"
@@ -178,7 +178,7 @@
       "name": "london dry gin no. 3 4cl . 35"
     }
   ],
-  "cognac | brandy | armagnac": [
+  "cognac": [
     {
       "isActive": true,
       "name": "rémy martin 1738 accord royal 4cl . 55"
