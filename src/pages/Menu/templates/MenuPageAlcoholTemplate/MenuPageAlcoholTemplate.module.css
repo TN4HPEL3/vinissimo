@@ -1,0 +1,23 @@
+.menu__alcohols {
+  display: flex;
+  margin: 0 auto;
+  color: var(--text-color);
+  flex-direction: column;
+  @media screen and (min-width: 64rem) {
+    width: 100%;
+    max-width: 50rem;
+    align-items: normal;
+  }
+}
+
+.menu__alcohols__content {
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  & > div {
+    margin: var(--gap--large) 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
