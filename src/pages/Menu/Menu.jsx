@@ -1,7 +1,7 @@
-import { MenuPageFoodTemplate } from './templates/MenuPageFoodTemplate/MenuPageFoodTemplate';
+import { MenuPageTemplate } from './templates/MenuPageTemplate/MenuPageTemplate';
 
 function Menu() {
-  return <MenuPageFoodTemplate />;
+  return <MenuPageTemplate />;
 }
 
 export { Menu };
