@@ -3,8 +3,6 @@ import { nanoid } from 'nanoid';
 import { MenuTitleAtom } from '../../../../components/atoms/MenuTitleAtom/MenuTitleAtom';
 import { MenuTextMolecule } from '../../../../components/molecules/MenuTextMolecule/MenuTextMolecule';
 
-import css from './MenuAlcoholsOrganism.module.css';
-
 function MenuAlcoholsOrganism({ category, data, title }) {
   const itemsByCategory = data[category];
   const items = itemsByCategory.map(item => {
@@ -12,7 +10,7 @@ function MenuAlcoholsOrganism({ category, data, title }) {
     const { name, descriptionSecondLine, descriptionThirdLine, isActive } =
       item;
     return isActive ? (
-      <li className={css['menu__list-item']} key={id}>
+      <li key={id}>
         <div>
           <MenuTextMolecule text={name} />
           <MenuTextMolecule text={descriptionSecondLine} />
