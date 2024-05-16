@@ -1,7 +1,5 @@
-import { MenuPageTemplate } from './templates/MenuPageTemplate/MenuPageTemplate';
-
-function Menu() {
-  return <MenuPageTemplate />;
+function Menu({ children }) {
+  return <>{children}</>;
 }
 
 export { Menu };

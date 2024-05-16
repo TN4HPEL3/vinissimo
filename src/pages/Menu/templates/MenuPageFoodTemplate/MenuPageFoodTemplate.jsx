@@ -1,4 +1,3 @@
-import { MenuPageTemplate } from '../MenuPageTemplate/MenuPageTemplate';
 import { MenuListOrganism } from '../../../../components/organisms/MenuListOrganism/MenuListOrganism';
 import { MenuPageButtonsOrganism } from '../../organisms/MenuPageButtonsOrganism/MenuPageButtonsOrganism';
 
@@ -9,7 +8,7 @@ import css from '../../../../components/templates/Menu/MenuTemplate.module.css';
 
 function MenuPageFoodTemplate() {
   return (
-    <MenuPageTemplate className={cssFoodTemplate.menu}>
+    <div className={cssFoodTemplate.menu}>
       <MenuPageButtonsOrganism />
       <div className={css.menu__content}>
         <div>
@@ -35,7 +34,7 @@ function MenuPageFoodTemplate() {
           />
         </div>
       </div>
-    </MenuPageTemplate>
+    </div>
   );
 }
 
