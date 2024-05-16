@@ -1,13 +1,14 @@
-import { MenuPageOrganism } from '../../organisms/MenuPageOrganism/MenuPageOrganism';
+import { MenuPageTemplate } from '../MenuPageTemplate/MenuPageTemplate';
 import { MenuListOrganism } from '../../../../components/organisms/MenuListOrganism/MenuListOrganism';
 
 import menu from '../../../../data/menu.json';
 
+import cssFoodTemplate from './MenuPageFoodTemplate.module.css';
 import css from '../../../../components/templates/Menu/MenuTemplate.module.css';
 
 function MenuPageFoodTemplate() {
   return (
-    <MenuPageOrganism>
+    <MenuPageTemplate className={cssFoodTemplate.menu}>
       <div className={css.menu__content}>
         <div>
           <MenuListOrganism
@@ -32,7 +33,7 @@ function MenuPageFoodTemplate() {
           />
         </div>
       </div>
-    </MenuPageOrganism>
+    </MenuPageTemplate>
   );
 }
 
