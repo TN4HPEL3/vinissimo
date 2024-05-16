@@ -12,12 +12,38 @@
 
 .menu__alcohols__content {
   margin: 0 auto;
+  width: 50rem;
+  height: 800px;
+  border: 1px solid var(--website-secondary-color-hover);
+  & > div {
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    & > div > div {
+      background: var(--website-main-color);
+    }
+  }
+}
+
+.menu__alcohols__content--page {
+  /* margin: 0 auto; */
   display: flex;
   text-align: center;
+  width: 100%;
+  height: 800px;
+  background: var(--website-main-color);
+  justify-content: center;
+  align-items: center;
+
   & > div {
-    margin: var(--gap--large) 0;
+    color: var(--text-color);
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
+}
+
+.menu__alcohols__page {
+  background-color: var(--website-main-color);
 }
