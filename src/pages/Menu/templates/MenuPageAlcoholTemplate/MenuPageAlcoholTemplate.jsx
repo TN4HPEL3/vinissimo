@@ -1,10 +1,11 @@
 import { useState } from 'react';
 
-import { IconAtom } from '../../../../components/atoms/IconAtom/IconAtom';
 import { MenuPageButtonsOrganism } from '../../organisms/MenuPageButtonsOrganism/MenuPageButtonsOrganism';
 import { MenuPageNumberTextMolecule } from '../../molecules/MenuPageNumberTextMolecule/MenuPageNumberTextMolecule';
 import { MenuAlcoholsFirstPageOrganism } from '../../organisms/MenuAlcoholsFirstPageOrganism/MenuAlcoholsFirstPageOrganism';
+import { MenuPageArrowLeftButtonMolecule } from '../../molecules/MenuPageArrowButtonMolecule/MenuPageArrowLeftButtonMolecule';
 import { MenuAlcoholsSecondPageOrganism } from '../../organisms/MenuAlcoholsSecondPageOrganism/MenuAlcoholsSecondPageOrganism';
+import { MenuPageArrowRightButtonMolecule } from '../../molecules/MenuPageArrowButtonMolecule/MenuPageArrowRightButtonMolecule';
 
 import css from './MenuPageAlcoholTemplate.module.css';
 
@@ -37,22 +38,10 @@ function MenuPageAlcoholTemplate() {
         </div>
       )}
       {pageNumber > 0 && (
-        <button
-          className={css['menu__button__arrow--left']}
-          onClick={goToPreviousPage}
-          type="button"
-        >
-          <IconAtom id="right-arrow" />
-        </button>
+        <MenuPageArrowLeftButtonMolecule onClick={goToPreviousPage} />
       )}
       {numberOfPages !== pageNumber && (
-        <button
-          className={css['menu__button__arrow--right']}
-          onClick={goToNextPage}
-          type="button"
-        >
-          <IconAtom id="right-arrow" />
-        </button>
+        <MenuPageArrowRightButtonMolecule onClick={goToNextPage} />
       )}
     </div>
   );
