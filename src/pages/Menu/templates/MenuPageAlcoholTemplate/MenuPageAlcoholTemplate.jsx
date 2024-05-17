@@ -6,6 +6,7 @@ import { MenuPageButtonsOrganism } from '../../organisms/MenuPageButtonsOrganism
 import menu from '../../../../data/alcohols.json';
 
 import css from './MenuPageAlcoholTemplate.module.css';
+import { IconAtom } from '../../../../components/atoms/IconAtom/IconAtom';
 
 function MenuPageAlcoholTemplate() {
   const [pageNumber, setPageNumber] = useState(0);
@@ -23,19 +24,6 @@ function MenuPageAlcoholTemplate() {
       <p>
         Strona {pageNumber + 1} z {numberOfPages + 1}
       </p>
-      <div className={css['menu__page__buttons']}>
-        {pageNumber > 0 && (
-          <button onClick={goToPreviousPage} type="button">
-            prev
-          </button>
-        )}
-
-        {numberOfPages !== pageNumber && (
-          <button onClick={goToNextPage} type="button">
-            next
-          </button>
-        )}
-      </div>
       {pageNumber === 0 && (
         <div className={css['menu__alcohols__content--page']}>
           <div>
@@ -105,6 +93,24 @@ function MenuPageAlcoholTemplate() {
             />
           </div>
         </div>
+      )}
+      {pageNumber > 0 && (
+        <button
+          className={css['menu__button__arrow--left']}
+          onClick={goToPreviousPage}
+          type="button"
+        >
+          <IconAtom id="right-arrow" />
+        </button>
+      )}
+      {numberOfPages !== pageNumber && (
+        <button
+          className={css['menu__button__arrow--right']}
+          onClick={goToNextPage}
+          type="button"
+        >
+          <IconAtom id="right-arrow" />
+        </button>
       )}
     </div>
   );
