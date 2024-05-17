@@ -1,8 +1,11 @@
-.menu__alcohols {
+.menu {
   display: flex;
-  margin: 0 auto;
-  color: var(--text-color);
   flex-direction: column;
+  gap: var(--gap--small);
+  margin: 0 auto var(--gap--large) auto;
+  color: var(--text-color);
+  text-align: center;
+  align-items: center;
   @media screen and (min-width: 64rem) {
     width: 100%;
     max-width: 50rem;
@@ -10,40 +13,25 @@
   }
 }
 
-.menu__alcohols__content {
-  margin: 0 auto;
-  width: 50rem;
-  height: 800px;
-  border: 1px solid var(--website-secondary-color-hover);
-  & > div {
-    color: var(--text-color);
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    & > div > div {
-      background: var(--website-main-color);
-    }
-  }
-}
-
 .menu__alcohols__content--page {
-  /* margin: 0 auto; */
+  padding: 1.87rem;
   display: flex;
-  text-align: center;
-  width: 100%;
-  height: 800px;
-  background: var(--website-main-color);
-  justify-content: center;
+  border: 1px solid var(--website-secondary-color-hover);
+  justify-content: space-around;
   align-items: center;
+  flex-direction: column;
+  width: 100%;
 
+  @media screen and (min-width: 48rem) {
+    flex-direction: row;
+  }
   & > div {
-    color: var(--text-color);
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 0.5rem;
   }
 }
 
-.menu__alcohols__page {
-  background-color: var(--website-main-color);
+.menu__page__buttons {
+  margin: 0 auto;
 }
