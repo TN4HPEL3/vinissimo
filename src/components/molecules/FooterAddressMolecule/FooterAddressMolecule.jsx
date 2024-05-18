@@ -1,10 +1,10 @@
 import { ParagraphAtom } from '../../atoms/ParagraphAtom';
 
-function FooterAddressMolecule() {
+function FooterAddressMolecule({ textName, textAddress }) {
   return (
     <div>
-      <ParagraphAtom text="Vinissimo Restaurant & Wine Bar" />
-      <ParagraphAtom text="ul. Bema 6 Sopot" />
+      <ParagraphAtom text={textName} />
+      <ParagraphAtom text={textAddress} />
     </div>
   );
 }

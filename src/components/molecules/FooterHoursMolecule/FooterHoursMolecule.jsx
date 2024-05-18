@@ -1,10 +1,10 @@
 import { ParagraphAtom } from '../../atoms/ParagraphAtom';
 
-function FooterHoursMolecule() {
+function FooterHoursMolecule({ textOpeningHours, textOpeningHoursSunday }) {
   return (
     <div>
-      <ParagraphAtom text="pon-sb: 14-22" />
-      <ParagraphAtom text="niedziela: 13-19" />
+      <ParagraphAtom text={textOpeningHours} />
+      <ParagraphAtom text={textOpeningHoursSunday} />
     </div>
   );
 }

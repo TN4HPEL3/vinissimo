@@ -4,7 +4,7 @@ import { ContactLinkAtom } from '../../atoms/ContactLinkAtom/ContactLinkAtom';
 
 import JSON from '../../../data/contactLinks.json';
 
-function FooterLinksMolecule() {
+function FooterLinksMolecule({ text }) {
   const { links } = JSON;
   const linkPhone = links.find(link => link.id === 'phone');
   const linkEmail = links.find(link => link.id === 'mail');
@@ -15,7 +15,7 @@ function FooterLinksMolecule() {
       <ContactLinkAtom children={phoneNumber} href={hrefPhoneNumber} />
       <br />
       <ContactLinkAtom children={email} href={hrefEmail} />
-      <ParagraphAtom text="Polityka prywatności" />
+      <ParagraphAtom text={text} />
     </div>
   );
 }

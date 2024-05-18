@@ -1,3 +1,10 @@
+import {
+  addressTextPL,
+  nameTextPL,
+  openingHoursSundayTextPL,
+  openingHoursTextPL,
+  privacyPolicyTextPL,
+} from '../../../helpers/findTextByLanguage';
 import { FooterHoursMolecule } from '../../molecules/FooterHoursMolecule/FooterHoursMolecule';
 import { FooterIconsMolecule } from '../../molecules/FooterIconsMolecule/FooterIconsMolecule';
 import { FooterLinksMolecule } from '../../molecules/FooterLinksMolecule/FooterLinksMolecule';
@@ -9,9 +16,15 @@ function FooterOrganism() {
   return (
     <>
       <div className={css.footer__links}>
-        <FooterAddressMolecule />
-        <FooterHoursMolecule />
-        <FooterLinksMolecule />
+        <FooterAddressMolecule
+          textName={nameTextPL}
+          textAddress={addressTextPL}
+        />
+        <FooterHoursMolecule
+          textOpeningHours={openingHoursTextPL}
+          textOpeningHoursSunday={openingHoursSundayTextPL}
+        />
+        <FooterLinksMolecule text={privacyPolicyTextPL} />
       </div>
       <FooterIconsMolecule />
     </>
