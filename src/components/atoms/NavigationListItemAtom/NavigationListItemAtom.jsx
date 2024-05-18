@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 
-function NavigationListItemAtom({ element }) {
-  return <NavLink to={element}>{element}</NavLink>;
+function NavigationListItemAtom({ element, text }) {
+  return <NavLink to={element}>{text}</NavLink>;
 }
 
 export { NavigationListItemAtom };
