@@ -1,0 +1,132 @@
+{
+  "bubbles": [
+    {
+      "isActive": true,
+      "name": "Boron | Prosecco Extra Dry | Italy | 2022",
+      "description": "glera",
+      "priceGlass": 24,
+      "priceBigGlass": false,
+      "priceBottle": 145
+    },
+    {
+      "isActive": true,
+      "name": "Winnica Jakubów | Sur Lie Pét-nat | Poland | 2022",
+      "description": "siberia | natural",
+      "priceGlass": 29,
+      "priceBigGlass": false,
+      "priceBottle": 215
+    },
+    {
+      "isActive": true,
+      "name": "Crucifix | Champagne La Grande Réserve | France | NV",
+      "description": "chardonnay, pinot noir",
+      "priceGlass": 63,
+      "priceBigGlass": false,
+      "priceBottle": 449
+    }
+  ],
+  "orangeAndOxidizedWines": [
+    {
+      "isActive": true,
+      "name": "Poderi Cellario | E! Orange | Italy | 2021",
+      "description": "muscat, gewürztraminer, pinot gris, sylvaner | natural",
+      "priceGlass": 29,
+      "priceBigGlass": 56,
+      "priceBottle": 219
+    },
+    {
+      "isActive": true,
+      "name": "Winnica Jakubów | Yacobus Orange | Poland | 2022",
+      "description": "solaris, hibernal, riesling | natural",
+      "priceGlass": 42,
+      "priceBigGlass": 81,
+      "priceBottle": 235
+    },
+    {
+      "isActive": true,
+      "name": "Bodegas Ximénez-Spínola | Fermentation Lenta | Spain | 2018",
+      "description": "pedro ximénez (6m. barrel ageing)",
+      "priceGlass": 54,
+      "priceBigGlass": 100,
+      "priceBottle": 295
+    },
+    {
+      "isActive": true,
+      "name": "Barco del Corneta | Las Envidias Viñas Viejas | Spain | 2019",
+      "description": "palomino | organic",
+      "priceGlass": 57,
+      "priceBigGlass": 109,
+      "priceBottle": 319
+    },
+    {
+      "isActive": true,
+      "name": "Castell Encus | Taleia Brisat | Spain | 2018",
+      "description": "sauvignon blanc, sémillon | natural",
+      "priceGlass": 59,
+      "priceBigGlass": 111,
+      "priceBottle": 315
+    }
+  ],
+  "roseWines": [
+    {
+      "isActive": true,
+      "name": "Bodegas Lambuena | Lambuena Rosado | 2021",
+      "description": "tempranillo",
+      "priceGlass": 27,
+      "priceBigGlass": 52,
+      "priceBottle": 149
+    }
+  ],
+  "sweetAndFortifiedWines": [
+    {
+      "isActive": true,
+      "name": "Kopke | 10YO White Porto | Portugal | NV",
+      "description": "sousão (sezao, vinhao), tempranillo, tinta cao (barrel ageing)",
+      "priceGlass": 58,
+      "priceBigGlass": 112,
+      "priceBottle": 269
+    },
+    {
+      "isActive": true,
+      "name": "Winnica Jakubów | S5 | Poland | 2021",
+      "description": "solaris | natural",
+      "priceGlass": 39,
+      "priceBigGlass": 79,
+      "priceBottle": 239
+    },
+    {
+      "isActive": true,
+      "name": "Castell D’Encus | Ekam Essència | Spain | 2020",
+      "description": "riesling | organic",
+      "priceGlass": 64,
+      "priceBigGlass": 124,
+      "priceBottle": 595
+    },
+    {
+      "isActive": true,
+      "name": "Burmester | Porto Colheita | Portugal | 2004",
+      "description": "tinta roriz, touriga nacional, touriga francesa (minimum 84. barrel ageing)",
+      "priceGlass": 47,
+      "priceBigGlass": 91,
+      "priceBottle": 439
+    },
+    {
+      "isActive": true,
+      "name": "Meroni | Il Velluto Recioto della Valpolicella Classico | Italy | 2021",
+      "description": "corvina, corvinone, rondinella, molinara (18m. barrel ageing)",
+      "priceGlass": 59,
+      "priceBigGlass": 124,
+      "priceBottle": 359
+    }
+  ],
+  "nonAlcoholicWines": [
+    {
+      "isActive": true,
+      "name": "Dr. Loosen | Riesling Zero | Germany | NV",
+      "description": "riesling",
+      "priceGlass": false,
+      "priceBigGlass": 47,
+      "priceBottle": 135
+    }
+  ]
+}
