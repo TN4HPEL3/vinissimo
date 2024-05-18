@@ -3,10 +3,10 @@
   position: relative;
   left: 50%;
   right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  margin-left: -49.58vw;
+  margin-right: -49.58vw;
   @media screen and (min-width: 64rem) {
-    width: 99.58vw;
+    width: 99vw;
   }
 }
 
@@ -21,6 +21,6 @@
 
 @media screen and (min-width: 64rem) {
   .hero::after {
-    width: 99.58vw;
+    width: 99vw;
   }
 }
