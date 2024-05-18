@@ -17,5 +17,24 @@
       "id": "privacyPolicy",
       "text": "Polityka prywatności"
     }
+  ],
+  "EN": [
+    {
+      "id": "name",
+      "text": "Vinissimo Restaurant & Wine Bar"
+    },
+    { "id": "address", "text": "6 Bema Street, Sopot" },
+    {
+      "id": "openingHours",
+      "text": "mon-sat: 14-22"
+    },
+    {
+      "id": "openingHoursSunday",
+      "text": "sunday: 13-19"
+    },
+    {
+      "id": "privacyPolicy",
+      "text": "Privacy Policy"
+    }
   ]
 }
