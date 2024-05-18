@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-//import { MobileMenuOrganism } from '../MobileMenuOrganism/MobileMenuOrganism.jsx';
+import { MobileMenuTemplate } from '../../templates/MobileMenuTemplate/MobileMenuTemplate.jsx';
 import { NavigationLogoMolecule } from '../../molecules/NavigationLogoMolecule/NavigationLogoMolecule.jsx';
 import { OpenMobileMenuButtonAtom } from '../../atoms/OpenMobileMenuButtonAtom/OpenMobileMenuButtonAtom.jsx';
 import { NavigationListItemMolecule } from '../../molecules/NavigationListItemMolecule/NavigationListItemMolecule.jsx';
@@ -24,7 +24,7 @@ function NavigationListOrganisms() {
         <NavigationListItemMolecule item={'rezerwacja'} />
       </nav>
       <OpenMobileMenuButtonAtom handleClick={toggleMenu} />
-      {/* <MobileMenuOrganism isOpen={isOpen} handleClick={toggleMenu} /> */}
+      <MobileMenuTemplate isOpen={isOpen} handleClick={toggleMenu} />
     </div>
   );
 }
