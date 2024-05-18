@@ -4,15 +4,14 @@ import css from './MenuPageLinkAtom.module.css';
 
 function MenuPageLinkAtom({ element, content }) {
   return (
-    <NavLink
-      className={({ isActive }) =>
-        isActive ? [css['link--active']] : [css['link']]
-      }
-      to={element}
-    >
+    <NavLink className={isActive => isActiveLink(isActive)} to={element}>
       {content}
     </NavLink>
   );
 }
 
 export { MenuPageLinkAtom };
+
+function isActiveLink({ isActive }) {
+  return isActive ? [css['link--active']] : [css['link']];
+}
