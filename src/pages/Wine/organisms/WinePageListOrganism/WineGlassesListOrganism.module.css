@@ -1,0 +1,40 @@
+.wine__list__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wine__list__name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  & > p:nth-child(1) {
+    font-size: 18px;
+  }
+  & > p:nth-child(2) {
+    font-size: 14px;
+  }
+}
+
+.wine__list__price {
+  display: flex;
+  width: 185px;
+  justify-content: space-around;
+}
+
+.wine__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px 0;
+}
+
+.wine__title {
+  font-size: var(--font-size-medium);
+}
+
+.wine__volume {
+  display: flex;
+  width: 185px;
+  justify-content: space-around;
+  align-self: flex-end;
+}
