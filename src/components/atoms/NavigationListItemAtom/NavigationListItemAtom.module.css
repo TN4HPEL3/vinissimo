@@ -1,4 +1,4 @@
-.header__navigation__link {
+.link {
   position: relative;
   color: var(--website-secondary-color);
   transition: color linear 0.6s;
@@ -25,7 +25,7 @@
   }
 }
 
-.header__navigation__link--active {
+.link--active {
   position: relative;
   color: var(--website-secondary-color-hover);
   transition: color linear 0.6s;
