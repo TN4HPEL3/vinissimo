@@ -1,0 +1,5 @@
+.link--active {
+  & > button > span {
+    color: var(--text-color);
+  }
+}

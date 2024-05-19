@@ -1,9 +1,9 @@
 import { NavigationListItemAtom } from '../../atoms/NavigationListItemAtom/NavigationListItemAtom';
 
-function NavigationListItemMolecule({ item }) {
+function NavigationListItemMolecule({ item, text }) {
   return (
     <>
-      <NavigationListItemAtom element={item} />
+      <NavigationListItemAtom element={item} text={text} />
     </>
   );
 }

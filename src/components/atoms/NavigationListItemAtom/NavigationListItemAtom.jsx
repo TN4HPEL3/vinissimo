@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 import css from './NavigationListItemAtom.module.css';
 
-function NavigationListItemAtom({ element }) {
+function NavigationListItemAtom({ element, text }) {
   return (
     <NavLink
       className={({ isActive }) =>
@@ -12,7 +12,7 @@ function NavigationListItemAtom({ element }) {
       }
       to={element}
     >
-      {element}
+      {text}
     </NavLink>
   );
 }
