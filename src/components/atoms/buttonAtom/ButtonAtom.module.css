@@ -26,12 +26,10 @@
     font-size: var(--font-size-large);
   }
   &:hover {
+    & > span > a {
+      color: var(--website-secondary-color-hover);
+    }
     color: var(--website-secondary-color-hover);
-  }
-  & > svg {
-    fill: var(--website-secondary-color);
-    height: 1.25rem;
-    width: 1.25rem;
   }
   & > span {
     flex: 1;
