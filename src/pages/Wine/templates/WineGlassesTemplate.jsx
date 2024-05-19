@@ -1,16 +1,19 @@
 import { useState } from 'react';
 
-import { WinePageButtonsOrganism } from '../organisms/WinePageButtonsOrganism';
+import { WinePageButtonsOrganism } from '../organisms/WinePageButtonsOrganism/WinePageButtonsOrganism';
+import { WineGlassesFirstPageOrganism } from '../organisms/WineGlassesFirstPageOrganism/WineGlassesFirstPageOrganism';
+import { WineGlassesThirdPageOrganism } from '../organisms/WineGlassesThirdPageOrganism/WineGlassesThirdPageOrganism';
 import { MenuPageNumberTextMolecule } from '../../Menu/molecules/MenuPageNumberTextMolecule/MenuPageNumberTextMolecule';
+import { WineGlassesSecondPageOrganism } from '../organisms/WineGlassesSecondPageOrganism/WineGlassesSecondPageOrganism';
 import { MenuPageArrowLeftButtonMolecule } from '../../Menu/molecules/MenuPageArrowButtonMolecule/MenuPageArrowLeftButtonMolecule';
 import { MenuPageArrowRightButtonMolecule } from '../../Menu/molecules/MenuPageArrowButtonMolecule/MenuPageArrowRightButtonMolecule';
 
-import css from './WinePageGlassesTemplate.module.css';
+import css from './WineGlassesTemplate.module.css';
 import cssMenuPage from '../../Menu/templates/MenuPageAlcoholTemplate/MenuPageAlcoholTemplate.module.css';
 
-function WinePageGlassesTemplate() {
+function WineGlassesTemplate() {
   const [pageNumber, setPageNumber] = useState(0);
-  const numberOfPages = 3;
+  const numberOfPages = 2;
   const goToPreviousPage = () => {
     setPageNumber(pageNumber - 1);
   };
@@ -27,10 +30,19 @@ function WinePageGlassesTemplate() {
       />
 
       {pageNumber === 0 && (
-        <div className={css['menu__wine__content--page']}>first page</div>
+        <div className={css['menu__wine__content--page']}>
+          <WineGlassesFirstPageOrganism />
+        </div>
       )}
       {pageNumber === 1 && (
-        <div className={css['menu__wine__content--page']}>second page</div>
+        <div className={css['menu__wine__content--page']}>
+          <WineGlassesSecondPageOrganism />
+        </div>
+      )}
+      {pageNumber === 2 && (
+        <div className={css['menu__wine__content--page']}>
+          <WineGlassesThirdPageOrganism />
+        </div>
       )}
       <div className={css.wine__arrows}>
         {pageNumber > 0 && (
@@ -44,4 +56,4 @@ function WinePageGlassesTemplate() {
   );
 }
 
-export { WinePageGlassesTemplate };
+export { WineGlassesTemplate };

@@ -1,0 +1,8 @@
+.wine__arrows > button {
+  margin: 0 20px;
+}
+
+.menu__wine__content--page {
+  padding: 1rem;
+  border: 1px solid var(--website-secondary-color);
+}
