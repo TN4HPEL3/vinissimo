@@ -1,0 +1,13 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap--large);
+  align-items: center;
+  margin: 0 auto var(--gap--large) auto;
+  color: var(--text-color);
+  @media screen and (min-width: 64rem) {
+    width: 100%;
+    max-width: 50rem;
+    align-items: normal;
+  }
+}
