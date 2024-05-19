@@ -1,11 +1,5 @@
-import { WinePageGlassesTemplate } from './templates/WinePageGlassesTemplate';
-
-function WinePage() {
-  return (
-    <>
-      <WinePageGlassesTemplate />
-    </>
-  );
+function WinePage({ children }) {
+  return <>{children}</>;
 }
 
 export { WinePage };
