@@ -7,18 +7,30 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 50%;
   & > p:nth-child(1) {
-    font-size: 18px;
+    font-size: 16px;
   }
   & > p:nth-child(2) {
     font-size: 14px;
+  }
+  @media screen and (min-width: 32rem) {
+    & > p:nth-child(1) {
+      font-size: 18px;
+    }
+    & > p:nth-child(2) {
+      font-size: 14px;
+    }
   }
 }
 
 .wine__list__price {
   display: flex;
-  width: 185px;
   justify-content: space-around;
+  width: 50%;
+  @media screen and (min-width: 32rem) {
+    width: 185px;
+  }
 }
 
 .wine__list {
@@ -34,7 +46,13 @@
 
 .wine__volume {
   display: flex;
-  width: 185px;
   justify-content: space-around;
   align-self: flex-end;
+  width: 150px;
+  font-size: 14px;
+
+  @media screen and (min-width: 26.5rem) {
+    width: 185px;
+    font-size: 1rem;
+  }
 }

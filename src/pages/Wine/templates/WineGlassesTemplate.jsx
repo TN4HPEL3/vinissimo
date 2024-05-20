@@ -9,7 +9,6 @@ import { MenuPageArrowLeftButtonMolecule } from '../../Menu/molecules/MenuPageAr
 import { MenuPageArrowRightButtonMolecule } from '../../Menu/molecules/MenuPageArrowButtonMolecule/MenuPageArrowRightButtonMolecule';
 
 import css from './WineGlassesTemplate.module.css';
-import cssMenuPage from '../../Menu/templates/MenuPageAlcoholTemplate/MenuPageAlcoholTemplate.module.css';
 
 function WineGlassesTemplate() {
   const [pageNumber, setPageNumber] = useState(0);
@@ -22,7 +21,7 @@ function WineGlassesTemplate() {
   };
 
   return (
-    <div className={cssMenuPage.menu}>
+    <div className={css.menu__wine}>
       <WinePageButtonsOrganism />
       <MenuPageNumberTextMolecule
         pageNumber={pageNumber}
