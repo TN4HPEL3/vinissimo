@@ -1,6 +1,4 @@
-import { useState } from 'react';
-
-import { toggle } from '../../../helpers/toggle.js';
+import { useToggle } from '../../../helpers/useToggle.js';
 import { MobileMenuTemplate } from '../../templates/MobileMenuTemplate/MobileMenuTemplate.jsx';
 import { NavigationLogoMolecule } from '../../molecules/NavigationLogoMolecule/NavigationLogoMolecule.jsx';
 import { OpenMobileMenuButtonAtom } from '../../atoms/OpenMobileMenuButtonAtom/OpenMobileMenuButtonAtom.jsx';
@@ -9,10 +7,7 @@ import { NavigationListItemMolecule } from '../../molecules/NavigationListItemMo
 import css from './NavigationListOrganisms.module.css';
 
 function NavigationListOrganisms() {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggleMenu = () => {
-    toggle(isOpen, setIsOpen);
-  };
+  const { isOpen, open, close } = useToggle();
   return (
     <div className={css.header__content}>
       <NavigationLogoMolecule />
@@ -24,8 +19,8 @@ function NavigationListOrganisms() {
         <NavigationListItemMolecule item="team" text="team" />
         <NavigationListItemMolecule item="reservation" text="rezerwacja" />
       </nav>
-      <OpenMobileMenuButtonAtom handleClick={toggleMenu} />
-      <MobileMenuTemplate isOpen={isOpen} handleClick={toggleMenu} />
+      <OpenMobileMenuButtonAtom handleClick={open} />
+      <MobileMenuTemplate isOpen={isOpen} handleClick={close} />
     </div>
   );
 }
