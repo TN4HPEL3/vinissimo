@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 
 import { WinePage } from './pages/Wine/WinePage.jsx';
 import { SharedLayout } from './components/templates/SharedLayout/SharedLayout.jsx';
-import { WineGlassesTemplate } from './pages/Wine/templates/WineGlassesTemplate.jsx';
+import { WineGlassesTemplate } from './pages/Wine/templates/WineGlassesTemplate/WineGlassesTemplate.jsx';
 import { MenuPageFoodTemplate } from './pages/Menu/templates/MenuPageFoodTemplate/MenuPageFoodTemplate.jsx';
 import { MenuPageAlcoholTemplate } from './pages/Menu/templates/MenuPageAlcoholTemplate/MenuPageAlcoholTemplate.jsx';
 
