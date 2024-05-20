@@ -1,12 +1,12 @@
 import { useState } from 'react';
 
-import { WinePageButtonsOrganism } from '../organisms/WinePageButtonsOrganism/WinePageButtonsOrganism';
-import { WineGlassesFirstPageOrganism } from '../organisms/WineGlassesFirstPageOrganism/WineGlassesFirstPageOrganism';
-import { WineGlassesThirdPageOrganism } from '../organisms/WineGlassesThirdPageOrganism/WineGlassesThirdPageOrganism';
-import { MenuPageNumberTextMolecule } from '../../Menu/molecules/MenuPageNumberTextMolecule/MenuPageNumberTextMolecule';
-import { WineGlassesSecondPageOrganism } from '../organisms/WineGlassesSecondPageOrganism/WineGlassesSecondPageOrganism';
-import { MenuPageArrowLeftButtonMolecule } from '../../Menu/molecules/MenuPageArrowButtonMolecule/MenuPageArrowLeftButtonMolecule';
-import { MenuPageArrowRightButtonMolecule } from '../../Menu/molecules/MenuPageArrowButtonMolecule/MenuPageArrowRightButtonMolecule';
+import { WinePageButtonsOrganism } from '../../organisms/WinePageButtonsOrganism/WinePageButtonsOrganism';
+import { WineGlassesFirstPageOrganism } from '../../organisms/WineGlassesFirstPageOrganism/WineGlassesFirstPageOrganism';
+import { WineGlassesThirdPageOrganism } from '../../organisms/WineGlassesThirdPageOrganism/WineGlassesThirdPageOrganism';
+import { MenuPageNumberTextMolecule } from '../../../Menu/molecules/MenuPageNumberTextMolecule/MenuPageNumberTextMolecule';
+import { WineGlassesSecondPageOrganism } from '../../organisms/WineGlassesSecondPageOrganism/WineGlassesSecondPageOrganism';
+import { MenuPageArrowLeftButtonMolecule } from '../../../Menu/molecules/MenuPageArrowButtonMolecule/MenuPageArrowLeftButtonMolecule';
+import { MenuPageArrowRightButtonMolecule } from '../../../Menu/molecules/MenuPageArrowButtonMolecule/MenuPageArrowRightButtonMolecule';
 
 import css from './WineGlassesTemplate.module.css';
 
