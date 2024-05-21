@@ -16,9 +16,18 @@ function App() {
           path="/wine/glasses"
           element={<WinePage children={<WineGlassesTemplate />} />}
         />
-        <Route path="/wine/bottles" element={<WineBottlesTemplate />} />
-        <Route path="/menu/food" element={<MenuPageFoodTemplate />} />
-        <Route path="/menu/alcohol" element={<MenuPageAlcoholTemplate />} />
+        <Route
+          path="/wine/bottles"
+          element={<WinePage children={<WineBottlesTemplate />} />}
+        />
+        <Route
+          path="/menu/food"
+          element={<WinePage children={<MenuPageFoodTemplate />} />}
+        />
+        <Route
+          path="/menu/alcohol"
+          element={<WinePage children={<MenuPageAlcoholTemplate />} />}
+        />
       </Route>
       {/* <Route path="*" element={<Page404 />} /> */}
     </Routes>
