@@ -3,10 +3,10 @@
   border: none;
   position: fixed;
   z-index: 5;
-  top: 0.625rem;
-  right: 0.625rem;
-  width: 2.5rem;
-  height: 2.5rem;
+  top: 1rem;
+  right: 1rem;
+  width: 4.75rem;
+  height: 4.5rem;
 }
 
 .mobile-menu__button__icon {
