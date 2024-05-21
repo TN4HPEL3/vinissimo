@@ -12,10 +12,13 @@
 }
 
 .wine__arrows > button {
-  margin: 0 20px;
+  margin: 0 1.25rem;
 }
 
 .menu__wine__content--page {
   padding: 1rem;
   border: 1px solid var(--website-secondary-color);
+  @media screen and (min-width: 64rem) {
+    width: 50rem;
+  }
 }
