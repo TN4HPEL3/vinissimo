@@ -1,10 +1,9 @@
 import { useState } from 'react';
 
-// import { WinePageButtonsOrganism } from '../../organisms/WinePageButtonsOrganism/WinePageButtonsOrganism';
-
-import { WinePageButtonsOrganism } from '../../organisms/WinePageButtonsOrganism/WinePageButtonsOrganism';
-import { MenuPageNumberTextMolecule } from '../../../Menu/molecules/MenuPageNumberTextMolecule/MenuPageNumberTextMolecule';
 import { WineBottlesFirstPageOrganism } from '../../organisms/WineBottles/WineBottlesFirstPageOrganism';
+import { WinePageButtonsOrganism } from '../../organisms/WinePageButtonsOrganism/WinePageButtonsOrganism';
+import { MenuWineBottlesTextOrganism } from '../../organisms/MenuWineBottlesTextOrganism/MenuWineBottlesTextOrganism';
+import { MenuPageNumberTextMolecule } from '../../../Menu/molecules/MenuPageNumberTextMolecule/MenuPageNumberTextMolecule';
 import { MenuPageArrowLeftButtonMolecule } from '../../../Menu/molecules/MenuPageArrowButtonMolecule/MenuPageArrowLeftButtonMolecule';
 import { MenuPageArrowRightButtonMolecule } from '../../../Menu/molecules/MenuPageArrowButtonMolecule/MenuPageArrowRightButtonMolecule';
 
@@ -30,7 +29,7 @@ function WineBottlesTemplate() {
 
       {pageNumber === 0 && (
         <div className={css['menu__wine__content--page']}>
-          <p>Description</p>
+          <MenuWineBottlesTextOrganism />
         </div>
       )}
       {pageNumber === 1 && (
@@ -38,11 +37,6 @@ function WineBottlesTemplate() {
           <WineBottlesFirstPageOrganism />
         </div>
       )}
-      {/* {pageNumber === 2 && (
-        <div className={css['menu__wine__content--page']}>
-          <WineGlassesThirdPageOrganism />
-        </div>
-      )} */}
       <div className={css.wine__arrows}>
         {pageNumber > 0 && (
           <MenuPageArrowLeftButtonMolecule onClick={goToPreviousPage} />
