@@ -1,0 +1,520 @@
+{
+  "bubbles": [
+    {
+      "isActive": true,
+      "name": "Boron | Prosecco Extra Dry | Italy | 2022",
+      "description": "glera",
+      "priceGlass": 24,
+      "priceBigGlass": false,
+      "priceBottle": 145
+    },
+    {
+      "isActive": true,
+      "name": "Winnica Jakubów | Sur Lie Pét-nat | Poland | 2022",
+      "description": "siberia | natural",
+      "priceGlass": 29,
+      "priceBigGlass": false,
+      "priceBottle": 215
+    },
+    {
+      "isActive": true,
+      "name": "Crucifix | Champagne La Grande Réserve | France | NV",
+      "description": "chardonnay, pinot noir",
+      "priceGlass": 63,
+      "priceBigGlass": false,
+      "priceBottle": 449
+    }
+  ],
+  "orangeAndOxidizedWines": [
+    {
+      "isActive": true,
+      "name": "Poderi Cellario | E! Orange | Italy | 2021",
+      "description": "muscat, gewürztraminer, pinot gris, sylvaner | natural",
+      "priceGlass": 29,
+      "priceBigGlass": 56,
+      "priceBottle": 219
+    },
+    {
+      "isActive": true,
+      "name": "Winnica Jakubów | Yacobus Orange | Poland | 2022",
+      "description": "solaris, hibernal, riesling | natural",
+      "priceGlass": 42,
+      "priceBigGlass": 81,
+      "priceBottle": 235
+    },
+    {
+      "isActive": true,
+      "name": "Bodegas Ximénez-Spínola | Fermentation Lenta | Spain | 2018",
+      "description": "pedro ximénez (6m. barrel ageing)",
+      "priceGlass": 54,
+      "priceBigGlass": 100,
+      "priceBottle": 295
+    },
+    {
+      "isActive": true,
+      "name": "Barco del Corneta | Las Envidias Viñas Viejas | Spain | 2019",
+      "description": "palomino | organic",
+      "priceGlass": 57,
+      "priceBigGlass": 109,
+      "priceBottle": 319
+    },
+    {
+      "isActive": true,
+      "name": "Castell Encus | Taleia Brisat | Spain | 2018",
+      "description": "sauvignon blanc, sémillon | natural",
+      "priceGlass": 59,
+      "priceBigGlass": 111,
+      "priceBottle": 315
+    }
+  ],
+  "roseWines": [
+    {
+      "isActive": true,
+      "name": "Bodegas Lambuena | Lambuena Rosado | 2021",
+      "description": "tempranillo",
+      "priceGlass": 27,
+      "priceBigGlass": 52,
+      "priceBottle": 149
+    }
+  ],
+  "sweetAndFortifiedWines": [
+    {
+      "isActive": true,
+      "name": "Kopke | 10YO White Porto | Portugal | NV",
+      "description": "sousão (sezao, vinhao), tempranillo, tinta cao (barrel ageing)",
+      "priceGlass": 58,
+      "priceBigGlass": 112,
+      "priceBottle": 269
+    },
+    {
+      "isActive": true,
+      "name": "Winnica Jakubów | S5 | Poland | 2021",
+      "description": "solaris | natural",
+      "priceGlass": 39,
+      "priceBigGlass": 79,
+      "priceBottle": 239
+    },
+    {
+      "isActive": true,
+      "name": "Castell D’Encus | Ekam Essència | Spain | 2020",
+      "description": "riesling | organic",
+      "priceGlass": 64,
+      "priceBigGlass": 124,
+      "priceBottle": 595
+    },
+    {
+      "isActive": true,
+      "name": "Burmester | Porto Colheita | Portugal | 2004",
+      "description": "tinta roriz, touriga nacional, touriga francesa (minimum 84. barrel ageing)",
+      "priceGlass": 47,
+      "priceBigGlass": 91,
+      "priceBottle": 439
+    },
+    {
+      "isActive": true,
+      "name": "Meroni | Il Velluto Recioto della Valpolicella Classico | Italy | 2021",
+      "description": "corvina, corvinone, rondinella, molinara (18m. barrel ageing)",
+      "priceGlass": 59,
+      "priceBigGlass": 124,
+      "priceBottle": 359
+    }
+  ],
+  "nonAlcoholicWines": [
+    {
+      "isActive": true,
+      "name": "Dr. Loosen | Riesling Zero | Germany | NV",
+      "description": "riesling",
+      "priceGlass": false,
+      "priceBigGlass": 47,
+      "priceBottle": 135
+    }
+  ],
+  "whiteWines": [
+    {
+      "isActive": true,
+      "name": "Verdeal | Ayre | Spain | 2021",
+      "description": "verdejo",
+      "priceGlass": 25,
+      "priceBigGlass": 48,
+      "priceBottle": 139
+    },
+    {
+      "isActive": true,
+      "name": "Heinz Eifel | Riesling No. 9 | Germany | 2021",
+      "description": "riesling",
+      "priceGlass": 27,
+      "priceBigGlass": 52,
+      "priceBottle": 149
+    },
+    {
+      "isActive": true,
+      "name": "Château Hauts-Cabroles | Bordeaux Blanc | France | 2018",
+      "description": "sauvignon blanc, sémillon | organic",
+      "priceGlass": 28,
+      "priceBigGlass": 54,
+      "priceBottle": 155
+    },
+    {
+      "isActive": true,
+      "name": "Accadia | Conscio Verdicchio dei Castelli di Jesi Classico | Italy | 2022",
+      "description": "verdicchio",
+      "priceGlass": 30,
+      "priceBigGlass": 57,
+      "priceBottle": 165
+    },
+    {
+      "isActive": true,
+      "name": "Weingut Josef Ehmoser | Grüner Veltliner Terrassen | Austria | 2022",
+      "description": "grüner veltliner",
+      "priceGlass": 31,
+      "priceBigGlass": 60,
+      "priceBottle": 175
+    },
+    {
+      "isActive": true,
+      "name": "Montes | Alpha Chardonnay | Chile | 2021",
+      "description": "chardonnay (12m. barrel ageing)",
+      "priceGlass": 33,
+      "priceBigGlass": 62,
+      "priceBottle": 179
+    },
+    {
+      "isActive": true,
+      "name": "Fruscalzo | Pinot Grigio | Italy | 2021",
+      "description": "pinot grigio",
+      "priceGlass": 34,
+      "priceBigGlass": 65,
+      "priceBottle": 189
+    },
+    {
+      "isActive": true,
+      "name": "Yealands | Baby Doll Sauvignon Blanc | New Zealand | 2022",
+      "description": "sauvignon blanc",
+      "priceGlass": 36,
+      "priceBigGlass": 68,
+      "priceBottle": 199
+    },
+    {
+      "isActive": true,
+      "name": "Hermanos Frias del Val | Viña el Flako | Spain | 2021",
+      "description": "malvasia, viura (9m. barrel ageing)",
+      "priceGlass": 38,
+      "priceBigGlass": 74,
+      "priceBottle": 219
+    },
+    {
+      "isActive": true,
+      "name": "Matteo Correggia | Roero Arneis | Italy | 2021",
+      "description": "arneis | organic",
+      "priceGlass": 39,
+      "priceBigGlass": 76,
+      "priceBottle": 225
+    },
+    {
+      "isActive": true,
+      "name": "K.H. Schneider | Sauvignon Blanc | Germany | 2021",
+      "description": "sauvignon blanc | organic",
+      "priceGlass": 41,
+      "priceBigGlass": 79,
+      "priceBottle": 229
+    },
+    {
+      "isActive": true,
+      "name": "K.H. Schneider | Vulkanstein Riesling | Germany | 2018",
+      "description": "riesling | organic",
+      "priceGlass": 42,
+      "priceBigGlass": 81,
+      "priceBottle": 235
+    },
+    {
+      "isActive": true,
+      "name": "Torbreck | Woodcutter`s Sémillon | Australia | 2021",
+      "description": "sémillon (3m. oak ageing)",
+      "priceGlass": 43,
+      "priceBigGlass": 82,
+      "priceBottle": 239
+    },
+    {
+      "isActive": true,
+      "name": "Winnica Jakubów | Hibernal H3 | Poland | 2022",
+      "description": "hibernal | natural",
+      "priceGlass": 44,
+      "priceBigGlass": 82,
+      "priceBottle": 245
+    },
+    {
+      "isActive": true,
+      "name": "Astrolabe | Province Marlborough Chardonnay | New Zealand | 2019",
+      "description": "chardonnay (6m. barrel ageing)",
+      "priceGlass": 45,
+      "priceBigGlass": 83,
+      "priceBottle": 245
+    },
+    {
+      "isActive": true,
+      "name": "Alois Lageder | Gewürztraminer | Italy | 2021/2022",
+      "description": "gewürztraminer | organic",
+      "priceGlass": 46,
+      "priceBigGlass": 85,
+      "priceBottle": 249
+    },
+    {
+      "isActive": true,
+      "name": "Domaine Guy Amiot | Bouzeron Les Bouillotte | France | 2016/2018",
+      "description": "aligoté (12m. barrel ageing)",
+      "priceGlass": 54,
+      "priceBigGlass": 102,
+      "priceBottle": 299
+    },
+    {
+      "isActive": true,
+      "name": "Henri Bourgeois | Sancerre Les Baronnes | France | 2021",
+      "description": "sauvignon blanc",
+      "priceGlass": 57,
+      "priceBigGlass": 107,
+      "priceBottle": 315
+    },
+    {
+      "isActive": true,
+      "name": "Markus Huber | Ried Berg Grüner Veltliner | Austria | 2018",
+      "description": "grüner veltliner",
+      "priceGlass": 66,
+      "priceBigGlass": 125,
+      "priceBottle": 369
+    },
+    {
+      "isActive": true,
+      "name": "Alheit Vineyards | Cartology | RPA | 2019",
+      "description": "chenin blanc, sémillon (12m. ageing on the lees)",
+      "priceGlass": 69,
+      "priceBigGlass": 131,
+      "priceBottle": 389
+    },
+    {
+      "isActive": true,
+      "name": "Pazo de Señorans | Seleccion de Anada | Spain | 2013",
+      "description": "albariño (30m. on the lees)",
+      "priceGlass": 95,
+      "priceBigGlass": 181,
+      "priceBottle": 529
+    },
+    {
+      "isActive": true,
+      "name": "Domaine Guy Amiot | Meursault Vieilles Vignes | France | 2021",
+      "description": "meursault",
+      "priceGlass": 199,
+      "priceBigGlass": 329,
+      "priceBottle": 959
+    }
+  ],
+  "redWines": [
+    {
+      "isActive": true,
+      "name": "Bodegas y Vinedos Illana | Casa Illiana | 2019",
+      "description": "petit verdot (3m. oak ageing)",
+      "priceGlass": 24,
+      "priceBigGlass": 44,
+      "priceBottle": 129
+    },
+    {
+      "isActive": true,
+      "name": "Compagnia Vignaioli / Primitivo Salento / Italy / 2021",
+      "description": "primitivo",
+      "priceGlass": 25,
+      "priceBigGlass": 47,
+      "priceBottle": 135
+    },
+    {
+      "isActive": true,
+      "name": "Quarisa | Caravan Durif | Australia | 2019",
+      "description": "durif (petit syrah), (6m. barrel ageing)",
+      "priceGlass": 26,
+      "priceBigGlass": 49,
+      "priceBottle": 145
+    },
+    {
+      "isActive": true,
+      "name": "Bodegas Lambuena | Ribera del Duero Roble | Spain | 2022",
+      "description": "tempranillo (6m. barrel ageing)",
+      "priceGlass": 27,
+      "priceBigGlass": 51,
+      "priceBottle": 149
+    },
+    {
+      "isActive": true,
+      "name": "Ampeleia | Unlitro | Italy | 2020 (1000ml)",
+      "description": "alicante nero, carignano, mouvedre, sangiovese, alicante bouschet | biodynamic",
+      "priceGlass": 29,
+      "priceBigGlass": 55,
+      "priceBottle": 209
+    },
+    {
+      "isActive": true,
+      "name": "Montes | Alpha Cabernet Sauvignon | Chile | 2020",
+      "description": "cabernet sauvignon (12m. barrel ageing)",
+      "priceGlass": 32,
+      "priceBigGlass": 61,
+      "priceBottle": 175
+    },
+    {
+      "isActive": true,
+      "name": "Alves de Sousa | Caldas Reserva | Portugal | 2019",
+      "description": "touriga nacional (8m. barrel ageing)",
+      "priceGlass": 33,
+      "priceBigGlass": 62,
+      "priceBottle": 179
+    },
+    {
+      "isActive": true,
+      "name": "Yealands | Baby Doll Pinot Noir | New Zealand | 2020",
+      "description": "pinot noir (9m. barrel ageing)",
+      "priceGlass": 36,
+      "priceBigGlass": 68,
+      "priceBottle": 199
+    },
+    {
+      "isActive": true,
+      "name": "Domaine Sergent | Les Noyers | France | 2018",
+      "description": "tannat (8m. barrel ageing)",
+      "priceGlass": 37,
+      "priceBigGlass": 72,
+      "priceBottle": 215
+    },
+    {
+      "isActive": true,
+      "name": "K.H. Schneider | Spätburgunder | Germany | 2019",
+      "description": "spätburgunder (3m. barrel ageing) | organic",
+      "priceGlass": 38,
+      "priceBigGlass": 73,
+      "priceBottle": 219
+    },
+    {
+      "isActive": true,
+      "name": "Rewen | Malbec | Argentina | 2019",
+      "description": "malbec (6m. barrel ageing)",
+      "priceGlass": 39,
+      "priceBigGlass": 76,
+      "priceBottle": 225
+    },
+    {
+      "isActive": true,
+      "name": "Winnica Jakubów | R&R 7 | Poland | 2020",
+      "description": "rondo, regent (12m. barrel ageing) | natural",
+      "priceGlass": 40,
+      "priceBigGlass": 77,
+      "priceBottle": 229
+    },
+    {
+      "isActive": true,
+      "name": "Torbreck | Old Vines GSM | Australia | 2018",
+      "description": "grenache, syrah, mataro",
+      "priceGlass": 41,
+      "priceBigGlass": 78,
+      "priceBottle": 235
+    },
+    {
+      "isActive": true,
+      "name": "Bodegas Jiménez-Landi | Natural | Spain | 2020",
+      "description": "syrah, cabernet sauvignon | natural",
+      "priceGlass": 42,
+      "priceBigGlass": 81,
+      "priceBottle": 239
+    },
+    {
+      "isActive": true,
+      "name": "Marchesi Gondi | Pian Dei Sorbi Chianti Rùfina Riserva | Italy | 2020",
+      "description": "sangiovese, colorino (24m. barrel ageing)",
+      "priceGlass": 48,
+      "priceBigGlass": 92,
+      "priceBottle": 269
+    },
+    {
+      "isActive": true,
+      "name": "Château La Croix Cantenac | Saint-Émilion Grand Cru | France | 2020",
+      "description": "merlot, cabernet sauvignon, cabernet franc (12m. barrel ageing)",
+      "priceGlass": 49,
+      "priceBigGlass": 95,
+      "priceBottle": 279
+    },
+    {
+      "isActive": true,
+      "name": "Francis Ford Coppola | Red Label Zinfandel | USA | 2020",
+      "description": "zinfandel, petit syrah (12m. oak ageing)",
+      "priceGlass": 54,
+      "priceBigGlass": 103,
+      "priceBottle": 299
+    },
+    {
+      "isActive": true,
+      "name": "Jose Antonio Garcia | Valtuille de Abajo Vino de Villa | Spain | 2019",
+      "description": "mencia (11m. oak ageing)",
+      "priceGlass": 59,
+      "priceBigGlass": 113,
+      "priceBottle": 335
+    },
+    {
+      "isActive": true,
+      "name": "Domaine Chicotot | Bourgogne Côte d’Or | France | 2021",
+      "description": "pinot noir (12m. barrel ageing) | organic",
+      "priceGlass": 73,
+      "priceBigGlass": 143,
+      "priceBottle": 419
+    },
+    {
+      "isActive": true,
+      "name": "Señorio de P. Peciña | Rioja Gran Reserva | Spain | 2011",
+      "description": "tempranillo, graciano, garnacha (48m. oak ageing)",
+      "priceGlass": 77,
+      "priceBigGlass": 144,
+      "priceBottle": 425
+    },
+    {
+      "isActive": true,
+      "name": "Cascina Morassino | Barbaresco | Italy | 2019",
+      "description": "nebbiolo (12m. barrel ageing) | organic",
+      "priceGlass": 78,
+      "priceBigGlass": 146,
+      "priceBottle": 435
+    },
+    {
+      "isActive": true,
+      "name": "Carlo Meroni | Amarone Della Valpolicella Classico | Italy | 2016",
+      "description": "corvina, corvinone, rondinella, molinara (42m. barrel ageing)",
+      "priceGlass": 86,
+      "priceBigGlass": 166,
+      "priceBottle": 479
+    },
+    {
+      "isActive": true,
+      "name": "Domenico Clerico | Barolo Del Comune Di Monforte | Italy | 2019",
+      "description": "nebbiolo (24m. barrel ageing)",
+      "priceGlass": 88,
+      "priceBigGlass": 169,
+      "priceBottle": 495
+    },
+    {
+      "isActive": true,
+      "name": "Domaine Guy Amiot | Chassagne-Montrachet Vielles V. | France | 2019",
+      "description": "pinot noir (12m. barrel ageing)",
+      "priceGlass": 105,
+      "priceBigGlass": 204,
+      "priceBottle": 589
+    },
+    {
+      "isActive": true,
+      "name": "Daumas Gassac | Mas de Daumas Gassac | France | 2018/2019",
+      "description": "cabernet s, merlot, cabernet f, petit v, pinot noir, tannat, malbec (12-15m. barrel ageing)",
+      "priceGlass": 119,
+      "priceBigGlass": 235,
+      "priceBottle": 689
+    },
+    {
+      "isActive": true,
+      "name": "Château Gloria | Saint-Julien | France | 2019",
+      "description": "cabernet sauvignon, merlot, cabernet franc (14m. barrel ageing)",
+      "priceGlass": 145,
+      "priceBigGlass": 277,
+      "priceBottle": 799
+    }
+  ]
+}

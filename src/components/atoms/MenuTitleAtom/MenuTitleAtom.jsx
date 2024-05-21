@@ -1,5 +1,5 @@
-function MenuTitleAtom({ title }) {
-  return title && <h3>{title}</h3>;
+function MenuTitleAtom({ title, className }) {
+  return title && <h3 className={className}>{title}</h3>;
 }
 
 export { MenuTitleAtom };
