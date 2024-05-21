@@ -1,0 +1,24 @@
+.menu__wine {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap--small);
+  margin: 0 auto var(--gap--large) auto;
+  color: var(--text-color);
+  align-items: center;
+  @media screen and (min-width: 64rem) {
+    width: 100%;
+    max-width: 50rem;
+  }
+}
+
+.wine__arrows > button {
+  margin: 0 1.25rem;
+}
+
+.menu__wine__content--page {
+  padding: 1rem;
+  border: 1px solid var(--website-secondary-color);
+  @media screen and (min-width: 64rem) {
+    width: 50rem;
+  }
+}
