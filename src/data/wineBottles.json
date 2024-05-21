@@ -1,6 +1,6 @@
 {
-  "firstPage": [
-    [
+  "firstPage": {
+    "champagne": [
       {
         "isActive": true,
         "name": "Crucifix Père et Fils, 'Grande Reserve' Brut, Montagne de Reims",
@@ -134,6 +134,54 @@
         "year": 2012,
         "priceBottle": 1789
       }
+    ],
+    "blancDeNoirs": [
+      {
+        "isActive": true,
+        "name": "Fleury, 'Blancs De Noirs', Côtes de Bar",
+        "description": "pinot noir | Biodynamic",
+        "year": "N.V.",
+        "priceBottle": 589
+      },
+      {
+        "isActive": true,
+        "name": "Marteaux Guillaume, 'Blanc de Noir' Brut, Marne Valley",
+        "description": "meunier | Organic & Biodynamic",
+        "year": "N.V.",
+        "priceBottle": 639
+      }
+    ],
+    "rose": [
+      {
+        "isActive": true,
+        "name": "Crucifix Père et Fils, 1er Cru 'Rose' Extra Brut, Montagne de Reims",
+        "description": "pinot noir",
+        "year": "N.V.",
+        "priceBottle": 469
+      },
+      {
+        "isActive": true,
+        "name": "Pierre Gerbais, 'Grains de Celles' Rosé Extra Brut, Côtes de Bar",
+        "description": "pinot noir, chardonnay, pinot blanc | Organic & Biodynamic",
+        "year": "N.V.",
+        "priceBottle": 535
+      }
+    ],
+    "blancDeBlancs": [
+      {
+        "isActive": true,
+        "name": "Assailly-Leclaire et Fils, 'Asailly Millesime' Grand Cru Brut, Avize",
+        "description": "chardonnay",
+        "year": 2013,
+        "priceBottle": 1095
+      },
+      {
+        "isActive": true,
+        "name": "Taittinger, 'Comtes de Champagne', Reims",
+        "description": "chardonnay | Organic",
+        "year": 2012,
+        "priceBottle": 1789
+      }
     ]
-  ]
+  }
 }
