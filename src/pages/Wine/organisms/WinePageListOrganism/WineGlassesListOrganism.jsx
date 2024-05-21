@@ -12,6 +12,7 @@ function WineGlassesListOrganism({
   volumeFirst,
   volumeSecond,
   volumeThird,
+  categoryTitle,
 }) {
   const itemsByCategory = data[category];
   const items = itemsByCategory.map(item => {
@@ -23,14 +24,30 @@ function WineGlassesListOrganism({
       priceGlass,
       priceBigGlass,
       priceBottle,
+      year,
     } = item;
     return isActive ? (
       <li key={id} className={css.wine__list__item}>
-        <div className={css.wine__list__name}>
-          <MenuTextMolecule text={name} />
-          <MenuTextMolecule text={description} />
-        </div>
-        <div className={css.wine__list__price}>
+        {year ? (
+          <div className={css['wine__list__name--bottle']}>
+            <MenuTextMolecule text={year} />
+            <div>
+              <MenuTextMolecule text={name} />
+              <MenuTextMolecule text={description} />
+            </div>
+          </div>
+        ) : (
+          <div className={css['wine__list__name--glass']}>
+            <MenuTextMolecule text={name} />
+            <MenuTextMolecule text={description} />
+          </div>
+        )}
+
+        <div
+          className={
+            year ? css['wine__list__price--bottle'] : css.wine__list__price
+          }
+        >
           <MenuTextMolecule text={priceGlass} />
           <MenuTextMolecule text={priceBigGlass} />
           <MenuTextMolecule text={priceBottle} />
@@ -40,6 +57,10 @@ function WineGlassesListOrganism({
   });
   return (
     <>
+      <MenuTitleAtom
+        className={css['wine__category-name']}
+        title={categoryTitle}
+      />
       <MenuTitleAtom className={css.wine__title} title={title} />
       <ul className={css.wine__list}>
         <div className={css.wine__volume}>
