@@ -3,13 +3,14 @@
   justify-content: space-between;
 }
 
-.wine__list__name {
+.wine__list__name--glass,
+.wine__list__name--bottle > div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 50%;
   & > p:nth-child(1) {
-    font-size: 16px;
+    font-size: 1rem;
   }
   & > p:nth-child(2) {
     font-size: 14px;
@@ -24,6 +25,23 @@
   }
 }
 
+.wine__list__name--bottle {
+  display: flex;
+  & > p {
+    width: 50px;
+    margin-right: 10px;
+    @media screen and (min-width: 32rem) {
+      margin-right: 0;
+    }
+  }
+  & > div {
+    width: fit-content;
+    @media screen and (min-width: 64rem) {
+      width: max-content;
+    }
+  }
+}
+
 .wine__list__price {
   display: flex;
   justify-content: space-around;
@@ -31,6 +49,11 @@
   @media screen and (min-width: 32rem) {
     width: 185px;
   }
+}
+
+.wine__list__price--bottle {
+  width: fit-content;
+  margin-left: 10px;
 }
 
 .wine__list {
@@ -42,6 +65,11 @@
 
 .wine__title {
   font-size: var(--font-size-medium);
+}
+
+.wine__category-name {
+  font-size: var(--font-size-large);
+  text-align: center;
 }
 
 .wine__volume {
