@@ -1,7 +1,7 @@
-import { ParagraphAtom } from '../../atoms/ParagraphAtom';
 import { SectionTemplate } from '../Section/SectionTemplate';
 import { publicAccess } from '../../../helpers/publicAccess';
 import { CheckMediaQuery } from '../../../helpers/checkMediaQuery';
+import { ParagraphAtom } from '../../atoms/ParagraphAtom/ParagraphAtom';
 import { AboutContentMobileAtom } from '../../atoms/AboutContentAtoms/AboutContentMobileAtom';
 import { AboutContentDesktopAtom } from '../../atoms/AboutContentAtoms/AboutContentDesktopAtom';
 
