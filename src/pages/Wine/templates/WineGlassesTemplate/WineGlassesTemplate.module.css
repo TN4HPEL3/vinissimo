@@ -18,6 +18,7 @@
 .menu__wine__content--page {
   padding: 1rem;
   border: 1px solid var(--website-secondary-color);
+  width: 100%;
   @media screen and (min-width: 64rem) {
     width: 50rem;
   }
