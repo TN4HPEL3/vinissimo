@@ -7,23 +7,23 @@ function WineBottlesFirstPageOrganism() {
     <div>
       <WineGlassesListOrganism
         category={'champagne'}
-        data={menu.firstPage}
+        data={menu.page1}
         title={'CUVEE'}
-        categoryTitle="C H A M P A G N E"
+        categoryTitle="CHAMPAGNE"
       />
       <WineGlassesListOrganism
         category={'blancDeNoirs'}
-        data={menu.firstPage}
+        data={menu.page1}
         title={'BLANCS DE NOIRS'}
       />
       <WineGlassesListOrganism
         category={'rose'}
-        data={menu.firstPage}
+        data={menu.page1}
         title={'ROSE'}
       />
       <WineGlassesListOrganism
         category={'blancDeBlancs'}
-        data={menu.firstPage}
+        data={menu.page1}
         title={'BLANC DE BLANCS'}
       />
     </div>
