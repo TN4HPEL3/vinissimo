@@ -1,4 +1,4 @@
-import { ParagraphAtom } from '../../atoms/ParagraphAtom';
+import { ParagraphAtom } from '../../atoms/ParagraphAtom/ParagraphAtom.jsx';
 import { ReservationTextAtom } from '../../atoms/Reservation/ReservationTextAtom/ReservationTextAtom';
 
 import css from './ReservationTextMolecule.module.css';

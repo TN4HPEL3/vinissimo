@@ -1,5 +1,5 @@
-import { ParagraphAtom } from '../../../../components/atoms/ParagraphAtom';
 import { MenuTitleAtom } from '../../../../components/atoms/MenuTitleAtom/MenuTitleAtom';
+import { ParagraphAtom } from '../../../../components/atoms/ParagraphAtom/ParagraphAtom.jsx';
 import { MenuTextMolecule } from '../../../../components/molecules/MenuTextMolecule/MenuTextMolecule';
 
 function MenuWineBottlesTextOrganism() {

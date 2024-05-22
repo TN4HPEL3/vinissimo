@@ -1,9 +1,9 @@
-import { ParagraphAtom } from '../../atoms/ParagraphAtom';
 import { SectionTemplate } from '../Section/SectionTemplate';
 import { publicAccess } from '../../../helpers/publicAccess';
 import { CheckMediaQuery } from '../../../helpers/checkMediaQuery';
-import { AboutContentMobileAtom } from '../../atoms/AboutContentMobileAtom';
-import { AboutContentDesktopAtom } from '../../atoms/AboutContentDesktopAtom';
+import { ParagraphAtom } from '../../atoms/ParagraphAtom/ParagraphAtom';
+import { AboutContentMobileAtom } from '../../atoms/AboutContentAtoms/AboutContentMobileAtom';
+import { AboutContentDesktopAtom } from '../../atoms/AboutContentAtoms/AboutContentDesktopAtom';
 
 import css from './AboutTemplate.module.css';
 

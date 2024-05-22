@@ -1,11 +1,11 @@
 import { CloseMobileMenuButtonAtom } from '../../atoms/CloseMobileMenuButtonAtom/CloseMobileMenuButtonAtom';
 import { NavigationListItemMolecule } from '../../molecules/NavigationListItemMolecule/NavigationListItemMolecule';
 
-function MobileMenuOrganism({ handleClick }) {
+function MobileMenuOrganism() {
   return (
     <>
-      <CloseMobileMenuButtonAtom handleClick={handleClick} />
-      <NavigationListItemMolecule item="home" text="home" />
+      <CloseMobileMenuButtonAtom />
+      <NavigationListItemMolecule item="" text="home" />
       <NavigationListItemMolecule item="menu/food" text="menu" />
       <NavigationListItemMolecule item="wine/glasses" text="wino" />
       <NavigationListItemMolecule item="events" text="eventy" />
