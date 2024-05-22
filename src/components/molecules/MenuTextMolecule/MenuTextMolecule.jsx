@@ -1,4 +1,4 @@
-import { ParagraphAtom } from '../../atoms/ParagraphAtom';
+import { ParagraphAtom } from '../../atoms/ParagraphAtom/ParagraphAtom.jsx';
 
 function MenuTextMolecule({ text }) {
   return text && <ParagraphAtom text={text} />;
