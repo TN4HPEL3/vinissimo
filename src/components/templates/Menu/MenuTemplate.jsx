@@ -1,3 +1,5 @@
+import { useNavigate } from 'react-router-dom';
+
 import { SectionTemplate } from '../Section/SectionTemplate.jsx';
 import { MenuListOrganism } from '../../organisms/MenuListOrganism/MenuListOrganism.jsx';
 import { MenuButtonsOrganism } from '../../organisms/MenuButtonsOrganism/MenuButtonsOrganism.jsx';
@@ -10,6 +12,7 @@ import css from './MenuTemplate.module.css';
 // 1. Function handleChange and handleClick for opening pages with menu
 
 function MenuTemplate() {
+  const navigate = useNavigate();
   const buttonsText = {
     winesBottlesBtnText: 'wina',
     alcoholBtnText: 'alkohole',
@@ -17,11 +20,7 @@ function MenuTemplate() {
   };
 
   const handleChange = event => {
-    console.log(event.target.value);
-  };
-
-  const handleClick = event => {
-    console.log(event.target);
+    navigate(event.target.value);
   };
 
   return (
@@ -56,11 +55,7 @@ function MenuTemplate() {
           </div>
         </div>
         <div className={css.menu__buttons}>
-          <MenuButtonsOrganism
-            handleClick={handleClick}
-            handleChange={handleChange}
-            text={buttonsText}
-          />
+          <MenuButtonsOrganism handleChange={handleChange} text={buttonsText} />
         </div>
       </div>
     </SectionTemplate>

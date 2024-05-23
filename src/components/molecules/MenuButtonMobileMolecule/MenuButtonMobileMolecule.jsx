@@ -14,9 +14,9 @@ function MenuButtonMobileMolecule({
       id="menuButtons"
       name="menuButtons"
     >
-      <option value="winesBottles">{winesBottlesBtnText}</option>
-      <option value="winesGlasses">{wineGlassBtnText}</option>
-      <option value="alcohols">{alcoholBtnText}</option>
+      <option value="/wine/bottles">{winesBottlesBtnText}</option>
+      <option value="/wine/glasses">{wineGlassBtnText}</option>
+      <option value="/menu/alcohol">{alcoholBtnText}</option>
       <option value="more" hidden>
         więcej
       </option>
