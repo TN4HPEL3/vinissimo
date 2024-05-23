@@ -8,9 +8,6 @@ import menu from '../../../data/menu.json';
 
 import css from './MenuTemplate.module.css';
 
-// To fix:
-// 1. Function handleChange and handleClick for opening pages with menu
-
 function MenuTemplate() {
   const navigate = useNavigate();
   const buttonsText = {
