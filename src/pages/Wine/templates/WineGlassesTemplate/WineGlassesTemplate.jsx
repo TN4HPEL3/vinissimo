@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+import { smoothScrollToTop } from '../../../../helpers/smoothScroll';
 import { WinePageButtonsOrganism } from '../../organisms/WinePageButtonsOrganism/WinePageButtonsOrganism';
 import { WineGlassesFirstPageOrganism } from '../../organisms/WineGlassesFirstPageOrganism/WineGlassesFirstPageOrganism';
 import { WineGlassesThirdPageOrganism } from '../../organisms/WineGlassesThirdPageOrganism/WineGlassesThirdPageOrganism';
@@ -11,6 +12,7 @@ import { MenuPageArrowRightButtonMolecule } from '../../../Menu/molecules/MenuPa
 import css from './WineGlassesTemplate.module.css';
 
 function WineGlassesTemplate() {
+  smoothScrollToTop();
   const [pageNumber, setPageNumber] = useState(0);
   const numberOfPages = 2;
   const goToPreviousPage = () => {

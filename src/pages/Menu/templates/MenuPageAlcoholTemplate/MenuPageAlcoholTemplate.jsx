@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+import { smoothScrollToTop } from '../../../../helpers/smoothScroll';
 import { MenuPageButtonsOrganism } from '../../organisms/MenuPageButtonsOrganism/MenuPageButtonsOrganism';
 import { MenuPageNumberTextMolecule } from '../../molecules/MenuPageNumberTextMolecule/MenuPageNumberTextMolecule';
 import { MenuAlcoholsFirstPageOrganism } from '../../organisms/MenuAlcoholsFirstPageOrganism/MenuAlcoholsFirstPageOrganism';
@@ -10,6 +11,7 @@ import { MenuPageArrowRightButtonMolecule } from '../../molecules/MenuPageArrowB
 import css from './MenuPageAlcoholTemplate.module.css';
 
 function MenuPageAlcoholTemplate() {
+  smoothScrollToTop();
   const [pageNumber, setPageNumber] = useState(0);
   const numberOfPages = 1;
   const goToPreviousPage = () => {
