@@ -16,6 +16,7 @@ import { WineBottlesEleventhPageOrganism } from '../../organisms/WineBottlesPage
 import { MenuWineBottlesTextOrganism } from '../../organisms/MenuWineBottlesTextOrganism/MenuWineBottlesTextOrganism';
 import { MenuPageNumberTextMolecule } from '../../../Menu/molecules/MenuPageNumberTextMolecule/MenuPageNumberTextMolecule';
 import { MenuPageArrowLeftButtonMolecule } from '../../../Menu/molecules/MenuPageArrowButtonMolecule/MenuPageArrowLeftButtonMolecule';
+import { WinePageCategoriesButtonsMolecule } from '../../molecules/WinePageCategoriesButtonsMolecule/WinePageCategoriesButtonsMolecule';
 import { MenuPageArrowRightButtonMolecule } from '../../../Menu/molecules/MenuPageArrowButtonMolecule/MenuPageArrowRightButtonMolecule';
 
 import css from '../WineGlassesTemplate/WineGlassesTemplate.module.css';
@@ -61,21 +62,7 @@ function WineBottlesTemplate() {
   return (
     <div className={css.menu__wine}>
       <WinePageButtonsOrganism />
-      <button type="button" onClick={handleClick} id="champagne">
-        champagne
-      </button>
-      <button type="button" onClick={handleClick} id="sparkling">
-        sparkling wines
-      </button>
-      <button type="button" onClick={handleClick} id="whiteWines">
-        white wines
-      </button>
-      <button type="button" onClick={handleClick} id="redWines">
-        red wines
-      </button>
-      <button type="button" onClick={handleClick} id="bigBottles">
-        big bottles
-      </button>
+      <WinePageCategoriesButtonsMolecule handleClick={handleClick} />
       <MenuPageNumberTextMolecule
         pageNumber={pageNumber}
         numberOfPages={numberOfPages}
