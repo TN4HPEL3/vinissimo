@@ -38,9 +38,6 @@ function WineBottlesTemplate() {
   const handleClick = e => {
     const id = e.target.id;
     setCategory(id);
-    // if (id === 'champagne') {
-    //   setPageNumber(1);
-    // }
     switch (id) {
       case 'champagne':
         setPageNumber(1);
@@ -61,8 +58,6 @@ function WineBottlesTemplate() {
         setPageNumber(0);
     }
   };
-  console.log(category);
-  console.log(pageNumber);
   return (
     <div className={css.menu__wine}>
       <WinePageButtonsOrganism />
@@ -85,7 +80,6 @@ function WineBottlesTemplate() {
         pageNumber={pageNumber}
         numberOfPages={numberOfPages}
       />
-
       {pageNumber === 0 && (
         <div className={className}>
           <MenuWineBottlesTextOrganism />
