@@ -22,20 +22,65 @@ import css from '../WineGlassesTemplate/WineGlassesTemplate.module.css';
 
 function WineBottlesTemplate() {
   const [pageNumber, setPageNumber] = useState(0);
+  const [category, setCategory] = useState(null);
 
   const numberOfPages = 12;
   const className = css['menu__wine__content--page'];
 
   const goToPreviousPage = () => {
     setPageNumber(pageNumber - 1);
+    setCategory(null);
   };
   const goToNextPage = () => {
     setPageNumber(pageNumber + 1);
+    setCategory(null);
   };
-
+  const handleClick = e => {
+    const id = e.target.id;
+    setCategory(id);
+    // if (id === 'champagne') {
+    //   setPageNumber(1);
+    // }
+    switch (id) {
+      case 'champagne':
+        setPageNumber(1);
+        break;
+      case 'sparkling':
+        setPageNumber(2);
+        break;
+      case 'whiteWines':
+        setPageNumber(3);
+        break;
+      case 'redWines':
+        setPageNumber(8);
+        break;
+      case 'bigBottles':
+        setPageNumber(12);
+        break;
+      default:
+        setPageNumber(0);
+    }
+  };
+  console.log(category);
+  console.log(pageNumber);
   return (
     <div className={css.menu__wine}>
       <WinePageButtonsOrganism />
+      <button type="button" onClick={handleClick} id="champagne">
+        champagne
+      </button>
+      <button type="button" onClick={handleClick} id="sparkling">
+        sparkling wines
+      </button>
+      <button type="button" onClick={handleClick} id="whiteWines">
+        white wines
+      </button>
+      <button type="button" onClick={handleClick} id="redWines">
+        red wines
+      </button>
+      <button type="button" onClick={handleClick} id="bigBottles">
+        big bottles
+      </button>
       <MenuPageNumberTextMolecule
         pageNumber={pageNumber}
         numberOfPages={numberOfPages}
@@ -46,11 +91,11 @@ function WineBottlesTemplate() {
           <MenuWineBottlesTextOrganism />
         </div>
       )}
-      {pageNumber === 1 && (
+      {pageNumber === 1 || category === 'champagne' ? (
         <div className={className}>
           <WineBottlesFirstPageOrganism />
         </div>
-      )}
+      ) : null}
       {pageNumber === 2 && (
         <div className={className}>
           <WineBottlesSecondPageOrganism />
