@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+import { smoothScrollToTop } from '../../../../helpers/smoothScroll';
 import { WinePageButtonsOrganism } from '../../organisms/WinePageButtonsOrganism/WinePageButtonsOrganism';
 import { WineBottlesFirstPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesFirstPageOrganism';
 import { WineBottlesThirdPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesThirdPageOrganism';
@@ -22,6 +23,7 @@ import { MenuPageArrowRightButtonMolecule } from '../../../Menu/molecules/MenuPa
 import css from '../WineGlassesTemplate/WineGlassesTemplate.module.css';
 
 function WineBottlesTemplate() {
+  smoothScrollToTop();
   const [pageNumber, setPageNumber] = useState(0);
   const [category, setCategory] = useState(null);
 
