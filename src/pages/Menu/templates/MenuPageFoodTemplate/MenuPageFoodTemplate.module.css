@@ -12,3 +12,13 @@
     align-items: normal;
   }
 }
+
+.menu__content {
+  padding: 1.87rem;
+  border: 1px solid var(--website-secondary-color);
+  @media screen and (min-width: 48rem) {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--gap--small);
+  }
+}
