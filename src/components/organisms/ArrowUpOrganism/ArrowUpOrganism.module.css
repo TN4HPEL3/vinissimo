@@ -7,8 +7,7 @@
   height: 3.5rem;
   background-color: transparent;
   border-radius: 30px;
-  transition: opacity 0.6s linear, visibility 0.6s, transform 0.6s linear;
-  transform: translateY(0);
+  transition: opacity 0.6s linear, visibility 0.6s;
   opacity: 1;
   visibility: visible;
   &:hover {
@@ -24,7 +23,6 @@
 }
 
 .button__arrow--up--hidden {
-  transform: translateY(200);
   opacity: 0;
   visibility: hidden;
 }
