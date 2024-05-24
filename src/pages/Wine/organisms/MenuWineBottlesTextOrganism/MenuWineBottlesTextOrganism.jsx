@@ -1,11 +1,11 @@
+import { ArticleAtom } from '../../../../components/atoms/ArticleAtom/ArticleAtom.jsx';
 import { MenuTitleAtom } from '../../../../components/atoms/MenuTitleAtom/MenuTitleAtom';
 import { ParagraphAtom } from '../../../../components/atoms/ParagraphAtom/ParagraphAtom.jsx';
-import { MenuTextMolecule } from '../../../../components/molecules/MenuTextMolecule/MenuTextMolecule';
 
 function MenuWineBottlesTextOrganism() {
   return (
-    <MenuTextMolecule
-      text={
+    <ArticleAtom
+      children={
         <>
           <MenuTitleAtom title="[wine list]" />
           <br />
