@@ -2,7 +2,7 @@ import { CheckMediaQuery } from '../../../helpers/checkMediaQuery';
 import { MenuPageButtonMolecule } from '../../../pages/Menu/molecules/MenuPageButtonsMolecule/MenuPageButtonMolecule';
 import { MenuButtonMobileMolecule } from '../../molecules/MenuButtonMobileMolecule/MenuButtonMobileMolecule';
 
-function MenuButtonsOrganism({ handleChange, text }) {
+function MenuButtonsOrganism({ text }) {
   const screen = CheckMediaQuery();
   const { winesBottlesBtnText, alcoholBtnText, wineGlassBtnText } = text;
 
@@ -23,7 +23,6 @@ function MenuButtonsOrganism({ handleChange, text }) {
     </>
   ) : (
     <MenuButtonMobileMolecule
-      handleChange={handleChange}
       winesBottlesBtnText={winesBottlesBtnText}
       alcoholBtnText={alcoholBtnText}
       wineGlassBtnText={wineGlassBtnText}

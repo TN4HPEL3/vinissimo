@@ -1,11 +1,17 @@
+import { useNavigate } from 'react-router-dom';
+
 import css from './MenuButtonMobileMolecule.module.css';
 
 function MenuButtonMobileMolecule({
-  handleChange,
   winesBottlesBtnText,
   wineGlassBtnText,
   alcoholBtnText,
 }) {
+  const navigate = useNavigate();
+  const handleChange = event => {
+    navigate(event.target.value);
+  };
+
   return (
     <select
       onChange={handleChange}

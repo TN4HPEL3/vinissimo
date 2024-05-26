@@ -1,5 +1,3 @@
-import { useNavigate } from 'react-router-dom';
-
 import { SectionTemplate } from '../Section/SectionTemplate.jsx';
 import { MenuListOrganism } from '../../organisms/MenuListOrganism/MenuListOrganism.jsx';
 import { MenuButtonsOrganism } from '../../organisms/MenuButtonsOrganism/MenuButtonsOrganism.jsx';
@@ -9,15 +7,10 @@ import menu from '../../../data/menu.json';
 import css from './MenuTemplate.module.css';
 
 function MenuTemplate() {
-  const navigate = useNavigate();
   const buttonsText = {
     winesBottlesBtnText: 'wina',
     alcoholBtnText: 'alkohole',
     wineGlassBtnText: 'wina na kieliszki',
-  };
-
-  const handleChange = event => {
-    navigate(event.target.value);
   };
 
   return (
@@ -52,7 +45,7 @@ function MenuTemplate() {
           </div>
         </div>
         <div className={css.menu__buttons}>
-          <MenuButtonsOrganism handleChange={handleChange} text={buttonsText} />
+          <MenuButtonsOrganism text={buttonsText} />
         </div>
       </div>
     </SectionTemplate>
