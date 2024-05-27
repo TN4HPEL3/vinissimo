@@ -11,8 +11,10 @@ import { FooterLinksMolecule } from '../../molecules/FooterLinksMolecule/FooterL
 import { FooterAddressMolecule } from '../../molecules/FooterAddressMolecule/FooterAddressMolecule';
 
 import css from './FooterOrganism.module.css';
+import { CheckMediaQuery } from '../../../helpers/checkMediaQuery';
 
 function FooterOrganism() {
+  const screen = CheckMediaQuery();
   return (
     <>
       <div className={css.footer__links}>
@@ -25,8 +27,9 @@ function FooterOrganism() {
           textOpeningHoursSunday={openingHoursSundayTextPL}
         />
         <FooterLinksMolecule text={privacyPolicyTextPL} />
+        {screen === 'desktop' && <FooterIconsMolecule />}
       </div>
-      <FooterIconsMolecule />
+      {screen !== 'desktop' && <FooterIconsMolecule />}
     </>
   );
 }
