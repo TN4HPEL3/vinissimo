@@ -1,5 +1,3 @@
-import { SectionTemplate } from '../Section/SectionTemplate';
-
 import { ReservationOrganism } from '../../organisms/ReservationOrganism/ReservationOrganism.jsx';
 
 import css from './ReservationTemplate.module.css';
@@ -9,7 +7,6 @@ function ReservationTemplate() {
       <h2 className={css.reservation__title}>rezerwacja</h2>
       <ReservationOrganism />
     </div>
-    // <SectionTemplate title="rezerwacja" children={} />
   );
 }
 

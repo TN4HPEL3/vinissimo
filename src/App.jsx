@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 
 import { HomePage } from './pages/Home/HomePage.jsx';
+import { MenuPage } from './pages/Menu/MenuPage.jsx';
 import { WinePage } from './pages/Wine/WinePage.jsx';
 import { SharedLayout } from './components/templates/SharedLayout/SharedLayout.jsx';
 import { WineGlassesTemplate } from './pages/Wine/templates/WineGlassesTemplate/WineGlassesTemplate.jsx';
@@ -23,11 +24,11 @@ function App() {
         />
         <Route
           path="/menu/food"
-          element={<WinePage children={<MenuPageFoodTemplate />} />}
+          element={<MenuPage children={<MenuPageFoodTemplate />} />}
         />
         <Route
           path="/menu/alcohol"
-          element={<WinePage children={<MenuPageAlcoholTemplate />} />}
+          element={<MenuPage children={<MenuPageAlcoholTemplate />} />}
         />
       </Route>
 
