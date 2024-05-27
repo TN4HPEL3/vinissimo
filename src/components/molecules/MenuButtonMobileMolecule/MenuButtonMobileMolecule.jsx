@@ -1,11 +1,17 @@
+import { useNavigate } from 'react-router-dom';
+
 import css from './MenuButtonMobileMolecule.module.css';
 
 function MenuButtonMobileMolecule({
-  handleChange,
   winesBottlesBtnText,
   wineGlassBtnText,
   alcoholBtnText,
 }) {
+  const navigate = useNavigate();
+  const handleChange = event => {
+    navigate(event.target.value);
+  };
+
   return (
     <select
       onChange={handleChange}
@@ -14,9 +20,9 @@ function MenuButtonMobileMolecule({
       id="menuButtons"
       name="menuButtons"
     >
-      <option value="winesBottles">{winesBottlesBtnText}</option>
-      <option value="winesGlasses">{wineGlassBtnText}</option>
-      <option value="alcohols">{alcoholBtnText}</option>
+      <option value="/wine/bottles">{winesBottlesBtnText}</option>
+      <option value="/wine/glasses">{wineGlassBtnText}</option>
+      <option value="/menu/alcohol">{alcoholBtnText}</option>
       <option value="more" hidden>
         więcej
       </option>
