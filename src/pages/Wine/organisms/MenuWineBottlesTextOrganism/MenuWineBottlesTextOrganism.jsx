@@ -1,5 +1,5 @@
 import { ArticleAtom } from '../../../../components/atoms/ArticleAtom/ArticleAtom.jsx';
-import { MenuTitleAtom } from '../../../../components/atoms/MenuTitleAtom/MenuTitleAtom';
+import { MenuTitleAtom } from '../../../../components/atoms/MenuTitleAtom/MenuTitleAtom.jsx';
 import { ParagraphAtom } from '../../../../components/atoms/ParagraphAtom/ParagraphAtom.jsx';
 
 function MenuWineBottlesTextOrganism() {

@@ -1,4 +1,4 @@
-import { publicAccess } from '../../../helpers/publicAccess';
+import { publicAccess } from '../../../helpers/publicAccess.js';
 
 import css from './HeroAtom.module.css';
 

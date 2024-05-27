@@ -1,6 +1,6 @@
-import { hrefEmail, hrefPhoneNumber } from '../../../helpers/findLink';
+import { hrefEmail, hrefPhoneNumber } from '../../../helpers/findLink.js';
 import { ParagraphAtom } from '../../atoms/ParagraphAtom/ParagraphAtom.jsx';
-import { ContactLinkAtom } from '../../atoms/ContactLinkAtom/ContactLinkAtom';
+import { ContactLinkAtom } from '../../atoms/ContactLinkAtom/ContactLinkAtom.jsx';
 
 import JSON from '../../../data/contactLinks.json';
 

@@ -1,6 +1,6 @@
 import { SectionTemplate } from '../Section/SectionTemplate';
 
-import { ReservationOrganism } from '../../organisms/ReservationOrganism/ReservationOrganism';
+import { ReservationOrganism } from '../../organisms/ReservationOrganism/ReservationOrganism.jsx';
 
 import css from './ReservationTemplate.module.css';
 function ReservationTemplate() {

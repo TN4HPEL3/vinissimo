@@ -1,4 +1,4 @@
-import { MenuAlcoholsOrganism } from '../MenuAlcoholsOrganism/MenuAlcoholsOrganism';
+import { MenuAlcoholsOrganism } from '../MenuAlcoholsOrganism/MenuAlcoholsOrganism.jsx';
 
 import menu from '../../../../data/alcohols.json';
 

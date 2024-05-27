@@ -1,6 +1,6 @@
-import { CheckMediaQuery } from '../../../helpers/checkMediaQuery';
-import { MenuPageButtonMolecule } from '../../../pages/Menu/molecules/MenuPageButtonsMolecule/MenuPageButtonMolecule';
-import { MenuButtonMobileMolecule } from '../../molecules/MenuButtonMobileMolecule/MenuButtonMobileMolecule';
+import { CheckMediaQuery } from '../../../helpers/checkMediaQuery.js';
+import { MenuButtonMobileMolecule } from '../../molecules/MenuButtonMobileMolecule/MenuButtonMobileMolecule.jsx';
+import { MenuPageButtonMolecule } from '../../../pages/Menu/molecules/MenuPageButtonsMolecule/MenuPageButtonMolecule.jsx';
 
 function MenuButtonsOrganism({ text }) {
   const screen = CheckMediaQuery();

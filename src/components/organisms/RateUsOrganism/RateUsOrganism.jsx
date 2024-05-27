@@ -1,4 +1,4 @@
-import { RateUsMolecule } from '../../molecules/RateUsMolecule/RateUsMolecule';
+import { RateUsMolecule } from '../../molecules/RateUsMolecule/RateUsMolecule.jsx';
 
 import css from './RateUsOrganism.module.css';
 

@@ -1,4 +1,4 @@
-import { HeroOrganism } from '../../organisms/HeroOrganism/HeroOrganism';
+import { HeroOrganism } from '../../organisms/HeroOrganism/HeroOrganism.jsx';
 
 import css from './HeroTemplate.module.css';
 
