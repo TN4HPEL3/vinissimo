@@ -13,6 +13,9 @@ function WineGlassesListOrganism({
   volumeSecond,
   volumeThird,
   categoryTitle,
+  regionName,
+  countryName,
+  grapeName,
 }) {
   const itemsByCategory = data[category];
   const items = itemsByCategory.map(item => {
@@ -60,6 +63,18 @@ function WineGlassesListOrganism({
       <MenuTitleAtom
         className={css['wine__category-name']}
         title={categoryTitle}
+      />
+      <MenuTitleAtom
+        className={css['wine__category-country']}
+        title={countryName}
+      />
+      <MenuTitleAtom
+        className={css['wine__category-region']}
+        title={regionName}
+      />
+      <MenuTitleAtom
+        className={css['wine__category-grape']}
+        title={grapeName}
       />
       <MenuTitleAtom className={css.wine__title} title={title} />
       <ul className={css.wine__list}>
