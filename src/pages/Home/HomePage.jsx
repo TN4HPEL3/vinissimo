@@ -1,4 +1,3 @@
-import { smoothScrollToTop } from '../../helpers/smoothScroll';
 import { MenuTemplate } from '../../components/templates/Menu/MenuTemplate';
 import { AboutTemplate } from '../../components/templates/About/AboutTemplate';
 import { RateUsTemplate } from '../../components/templates/RateUs/RateUsTemplate';
@@ -7,7 +6,6 @@ import { ArrowUpTemplate } from '../../components/templates/ArrowUpTemplate/Arro
 import { ReservationTemplate } from '../../components/templates/Reservation/ReservationTemplate';
 
 function HomePage() {
-  smoothScrollToTop();
   return (
     <>
       <HeroTemplate />
