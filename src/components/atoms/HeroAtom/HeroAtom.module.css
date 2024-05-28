@@ -1,0 +1,6 @@
+.hero__image {
+  height: 100vh;
+  background: var(--website-main-color);
+  object-fit: cover;
+  width: 100%;
+}

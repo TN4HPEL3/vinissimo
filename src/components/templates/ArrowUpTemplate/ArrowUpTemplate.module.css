@@ -1,0 +1,16 @@
+.button__arrow--up-enter {
+  opacity: 0;
+}
+.button__arrow--up-enter-active {
+  opacity: 1;
+  transition: opacity 0.6s linear;
+}
+
+.button__arrow--up-exit {
+  opacity: 1;
+}
+
+.button__arrow--up-exit-active {
+  opacity: 0;
+  transition: opacity 0.6s linear;
+}

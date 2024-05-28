@@ -1,11 +1,39 @@
 {
-    "links": [
-      { "href": "mailto:booking@vinissimorestaurant.pl", "text": "booking@vinissimorestaurant.pl" },
-      { "href": "tel:+48881334449", "text": "+48 881 334 449" },
-      { "href": "https://www.instagram.com/vinissimorestaurant/", "text": "Instagram" },
-      {
-        "href": "https://www.facebook.com/vinissimorestaurant/?paipv=0&eav=AfZD_1vWDqDDMstTalt7K_3sV0oaHJKbfCPJ6W1njwZ1VgrVKQl2JglTz9fndKLvb4w&_rdr",
-        "text": "Facebook"
-      }
-    ]
-  }
+  "links": [
+    {
+      "id": "mail",
+      "href": "mailto:booking@vinissimorestaurant.pl",
+      "text": "booking@vinissimorestaurant.pl"
+    },
+    { "id": "phone", "href": "tel:+48881334449", "text": "+48 881 334 449" },
+    {
+      "id": "instagram",
+      "href": "https://www.instagram.com/vinissimorestaurant/",
+      "text": "Instagram"
+    },
+    {
+      "id": "facebook",
+      "href": "https://www.facebook.com/vinissimorestaurant/?paipv=0&eav=AfZD_1vWDqDDMstTalt7K_3sV0oaHJKbfCPJ6W1njwZ1VgrVKQl2JglTz9fndKLvb4w&_rdr",
+      "text": "Facebook"
+    },
+    {
+      "id": "tripadvisor",
+      "href": "https://www.tripadvisor.com/Restaurant_Review-g274735-d12320466-Reviews-Sztuczka_Bistro_i_Wino-Sopot_Pomerania_Province_Northern_Poland.html",
+      "text": "Tripadvisor"
+    },
+    {
+      "id": "google",
+      "href": "https://maps.app.goo.gl/HidBA9ZehcYXPAkq7",
+      "text": "google"
+    },
+    {
+      "id": "trojmiasto",
+      "href": "https://www.trojmiasto.pl/Vinissimo-Restaurant-Wine-Ba-o69577.html",
+      "text": "trojmiasto"
+    },
+    {
+      "id": "reservation",
+      "href": "https://mojstolik.pl/restauracja/sztuczka-bistro-wino/c04bbd833ddf1bc466c75b19370dceaa/"
+    }
+  ]
+}

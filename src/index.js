@@ -4,6 +4,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
 import { App } from './App.jsx';
+import { MobileMenuProvider } from './helpers/mobileMenuProvider.jsx';
 
 import './index.css';
 import './style/variables.css';
@@ -12,7 +13,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <MobileMenuProvider>
+        <App />
+      </MobileMenuProvider>
     </BrowserRouter>
   </React.StrictMode>
 );

@@ -25,16 +25,17 @@
   }
 }
 
-.section:first-child {
-  padding: 0;
-}
-
 .section::after {
   content: '';
   position: absolute;
-  left: 0;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   height: 0.125rem;
   background-color: var(--website-secondary-color);
+}
+
+@media screen and (min-width: 64rem) {
+  .section::after {
+    width: 99vw;
+  }
 }
