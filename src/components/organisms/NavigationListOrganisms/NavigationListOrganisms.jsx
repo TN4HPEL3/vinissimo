@@ -1,3 +1,4 @@
+import { HashLinkMolecule } from '../../molecules/HashLinkMolecule/HashLinkMolecule.jsx';
 import { MobileMenuTemplate } from '../../templates/MobileMenuTemplate/MobileMenuTemplate.jsx';
 import { NavigationLogoMolecule } from '../../molecules/NavigationLogoMolecule/NavigationLogoMolecule.jsx';
 import { OpenMobileMenuButtonAtom } from '../../atoms/OpenMobileMenuButtonAtom/OpenMobileMenuButtonAtom.jsx';
@@ -15,7 +16,7 @@ function NavigationListOrganisms() {
         <NavigationListItemMolecule item="wine/glasses" text="wino" />
         <NavigationListItemMolecule item="events" text="eventy" />
         <NavigationListItemMolecule item="team" text="team" />
-        <NavigationListItemMolecule item="reservation" text="rezerwacja" />
+        <HashLinkMolecule item="/#reservation" text="rezerwacja" />
       </nav>
       <OpenMobileMenuButtonAtom />
       <MobileMenuTemplate />

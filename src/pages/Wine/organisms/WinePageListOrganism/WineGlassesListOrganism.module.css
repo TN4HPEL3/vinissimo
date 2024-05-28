@@ -85,3 +85,13 @@
     text-align: center;
   }
 }
+
+.wine__category-grape {
+  text-decoration: underline;
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-small);
+}
+
+.wine__category-country {
+  font-size: var(--font-size-drop-down-menu);
+}

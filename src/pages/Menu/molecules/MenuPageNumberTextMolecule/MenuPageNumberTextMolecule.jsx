@@ -1,4 +1,4 @@
-import { ParagraphAtom } from '../../../../components/atoms/ParagraphAtom';
+import { ParagraphAtom } from '../../../../components/atoms/ParagraphAtom/ParagraphAtom.jsx';
 
 function MenuPageNumberTextMolecule({ pageNumber, numberOfPages }) {
   return (

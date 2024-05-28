@@ -3,12 +3,11 @@ import { MenuPageButtonsOrganism } from '../../organisms/MenuPageButtonsOrganism
 
 import menu from '../../../../data/menu.json';
 
-import cssFoodTemplate from './MenuPageFoodTemplate.module.css';
-import css from '../../../../components/templates/Menu/MenuTemplate.module.css';
+import css from './MenuPageFoodTemplate.module.css';
 
 function MenuPageFoodTemplate() {
   return (
-    <div className={cssFoodTemplate.menu}>
+    <div className={css.menu}>
       <MenuPageButtonsOrganism />
       <div className={css.menu__content}>
         <div>

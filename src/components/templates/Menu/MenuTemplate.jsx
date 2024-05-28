@@ -6,22 +6,11 @@ import menu from '../../../data/menu.json';
 
 import css from './MenuTemplate.module.css';
 
-// To fix:
-// 1. Function handleChange and handleClick for opening pages with menu
-
 function MenuTemplate() {
   const buttonsText = {
     winesBottlesBtnText: 'wina',
     alcoholBtnText: 'alkohole',
     wineGlassBtnText: 'wina na kieliszki',
-  };
-
-  const handleChange = event => {
-    console.log(event.target.value);
-  };
-
-  const handleClick = event => {
-    console.log(event.target);
   };
 
   return (
@@ -56,11 +45,7 @@ function MenuTemplate() {
           </div>
         </div>
         <div className={css.menu__buttons}>
-          <MenuButtonsOrganism
-            handleClick={handleClick}
-            handleChange={handleChange}
-            text={buttonsText}
-          />
+          <MenuButtonsOrganism text={buttonsText} />
         </div>
       </div>
     </SectionTemplate>
