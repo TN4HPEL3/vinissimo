@@ -6,7 +6,6 @@ import { AboutTemplate } from '../../components/templates/About/AboutTemplate';
 import { RateUsTemplate } from '../../components/templates/RateUs/RateUsTemplate';
 import { HeroTemplate } from '../../components/templates/HeroTemplate/HeroTemplate';
 import { ArrowUpTemplate } from '../../components/templates/ArrowUpTemplate/ArrowUpTemplate';
-import { ArrowUpTemplate } from '../../components/templates/ArrowUpTemplate/ArrowUpTemplate';
 import { ReservationTemplate } from '../../components/templates/Reservation/ReservationTemplate';
 
 function HomePage() {
