@@ -1,8 +1,12 @@
+import { useContext } from 'react';
 import { HashLink } from 'react-router-hash-link';
 
+import { mobileMenuContext } from '../../../helpers/mobileMenuProvider';
+
 function HashLinkAtom({ element, text }) {
+  const { close } = useContext(mobileMenuContext);
   return (
-    <HashLink smooth to={element}>
+    <HashLink onClick={close} smooth to={element}>
       {text}
     </HashLink>
   );
