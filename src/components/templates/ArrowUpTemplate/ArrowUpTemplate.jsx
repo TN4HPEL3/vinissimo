@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
 
 import { ArrowUpOrganism } from '../../organisms/ArrowUpOrganism/ArrowUpOrganism';
@@ -6,11 +6,17 @@ import { ArrowUpOrganism } from '../../organisms/ArrowUpOrganism/ArrowUpOrganism
 import css from './ArrowUpTemplate.module.css';
 
 function ArrowUpTemplate() {
+  const nodeRef = useRef(null);
   const [showArrowUp, setShowArrowUp] = useState(false);
-  window.onscroll = () => {
-    window.scrollY < 200 ? setShowArrowUp(false) : setShowArrowUp(true);
-  };
-
+  useEffect(() => {
+    const handleScroll = () => {
+      window.scrollY < 200 ? setShowArrowUp(false) : setShowArrowUp(true);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <CSSTransition
       in={showArrowUp}
@@ -22,8 +28,9 @@ function ArrowUpTemplate() {
         exitActive: css['button__arrow--up-exit-active'],
       }}
       unmountOnExit
+      nodeRef={nodeRef}
     >
-      <ArrowUpOrganism />
+      <ArrowUpOrganism ref={nodeRef} />
     </CSSTransition>
   );
 }
