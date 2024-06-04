@@ -1,4 +1,4 @@
-import { WineGlassesListOrganism } from '../WinePageListOrganism/WineGlassesListOrganism';
+import { WineGlassesListOrganism } from '../WinePageListOrganism/WineGlassesListOrganism.jsx';
 
 import menu from '../../../../data/wineBottles.json';
 

@@ -3,9 +3,9 @@ import {
   hrefGoogle,
   hrefTripAdvisor,
   hrefTrojmiasto,
-} from '../../../helpers/findLink';
-import { IconAtom } from '../../atoms/IconAtom/IconAtom';
-import { ContactLinkAtom } from '../../atoms/ContactLinkAtom/ContactLinkAtom';
+} from '../../../helpers/findLink.js';
+import { IconAtom } from '../../atoms/IconAtom/IconAtom.jsx';
+import { ContactLinkAtom } from '../../atoms/ContactLinkAtom/ContactLinkAtom.jsx';
 
 import css from './RateUsMolecule.module.css';
 

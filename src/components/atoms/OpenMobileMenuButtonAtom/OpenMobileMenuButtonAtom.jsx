@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 
-import { IconAtom } from '../IconAtom/IconAtom';
-import { mobileMenuContext } from '../../../helpers/mobileMenuProvider';
+import { IconAtom } from '../IconAtom/IconAtom.jsx';
+import { mobileMenuContext } from '../../../helpers/mobileMenuProvider.jsx';
 
 import css from './OpenMobileMenuButtonAtom.module.css';
 

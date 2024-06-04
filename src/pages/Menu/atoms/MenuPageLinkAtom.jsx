@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-import { isLinkActive } from '../../../helpers/isLinkActive';
+import { isLinkActive } from '../../../helpers/isLinkActive.js';
 
 import css from './MenuPageLinkAtom.module.css';
 

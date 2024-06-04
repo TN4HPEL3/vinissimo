@@ -1,4 +1,4 @@
-import { MenuAlcoholsOrganism } from '../MenuAlcoholsOrganism/MenuAlcoholsOrganism';
+import { MenuAlcoholsOrganism } from '../MenuAlcoholsOrganism/MenuAlcoholsOrganism.jsx';
 
 import menu from '../../../../data/alcohols.json';
 
@@ -9,7 +9,7 @@ function MenuAlcoholsFirstPageOrganism() {
         <MenuAlcoholsOrganism
           category={'cocktails'}
           data={menu}
-          title={'cocktails'}
+          title={'cocktails 37'}
         />
         <MenuAlcoholsOrganism
           category={'apéritif'}

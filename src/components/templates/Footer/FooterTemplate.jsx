@@ -1,4 +1,4 @@
-import { FooterOrganism } from '../../organisms/FooterOrganism/FooterOrganism';
+import { FooterOrganism } from '../../organisms/FooterOrganism/FooterOrganism.jsx';
 
 import css from './FooterTemplate.module.css';
 

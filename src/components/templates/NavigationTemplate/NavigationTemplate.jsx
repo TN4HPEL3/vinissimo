@@ -1,4 +1,4 @@
-import { NavigationListOrganisms } from '../../organisms/NavigationListOrganisms/NavigationListOrganisms';
+import { NavigationListOrganisms } from '../../organisms/NavigationListOrganisms/NavigationListOrganisms.jsx';
 
 import css from './NavigationTemplate.module.css';
 

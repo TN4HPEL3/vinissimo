@@ -1,5 +1,5 @@
-import { MenuPageLinkAtom } from '../../atoms/MenuPageLinkAtom';
-import { ButtonAtom } from '../../../../components/atoms/buttonAtom/ButtonAtom';
+import { MenuPageLinkAtom } from '../../atoms/MenuPageLinkAtom.jsx';
+import { ButtonAtom } from '../../../../components/atoms/buttonAtom/ButtonAtom.jsx';
 
 function MenuPageButtonMolecule({ link, buttonText }) {
   return (

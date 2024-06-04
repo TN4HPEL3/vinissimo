@@ -1,5 +1,5 @@
 import { ParagraphAtom } from '../../atoms/ParagraphAtom/ParagraphAtom.jsx';
-import { ReservationTextAtom } from '../../atoms/Reservation/ReservationTextAtom/ReservationTextAtom';
+import { ReservationTextAtom } from '../../atoms/Reservation/ReservationTextAtom/ReservationTextAtom.jsx';
 
 import css from './ReservationTextMolecule.module.css';
 
