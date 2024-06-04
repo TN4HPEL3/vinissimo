@@ -1,5 +1,7 @@
+import { ButtonAtom } from '../../../../components/atoms/buttonAtom/ButtonAtom.jsx';
+
 function Page404ButtonAtom() {
-  return <button>Wróć na stronę główną</button>;
+  return <ButtonAtom text="Wróć na stronę główną" />;
 }
 
 export { Page404ButtonAtom };
