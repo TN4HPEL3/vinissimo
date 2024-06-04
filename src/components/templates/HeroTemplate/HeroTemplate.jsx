@@ -1,5 +1,5 @@
-import { smoothScrollToTop } from '../../../helpers/smoothScroll';
-import { HeroOrganism } from '../../organisms/HeroOrganism/HeroOrganism';
+import { smoothScrollToTop } from '../../../helpers/smoothScroll.js';
+import { HeroOrganism } from '../../organisms/HeroOrganism/HeroOrganism.jsx';
 
 import css from './HeroTemplate.module.css';
 

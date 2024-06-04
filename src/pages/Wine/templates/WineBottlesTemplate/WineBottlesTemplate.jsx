@@ -1,24 +1,24 @@
 import { useState } from 'react';
 
-import { smoothScrollToTop } from '../../../../helpers/smoothScroll';
-import { WinePageButtonsOrganism } from '../../organisms/WinePageButtonsOrganism/WinePageButtonsOrganism';
-import { WineBottlesFirstPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesFirstPageOrganism';
-import { WineBottlesThirdPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesThirdPageOrganism';
-import { WineBottlesFifthPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesFifthPageOrganism';
-import { WineBottlesSixthPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesSixthPageOrganism';
-import { WineBottlesEighthPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesEighthPageOrganism';
-import { WineBottlesNinthPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesNinthPageOrganism';
-import { WineBottlesTenthPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesTenthPageOrganism';
-import { WineBottlesFourthPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesFourthPageOrganism';
-import { WineBottlesSecondPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesSecondPageOrganism';
-import { WineBottlesTwelfthPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesTwelfthPageOrganism';
-import { WineBottlesSeventhPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesSeventhPageOrganism';
-import { WineBottlesEleventhPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesEleventhPageOrganism';
-import { MenuWineBottlesTextOrganism } from '../../organisms/MenuWineBottlesTextOrganism/MenuWineBottlesTextOrganism';
-import { MenuPageNumberTextMolecule } from '../../../Menu/molecules/MenuPageNumberTextMolecule/MenuPageNumberTextMolecule';
-import { MenuPageArrowLeftButtonMolecule } from '../../../Menu/molecules/MenuPageArrowButtonMolecule/MenuPageArrowLeftButtonMolecule';
-import { WinePageCategoriesButtonsMolecule } from '../../molecules/WinePageCategoriesButtonsMolecule/WinePageCategoriesButtonsMolecule';
-import { MenuPageArrowRightButtonMolecule } from '../../../Menu/molecules/MenuPageArrowButtonMolecule/MenuPageArrowRightButtonMolecule';
+import { smoothScrollToTop } from '../../../../helpers/smoothScroll.js';
+import { WinePageButtonsOrganism } from '../../organisms/WinePageButtonsOrganism/WinePageButtonsOrganism.jsx';
+import { WineBottlesFirstPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesFirstPageOrganism.jsx';
+import { WineBottlesThirdPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesThirdPageOrganism.jsx';
+import { WineBottlesFifthPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesFifthPageOrganism.jsx';
+import { WineBottlesSixthPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesSixthPageOrganism.jsx';
+import { WineBottlesNinthPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesNinthPageOrganism.jsx';
+import { WineBottlesTenthPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesTenthPageOrganism.jsx';
+import { WineBottlesFourthPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesFourthPageOrganism.jsx';
+import { WineBottlesSecondPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesSecondPageOrganism.jsx';
+import { WineBottlesEighthPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesEighthPageOrganism.jsx';
+import { WineBottlesTwelfthPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesTwelfthPageOrganism.jsx';
+import { WineBottlesSeventhPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesSeventhPageOrganism.jsx';
+import { WineBottlesEleventhPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesEleventhPageOrganism.jsx';
+import { MenuWineBottlesTextOrganism } from '../../organisms/MenuWineBottlesTextOrganism/MenuWineBottlesTextOrganism.jsx';
+import { MenuPageNumberTextMolecule } from '../../../Menu/molecules/MenuPageNumberTextMolecule/MenuPageNumberTextMolecule.jsx';
+import { MenuPageArrowLeftButtonMolecule } from '../../../Menu/molecules/MenuPageArrowButtonMolecule/MenuPageArrowLeftButtonMolecule.jsx';
+import { WinePageCategoriesButtonsMolecule } from '../../molecules/WinePageCategoriesButtonsMolecule/WinePageCategoriesButtonsMolecule.jsx';
+import { MenuPageArrowRightButtonMolecule } from '../../../Menu/molecules/MenuPageArrowButtonMolecule/MenuPageArrowRightButtonMolecule.jsx';
 
 import css from '../WineGlassesTemplate/WineGlassesTemplate.module.css';
 

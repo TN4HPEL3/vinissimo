@@ -1,8 +1,8 @@
-import { hrefReservation } from '../../../helpers/findLink';
-import { ButtonAtom } from '../../atoms/buttonAtom/ButtonAtom';
-import { ContactLinkAtom } from '../../atoms/ContactLinkAtom/ContactLinkAtom';
-import { ReservationMapMolecule } from '../../molecules/ReservationMapMolecule/ReservationMapMolecule';
-import { ReservationTextMolecule } from '../../molecules/ReservationTextMolecule/ReservationTextMolecule';
+import { hrefReservation } from '../../../helpers/findLink.js';
+import { ButtonAtom } from '../../atoms/buttonAtom/ButtonAtom.jsx';
+import { ContactLinkAtom } from '../../atoms/ContactLinkAtom/ContactLinkAtom.jsx';
+import { ReservationMapMolecule } from '../../molecules/ReservationMapMolecule/ReservationMapMolecule.jsx';
+import { ReservationTextMolecule } from '../../molecules/ReservationTextMolecule/ReservationTextMolecule.jsx';
 
 import css from './ReservationOrganism.module.css';
 

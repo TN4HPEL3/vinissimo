@@ -1,4 +1,4 @@
-import { NavigationListItemAtom } from '../../atoms/NavigationListItemAtom/NavigationListItemAtom';
+import { NavigationListItemAtom } from '../../atoms/NavigationListItemAtom/NavigationListItemAtom.jsx';
 
 function NavigationListItemMolecule({ item, text }) {
   return (

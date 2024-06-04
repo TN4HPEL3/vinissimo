@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
 
-import { ArrowUpOrganism } from '../../organisms/ArrowUpOrganism/ArrowUpOrganism';
+import { ArrowUpOrganism } from '../../organisms/ArrowUpOrganism/ArrowUpOrganism.jsx';
 
 import css from './ArrowUpTemplate.module.css';
 

@@ -4,14 +4,14 @@ import {
   openingHoursSundayTextPL,
   openingHoursTextPL,
   privacyPolicyTextPL,
-} from '../../../helpers/findTextByLanguage';
-import { FooterHoursMolecule } from '../../molecules/FooterHoursMolecule/FooterHoursMolecule';
-import { FooterIconsMolecule } from '../../molecules/FooterIconsMolecule/FooterIconsMolecule';
-import { FooterLinksMolecule } from '../../molecules/FooterLinksMolecule/FooterLinksMolecule';
-import { FooterAddressMolecule } from '../../molecules/FooterAddressMolecule/FooterAddressMolecule';
+} from '../../../helpers/findTextByLanguage.js';
+import { CheckMediaQuery } from '../../../helpers/checkMediaQuery.js';
+import { FooterHoursMolecule } from '../../molecules/FooterHoursMolecule/FooterHoursMolecule.jsx';
+import { FooterIconsMolecule } from '../../molecules/FooterIconsMolecule/FooterIconsMolecule.jsx';
+import { FooterLinksMolecule } from '../../molecules/FooterLinksMolecule/FooterLinksMolecule.jsx';
+import { FooterAddressMolecule } from '../../molecules/FooterAddressMolecule/FooterAddressMolecule.jsx';
 
 import css from './FooterOrganism.module.css';
-import { CheckMediaQuery } from '../../../helpers/checkMediaQuery';
 
 function FooterOrganism() {
   const screen = CheckMediaQuery();

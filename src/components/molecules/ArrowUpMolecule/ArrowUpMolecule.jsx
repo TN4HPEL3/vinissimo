@@ -1,4 +1,4 @@
-import { IconAtom } from '../../atoms/IconAtom/IconAtom';
+import { IconAtom } from '../../atoms/IconAtom/IconAtom.jsx';
 
 import css from './ArrowUpMolecule.module.css';
 

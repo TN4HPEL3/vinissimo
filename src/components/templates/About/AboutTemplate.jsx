@@ -1,9 +1,9 @@
-import { SectionTemplate } from '../Section/SectionTemplate';
-import { publicAccess } from '../../../helpers/publicAccess';
-import { CheckMediaQuery } from '../../../helpers/checkMediaQuery';
-import { ParagraphAtom } from '../../atoms/ParagraphAtom/ParagraphAtom';
-import { AboutContentMobileAtom } from '../../atoms/AboutContentAtoms/AboutContentMobileAtom';
-import { AboutContentDesktopAtom } from '../../atoms/AboutContentAtoms/AboutContentDesktopAtom';
+import { publicAccess } from '../../../helpers/publicAccess.js';
+import { SectionTemplate } from '../Section/SectionTemplate.jsx';
+import { CheckMediaQuery } from '../../../helpers/checkMediaQuery.js';
+import { ParagraphAtom } from '../../atoms/ParagraphAtom/ParagraphAtom.jsx';
+import { AboutContentMobileAtom } from '../../atoms/AboutContentAtoms/AboutContentMobileAtom.jsx';
+import { AboutContentDesktopAtom } from '../../atoms/AboutContentAtoms/AboutContentDesktopAtom.jsx';
 
 import css from './AboutTemplate.module.css';
 

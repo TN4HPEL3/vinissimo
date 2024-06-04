@@ -1,6 +1,6 @@
-import { IconAtom } from '../../atoms/IconAtom/IconAtom';
-import { hrefFacebook, hrefInstagram } from '../../../helpers/findLink';
-import { ContactLinkAtom } from '../../atoms/ContactLinkAtom/ContactLinkAtom';
+import { IconAtom } from '../../atoms/IconAtom/IconAtom.jsx';
+import { hrefFacebook, hrefInstagram } from '../../../helpers/findLink.js';
+import { ContactLinkAtom } from '../../atoms/ContactLinkAtom/ContactLinkAtom.jsx';
 
 import css from './FooterIconsMolecule.module.css';
 

@@ -1,4 +1,4 @@
-import { ArrowUpTemplate } from '../../components/templates/ArrowUpTemplate/ArrowUpTemplate';
+import { ArrowUpTemplate } from '../../components/templates/ArrowUpTemplate/ArrowUpTemplate.jsx';
 
 function WinePage({ children }) {
   return (

@@ -1,8 +1,8 @@
 import { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 
-import { isLinkActive } from '../../../helpers/isLinkActive';
-import { mobileMenuContext } from '../../../helpers/mobileMenuProvider';
+import { isLinkActive } from '../../../helpers/isLinkActive.js';
+import { mobileMenuContext } from '../../../helpers/mobileMenuProvider.jsx';
 
 import css from './NavigationListItemAtom.module.css';
 

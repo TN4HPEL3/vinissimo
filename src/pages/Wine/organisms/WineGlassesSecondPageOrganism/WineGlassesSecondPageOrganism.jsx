@@ -2,8 +2,8 @@ import {
   volumeBottle,
   volumeLargeGlass,
   volumeSmallGlass,
-} from '../../../../helpers/wineVolumes';
-import { WineGlassesListOrganism } from '../WinePageListOrganism/WineGlassesListOrganism';
+} from '../../../../helpers/wineVolumes.js';
+import { WineGlassesListOrganism } from '../WinePageListOrganism/WineGlassesListOrganism.jsx';
 
 import menu from '../../../../data/winesGlasses.json';
 

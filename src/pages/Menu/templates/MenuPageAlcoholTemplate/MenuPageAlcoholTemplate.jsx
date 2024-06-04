@@ -1,12 +1,12 @@
 import { useState } from 'react';
 
-import { smoothScrollToTop } from '../../../../helpers/smoothScroll';
-import { MenuPageButtonsOrganism } from '../../organisms/MenuPageButtonsOrganism/MenuPageButtonsOrganism';
-import { MenuPageNumberTextMolecule } from '../../molecules/MenuPageNumberTextMolecule/MenuPageNumberTextMolecule';
-import { MenuAlcoholsFirstPageOrganism } from '../../organisms/MenuAlcoholsFirstPageOrganism/MenuAlcoholsFirstPageOrganism';
-import { MenuPageArrowLeftButtonMolecule } from '../../molecules/MenuPageArrowButtonMolecule/MenuPageArrowLeftButtonMolecule';
-import { MenuAlcoholsSecondPageOrganism } from '../../organisms/MenuAlcoholsSecondPageOrganism/MenuAlcoholsSecondPageOrganism';
-import { MenuPageArrowRightButtonMolecule } from '../../molecules/MenuPageArrowButtonMolecule/MenuPageArrowRightButtonMolecule';
+import { smoothScrollToTop } from '../../../../helpers/smoothScroll.js';
+import { MenuPageButtonsOrganism } from '../../organisms/MenuPageButtonsOrganism/MenuPageButtonsOrganism.jsx';
+import { MenuPageNumberTextMolecule } from '../../molecules/MenuPageNumberTextMolecule/MenuPageNumberTextMolecule.jsx';
+import { MenuAlcoholsFirstPageOrganism } from '../../organisms/MenuAlcoholsFirstPageOrganism/MenuAlcoholsFirstPageOrganism.jsx';
+import { MenuPageArrowLeftButtonMolecule } from '../../molecules/MenuPageArrowButtonMolecule/MenuPageArrowLeftButtonMolecule.jsx';
+import { MenuAlcoholsSecondPageOrganism } from '../../organisms/MenuAlcoholsSecondPageOrganism/MenuAlcoholsSecondPageOrganism.jsx';
+import { MenuPageArrowRightButtonMolecule } from '../../molecules/MenuPageArrowButtonMolecule/MenuPageArrowRightButtonMolecule.jsx';
 
 import css from './MenuPageAlcoholTemplate.module.css';
 

@@ -1,7 +1,7 @@
 import { forwardRef } from 'react';
 
-import { smoothScrollToTop } from '../../../helpers/smoothScroll';
-import { ArrowUpMolecule } from '../../molecules/ArrowUpMolecule/ArrowUpMolecule';
+import { smoothScrollToTop } from '../../../helpers/smoothScroll.js';
+import { ArrowUpMolecule } from '../../molecules/ArrowUpMolecule/ArrowUpMolecule.jsx';
 
 import css from './ArrowUpOrganism.module.css';
 
