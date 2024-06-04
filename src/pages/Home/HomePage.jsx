@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 
-import { mobileMenuContext } from '../../helpers/mobileMenuProvider';
+import { mobileMenuContext } from '../../helpers/mobileMenuProvider.jsx';
 import { MenuTemplate } from '../../components/templates/Menu/MenuTemplate.jsx';
 import { AboutTemplate } from '../../components/templates/About/AboutTemplate.jsx';
 import { RateUsTemplate } from '../../components/templates/RateUs/RateUsTemplate.jsx';
