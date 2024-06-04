@@ -1,6 +1,12 @@
 function ContactLinkAtom({ href, children, className }) {
   return (
-    <a className={className} href={href}>
+    <a
+      target="_blank"
+      without
+      rel="noreferrer"
+      className={className}
+      href={href}
+    >
       {children}
     </a>
   );
