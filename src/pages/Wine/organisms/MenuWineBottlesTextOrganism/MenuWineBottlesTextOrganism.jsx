@@ -19,9 +19,6 @@ function MenuWineBottlesTextOrganism() {
       <ParagraphAtom text="All bottles are 0.75 liter, if not listed otherwise." />
       <ParagraphAtom text="Prices in PLN all taxes included." />
       <ParagraphAtom text="All bottles are also available for takeaway retail." />
-      <br />
-      <MenuTitleAtom title="Team Vinissimo Restaurant & Wine bar" />
-      <MenuTitleAtom title="Head Chef - Łukasz Theus" />
     </ArticleAtom>
   );
 }

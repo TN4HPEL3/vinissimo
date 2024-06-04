@@ -9,7 +9,7 @@ function MenuAlcoholsFirstPageOrganism() {
         <MenuAlcoholsOrganism
           category={'cocktails'}
           data={menu}
-          title={'cocktails'}
+          title={'cocktails 37'}
         />
         <MenuAlcoholsOrganism
           category={'apéritif'}

@@ -1,15 +1,20 @@
+import { forwardRef } from 'react';
+
 import { smoothScrollToTop } from '../../../helpers/smoothScroll.js';
 import { ArrowUpMolecule } from '../../molecules/ArrowUpMolecule/ArrowUpMolecule.jsx';
 
 import css from './ArrowUpOrganism.module.css';
 
-function ArrowUpOrganism() {
-  const handleClick = () => smoothScrollToTop();
+const ArrowUpOrganism = forwardRef((props, ref) => {
   return (
-    <div className={css['button__arrow--up']} onClick={handleClick}>
+    <div
+      ref={ref}
+      className={css['button__arrow--up']}
+      onClick={() => smoothScrollToTop()}
+    >
       <ArrowUpMolecule />
     </div>
   );
-}
+});
 
 export { ArrowUpOrganism };
