@@ -1,7 +1,7 @@
-import { Page404ErrorAtom } from '../atoms/Error/Page404ErrorAtom';
-import { Page404ImageAtom } from '../atoms/Image/Page404ImageAtom';
-import { Page404ButtonAtom } from '../atoms/Button/Page404ButtonAtom';
-import { Page404ContentAtom } from '../atoms/Content/Page404ContentAtom';
+import { Page404ErrorAtom } from '../atoms/Error/Page404ErrorAtom.jsx';
+import { Page404ImageAtom } from '../atoms/Image/Page404ImageAtom.jsx';
+import { Page404ButtonAtom } from '../atoms/Button/Page404ButtonAtom.jsx';
+import { Page404ContentAtom } from '../atoms/Content/Page404ContentAtom.jsx';
 
 import css from './Page404Molecule.module.css';
 
