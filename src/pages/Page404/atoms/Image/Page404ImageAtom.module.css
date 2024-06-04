@@ -3,11 +3,11 @@
   height: auto;
   width: 100%;
 
-  @media screen and (min-width: 768px) {
-    width: 80%;
+  @media screen and (min-width: 32rem) {
+    width: 50%;
   }
 
-  @media screen and (min-width: 1280px) {
-    width: 60%;
+  @media screen and (min-width: 64rem) {
+    width: 30%;
   }
 }
