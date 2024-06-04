@@ -6,7 +6,7 @@ function Page404ImageAtom() {
   return (
     <img
       className={css.page404ImageAtom}
-      src={publicAccess('/BabyD.jpeg')}
+      src={publicAccess('/Rabarbar.jpeg')}
       alt={'Bottle of the wine with glass'}
     ></img>
   );
