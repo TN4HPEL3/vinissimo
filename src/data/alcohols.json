@@ -2,40 +2,31 @@
   "cocktails": [
     {
       "isActive": true,
-      "name": "aperol spritz",
-      "description": "|aperol . prosecco . water . orange|"
+      "name": "aperol spritz"
     },
     {
       "isActive": true,
-      "name": "cardinale",
-      "description": "| the london no.1 . campari . dolin|"
+      "name": "cardinale"
     },
     {
       "isActive": true,
-      "name": "whisky sour",
-      "description": "| highland park 10yo . lemon juice |",
-      "descriptionSecondLine": "|egg white . simple syrup . angostura bitter |"
+      "name": "whisky sour"
     },
     {
       "isActive": true,
-      "name": "espresso martini",
-      "description": "| distil no.9 . simple syrup . espresso . kahlua |"
+      "name": "espresso martini"
     },
     {
       "isActive": true,
-      "name": "pink sour",
-      "description": "|rosolis rose . lemon juice . simple syrup |",
-      "descriptionSecondLine": "|egg white . prosecco|"
+      "name": "pink sour"
     },
     {
       "isActive": true,
-      "name": "gin&tonic",
-      "description": "| the london no.1 . thomas henry tonic . lime|"
+      "name": "gin&tonic"
     },
     {
       "isActive": true,
-      "name": "dark&stormy",
-      "description": "| kraken rum . ginger beer . lime |"
+      "name": "dark&stormy"
     }
   ],
   "apéritif": [
