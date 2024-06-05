@@ -1,4 +1,4 @@
-import { Page404Organism } from '../organisms/Page404Organism';
+import { Page404Organism } from '../organisms/Page404Organism/Page404Organism.jsx';
 
 import css from './Page404Template.module.css';
 
