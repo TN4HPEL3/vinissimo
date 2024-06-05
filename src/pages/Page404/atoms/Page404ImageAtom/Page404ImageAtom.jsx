@@ -1,6 +1,6 @@
-import css from './Page404ImageAtom.module.css';
+import { publicAccess } from '../../../../helpers/publicAccess.js';
 
-const publicAccess = name => process.env.PUBLIC_URL + '/images' + name;
+import css from './Page404ImageAtom.module.css';
 
 function Page404ImageAtom() {
   return (
