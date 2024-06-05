@@ -1,0 +1,30 @@
+.page404Molecule {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.page404Molecule__content {
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+  @media screen and (min-width: 64rem) {
+    font-size: var(--font-size-large);
+    flex: auto;
+  }
+}
+
+.page404Molecule__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 64rem) {
+    flex: none;
+  }
+}
