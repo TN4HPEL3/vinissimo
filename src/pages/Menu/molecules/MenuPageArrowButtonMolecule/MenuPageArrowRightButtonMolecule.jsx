@@ -1,4 +1,4 @@
-import { IconAtom } from '../../../../components/atoms/IconAtom/IconAtom';
+import { IconAtom } from '../../../../components/atoms/IconAtom/IconAtom.jsx';
 
 import css from './MenuPageArrowButtonMolecule.module.css';
 

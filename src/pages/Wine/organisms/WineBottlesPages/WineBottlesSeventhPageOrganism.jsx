@@ -1,5 +1,5 @@
-import { MenuTitleAtom } from '../../../../components/atoms/MenuTitleAtom/MenuTitleAtom';
-import { WineGlassesListOrganism } from '../WinePageListOrganism/WineGlassesListOrganism';
+import { MenuTitleAtom } from '../../../../components/atoms/MenuTitleAtom/MenuTitleAtom.jsx';
+import { WineGlassesListOrganism } from '../WinePageListOrganism/WineGlassesListOrganism.jsx';
 
 import menu from '../../../../data/wineBottles.json';
 

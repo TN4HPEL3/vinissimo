@@ -1,5 +1,5 @@
-import { MenuListOrganism } from '../../../../components/organisms/MenuListOrganism/MenuListOrganism';
-import { MenuPageButtonsOrganism } from '../../organisms/MenuPageButtonsOrganism/MenuPageButtonsOrganism';
+import { MenuListOrganism } from '../../../../components/organisms/MenuListOrganism/MenuListOrganism.jsx';
+import { MenuPageButtonsOrganism } from '../../organisms/MenuPageButtonsOrganism/MenuPageButtonsOrganism.jsx';
 
 import menu from '../../../../data/menu.json';
 

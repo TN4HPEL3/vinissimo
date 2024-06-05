@@ -1,4 +1,4 @@
-import { HashLinkAtom } from '../../atoms/HashLinkAtom/HashLinkAtom';
+import { HashLinkAtom } from '../../atoms/HashLinkAtom/HashLinkAtom.jsx';
 
 function HashLinkMolecule({ item, text }) {
   return (

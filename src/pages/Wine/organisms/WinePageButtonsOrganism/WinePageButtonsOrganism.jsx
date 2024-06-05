@@ -1,4 +1,4 @@
-import { MenuPageButtonMolecule } from '../../../Menu/molecules/MenuPageButtonsMolecule/MenuPageButtonMolecule';
+import { MenuPageButtonMolecule } from '../../../Menu/molecules/MenuPageButtonsMolecule/MenuPageButtonMolecule.jsx';
 
 import css from '../../../Menu/organisms/MenuPageButtonsOrganism/MenuPageButtonsOrganism.module.css';
 

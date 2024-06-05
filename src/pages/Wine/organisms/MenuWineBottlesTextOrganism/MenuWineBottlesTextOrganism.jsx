@@ -1,5 +1,5 @@
 import { ArticleAtom } from '../../../../components/atoms/ArticleAtom/ArticleAtom.jsx';
-import { MenuTitleAtom } from '../../../../components/atoms/MenuTitleAtom/MenuTitleAtom';
+import { MenuTitleAtom } from '../../../../components/atoms/MenuTitleAtom/MenuTitleAtom.jsx';
 import { ParagraphAtom } from '../../../../components/atoms/ParagraphAtom/ParagraphAtom.jsx';
 
 function MenuWineBottlesTextOrganism() {
@@ -19,9 +19,6 @@ function MenuWineBottlesTextOrganism() {
       <ParagraphAtom text="All bottles are 0.75 liter, if not listed otherwise." />
       <ParagraphAtom text="Prices in PLN all taxes included." />
       <ParagraphAtom text="All bottles are also available for takeaway retail." />
-      <br />
-      <MenuTitleAtom title="Team Vinissimo Restaurant & Wine bar" />
-      <MenuTitleAtom title="Head Chef - Łukasz Theus" />
     </ArticleAtom>
   );
 }

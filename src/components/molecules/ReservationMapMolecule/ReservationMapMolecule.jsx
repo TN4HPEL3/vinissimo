@@ -1,5 +1,5 @@
-import { CheckMediaQuery } from '../../../helpers/checkMediaQuery';
-import { ReservationMapAtom } from '../../atoms/Reservation/ReservationMapAtom/ReservationMapAtom';
+import { CheckMediaQuery } from '../../../helpers/checkMediaQuery.js';
+import { ReservationMapAtom } from '../../atoms/Reservation/ReservationMapAtom/ReservationMapAtom.jsx';
 
 import css from './ReservationMapMolecule.module.css';
 

@@ -1,7 +1,7 @@
 import { nanoid } from 'nanoid';
 
-import { MenuTitleAtom } from '../../atoms/MenuTitleAtom/MenuTitleAtom';
-import { MenuTextMolecule } from '../../molecules/MenuTextMolecule/MenuTextMolecule';
+import { MenuTitleAtom } from '../../atoms/MenuTitleAtom/MenuTitleAtom.jsx';
+import { MenuTextMolecule } from '../../molecules/MenuTextMolecule/MenuTextMolecule.jsx';
 
 import css from './MenuListOrganism.module.css';
 

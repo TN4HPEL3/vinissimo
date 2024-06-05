@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 
-import { HomePage } from './pages/Home/HomePage';
+import { HomePage } from './pages/Home/HomePage.jsx';
 import { MenuPage } from './pages/Menu/MenuPage.jsx';
 import { WinePage } from './pages/Wine/WinePage.jsx';
 import { Page404 } from './pages/Page404/Page404';
