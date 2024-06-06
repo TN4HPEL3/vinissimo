@@ -11,11 +11,27 @@ function NavigationListOrganisms() {
     <div className={css.header__content}>
       <NavigationLogoMolecule />
       <nav className={css.header__navigation}>
-        <NavigationListItemMolecule item="" text="home" />
-        <NavigationListItemMolecule item="menu/food" text="menu" />
-        <NavigationListItemMolecule item="wine/glasses" text="wino" />
-        <NavigationListItemMolecule item="events" text="eventy" />
-        <NavigationListItemMolecule item="team" text="team" />
+        <NavigationListItemMolecule item="" text="home" activeRoutes={['/']} />
+        <NavigationListItemMolecule
+          item="menu/food"
+          text="menu"
+          activeRoutes={['/menu/food', '/menu/alcohol']}
+        />
+        <NavigationListItemMolecule
+          item="wine/glasses"
+          text="wino"
+          activeRoutes={['/wine/glasses', '/wine/bottles']}
+        />
+        <NavigationListItemMolecule
+          item="events"
+          text="eventy"
+          activeRoutes={['/events']}
+        />
+        <NavigationListItemMolecule
+          item="team"
+          text="team"
+          activeRoutes={['/team']}
+        />
         <HashLinkMolecule item="/#reservation" text="rezerwacja" />
       </nav>
       <OpenMobileMenuButtonAtom />
