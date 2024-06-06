@@ -19,12 +19,3 @@
     flex: auto;
   }
 }
-
-.page404Molecule__image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  @media screen and (min-width: 64rem) {
-    flex: none;
-  }
-}

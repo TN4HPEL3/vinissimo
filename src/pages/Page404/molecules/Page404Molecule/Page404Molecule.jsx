@@ -10,7 +10,6 @@ function Page404Molecule() {
       <div className={css.page404Molecule__content}>
         <Page404ErrorAtom />
         <Page404ContentAtom />
-        <div className={css.page404Molecule__image}></div>
       </div>
       <Page404ButtonMolecule />
     </div>
