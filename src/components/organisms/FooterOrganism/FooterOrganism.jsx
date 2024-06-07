@@ -3,7 +3,6 @@ import {
   nameTextPL,
   openingHoursSundayTextPL,
   openingHoursTextPL,
-  privacyPolicyTextPL,
 } from '../../../helpers/findTextByLanguage.js';
 import { CheckMediaQuery } from '../../../helpers/checkMediaQuery.js';
 import { FooterHoursMolecule } from '../../molecules/FooterHoursMolecule/FooterHoursMolecule.jsx';
@@ -26,7 +25,7 @@ function FooterOrganism() {
           textOpeningHours={openingHoursTextPL}
           textOpeningHoursSunday={openingHoursSundayTextPL}
         />
-        <FooterLinksMolecule text={privacyPolicyTextPL} />
+        <FooterLinksMolecule />
         {screen === 'desktop' && <FooterIconsMolecule />}
       </div>
       {screen !== 'desktop' && <FooterIconsMolecule />}
