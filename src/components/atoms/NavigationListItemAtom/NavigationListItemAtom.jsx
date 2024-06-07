@@ -4,6 +4,7 @@ import { NavLink, useLocation } from 'react-router-dom';
 import { mobileMenuContext } from '../../../helpers/mobileMenuProvider.jsx';
 
 import css from './NavigationListItemAtom.module.css';
+import { smoothScrollToTop } from '../../../helpers/smoothScroll.js';
 
 function NavigationListItemAtom({ element, text, activeRoutes }) {
   const { close } = useContext(mobileMenuContext);
@@ -11,7 +12,11 @@ function NavigationListItemAtom({ element, text, activeRoutes }) {
   const isActive = activeRoutes.includes(location.pathname);
   return (
     <NavLink
-      onClick={close}
+      onClick={() => {
+        smoothScrollToTop();
+        close();
+        return;
+      }}
       className={isActive ? [css['link--active']] : [css['link']]}
       to={element}
     >
