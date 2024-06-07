@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import { smoothScrollToTop } from '../../../../helpers/smoothScroll.js';
+import { checkArrowDownButton } from '../../../../helpers/checkArrowDownButton.js';
 import { WinePageButtonsOrganism } from '../../organisms/WinePageButtonsOrganism/WinePageButtonsOrganism.jsx';
 import { WineBottlesFirstPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesFirstPageOrganism.jsx';
 import { WineBottlesThirdPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesThirdPageOrganism.jsx';
@@ -38,6 +39,14 @@ function WineBottlesTemplate() {
     setPageNumber(pageNumber + 1);
     setCategory(null);
   };
+
+  checkArrowDownButton({
+    goToPreviousPage,
+    goToNextPage,
+    numberOfPages,
+    pageNumber,
+  });
+
   const handleClick = e => {
     const id = e.target.id;
     setCategory(id);
