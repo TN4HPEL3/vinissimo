@@ -1,12 +1,13 @@
 import { hrefEmail, hrefPhoneNumber } from '../../../helpers/findLink.js';
-import { ParagraphAtom } from '../../atoms/ParagraphAtom/ParagraphAtom.jsx';
+import { privacyPolicyTextPL } from '../../../helpers/findTextByLanguage.js';
 import { ContactLinkAtom } from '../../atoms/ContactLinkAtom/ContactLinkAtom.jsx';
+import { FooterDownloadLinkAtom } from '../../atoms/FooterDownloadLinkAtom/FooterDownloadLinkAtom.jsx';
 
 import JSON from '../../../data/contactLinks.json';
 
 import css from './FooterLinksMolecule.module.css';
 
-function FooterLinksMolecule({ text }) {
+function FooterLinksMolecule() {
   const { links } = JSON;
   const linkPhone = links.find(link => link.id === 'phone');
   const linkEmail = links.find(link => link.id === 'mail');
@@ -16,7 +17,12 @@ function FooterLinksMolecule({ text }) {
     <div className={css['footer__links__phone']}>
       <ContactLinkAtom children={phoneNumber} href={hrefPhoneNumber} />
       <ContactLinkAtom children={email} href={hrefEmail} />
-      <ParagraphAtom text={text} />
+      <FooterDownloadLinkAtom
+        href="/privacyPolicy.pdf"
+        textOnDownload="Polityka prywatności"
+      >
+        {privacyPolicyTextPL}
+      </FooterDownloadLinkAtom>
     </div>
   );
 }
