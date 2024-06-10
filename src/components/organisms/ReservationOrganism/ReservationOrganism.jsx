@@ -12,13 +12,9 @@ function ReservationOrganism() {
       <ReservationMapMolecule />
       <div className={css.reservation__content}>
         <ReservationTextMolecule />
-        <ButtonAtom
-          text={
-            <ContactLinkAtom
-              href={hrefReservation}
-              children="zarezerwuj stolik"
-            />
-          }
+        <ContactLinkAtom
+          href={hrefReservation}
+          children={<ButtonAtom text="zarezerwuj stolik" />}
         />
       </div>
     </div>
