@@ -37,4 +37,6 @@
   --bp-mobile: 30rem;
   --bp-tablet: 48rem;
   --bp-desktop: 80rem;
+
+  --transition: 0.6s linear;
 }
