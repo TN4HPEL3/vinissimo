@@ -56,7 +56,7 @@ function WineGlassesTemplate() {
       </div>
       <DownloadMenuAtom
         href="/WinesGlasses.pdf"
-        textButton="Pobierz menu"
+        textButton="Pobierz kartę win na kieliszki"
         textOnDownload={'Wines glasses'}
       />
     </div>

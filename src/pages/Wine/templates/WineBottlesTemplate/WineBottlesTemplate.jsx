@@ -145,7 +145,7 @@ function WineBottlesTemplate() {
       </div>
       <DownloadMenuAtom
         href="/WinesBottles.pdf"
-        textButton="Pobierz menu"
+        textButton="Pobierz kartę win na butelki"
         textOnDownload={'Wines bottles'}
       />
     </div>
