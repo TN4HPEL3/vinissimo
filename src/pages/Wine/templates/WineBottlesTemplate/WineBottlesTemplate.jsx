@@ -73,7 +73,11 @@ function WineBottlesTemplate() {
   return (
     <div className={css.menu__wine}>
       <WinePageButtonsOrganism />
-      <WinePageCategoriesButtonsMolecule handleClick={handleClick} />
+      <WinePageCategoriesButtonsMolecule
+        handleClick={handleClick}
+        category={category}
+        pageNumber={pageNumber}
+      />
       <MenuPageNumberTextMolecule
         pageNumber={pageNumber}
         numberOfPages={numberOfPages}
