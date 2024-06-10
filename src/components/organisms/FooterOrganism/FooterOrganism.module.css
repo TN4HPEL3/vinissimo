@@ -5,7 +5,7 @@
   gap: 1.5rem;
   & > div > a {
     color: var(--text-color);
-    transition: color linear 0.6s;
+    transition: color var(--transition);
     &:hover {
       color: var(--website-secondary-color-hover);
     }

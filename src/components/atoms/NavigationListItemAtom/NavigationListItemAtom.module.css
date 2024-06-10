@@ -1,7 +1,7 @@
 .link {
   position: relative;
   color: var(--website-secondary-color);
-  transition: color linear 0.6s;
+  transition: color var(--transition);
 
   &::after {
     content: '';
@@ -14,7 +14,7 @@
     left: 0;
     background-color: var(--website-secondary-color-hover);
     transform-origin: bottom right;
-    transition: transform linear 0.6s;
+    transition: transform var(--transition);
   }
   &:hover {
     color: var(--website-secondary-color-hover);
@@ -28,7 +28,7 @@
 .link--active {
   position: relative;
   color: var(--website-secondary-color-hover);
-  transition: color linear 0.6s;
+  transition: color var(--transition);
 
   &::after {
     content: '';
