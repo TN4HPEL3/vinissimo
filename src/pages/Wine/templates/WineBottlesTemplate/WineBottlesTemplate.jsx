@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+import { DownloadMenuAtom } from '../../atoms/DownloadMenuAtom.jsx';
 import { smoothScrollToTop } from '../../../../helpers/smoothScroll.js';
 import { checkArrowDownButton } from '../../../../helpers/checkArrowDownButton.js';
 import { WinePageButtonsOrganism } from '../../organisms/WinePageButtonsOrganism/WinePageButtonsOrganism.jsx';
@@ -155,6 +156,11 @@ function WineBottlesTemplate() {
           <MenuPageArrowRightButtonMolecule onClick={goToNextPage} />
         )}
       </div>
+      <DownloadMenuAtom
+        href="/WinesBottles.pdf"
+        textButton="Pobierz kartę win na butelki"
+        textOnDownload={'Wines bottles'}
+      />
     </div>
   );
 }

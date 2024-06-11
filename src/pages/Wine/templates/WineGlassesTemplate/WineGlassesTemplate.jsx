@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+import { DownloadMenuAtom } from '../../atoms/DownloadMenuAtom.jsx';
 import { smoothScrollToTop } from '../../../../helpers/smoothScroll.js';
 import { WinePageButtonsOrganism } from '../../organisms/WinePageButtonsOrganism/WinePageButtonsOrganism.jsx';
 import { WineGlassesFirstPageOrganism } from '../../organisms/WineGlassesFirstPageOrganism/WineGlassesFirstPageOrganism.jsx';
@@ -59,6 +60,11 @@ function WineGlassesTemplate() {
           <MenuPageArrowRightButtonMolecule onClick={goToNextPage} />
         )}
       </div>
+      <DownloadMenuAtom
+        href="/WinesGlasses.pdf"
+        textButton="Pobierz kartę win na kieliszki"
+        textOnDownload={'Wines glasses'}
+      />
     </div>
   );
 }
