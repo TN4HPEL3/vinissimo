@@ -10,6 +10,7 @@ import { MenuPageArrowLeftButtonMolecule } from '../../../Menu/molecules/MenuPag
 import { MenuPageArrowRightButtonMolecule } from '../../../Menu/molecules/MenuPageArrowButtonMolecule/MenuPageArrowRightButtonMolecule.jsx';
 
 import css from './WineGlassesTemplate.module.css';
+import { checkArrowDownButton } from '../../../../helpers/checkArrowDownButton.js';
 
 function WineGlassesTemplate() {
   smoothScrollToTop();
@@ -21,7 +22,12 @@ function WineGlassesTemplate() {
   const goToNextPage = () => {
     setPageNumber(pageNumber + 1);
   };
-
+  checkArrowDownButton({
+    goToPreviousPage,
+    goToNextPage,
+    numberOfPages,
+    pageNumber,
+  });
   return (
     <div className={css.menu__wine}>
       <WinePageButtonsOrganism />

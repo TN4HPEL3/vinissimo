@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import { smoothScrollToTop } from '../../../../helpers/smoothScroll.js';
+import { checkArrowDownButton } from '../../../../helpers/checkArrowDownButton.js';
 import { MenuPageButtonsOrganism } from '../../organisms/MenuPageButtonsOrganism/MenuPageButtonsOrganism.jsx';
 import { MenuPageNumberTextMolecule } from '../../molecules/MenuPageNumberTextMolecule/MenuPageNumberTextMolecule.jsx';
 import { MenuAlcoholsFirstPageOrganism } from '../../organisms/MenuAlcoholsFirstPageOrganism/MenuAlcoholsFirstPageOrganism.jsx';
@@ -20,7 +21,12 @@ function MenuPageAlcoholTemplate() {
   const goToNextPage = () => {
     setPageNumber(pageNumber + 1);
   };
-
+  checkArrowDownButton({
+    goToPreviousPage,
+    goToNextPage,
+    numberOfPages,
+    pageNumber,
+  });
   return (
     <div className={css.menu}>
       <MenuPageButtonsOrganism />
