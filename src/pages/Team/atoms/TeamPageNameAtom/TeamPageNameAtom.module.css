@@ -1,0 +1,5 @@
+.team__content__name {
+  font-weight: var(--font-weight-bold);
+  display: block;
+  padding-bottom: 0.56rem;
+}
