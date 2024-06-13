@@ -1,0 +1,4 @@
+.team__content__title {
+  font-size: var(--font-size-large);
+  color: var(--website-secondary-color);
+}
