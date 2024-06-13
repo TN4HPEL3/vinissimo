@@ -1,0 +1,8 @@
+.reservation__content__text__email {
+  display: block;
+  color: var(--text-color);
+  transition: color var(--transition);
+  &:hover {
+    color: var(--website-secondary-color-hover);
+  }
+}

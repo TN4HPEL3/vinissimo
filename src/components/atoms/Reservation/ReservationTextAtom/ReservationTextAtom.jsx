@@ -1,13 +1,21 @@
+import { hrefEmail } from '../../../../helpers/findLink.js';
+import { ContactLinkAtom } from '../../ContactLinkAtom/ContactLinkAtom.jsx';
+
+import css from './ReservationTextAtom.module.css';
+
 function ReservationTextAtom() {
   return (
     <>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac
-      gravida quam. Proin et tellus elit. Curabitur at justo volutpat, convallis
-      ipsum a, tincidunt nulla. Ut dictum sodales nibh eu luctus. Mauris vitae
-      enim convallis mi laoreet interdum. Fusce non libero bibendum, sodales
-      tortor vel, dictum erat. Maecenas imperdiet, turpis a aliquam varius, mi
-      dolor fermentum ante, sed dapibus tellus est sit amet enim. Maecenas vel
-      erat sem. Ut hendrerit rhoncus elit ut consectetur.
+      Rezerwacji indywidualnej (do 12 osób), możecie dokonać poprzez poniższy
+      link, każdorazowo, jako potwierdzenie otrzymacie sms ze szczegółami
+      rezerwacji. Przy większych rezerwacjach i zapytaniach o uroczystości
+      zorganizowane lub cateringi, zapraszamy do kontaktu mailowego:
+      <ContactLinkAtom
+        href={hrefEmail}
+        className={[css['reservation__content__text__email']]}
+      >
+        booking@vinissimorestaurant.pl
+      </ContactLinkAtom>
     </>
   );
 }
