@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import { HomePage } from './pages/Home/HomePage.jsx';
 import { MenuPage } from './pages/Menu/MenuPage.jsx';
 import { WinePage } from './pages/Wine/WinePage.jsx';
+import { TeamPage } from './pages/Team/TeamPage.jsx';
 import { Page404 } from './pages/Page404/Page404';
 import { SharedLayout } from './components/templates/SharedLayout/SharedLayout.jsx';
 import { WineGlassesTemplate } from './pages/Wine/templates/WineGlassesTemplate/WineGlassesTemplate.jsx';
@@ -31,6 +32,7 @@ function App() {
           path="/menu/alcohol"
           element={<MenuPage children={<MenuPageAlcoholTemplate />} />}
         />
+        <Route path="/team" element={<TeamPage />} />
       </Route>
       <Route path="*" element={<Page404 />} />
     </Routes>
