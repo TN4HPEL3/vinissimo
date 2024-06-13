@@ -9,7 +9,7 @@ import { ArrowUpTemplate } from '../../components/templates/ArrowUpTemplate/Arro
 import { ReservationTemplate } from '../../components/templates/Reservation/ReservationTemplate.jsx';
 
 function HomePage() {
-  const { close } = useContext(mobileMenuContext);
+  const { isOpen } = useContext(mobileMenuContext);
   return (
     <>
       <HeroTemplate />
@@ -17,7 +17,7 @@ function HomePage() {
       <MenuTemplate />
       <RateUsTemplate />
       <ReservationTemplate />
-      {close && <ArrowUpTemplate />}
+      {!isOpen && <ArrowUpTemplate />}
     </>
   );
 }
