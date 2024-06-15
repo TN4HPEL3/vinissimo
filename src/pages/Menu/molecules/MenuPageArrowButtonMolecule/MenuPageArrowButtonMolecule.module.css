@@ -1,0 +1,18 @@
+.menu__button__arrow--left,
+.menu__button__arrow--right {
+  background-color: transparent;
+  border: none;
+  & > svg {
+    width: 3.75rem;
+    height: 3.75rem;
+    fill: var(--website-secondary-color);
+    transition: fill var(--transition);
+    &:hover {
+      fill: var(--website-secondary-color-hover);
+    }
+  }
+}
+
+.menu__button__arrow--left {
+  transform: scaleX(-1);
+}

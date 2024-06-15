@@ -1,0 +1,177 @@
+{
+  "starters": [
+    {
+      "isActive": true,
+      "firstLineName": "ostryga Gauloise N°2 . leche di tigre",
+      "price": 27
+    },
+    {
+      "isActive": true,
+      "firstLineName": "ostryga Ostra Regal N°2 . leche di tigre",
+      "price": 34
+    },
+    {
+      "isActive": true,
+      "firstLineName": "chleb na zakwasie własnego wypieku",
+      "secondLineName": "masło cebulowe . pikle",
+      "price": 18
+    },
+    {
+      "isActive": true,
+      "firstLineName": "oliwki Gordal & Leccino",
+      "secondLineName": "kandyzowana cytryna",
+      "price": 26
+    },
+    {
+      "isActive": true,
+      "firstLineName": "bakłażan . jogurt grecki . pistacje",
+      "secondLineName": "koper włoski . dressing truflowo-pomidorowy",
+      "price": 45
+    },
+    {
+      "isActive": true,
+      "firstLineName": "grillowane krewetki . marakuja",
+      "secondLineName": "habanero . pomarańcza",
+      "price": 54
+    },
+    {
+      "isActive": true,
+      "firstLineName": "tatar wołowy . czosnek niedźwiedzi",
+      "secondLineName": "rzodkiewka . chrzan",
+      "price": 55
+    },
+    {
+      "isActive": true,
+      "firstLineName": "sałatka grecka . pomidory . brzoskwinie",
+      "secondLineName": "oliwki . Feta . bazylia tajska . syrop różany",
+      "price": 39
+    },
+    {
+      "isActive": true,
+      "firstLineName": "krokiety z kurczaka . sałata rzymska",
+      "secondLineName": "majonez szafranowy . ogórek małosolny . sardele Boquerones",
+      "price": 43
+    },
+    {
+      "isActive": true,
+      "firstLineName": "grillowane szparagi . sos Béarnaise",
+      "secondLineName": "wędzone migdały",
+      "price": 48
+    },
+    {
+      "isActive": true,
+      "firstLineName": "gravlax z łososia szkockiego . ponzu",
+      "secondLineName": "kolendra . kapary . ogórek . czerwona cebula",
+      "price": 49
+    },
+    {
+      "isActive": true,
+      "firstLineName": "kofty wołowo – jagnięce . jogurt",
+      "secondLineName": "sos sweet chilli . papryczki padron . mięta",
+      "price": 47
+    },
+    {
+      "isActive": true,
+      "firstLineName": "kawior Antonius Siberian **** (30g)",
+      "secondLineName": "śmietana . brioche",
+      "price": 359
+    }
+  ],
+  "soups": [
+    {
+      "isActive": true,
+      "firstLineName": "pomidorowa . szpecle serowe . lubczyk",
+      "secondLineName": "wywar z ogonów wołowych",
+      "price": 38
+    }
+  ],
+  "mains": [
+    {
+      "isActive": true,
+      "firstLineName": "fish & chips z dorsza . ogórki kimchi",
+      "secondLineName": "frytki . majonez tzatziki z estragonem",
+      "price": 72
+    },
+    {
+      "isActive": true,
+      "firstLineName": "grillowany schab z wieprzowiny jabłkowej",
+      "secondLineName": "młoda kapusta . sos miso . chorizo",
+      "thirdLineName": "kiszony czosnek niedźwiedzi",
+      "price": 79
+    },
+    {
+      "isActive": true,
+      "firstLineName": "kulbin . białe szparagi . ikra",
+      "secondLineName": "Beurre Blanc . kombu . nori",
+      "price": 99
+    },
+    {
+      "isActive": true,
+      "firstLineName": "jagnięcina . szpinak . sos z Foie Gras",
+      "secondLineName": "porzeczki . czarne kurki",
+      "price": 137
+    },
+    {
+      "isActive": true,
+      "firstLineName": "kluski z ricotty . Pecorino Romano",
+      "secondLineName": "pesto z czosnku niedźwiedziego . kiszona cytryna . orzechy włoskie",
+      "price": 66
+    },
+    {
+      "isActive": true,
+      "firstLineName": "sezonowany antrykot (300g)",
+      "secondLineName": "sos musztardowy",
+      "price": 166
+    }
+  ],
+  "sides": [
+    {
+      "isActive": true,
+      "firstLineName": "frytki z aioli",
+      "price": 19
+    },
+    {
+      "isActive": true,
+      "firstLineName": "klasyczne kimchi",
+      "price": 17
+    },
+    {
+      "isActive": true,
+      "firstLineName": "młode ziemniaki . kwaśna śmietana",
+      "secondLineName": "szczaw",
+      "price": 17
+    },
+    {
+      "isActive": true,
+      "firstLineName": "sałaty . dressing balsamiczny",
+      "price": 17
+    },
+    {
+      "isActive": true,
+      "firstLineName": "fasolka szparagowa . panko",
+      "price": 24
+    }
+  ],
+  "desserts": [
+    {
+      "isActive": true,
+      "firstLineName": "truskawki . biszkopt . krem mleczny",
+      "secondLineName": "lody szczawiowe . czarny bez",
+      "price": 36
+    },
+    {
+      "isActive": true,
+      "firstLineName": "torcik czekoladowy . sól Maldon",
+      "secondLineName": "wiśnie . ganache jogurtowy",
+      "price": 36
+    }
+  ],
+  "cheeses": [
+    {
+      "isActive": true,
+      "firstLineName": "Bursztyn (24msc) . Brie . Stilton",
+      "secondLineName": "chutney z rabarbaru . krakersy gryczane",
+      "price": 59
+    }
+  ]
+}

@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
 
 import { App } from './App.jsx';
+import { MobileMenuProvider } from './helpers/mobileMenuProvider.jsx';
 
 import './index.css';
 import './style/variables.css';
@@ -10,7 +12,11 @@ import './style/variables.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <MobileMenuProvider>
+        <App />
+      </MobileMenuProvider>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

@@ -1,0 +1,20 @@
+.button__arrow--up {
+  position: fixed;
+  z-index: 10;
+  bottom: 1.25rem;
+  right: 1rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: transparent;
+  border-radius: 30px;
+  &:hover {
+    cursor: pointer;
+  }
+  @media screen and (min-width: 32rem) {
+    right: 1.9rem;
+  }
+  @media screen and (min-width: 64rem) {
+    bottom: 5%;
+    right: 10%;
+  }
+}

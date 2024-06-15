@@ -1,0 +1,13 @@
+.menu-wine__download-button {
+  background-color: transparent;
+  border: 2px solid var(--website-secondary-color);
+  padding: 0.5rem;
+  color: var(--text-color);
+  transition: border-color linear 0.6s;
+  &:hover {
+    border-color: var(--website-secondary-color-hover);
+  }
+  @media screen and (min-width: 32rem) {
+    font-size: var(--font-size-medium);
+  }
+}

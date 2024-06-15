@@ -1,0 +1,23 @@
+.footer__links {
+  font-size: var(--font-size-small);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  & > div > a {
+    color: var(--text-color);
+    transition: color var(--transition);
+    &:hover {
+      color: var(--website-secondary-color-hover);
+    }
+  }
+
+  @media screen and (min-width: 23rem) {
+    font-size: var(--font-size-medium);
+  }
+  @media screen and (min-width: 64rem) {
+    justify-content: center;
+    gap: var(--gap--small);
+    flex-direction: row;
+    align-items: center;
+  }
+}

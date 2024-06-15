@@ -1,0 +1,35 @@
+.footer {
+  position: relative;
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  padding: 0 0 2.43rem 0;
+  align-items: center;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -49.58vw;
+  margin-right: -49.58vw;
+  @media screen and (min-width: 23rem) {
+    font-size: var(--font-size-medium);
+    justify-content: space-around;
+  }
+  @media screen and (min-width: 64rem) {
+    width: 99vw;
+  }
+}
+
+.footer::after {
+  content: '';
+  position: absolute;
+  bottom: 120%;
+  width: 100vw;
+  height: 0.125rem;
+  background-color: var(--website-secondary-color);
+}
+
+@media screen and (min-width: 64rem) {
+  .footer::after {
+    width: 99vw;
+  }
+}

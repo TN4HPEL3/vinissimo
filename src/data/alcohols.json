@@ -1,0 +1,245 @@
+{
+  "cocktails": [
+    {
+      "isActive": true,
+      "name": "aperol spritz"
+    },
+    {
+      "isActive": true,
+      "name": "cardinale"
+    },
+    {
+      "isActive": true,
+      "name": "whisky sour"
+    },
+    {
+      "isActive": true,
+      "name": "espresso martini"
+    },
+    {
+      "isActive": true,
+      "name": "pink sour"
+    },
+    {
+      "isActive": true,
+      "name": "gin&tonic"
+    },
+    {
+      "isActive": true,
+      "name": "dark&stormy"
+    }
+  ],
+  "apéritif": [
+    {
+      "isActive": true,
+      "name": "campari 4cl . 18"
+    },
+    {
+      "isActive": true,
+      "name": "aperol 4cl . 15"
+    },
+    {
+      "isActive": true,
+      "name": "barsol pisco 4cl . 25"
+    }
+  ],
+  "vodka": [
+    {
+      "isActive": true,
+      "name": "rosolis rose | herbal 4cl . 15"
+    },
+    {
+      "isActive": true,
+      "name": "czarna olcha żyto | ziemniak 4cl . 16"
+    },
+    {
+      "isActive": true,
+      "name": "distil no.9 4cl . 15"
+    },
+    {
+      "isActive": true,
+      "name": "baczewski suweren 4cl . 22"
+    }
+  ],
+  "highlandPark": [
+    {
+      "isActive": true,
+      "name": "10yo . 4cl . 35"
+    },
+    {
+      "isActive": true,
+      "name": "12yo . 4cl . 39"
+    },
+    {
+      "isActive": true,
+      "name": "15yo . 4cl . 79"
+    },
+    {
+      "isActive": true,
+      "name": "cask strength 4cl . 49"
+    },
+    {
+      "isActive": true,
+      "name": "highland park tasting set",
+      "descriptionSecondLine": "10yo . 12yo . 15yo",
+      "descriptionThirdLine": "3 x 2cl . 69"
+    }
+  ],
+  "whisky": [
+    {
+      "isActive": true,
+      "name": "bushmills black bush 4cl . 23"
+    },
+    {
+      "isActive": true,
+      "name": "bushmills irish single malt 10yo 4cl . 29"
+    },
+    {
+      "isActive": true,
+      "name": "elijah craig kentucky bourbon 4cl . 31"
+    },
+    {
+      "isActive": true,
+      "name": "the macallan single malt 12yo 4cl . 59"
+    },
+    {
+      "isActive": true,
+      "name": "naked malt 4cl . 25"
+    },
+    {
+      "isActive": true,
+      "name": "sexton irish single malt 4cl . 25"
+    },
+    {
+      "isActive": true,
+      "name": "famous grouse smoky black 4cl . 19"
+    },
+    {
+      "isActive": true,
+      "name": "port askagi islay single malt 4cl . 49"
+    }
+  ],
+  "rum": [
+    {
+      "isActive": true,
+      "name": "kraken caribbean black spiced 4cl . 23"
+    },
+    {
+      "isActive": true,
+      "name": "brugal dominican blanco especial 4cl . 18"
+    },
+    {
+      "isActive": true,
+      "name": "brugal dominican anejo superior 4cl . 18"
+    },
+    {
+      "isActive": true,
+      "name": "brugal 1888 dominican gran reserva 4cl . 42"
+    },
+    {
+      "isActive": true,
+      "name": "plantation overproof o. f. t. d. 4cl . 29"
+    },
+    {
+      "isActive": true,
+      "name": "don papa 4cl . 39"
+    }
+  ],
+  "tequila": [
+    {
+      "isActive": true,
+      "name": "jose cuervo reposado 4cl . 19"
+    },
+    {
+      "isActive": true,
+      "name": "jose cuervo silver 4cl . 19"
+    },
+    {
+      "isActive": true,
+      "name": "los arango anejo 4cl . 35"
+    }
+  ],
+  "gin": [
+    {
+      "isActive": true,
+      "name": "the london no. 1 original blue gin 4cl . 29"
+    },
+    {
+      "isActive": true,
+      "name": "london dry gin no. 3 4cl . 35"
+    }
+  ],
+  "cognac": [
+    {
+      "isActive": true,
+      "name": "rémy martin 1738 accord royal 4cl . 55"
+    },
+    {
+      "isActive": true,
+      "name": "metaxa private reserve 30yo 4cl . 55"
+    },
+    {
+      "isActive": true,
+      "name": "château du breuil calvados 4cl . 69",
+      "description": "reserve des seigneurs X.O."
+    },
+    {
+      "isActive": true,
+      "name": "armagnac castarède X.O. 4ck . 69"
+    },
+    {
+      "isActive": true,
+      "name": "lepanto PX brandy de jerez 4cl . 35"
+    }
+  ],
+  "vermouth": [
+    {
+      "isActive": true,
+      "name": "dolin blanc 10cl . 25"
+    },
+    {
+      "isActive": true,
+      "name": "carlo alberto rouge 10cl . 35"
+    },
+    {
+      "isActive": true,
+      "name": "1757 vermouth di torino extra dry 10cl . 39"
+    }
+  ],
+  "digestif": [
+    {
+      "isActive": true,
+      "name": "jägermeister 4cl . 17"
+    },
+    {
+      "isActive": true,
+      "name": "unicum riserva 4cl . 39"
+    },
+    {
+      "isActive": true,
+      "name": "sessantanni 60 grappa di primitivo 4cl . 39"
+    },
+    {
+      "isActive": true,
+      "name": "chartreuse verte green 4cl . 39"
+    },
+    {
+      "isActive": true,
+      "name": "fernet branca 4cl . 22"
+    },
+    {
+      "isActive": true,
+      "name": "fernet branca menta 4cl . 22"
+    }
+  ],
+  "liqueurs": [
+    {
+      "isActive": true,
+      "name": "bottega limoncino 4cl . 17"
+    },
+    {
+      "isActive": true,
+      "name": "kahlúa 4cl . 19"
+    }
+  ]
+}

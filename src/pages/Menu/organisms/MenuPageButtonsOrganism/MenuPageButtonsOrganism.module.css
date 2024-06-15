@@ -1,0 +1,12 @@
+.menu__buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: var(--gap--large);
+  max-width: 50rem;
+  flex-direction: column;
+  gap: var(--gap--small);
+  align-items: center;
+  @media screen and (min-width: 26rem) {
+    flex-direction: row;
+  }
+}
