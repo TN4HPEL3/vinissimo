@@ -14,7 +14,8 @@
   background-color: var(--website-main-color);
   z-index: 4;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 6rem;
   font-size: var(--font-size-buttons-desktop);
 }
 
