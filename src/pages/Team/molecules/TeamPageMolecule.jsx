@@ -73,12 +73,7 @@ function TeamPageMolecule() {
       <ParagraphAtom
         text={
           <>
-            <TeamPageNameAtom>
-              Chef de Partie – Robert ps. Robuś
-            </TeamPageNameAtom>
-            Specjalista od kuchni zimnej i deserów. W Sopocie od 2023. Kolejny
-            młody, gniewny i doświadczony. Ma za sobą pracę w znakomitych
-            restauracjach.
+            <TeamPageNameAtom>Chef de Partie – Robert</TeamPageNameAtom>
           </>
         }
       />
