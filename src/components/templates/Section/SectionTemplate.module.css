@@ -36,6 +36,6 @@
 
 @media screen and (min-width: 64rem) {
   .section::after {
-    width: 99vw;
+    width: 100vw;
   }
 }

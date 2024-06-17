@@ -21,6 +21,6 @@
 
 @media screen and (min-width: 64rem) {
   .hero::after {
-    width: 99vw;
+    width: 100vw;
   }
 }
