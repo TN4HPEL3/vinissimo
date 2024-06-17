@@ -6,11 +6,23 @@ function MobileMenuOrganism() {
   return (
     <>
       <CloseMobileMenuButtonAtom />
-      <NavigationListItemMolecule item="" text="home" />
-      <NavigationListItemMolecule item="menu/food" text="menu" />
-      <NavigationListItemMolecule item="wine/glasses" text="wino" />
-      <NavigationListItemMolecule item="events" text="eventy" />
-      <NavigationListItemMolecule item="team" text="team" />
+      <NavigationListItemMolecule item="" text="home" activeRoutes={['']} />
+      <NavigationListItemMolecule
+        item="menu/food"
+        text="menu"
+        activeRoutes={['']}
+      />
+      <NavigationListItemMolecule
+        item="wine/glasses"
+        text="wino"
+        activeRoutes={['']}
+      />
+      <NavigationListItemMolecule
+        item="events"
+        text="eventy"
+        activeRoutes={['']}
+      />
+      <NavigationListItemMolecule item="team" text="team" activeRoutes={['']} />
       <HashLinkMolecule item="/#reservation" text="rezerwacja" />
     </>
   );

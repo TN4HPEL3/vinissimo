@@ -1,0 +1,8 @@
+.events__content__link {
+  display: block;
+  color: var(--text-color);
+  transition: color var(--transition);
+  &:hover {
+    color: var(--website-secondary-color-hover);
+  }
+}

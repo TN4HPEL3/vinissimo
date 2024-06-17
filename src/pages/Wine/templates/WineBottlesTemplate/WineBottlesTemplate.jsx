@@ -1,6 +1,8 @@
 import { useState } from 'react';
 
+import { DownloadMenuAtom } from '../../atoms/DownloadMenuAtom.jsx';
 import { smoothScrollToTop } from '../../../../helpers/smoothScroll.js';
+import { checkArrowDownButton } from '../../../../helpers/checkArrowDownButton.js';
 import { WinePageButtonsOrganism } from '../../organisms/WinePageButtonsOrganism/WinePageButtonsOrganism.jsx';
 import { WineBottlesFirstPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesFirstPageOrganism.jsx';
 import { WineBottlesThirdPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesThirdPageOrganism.jsx';
@@ -38,6 +40,14 @@ function WineBottlesTemplate() {
     setPageNumber(pageNumber + 1);
     setCategory(null);
   };
+
+  checkArrowDownButton({
+    goToPreviousPage,
+    goToNextPage,
+    numberOfPages,
+    pageNumber,
+  });
+
   const handleClick = e => {
     const id = e.target.id;
     setCategory(id);
@@ -64,7 +74,11 @@ function WineBottlesTemplate() {
   return (
     <div className={css.menu__wine}>
       <WinePageButtonsOrganism />
-      <WinePageCategoriesButtonsMolecule handleClick={handleClick} />
+      <WinePageCategoriesButtonsMolecule
+        handleClick={handleClick}
+        category={category}
+        pageNumber={pageNumber}
+      />
       <MenuPageNumberTextMolecule
         pageNumber={pageNumber}
         numberOfPages={numberOfPages}
@@ -142,6 +156,11 @@ function WineBottlesTemplate() {
           <MenuPageArrowRightButtonMolecule onClick={goToNextPage} />
         )}
       </div>
+      <DownloadMenuAtom
+        href="/WinesBottles.pdf"
+        textButton="Pobierz kartę win na butelki"
+        textOnDownload={'Wines bottles'}
+      />
     </div>
   );
 }
