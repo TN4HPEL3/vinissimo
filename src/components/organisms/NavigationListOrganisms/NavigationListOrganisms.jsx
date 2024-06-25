@@ -1,12 +1,15 @@
+import { CheckMediaQuery } from '../../../helpers/checkMediaQuery.js';
 import { HashLinkMolecule } from '../../molecules/HashLinkMolecule/HashLinkMolecule.jsx';
 import { MobileMenuTemplate } from '../../templates/MobileMenuTemplate/MobileMenuTemplate.jsx';
+import { SwitchToENButtonAtom } from '../../atoms/SwitchToENButtonAtom/SwitchToENButtonAtom.jsx';
+import { MobileNavigationOrganism } from '../MobileNavigationOrganism/MobileNavigationOrganism.jsx';
 import { NavigationLogoMolecule } from '../../molecules/NavigationLogoMolecule/NavigationLogoMolecule.jsx';
-import { OpenMobileMenuButtonAtom } from '../../atoms/OpenMobileMenuButtonAtom/OpenMobileMenuButtonAtom.jsx';
 import { NavigationListItemMolecule } from '../../molecules/NavigationListItemMolecule/NavigationListItemMolecule.jsx';
 
 import css from './NavigationListOrganisms.module.css';
 
 function NavigationListOrganisms() {
+  const screen = CheckMediaQuery();
   return (
     <div className={css.header__content}>
       <NavigationLogoMolecule />
@@ -33,8 +36,12 @@ function NavigationListOrganisms() {
           activeRoutes={['/team']}
         />
         <HashLinkMolecule item="/#reservation" text="rezerwacja" />
+        {screen === 'desktop' ? <SwitchToENButtonAtom /> : null}
       </nav>
-      <OpenMobileMenuButtonAtom />
+
+      {screen === 'mobile' || screen === 'tablet' ? (
+        <MobileNavigationOrganism />
+      ) : null}
       <MobileMenuTemplate />
     </div>
   );
