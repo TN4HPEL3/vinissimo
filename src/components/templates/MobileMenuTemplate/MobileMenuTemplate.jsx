@@ -1,4 +1,4 @@
-import { useContext, useEffect } from 'react';
+import { useContext } from 'react';
 
 import { mobileMenuContext } from '../../../helpers/mobileMenuProvider.jsx';
 import { MobileMenuOrganism } from '../../organisms/MobileMenuOrganism/MobileMenuOrganism.jsx';
