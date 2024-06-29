@@ -36,12 +36,12 @@ function NavigationListOrganisms() {
           activeRoutes={['/team']}
         />
         <HashLinkMolecule item="/#reservation" text="rezerwacja" />
-        {screen === 'desktop' ? <SwitchToENButtonAtom /> : null}
       </nav>
-
-      {screen === 'mobile' || screen === 'tablet' ? (
+      {screen === 'desktop' ? (
+        <SwitchToENButtonAtom />
+      ) : (
         <MobileNavigationOrganism />
-      ) : null}
+      )}
       <MobileMenuTemplate />
     </div>
   );
