@@ -1,9 +1,9 @@
 import { CheckMediaQuery } from '../../../helpers/checkMediaQuery.js';
 import { HashLinkMolecule } from '../../molecules/HashLinkMolecule/HashLinkMolecule.jsx';
 import { MobileMenuTemplate } from '../../templates/MobileMenuTemplate/MobileMenuTemplate.jsx';
-import { SwitchToENButtonAtom } from '../../atoms/SwitchToENButtonAtom/SwitchToENButtonAtom.jsx';
 import { MobileNavigationOrganism } from '../MobileNavigationOrganism/MobileNavigationOrganism.jsx';
 import { NavigationLogoMolecule } from '../../molecules/NavigationLogoMolecule/NavigationLogoMolecule.jsx';
+import { SwitchLanguageButtonAtom } from '../../atoms/SwitchLanguageButtonAtom/SwitchLanguageButtonAtom.jsx';
 import { NavigationListItemMolecule } from '../../molecules/NavigationListItemMolecule/NavigationListItemMolecule.jsx';
 
 import css from './NavigationListOrganisms.module.css';
@@ -38,7 +38,7 @@ function NavigationListOrganisms() {
         <HashLinkMolecule item="/#reservation" text="rezerwacja" />
       </nav>
       {screen === 'desktop' ? (
-        <SwitchToENButtonAtom />
+        <SwitchLanguageButtonAtom />
       ) : (
         <MobileNavigationOrganism />
       )}
