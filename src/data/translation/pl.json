@@ -1,0 +1,238 @@
+{
+  "language": "PL",
+  "navigationHome": "home",
+  "navigationMenu": "menu",
+  "navigationWine": "wino",
+  "navigationEvents": "eventy",
+  "navigationTeam": "team",
+  "navigationReservation": "rezerwacja",
+  "aboutUsTitle": "o nas",
+  "aboutUsPrimaryFirst": "Vinissimo Restaurant &amp; Wine Bar to nowa marka, pod którą od lutego 2024, działa, obecna na Bema 6 od 2017 roku - Sztuczka Bistro. Restauracja, prowadzona od 2022 roku przez Łukasza Chwojnickiego, w delikatnie zmienionym formacie i z tym samym, niezastąpionym teamem, niezmiennie serwuje przepyszną i minimalistyczną kuchnię, wspartą ogromną selekcją win i nienagannym serwisem.",
+  "aboutUsPrimarySecond": "Szefem kuchni, od czerwca 2023 roku jest skromny i utalentowany Łukasz Theus, który współpracował z wieloma znakomitymi szefami. Za serwis, wina i pracę całej restauracji odpowiada manager - Diana Kalinichenko, która pracowała w najlepszych Trójmiejskich restauracjach i mimo młodego wieku posiada spore doświadczenie, które umiejętnie wykorzystuje dbając o naszych Gości.",
+  "aboutUsSecondaryFirst": "Vino, Vinissimo, czyli…wino, niezwykłe wino, brzmi tak samo pięknie i intrygująco w każdym języku. To nasz znak rozpoznawczy. Ponad 400 etykiet, z czego 70 dostępne na kieliszek. Trzech sommelierów, kieliszki Riedel – dedykowane do różnych szczepów, Coravin. Konwencjonalne, naturalne, biodynamiczne. Legendy, friki, klasyka. Wszystko to pozwala nam zadbać o każdego: od poczatkującego, dla którego każdy cukier w winie jest dobry, po winomana, który wypije do lunchu Colares 1969. U nas panuje winiarski egalitaryzm i tak samo istotne jest dla nas, podstawowe Primitivo jak i Sassicaia, ważne, że i to i to sprawia wam przyjemność.",
+  "aboutUsSecondarySecond": "W naszym menu znajdziecie minimalistyczne dania, oparte na klasyce z sezonowych produktów. Pracujemy na najwyższej jakości składnikach. W karcie znajdziesz: wołowinę Wagyu, dorsza Skrei, czarną zimową truflę, świeże ostrygi, wieprzowinę Ibérico i wiele innych delikatesów. Wszystkie nasze dania są idealne do dzielenia, do czego niezmiennie zachęcamy naszych Gości.",
+  "aboutUsMobile": "Vinissimo Restaurant & Wine Bar to nowa marka, pod którą od lutego 2024, działa, obecna na Bema 6 od 2017 roku - Sztuczka Bistro. Restauracja, prowadzona od 2022 roku przez Łukasza Chwojnickiego, w delikatnie zmienionym formacie i z tym samym, niezastąpionym teamem, niezmiennie serwuje przepyszną i minimalistyczną kuchnię, wspartą ogromną selekcją wini nienagannym serwisem.",
+  "aboutUsInvite": "Zapraszamy!",
+  "menuTitle": "menu",
+  "menu": {
+    "starters": [
+      {
+        "isActive": true,
+        "firstLineName": "ostryga Gauloise N°2 . leche di tigre",
+        "price": 27
+      },
+      {
+        "isActive": true,
+        "firstLineName": "ostryga Ostra Regal N°2 . leche di tigre",
+        "price": 34
+      },
+      {
+        "isActive": true,
+        "firstLineName": "chleb na zakwasie własnego wypieku",
+        "secondLineName": "masło cebulowe . pikle",
+        "price": 18
+      },
+      {
+        "isActive": true,
+        "firstLineName": "oliwki Gordal & Leccino",
+        "secondLineName": "kandyzowana cytryna",
+        "price": 26
+      },
+      {
+        "isActive": true,
+        "firstLineName": "bakłażan . jogurt grecki . pistacje",
+        "secondLineName": "koper włoski . dressing truflowo-pomidorowy",
+        "price": 45
+      },
+      {
+        "isActive": true,
+        "firstLineName": "grillowane krewetki . marakuja",
+        "secondLineName": "habanero . pomarańcza",
+        "price": 54
+      },
+      {
+        "isActive": true,
+        "firstLineName": "tatar wołowy . czosnek niedźwiedzi",
+        "secondLineName": "rzodkiewka . chrzan",
+        "price": 55
+      },
+      {
+        "isActive": true,
+        "firstLineName": "sałatka grecka . pomidory . brzoskwinie",
+        "secondLineName": "oliwki . Feta . bazylia tajska . syrop różany",
+        "price": 39
+      },
+      {
+        "isActive": true,
+        "firstLineName": "krokiety z kurczaka . sałata rzymska",
+        "secondLineName": "majonez szafranowy . ogórek małosolny . sardele Boquerones",
+        "price": 43
+      },
+      {
+        "isActive": true,
+        "firstLineName": "grillowane szparagi . sos Béarnaise",
+        "secondLineName": "wędzone migdały",
+        "price": 48
+      },
+      {
+        "isActive": true,
+        "firstLineName": "gravlax z łososia szkockiego . ponzu",
+        "secondLineName": "kolendra . kapary . ogórek . czerwona cebula",
+        "price": 49
+      },
+      {
+        "isActive": true,
+        "firstLineName": "kofty wołowo – jagnięce . jogurt",
+        "secondLineName": "sos sweet chilli . papryczki padron . mięta",
+        "price": 47
+      },
+      {
+        "isActive": true,
+        "firstLineName": "kawior Antonius Siberian **** (30g)",
+        "secondLineName": "śmietana . brioche",
+        "price": 359
+      }
+    ],
+    "soups": [
+      {
+        "isActive": true,
+        "firstLineName": "pomidorowa . szpecle serowe . lubczyk",
+        "secondLineName": "wywar z ogonów wołowych",
+        "price": 38
+      }
+    ],
+    "mains": [
+      {
+        "isActive": true,
+        "firstLineName": "fish & chips z dorsza . ogórki kimchi",
+        "secondLineName": "frytki . majonez tzatziki z estragonem",
+        "price": 72
+      },
+      {
+        "isActive": true,
+        "firstLineName": "grillowany schab z wieprzowiny jabłkowej",
+        "secondLineName": "młoda kapusta . sos miso . chorizo",
+        "thirdLineName": "kiszony czosnek niedźwiedzi",
+        "price": 79
+      },
+      {
+        "isActive": true,
+        "firstLineName": "kulbin . białe szparagi . ikra",
+        "secondLineName": "Beurre Blanc . kombu . nori",
+        "price": 99
+      },
+      {
+        "isActive": true,
+        "firstLineName": "jagnięcina . szpinak . sos z Foie Gras",
+        "secondLineName": "porzeczki . czarne kurki",
+        "price": 137
+      },
+      {
+        "isActive": true,
+        "firstLineName": "kluski z ricotty . Pecorino Romano",
+        "secondLineName": "pesto z czosnku niedźwiedziego . kiszona cytryna . orzechy włoskie",
+        "price": 66
+      },
+      {
+        "isActive": true,
+        "firstLineName": "sezonowany antrykot (300g)",
+        "secondLineName": "sos musztardowy",
+        "price": 166
+      }
+    ],
+    "sides": [
+      {
+        "isActive": true,
+        "firstLineName": "frytki z aioli",
+        "price": 19
+      },
+      {
+        "isActive": true,
+        "firstLineName": "klasyczne kimchi",
+        "price": 17
+      },
+      {
+        "isActive": true,
+        "firstLineName": "młode ziemniaki . kwaśna śmietana",
+        "secondLineName": "szczaw",
+        "price": 17
+      },
+      {
+        "isActive": true,
+        "firstLineName": "sałaty . dressing balsamiczny",
+        "price": 17
+      },
+      {
+        "isActive": true,
+        "firstLineName": "fasolka szparagowa . panko",
+        "price": 24
+      }
+    ],
+    "desserts": [
+      {
+        "isActive": true,
+        "firstLineName": "truskawki . biszkopt . krem mleczny",
+        "secondLineName": "lody szczawiowe . czarny bez",
+        "price": 36
+      },
+      {
+        "isActive": true,
+        "firstLineName": "torcik czekoladowy . sól Maldon",
+        "secondLineName": "wiśnie . ganache jogurtowy",
+        "price": 36
+      }
+    ],
+    "cheeses": [
+      {
+        "isActive": true,
+        "firstLineName": "Bursztyn (24msc) . Brie . Stilton",
+        "secondLineName": "chutney z rabarbaru . krakersy gryczane",
+        "price": 59
+      }
+    ]
+  },
+  "menuMoreButton": "więcej",
+  "menuWineBottlesButton": "wina",
+  "menuWineGlassesButton": "wina na kieliszki",
+  "menuAlcoholButton": "alkohole",
+  "rateUsTitle": "oceń nas",
+  "reservationTitle": "rezerwacja",
+  "reservationText": "Rezerwacji indywidualnej (do 12 osób), możecie dokonać poprzez poniższy link, każdorazowo, jako potwierdzenie otrzymacie sms ze szczegółami rezerwacji. Przy większych rezerwacjach i zapytaniach o uroczystości zorganizowane lub cateringi, zapraszamy do kontaktu mailowego:",
+  "reservationButton": "zarezerwuj stolik",
+  "footerRestaurantName": "Vinissimo Restaurant & Wine Bar",
+  "footerAddress": "ul. Bema 6 Sopot",
+  "footerOpeningHours": "pon-sb: 14-22",
+  "footerOpeningHoursSunday": "niedziela: 13-19",
+  "footerPrivacyPolicy": "Polityka prywatności",
+  "menuPageFoodButton": "jedzenie",
+  "menuPageAlcoholButton": "alkohole",
+  "wineWineGlassesButton": "wina na kieliszki",
+  "wineWineButtlesButton": "wina na butelki",
+  "winePageNumberText": "Strona",
+  "winePageNumberOf": "z",
+  "wineDownloadButton": "Pobierz kartę win na wieliszki",
+  "eventsPagePrimaryText": "Przy większych rezerwacjach i zapytaniach o uroczystości zorganizowane lub cateringi, zapraszamy do kontaktu mailowego:",
+  "eventsPageSecondaryText": "Łącznie w obu naszych salach posadzimy maksymalnie 80 osób. W górnej sali pomieścimy maksymalnie 24 osoby, a w sali dolnej, maksymalnie 56 osób (przy 3 stolikach: 26, 19, 11). Przy jednym stole, na dole, maksymalnie zmieścimy 34 osoby. Naszą restauracje możecie wynająć na wyłączność w całości, lub na wasze potrzeby może być przeznaczona jedna z dwóch sal. Menu, każdorazowo ustalamy indywidualnie, z uwzględnieniem aktualnej karty i dostępnych produktów sezonowych.",
+  "teamTitle": "team",
+  "teamDescription": "Zgrany zespół, to serce każdej restauracji. A jeżeli jest on jeszcze młody i dynamiczny, to spełnienie marzeń każdego restauratora. Natomiast jeśli ten zespół jest do tego: doświadczony, pełen profesjonalistów i pasjonatów sztuki restauracyjnej, to jest jak wygrana w Eurojackpota. I ja tak mam… Pozwólcie, że przedstawię Wam:",
+  "teamKitchenTitle": "kuchnia",
+  "teamHeadChefTitle": "Head Chef – Łukasz Theus",
+  "teamHeadChefDescription": "Młody i solidnie doświadczony. Pracował z wieloma uznanymi szefami kuchni. Udźwignął minimalistyczny styl Ivana, w który potrafi ubrać swoje talerze. W Vinissimo od 2021. Od lipca 2023 samodzielnie zarządza naszą kuchnią.",
+  "teamJuniorSousChefTitle": "Junior Sous Chef – Michał",
+  "teamJuniorSousChefDescription": "Na Bema jest z nami od kwietnia 2023. Terminował w większości topowych, Trójmiejskich restauracji. Prywatnie konkubent/narzeczony naszej przyjaciółki Werki z Fino. Od kilku miesięcy Junior Sous Chef.",
+  "teamSeniorGrillChefTitle": "Senior Grill Chef – Piotr ps. Ksiądz",
+  "teamSeniorGrillChefDescription": "Oaza spokoju i opanowania. Opoka naszego zespołu. Wielbiciel rowerowych przejażdżek i Warki. Jak twierdzi, zawsze stara się pracować w aktualnie najlepszej restauracji. Prywatnie mój przyjaciel z który znamy się prawie 20 lat.",
+  "teamChefDePartieFirstTitle": "Chef de Partie – Waleria ps. Walerina",
+  "teamChefDePartieFirstDescription": "Jedyna „rodzynka” w naszej kuchni. Jest z nami od jesieni 2022 roku. Zajmuje się kuchnią zimną i deserami, ale bez problemu odnajduje się na wydawce. Życiowa hedonistka, spod której ręki, wychodzą wszelkie materiały na naszych socjałach.",
+  "teamChefDePartieSecondTitle": "Chef de Partie – Robert",
+  "teamFrontTitle": "sala",
+  "teamFrontManagerTitle": "Front Manager – Diana Kalinichenko",
+  "teamFrontManagerDescription": "Zapewnia najlepsze hospitality w całym Trójmieście i nie tylko. Fashionistka pełną gębą, która uwielbia jedzenie i wina najwyższy lotów. Absolwentka szkoły muzycznej i moja przybrana córka. Od 2018 roku moja prawa ręka we wszystkich kolejnych konceptach.",
+  "teamPrimarySommelierTitle": "Sommelier/Wine Coach – Mateusz Hermanowski ps. Herman",
+  "teamPrimarySommelierDescription": "Były wykładowca i spedytor, obecnie jeden z najbardziej wyedukowanych winiarsko ludzi w Polsce. Fan Karla Lagerfelda, sybaryta, filozof i marzenie niejednej niewiasty. Wielbiciel jamników i antrykotu. Od 2019 roku trwa przy mym boku.",
+  "teamSecondarySommelierTitle": "Manager Sali/Sommelier – Rafał Malinowski",
+  "teamSecondarySommelierDescription": "Po dwóch latach, wrócił do nas na białym koniu. Perfekcjonista, który zadba o każdy detal. Zajmował się Gośćmi w najlepszych restauracjach. Uwaga – gaduła!",
+  "teamBoss": "boss",
+  "teamBossTitle": "Łukasz Chwojnicki ps. Gruby, Prezes, Smalec, Wieprzu",
+  "teamBossDescription": "Człowiek orkiestra, który spina wszystko w jedną całość. W swoim prime, najdroższy zmywakowy w środkowej Europie. GM i Head sommelier w jednym. Współtworzył kultowe Trójmiejskie lokale: Da Vinci, Sztuczka, Sztuczka Bistro, Probiernia Wine Bar. Największy, pod każdym względem, Trójmiejski birbant. Zna wszystkich i wszyscy znają jego. Żartowniś na granicy dobrego smaku. Uwielbia bąbelki i ploteczki. Świetny tancerz i marny wokalista. Fan Beaty Kozidrak."
+}
