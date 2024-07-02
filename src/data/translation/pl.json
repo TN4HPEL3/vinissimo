@@ -1,11 +1,13 @@
 {
   "language": "PL",
+
   "navigationHome": "home",
   "navigationMenu": "menu",
   "navigationWine": "wino",
   "navigationEvents": "eventy",
   "navigationTeam": "team",
   "navigationReservation": "rezerwacja",
+
   "aboutUsTitle": "o nas",
   "aboutUsPrimaryFirst": "Vinissimo Restaurant &amp; Wine Bar to nowa marka, pod którą od lutego 2024, działa, obecna na Bema 6 od 2017 roku - Sztuczka Bistro. Restauracja, prowadzona od 2022 roku przez Łukasza Chwojnickiego, w delikatnie zmienionym formacie i z tym samym, niezastąpionym teamem, niezmiennie serwuje przepyszną i minimalistyczną kuchnię, wspartą ogromną selekcją win i nienagannym serwisem.",
   "aboutUsPrimarySecond": "Szefem kuchni, od czerwca 2023 roku jest skromny i utalentowany Łukasz Theus, który współpracował z wieloma znakomitymi szefami. Za serwis, wina i pracę całej restauracji odpowiada manager - Diana Kalinichenko, która pracowała w najlepszych Trójmiejskich restauracjach i mimo młodego wieku posiada spore doświadczenie, które umiejętnie wykorzystuje dbając o naszych Gości.",
@@ -13,6 +15,7 @@
   "aboutUsSecondarySecond": "W naszym menu znajdziecie minimalistyczne dania, oparte na klasyce z sezonowych produktów. Pracujemy na najwyższej jakości składnikach. W karcie znajdziesz: wołowinę Wagyu, dorsza Skrei, czarną zimową truflę, świeże ostrygi, wieprzowinę Ibérico i wiele innych delikatesów. Wszystkie nasze dania są idealne do dzielenia, do czego niezmiennie zachęcamy naszych Gości.",
   "aboutUsMobile": "Vinissimo Restaurant & Wine Bar to nowa marka, pod którą od lutego 2024, działa, obecna na Bema 6 od 2017 roku - Sztuczka Bistro. Restauracja, prowadzona od 2022 roku przez Łukasza Chwojnickiego, w delikatnie zmienionym formacie i z tym samym, niezastąpionym teamem, niezmiennie serwuje przepyszną i minimalistyczną kuchnię, wspartą ogromną selekcją wini nienagannym serwisem.",
   "aboutUsInvite": "Zapraszamy!",
+
   "menuTitle": "menu",
   "menu": {
     "starters": [
@@ -195,24 +198,38 @@
   "menuWineBottlesButton": "wina",
   "menuWineGlassesButton": "wina na kieliszki",
   "menuAlcoholButton": "alkohole",
+  "menuStartersTitle": "przystawki",
+  "menuSoupsTitle": "zupy",
+  "menuMainsTitle": "dania główne",
+  "menuSidesTitle": "dodatki",
+  "menuDessertsTitle": "na słodko",
+  "menuCheesesTitle": "sery",
+
   "rateUsTitle": "oceń nas",
+
   "reservationTitle": "rezerwacja",
   "reservationText": "Rezerwacji indywidualnej (do 12 osób), możecie dokonać poprzez poniższy link, każdorazowo, jako potwierdzenie otrzymacie sms ze szczegółami rezerwacji. Przy większych rezerwacjach i zapytaniach o uroczystości zorganizowane lub cateringi, zapraszamy do kontaktu mailowego:",
   "reservationButton": "zarezerwuj stolik",
+
   "footerRestaurantName": "Vinissimo Restaurant & Wine Bar",
   "footerAddress": "ul. Bema 6 Sopot",
   "footerOpeningHours": "pon-sb: 14-22",
   "footerOpeningHoursSunday": "niedziela: 13-19",
   "footerPrivacyPolicy": "Polityka prywatności",
+
   "menuPageFoodButton": "jedzenie",
   "menuPageAlcoholButton": "alkohole",
+
   "wineWineGlassesButton": "wina na kieliszki",
-  "wineWineButtlesButton": "wina na butelki",
+  "wineWineBottlesButton": "wina na butelki",
   "winePageNumberText": "Strona",
   "winePageNumberOf": "z",
-  "wineDownloadButton": "Pobierz kartę win na wieliszki",
+  "wineGlassesDownloadButton": "Pobierz kartę win na kieliszki",
+  "wineBottlesDownloadButton": "Pobierz kartę win na butelki",
+
   "eventsPagePrimaryText": "Przy większych rezerwacjach i zapytaniach o uroczystości zorganizowane lub cateringi, zapraszamy do kontaktu mailowego:",
   "eventsPageSecondaryText": "Łącznie w obu naszych salach posadzimy maksymalnie 80 osób. W górnej sali pomieścimy maksymalnie 24 osoby, a w sali dolnej, maksymalnie 56 osób (przy 3 stolikach: 26, 19, 11). Przy jednym stole, na dole, maksymalnie zmieścimy 34 osoby. Naszą restauracje możecie wynająć na wyłączność w całości, lub na wasze potrzeby może być przeznaczona jedna z dwóch sal. Menu, każdorazowo ustalamy indywidualnie, z uwzględnieniem aktualnej karty i dostępnych produktów sezonowych.",
+
   "teamTitle": "team",
   "teamDescription": "Zgrany zespół, to serce każdej restauracji. A jeżeli jest on jeszcze młody i dynamiczny, to spełnienie marzeń każdego restauratora. Natomiast jeśli ten zespół jest do tego: doświadczony, pełen profesjonalistów i pasjonatów sztuki restauracyjnej, to jest jak wygrana w Eurojackpota. I ja tak mam… Pozwólcie, że przedstawię Wam:",
   "teamKitchenTitle": "kuchnia",
