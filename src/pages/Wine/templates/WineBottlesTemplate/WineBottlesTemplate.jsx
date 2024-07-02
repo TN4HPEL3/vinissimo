@@ -2,6 +2,7 @@ import { useState } from 'react';
 
 import { DownloadMenuAtom } from '../../atoms/DownloadMenuAtom.jsx';
 import { smoothScrollToTop } from '../../../../helpers/smoothScroll.js';
+import { useLanguage } from '../../../../helpers/contexts/languageContext.js';
 import { checkArrowDownButton } from '../../../../helpers/checkArrowDownButton.js';
 import { WinePageButtonsOrganism } from '../../organisms/WinePageButtonsOrganism/WinePageButtonsOrganism.jsx';
 import { WineBottlesFirstPageOrganism } from '../../organisms/WineBottlesPages/WineBottlesFirstPageOrganism.jsx';
@@ -31,6 +32,8 @@ function WineBottlesTemplate() {
 
   const numberOfPages = 12;
   const className = css['menu__wine__content--page'];
+  const { t } = useLanguage();
+  const { wineBottlesDownloadButton } = t;
 
   const goToPreviousPage = () => {
     setPageNumber(pageNumber - 1);
@@ -158,7 +161,7 @@ function WineBottlesTemplate() {
       </div>
       <DownloadMenuAtom
         href="/WinesBottles.pdf"
-        textButton="Pobierz kartę win na butelki"
+        textButton={wineBottlesDownloadButton}
         textOnDownload={'Wines bottles'}
       />
     </div>
