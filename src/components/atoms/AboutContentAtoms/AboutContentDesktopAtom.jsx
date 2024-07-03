@@ -1,24 +1,31 @@
-import { useLanguage } from '../../../helpers/contexts/languageContext';
+import { useLanguage } from '../../../helpers/contexts/languageContext.js';
 
 function AboutContentDesktopAtom({ isTop = true }) {
   const { t } = useLanguage();
+  const {
+    aboutUsPrimaryFirst,
+    aboutUsPrimarySecond,
+    aboutUsSecondaryFirst,
+    aboutUsSecondarySecond,
+    aboutUsInvite,
+  } = t;
   return (
     <>
       {isTop ? (
         <>
-          {t.aboutUsPrimaryFirst}
+          {aboutUsPrimaryFirst}
           <br />
           <br />
-          {t.aboutUsPrimarySecond}
+          {aboutUsPrimarySecond}
         </>
       ) : (
         <>
-          {t.aboutUsSecondaryFirst}
+          {aboutUsSecondaryFirst}
           <br /> <br />
-          {t.aboutUsSecondarySecond}
+          {aboutUsSecondarySecond}
           <br />
           <br />
-          {t.aboutUsInvite}
+          {aboutUsInvite}
         </>
       )}
     </>
