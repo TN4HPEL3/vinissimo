@@ -2,13 +2,15 @@
   "starters": [
     {
       "isActive": true,
-      "firstLineName": "ostryga Gauloise N°2 . leche di tigre",
-      "price": 27
+      "firstLineName": "ostryga David Hervé La Royale N°2",
+      "secondLineName": "leche di tigre",
+      "price": 34
     },
     {
       "isActive": true,
-      "firstLineName": "ostryga Ostra Regal N°2 . leche di tigre",
-      "price": 34
+      "firstLineName": "ostryga Gauloise Fine de Claire N°2",
+      "secondLineName": "leche di tigre",
+      "price": 27
     },
     {
       "isActive": true,
@@ -42,8 +44,8 @@
     },
     {
       "isActive": true,
-      "firstLineName": "sałatka grecka . pomidory . brzoskwinie",
-      "secondLineName": "oliwki . Feta . bazylia tajska . syrop różany",
+      "firstLineName": "sałatka grecka . pomidory . oliwki",
+      "secondLineName": "brzoskwinie. Feta . bazylia tajska . syrop różany",
       "price": 39
     },
     {
@@ -60,29 +62,23 @@
     },
     {
       "isActive": true,
-      "firstLineName": "gravlax z łososia szkockiego . ponzu",
-      "secondLineName": "kolendra . kapary . ogórek . czerwona cebula",
+      "firstLineName": "tuńczyk żółtopłetwy . agrest",
+      "secondLineName": "consomé pomidorowe . pachnotka",
       "price": 49
     },
     {
       "isActive": true,
-      "firstLineName": "kofty wołowo – jagnięce . jogurt",
-      "secondLineName": "sos sweet chilli . papryczki padron . mięta",
-      "price": 47
-    },
-    {
-      "isActive": true,
-      "firstLineName": "kawior Antonius Siberian **** (30g)",
-      "secondLineName": "śmietana . brioche",
-      "price": 359
+      "firstLineName": "kwiaty cukinii w tempurze . letnia trufla",
+      "secondLineName": "owcza ricotta . duxelle grzybowy",
+      "price": 65
     }
   ],
   "soups": [
     {
       "isActive": true,
-      "firstLineName": "pomidorowa . szpecle serowe . lubczyk",
-      "secondLineName": "wywar z ogonów wołowych",
-      "price": 38
+      "firstLineName": "białe gazpacho . porzeczki",
+      "secondLineName": "seler naciowy . piklowane pomidory",
+      "price": 35
     }
   ],
   "mains": [
@@ -94,16 +90,16 @@
     },
     {
       "isActive": true,
-      "firstLineName": "grillowany schab z wieprzowiny jabłkowej",
-      "secondLineName": "młoda kapusta . sos miso . chorizo",
+      "firstLineName": "grillowany schab cielęcy . sos miso",
+      "secondLineName": "młoda kapusta . chorizo",
       "thirdLineName": "kiszony czosnek niedźwiedzi",
       "price": 79
     },
     {
       "isActive": true,
-      "firstLineName": "kulbin . białe szparagi . ikra",
-      "secondLineName": "Beurre Blanc . kombu . nori",
-      "price": 99
+      "firstLineName": "halibut . fasolka szparagowa . pomidor",
+      "secondLineName": "nori . dashi",
+      "price": 109
     },
     {
       "isActive": true,
@@ -132,7 +128,7 @@
     },
     {
       "isActive": true,
-      "firstLineName": "klasyczne kimchi",
+      "firstLineName": "ogórki kimchi",
       "price": 17
     },
     {
@@ -162,8 +158,8 @@
     {
       "isActive": true,
       "firstLineName": "torcik czekoladowy . sól Maldon",
-      "secondLineName": "wiśnie . ganache jogurtowy",
-      "price": 36
+      "secondLineName": "wiśnie . ganache jogurtowy . letnia trufla",
+      "price": 42
     }
   ],
   "cheeses": [
