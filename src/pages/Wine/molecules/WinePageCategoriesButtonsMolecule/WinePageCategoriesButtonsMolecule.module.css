@@ -13,10 +13,11 @@
   background-color: transparent;
   border: 2px solid var(--website-secondary-color);
   padding: 0.5rem;
-  color: var(--text-color);
-  transition: border-color var(--transition);
+  color: var(--website-secondary-color);
+  transition: border-color var(--transition), color var(--transition);
   &:hover {
     border-color: var(--website-secondary-color-hover);
+    color: var(--website-secondary-color-hover);
   }
   @media screen and (min-width: 32rem) {
     font-size: var(--font-size-medium);
@@ -24,7 +25,9 @@
 }
 
 .wine__page__categories-buttons--button--active {
-  transition: border-color var(--transition), background-color var(--transition);
+  transition: border-color var(--transition), background-color var(--transition),
+    color var(--transition);
   background-color: var(--header-background-transparent);
   border-color: var(--website-secondary-color-hover);
+  color: var(--website-secondary-color-hover);
 }
