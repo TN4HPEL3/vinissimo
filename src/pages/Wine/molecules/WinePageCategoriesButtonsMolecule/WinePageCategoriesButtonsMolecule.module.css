@@ -27,7 +27,6 @@
 .wine__page__categories-buttons--button--active {
   transition: border-color var(--transition), background-color var(--transition),
     color var(--transition);
-  background-color: var(--header-background-transparent);
   border-color: var(--website-secondary-color-hover);
   color: var(--website-secondary-color-hover);
 }
