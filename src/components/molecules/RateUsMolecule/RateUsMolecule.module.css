@@ -12,3 +12,8 @@
     max-width: 11.25rem;
   }
 }
+
+.rate__us__icons--icon:nth-child(1) > svg {
+  max-width: 14rem;
+  height: 2.813rem;
+}
