@@ -16,7 +16,6 @@ function MenuPageFoodTemplate() {
             data={menu}
             title={'przystawki'}
           />
-          <MenuListOrganism category={'cheeses'} data={menu} title={'sery'} />
           <MenuListOrganism category={'soups'} data={menu} title={'zupy'} />
         </div>
         <div>

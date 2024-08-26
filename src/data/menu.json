@@ -2,14 +2,14 @@
   "starters": [
     {
       "isActive": true,
-      "firstLineName": "ostryga David Hervé La Royale N°2",
-      "secondLineName": "leche di tigre",
-      "price": 34
+      "firstLineName": "ostryga Ostra Regal N°2",
+      "secondLineName": "Leche de Tigre",
+      "price": 36
     },
     {
       "isActive": true,
       "firstLineName": "ostryga Gauloise Fine de Claire N°2",
-      "secondLineName": "leche di tigre",
+      "secondLineName": "Leche de Tigre",
       "price": 27
     },
     {
@@ -22,55 +22,61 @@
       "isActive": true,
       "firstLineName": "oliwki Gordal & Leccino",
       "secondLineName": "kandyzowana cytryna",
-      "price": 26
+      "price": 27
     },
     {
       "isActive": true,
-      "firstLineName": "bakłażan . jogurt grecki . pistacje",
+      "firstLineName": "ser Blue Stilton",
+      "secondLineName": "krakersy gryczane . chutney z rabarbaru",
+      "price": 37
+    },
+    {
+      "isActive": true,
+      "firstLineName": "bakłażan . jogurt grecki . pistacje ",
       "secondLineName": "koper włoski . dressing truflowo-pomidorowy",
-      "price": 45
+      "price": 46
     },
     {
       "isActive": true,
-      "firstLineName": "grillowane krewetki . marakuja",
-      "secondLineName": "habanero . pomarańcza",
-      "price": 54
-    },
-    {
-      "isActive": true,
-      "firstLineName": "tatar wołowy . czosnek niedźwiedzi",
-      "secondLineName": "rzodkiewka . chrzan",
+      "firstLineName": "grillowane krewetki",
+      "secondLineName": "marakuja . habanero . pomarańcza",
       "price": 55
     },
     {
       "isActive": true,
-      "firstLineName": "sałatka grecka . pomidory . oliwki",
-      "secondLineName": "brzoskwinie. Feta . bazylia tajska . syrop różany",
-      "price": 39
+      "firstLineName": "tatar wołowy",
+      "secondLineName": "czosnek niedźwiedzi . rzodkiewka . chrzan",
+      "price": 56
     },
     {
       "isActive": true,
-      "firstLineName": "krokiety z kurczaka . sałata rzymska",
-      "secondLineName": "majonez szafranowy . ogórek małosolny . sardele Boquerones",
-      "price": 43
+      "firstLineName": "sałatka grecka . pomidory . brzoskwinie . oliwki",
+      "secondLineName": "feta . mięta . syrop różany",
+      "price": 41
     },
     {
       "isActive": true,
-      "firstLineName": "grillowane szparagi . sos Béarnaise",
-      "secondLineName": "wędzone migdały",
-      "price": 48
+      "firstLineName": "tuńczyk żółtopłetwy . jabłko . pachnotka",
+      "secondLineName": "consomé pomidorowe . chilli . seler naciowy",
+      "price": 53
     },
     {
       "isActive": true,
-      "firstLineName": "tuńczyk żółtopłetwy . agrest",
-      "secondLineName": "consomé pomidorowe . pachnotka",
+      "firstLineName": "kofty wołowo-baranie",
+      "secondLineName": "sos sweet chilli . papryczki padron . jogurt . mięta",
       "price": 49
     },
     {
       "isActive": true,
       "firstLineName": "kwiaty cukinii w tempurze . letnia trufla",
-      "secondLineName": "owcza ricotta . duxelle grzybowy",
-      "price": 65
+      "secondLineName": "duxelles grzybowe . ricotta pecora",
+      "price": 66
+    },
+    {
+      "isActive": true,
+      "firstLineName": "Lobster Roll",
+      "secondLineName": "brioche z mięsem homara . sos Béarnaise",
+      "price": 125
     }
   ],
   "soups": [
@@ -78,69 +84,68 @@
       "isActive": true,
       "firstLineName": "białe gazpacho . porzeczki",
       "secondLineName": "seler naciowy . piklowane pomidory",
-      "price": 35
+      "price": 37
     }
   ],
   "mains": [
     {
       "isActive": true,
-      "firstLineName": "fish & chips z dorsza . ogórki kimchi",
+      "firstLineName": "wytrawny gofr . kurki . Cheddar",
+      "secondLineName": "morele . szpinak",
+      "price": 67
+    },
+    {
+      "isActive": true,
+      "firstLineName": "Fish & Chips . dorsz . ogórki kimchi",
       "secondLineName": "frytki . majonez tzatziki z estragonem",
-      "price": 72
+      "price": 73
     },
     {
       "isActive": true,
-      "firstLineName": "grillowany schab cielęcy . sos miso",
-      "secondLineName": "młoda kapusta . chorizo",
-      "thirdLineName": "kiszony czosnek niedźwiedzi",
-      "price": 79
+      "firstLineName": "grillowana cielęcina . sos béarnaise",
+      "secondLineName": "młoda kapusta . chorizo . kapary",
+      "price": 82
     },
     {
       "isActive": true,
-      "firstLineName": "halibut . fasolka szparagowa . pomidor",
-      "secondLineName": "nori . dashi",
-      "price": 109
+      "firstLineName": "halibut . fasolka szparagowa",
+      "secondLineName": "nori . pomidor . dashi",
+      "price": 111
     },
     {
       "isActive": true,
       "firstLineName": "jagnięcina . szpinak . sos z Foie Gras",
       "secondLineName": "porzeczki . czarne kurki",
-      "price": 137
-    },
-    {
-      "isActive": true,
-      "firstLineName": "kluski z ricotty . Pecorino Romano",
-      "secondLineName": "pesto z czosnku niedźwiedziego . kiszona cytryna . orzechy włoskie",
-      "price": 66
+      "price": 139
     },
     {
       "isActive": true,
       "firstLineName": "sezonowany antrykot (300g)",
       "secondLineName": "sos musztardowy",
-      "price": 166
+      "price": 169
     }
   ],
   "sides": [
     {
       "isActive": true,
       "firstLineName": "frytki z aioli",
-      "price": 19
+      "price": 20
     },
     {
       "isActive": true,
       "firstLineName": "ogórki kimchi",
-      "price": 17
+      "price": 18
     },
     {
       "isActive": true,
-      "firstLineName": "młode ziemniaki . kwaśna śmietana",
-      "secondLineName": "szczaw",
-      "price": 17
+      "firstLineName": "młode ziemniaki",
+      "secondLineName": "kwaśna śmietana . szczaw",
+      "price": 18
     },
     {
       "isActive": true,
       "firstLineName": "sałaty . dressing balsamiczny",
-      "price": 17
+      "price": 18
     },
     {
       "isActive": true,
@@ -151,20 +156,20 @@
   "desserts": [
     {
       "isActive": true,
-      "firstLineName": "truskawki . biszkopt . krem mleczny",
-      "secondLineName": "lody szczawiowe . czarny bez",
-      "price": 36
+      "firstLineName": "morele . lody z palonego masła",
+      "secondLineName": "kruszonka . melisa",
+      "price": 37
     },
     {
       "isActive": true,
-      "firstLineName": "torcik czekoladowy . sól Maldon",
-      "secondLineName": "wiśnie . ganache jogurtowy . letnia trufla",
-      "price": 42
+      "firstLineName": "Crémeux czekoladowe",
+      "secondLineName": "słony karmel . kokos . maliny",
+      "price": 37
     }
   ],
   "cheeses": [
     {
-      "isActive": true,
+      "isActive": false,
       "firstLineName": "Bursztyn (24msc) . Brie . Stilton",
       "secondLineName": "chutney z rabarbaru . krakersy gryczane",
       "price": 59
