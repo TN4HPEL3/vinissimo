@@ -41,7 +41,6 @@ function MenuTemplate() {
               data={menu}
               title={'na słodko'}
             />
-            <MenuListOrganism category={'cheeses'} data={menu} title={'sery'} />
           </div>
         </div>
         <div className={css.menu__buttons}>
