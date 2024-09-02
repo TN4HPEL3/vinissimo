@@ -2,12 +2,6 @@
   "starters": [
     {
       "isActive": true,
-      "firstLineName": "ostryga Ostra Regal N°2",
-      "secondLineName": "Leche de Tigre",
-      "price": 36
-    },
-    {
-      "isActive": true,
       "firstLineName": "ostryga Gauloise Fine de Claire N°2",
       "secondLineName": "Leche de Tigre",
       "price": 27
@@ -26,65 +20,66 @@
     },
     {
       "isActive": true,
-      "firstLineName": "ser Blue Stilton",
-      "secondLineName": "krakersy gryczane . chutney z rabarbaru",
+      "firstLineName": "ser Blue Stilton . krakersy gryczane",
+      "secondLineName": "chutney z gruszki",
       "price": 37
     },
     {
       "isActive": true,
-      "firstLineName": "bakłażan . jogurt grecki . pistacje ",
+      "firstLineName": "bakłażan . jogurt grecki . pistacje",
       "secondLineName": "koper włoski . dressing truflowo-pomidorowy",
       "price": 46
     },
     {
       "isActive": true,
-      "firstLineName": "grillowane krewetki",
-      "secondLineName": "marakuja . habanero . pomarańcza",
+      "firstLineName": "grillowane krewetki . marakuja",
+      "secondLineName": "habanero . pomarańcza",
       "price": 55
     },
     {
       "isActive": true,
-      "firstLineName": "tatar wołowy",
-      "secondLineName": "czosnek niedźwiedzi . rzodkiewka . chrzan",
+      "firstLineName": "tatar wołowy . zielony pieprz",
+      "secondLineName": "aioli . chipsy ziemniaczane",
       "price": 56
     },
     {
       "isActive": true,
-      "firstLineName": "sałatka grecka . pomidory . brzoskwinie . oliwki",
-      "secondLineName": "feta . mięta . syrop różany",
+      "firstLineName": "sałatka grecka . pomidory . brzoskwinie",
+      "secondLineName": "oliwki . feta . mięta . syrop różany",
       "price": 41
     },
     {
       "isActive": true,
-      "firstLineName": "tuńczyk żółtopłetwy . jabłko . pachnotka",
-      "secondLineName": "consomé pomidorowe . chilli . seler naciowy",
+      "firstLineName": "tuńczyk żółtopłetwy . jabłko ",
+      "secondLineName": "consomé pomidorowe . pachnotka . chilli",
+      "thirdLineName": "seler naciowy",
       "price": 53
     },
     {
       "isActive": true,
-      "firstLineName": "kofty wołowo-baranie",
-      "secondLineName": "sos sweet chilli . papryczki padron . jogurt . mięta",
+      "firstLineName": "kofty wołowo-baranie . sos sweet chilli",
+      "secondLineName": "papryczki padron . jogurt . mięta",
       "price": 49
     },
     {
       "isActive": true,
-      "firstLineName": "kwiaty cukinii w tempurze . letnia trufla",
-      "secondLineName": "duxelles grzybowe . ricotta pecora",
+      "firstLineName": "kwiaty cukinii w tempurze",
+      "secondLineName": "letnia trufla . duxelles grzybowe . ricotta pecora",
       "price": 66
     },
     {
       "isActive": true,
-      "firstLineName": "Lobster Roll",
-      "secondLineName": "brioche z mięsem homara . sos Béarnaise",
+      "firstLineName": "Lobster Roll . brioche z mięsem homara",
+      "secondLineName": "sos Béarnaise",
       "price": 125
     }
   ],
   "soups": [
     {
       "isActive": true,
-      "firstLineName": "białe gazpacho . porzeczki",
-      "secondLineName": "seler naciowy . piklowane pomidory",
-      "price": 37
+      "firstLineName": "bulion mięsno – grzybowy . portobello",
+      "secondLineName": "udko kurczaka . kukurydza . letnia trufla",
+      "price": 39
     }
   ],
   "mains": [
@@ -114,8 +109,8 @@
     },
     {
       "isActive": true,
-      "firstLineName": "jagnięcina . szpinak . sos z Foie Gras",
-      "secondLineName": "porzeczki . czarne kurki",
+      "firstLineName": "jagnięcina . szpinak",
+      "secondLineName": "sos z Foie Gras . porzeczki . czarne kurki",
       "price": 139
     },
     {
@@ -165,14 +160,6 @@
       "firstLineName": "Crémeux czekoladowe",
       "secondLineName": "słony karmel . kokos . maliny",
       "price": 37
-    }
-  ],
-  "cheeses": [
-    {
-      "isActive": false,
-      "firstLineName": "Bursztyn (24msc) . Brie . Stilton",
-      "secondLineName": "chutney z rabarbaru . krakersy gryczane",
-      "price": 59
     }
   ]
 }
