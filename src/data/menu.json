@@ -26,52 +26,42 @@
     },
     {
       "isActive": true,
-      "firstLineName": "bakłażan . jogurt grecki . pistacje",
-      "secondLineName": "koper włoski . dressing truflowo-pomidorowy",
+      "firstLineName": "bakłażan . jogurt grecki",
+      "secondLineName": "pistacje . koper włoski",
+      "thirdLineName": "dressing truflowo-pomidorowy",
+
       "price": 46
     },
     {
       "isActive": true,
-      "firstLineName": "grillowane krewetki . marakuja",
-      "secondLineName": "habanero . pomarańcza",
-      "price": 55
+      "firstLineName": "grillowane kalmary . tzatziki . jalapeño",
+      "secondLineName": "kukurydza . kolendra",
+      "price": 46
     },
     {
       "isActive": true,
-      "firstLineName": "tatar wołowy . zielony pieprz",
-      "secondLineName": "aioli . chipsy ziemniaczane",
+      "firstLineName": "tatar wołowy . zielony pieprz . aioli",
+      "secondLineName": "chipsy ziemniaczane",
       "price": 56
     },
     {
       "isActive": true,
-      "firstLineName": "sałatka grecka . pomidory . brzoskwinie",
-      "secondLineName": "oliwki . feta . mięta . syrop różany",
-      "price": 41
+      "firstLineName": "kolorowe pomidory . pesto bazyliowe",
+      "secondLineName": "czosnek . ser Grana Padano",
+      "price": 44
     },
     {
       "isActive": true,
-      "firstLineName": "tuńczyk żółtopłetwy . jabłko ",
+      "firstLineName": "tuńczyk żółtopłetwy . jabłko",
       "secondLineName": "consomé pomidorowe . pachnotka . chilli",
       "thirdLineName": "seler naciowy",
       "price": 53
     },
     {
       "isActive": true,
-      "firstLineName": "kofty wołowo-baranie . sos sweet chilli",
-      "secondLineName": "papryczki padron . jogurt . mięta",
-      "price": 49
-    },
-    {
-      "isActive": true,
-      "firstLineName": "kwiaty cukinii w tempurze",
-      "secondLineName": "letnia trufla . duxelles grzybowe . ricotta pecora",
-      "price": 66
-    },
-    {
-      "isActive": true,
-      "firstLineName": "Lobster Roll . brioche z mięsem homara",
-      "secondLineName": "sos Béarnaise",
-      "price": 125
+      "firstLineName": "kaszanka francuska . tamaryndowiec",
+      "secondLineName": "śliwka . papryczki padron",
+      "price": 43
     }
   ],
   "soups": [
@@ -103,14 +93,14 @@
     },
     {
       "isActive": true,
-      "firstLineName": "halibut . fasolka szparagowa",
-      "secondLineName": "nori . pomidor . dashi",
+      "firstLineName": "halibut . fasolka szparagowa . nori",
+      "secondLineName": "pomidor . dashi",
       "price": 111
     },
     {
       "isActive": true,
-      "firstLineName": "jagnięcina . szpinak",
-      "secondLineName": "sos z Foie Gras . porzeczki . czarne kurki",
+      "firstLineName": "jagnięcina . szpinak . sos z Foie Gras",
+      "secondLineName": "porzeczki . czarne kurki",
       "price": 139
     },
     {
@@ -118,6 +108,12 @@
       "firstLineName": "sezonowany antrykot (300g)",
       "secondLineName": "sos musztardowy",
       "price": 169
+    },
+    {
+      "isActive": true,
+      "firstLineName": "Wagyu A5 rib-eye (170/230g)",
+      "secondLineName": "brokuły . sos béarnaise",
+      "price": "340/460"
     }
   ],
   "sides": [
@@ -133,8 +129,8 @@
     },
     {
       "isActive": true,
-      "firstLineName": "młode ziemniaki",
-      "secondLineName": "kwaśna śmietana . szczaw",
+      "firstLineName": "opalane ziemniaki . kwaśna śmietana",
+      "secondLineName": "koper",
       "price": 18
     },
     {
@@ -157,8 +153,8 @@
     },
     {
       "isActive": true,
-      "firstLineName": "Crémeux czekoladowe",
-      "secondLineName": "słony karmel . kokos . maliny",
+      "firstLineName": "Crémeux czekoladowe . słony karmel",
+      "secondLineName": "kokos . maliny",
       "price": 37
     }
   ]
