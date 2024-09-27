@@ -2,9 +2,9 @@
   "starters": [
     {
       "isActive": true,
-      "firstLineName": "ostryga Gauloise Fine de Claire N°2",
+      "firstLineName": "ostryga Gauloise Fine de Claire N°3",
       "secondLineName": "Leche de Tigre",
-      "price": 27
+      "price": 21
     },
     {
       "isActive": true,
@@ -32,9 +32,9 @@
     },
     {
       "isActive": true,
-      "firstLineName": "grillowane krewetki . marakuja",
-      "secondLineName": "habanero . pomarańcza",
-      "price": 55
+      "firstLineName": "grillowane kalmary . tzatziki . jalapeño",
+      "secondLineName": "kukurydza . kolendra",
+      "price": 46
     },
     {
       "isActive": true,
@@ -44,9 +44,9 @@
     },
     {
       "isActive": true,
-      "firstLineName": "sałatka grecka . pomidory . brzoskwinie",
-      "secondLineName": "oliwki . feta . mięta . syrop różany",
-      "price": 41
+      "firstLineName": "kolorowe pomidory . pesto bazyliowe",
+      "secondLineName": "czosnek . ser Grana Padano",
+      "price": 44
     },
     {
       "isActive": true,
@@ -57,21 +57,9 @@
     },
     {
       "isActive": true,
-      "firstLineName": "kofty wołowo-baranie . sos sweet chilli",
-      "secondLineName": "papryczki padron . jogurt . mięta",
-      "price": 49
-    },
-    {
-      "isActive": true,
-      "firstLineName": "kwiaty cukinii w tempurze",
-      "secondLineName": "letnia trufla . duxelles grzybowe . ricotta pecora",
-      "price": 66
-    },
-    {
-      "isActive": true,
-      "firstLineName": "Lobster Roll . brioche z mięsem homara",
-      "secondLineName": "sos Béarnaise",
-      "price": 125
+      "firstLineName": "kaszanka francuska . tamaryndowiec ",
+      "secondLineName": "śliwka . papryczki padron",
+      "price": 43
     }
   ],
   "soups": [
@@ -118,6 +106,12 @@
       "firstLineName": "sezonowany antrykot (300g)",
       "secondLineName": "sos musztardowy",
       "price": 169
+    },
+    {
+      "isActive": true,
+      "firstLineName": "Wagyu A5 rostbef (150g)",
+      "secondLineName": "dziki pak choi . sos béarnaise . letnia trufla",
+      "price": 420
     }
   ],
   "sides": [
@@ -133,8 +127,8 @@
     },
     {
       "isActive": true,
-      "firstLineName": "młode ziemniaki",
-      "secondLineName": "kwaśna śmietana . szczaw",
+      "firstLineName": "opalane ziemniaki . kwaśna śmietana",
+      "secondLineName": "koper",
       "price": 18
     },
     {
@@ -151,8 +145,8 @@
   "desserts": [
     {
       "isActive": true,
-      "firstLineName": "morele . lody z palonego masła",
-      "secondLineName": "kruszonka . melisa",
+      "firstLineName": "Rum Baba . krem jogurtowy",
+      "secondLineName": "pigwowiec . porzeczka . migdały",
       "price": 37
     },
     {
