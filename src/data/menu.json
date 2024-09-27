@@ -26,8 +26,10 @@
     },
     {
       "isActive": true,
-      "firstLineName": "bakłażan . jogurt grecki . pistacje",
-      "secondLineName": "koper włoski . dressing truflowo-pomidorowy",
+      "firstLineName": "bakłażan . jogurt grecki",
+      "secondLineName": "pistacje . koper włoski",
+      "thirdLineName": "dressing truflowo-pomidorowy",
+
       "price": 46
     },
     {
@@ -38,8 +40,8 @@
     },
     {
       "isActive": true,
-      "firstLineName": "tatar wołowy . zielony pieprz",
-      "secondLineName": "aioli . chipsy ziemniaczane",
+      "firstLineName": "tatar wołowy . zielony pieprz . aioli",
+      "secondLineName": "chipsy ziemniaczane",
       "price": 56
     },
     {
@@ -50,14 +52,14 @@
     },
     {
       "isActive": true,
-      "firstLineName": "tuńczyk żółtopłetwy . jabłko ",
+      "firstLineName": "tuńczyk żółtopłetwy . jabłko",
       "secondLineName": "consomé pomidorowe . pachnotka . chilli",
       "thirdLineName": "seler naciowy",
       "price": 53
     },
     {
       "isActive": true,
-      "firstLineName": "kaszanka francuska . tamaryndowiec ",
+      "firstLineName": "kaszanka francuska . tamaryndowiec",
       "secondLineName": "śliwka . papryczki padron",
       "price": 43
     }
@@ -91,14 +93,14 @@
     },
     {
       "isActive": true,
-      "firstLineName": "halibut . fasolka szparagowa",
-      "secondLineName": "nori . pomidor . dashi",
+      "firstLineName": "halibut . fasolka szparagowa . nori",
+      "secondLineName": "pomidor . dashi",
       "price": 111
     },
     {
       "isActive": true,
-      "firstLineName": "jagnięcina . szpinak",
-      "secondLineName": "sos z Foie Gras . porzeczki . czarne kurki",
+      "firstLineName": "jagnięcina . szpinak . sos z Foie Gras",
+      "secondLineName": "porzeczki . czarne kurki",
       "price": 139
     },
     {
@@ -109,9 +111,9 @@
     },
     {
       "isActive": true,
-      "firstLineName": "Wagyu A5 rostbef (150g)",
-      "secondLineName": "dziki pak choi . sos béarnaise . letnia trufla",
-      "price": 420
+      "firstLineName": "Wagyu A5 rib-eye (170/230g)",
+      "secondLineName": "brokuły . sos béarnaise",
+      "price": "340/460"
     }
   ],
   "sides": [
@@ -151,8 +153,8 @@
     },
     {
       "isActive": true,
-      "firstLineName": "Crémeux czekoladowe",
-      "secondLineName": "słony karmel . kokos . maliny",
+      "firstLineName": "Crémeux czekoladowe . słony karmel",
+      "secondLineName": "kokos . maliny",
       "price": 37
     }
   ]
