@@ -2,9 +2,9 @@
   "starters": [
     {
       "isActive": true,
-      "firstLineName": "ostryga Gauloise Fine de Claire N°2",
+      "firstLineName": "ostryga Gauloise Fine de Claire N°3",
       "secondLineName": "Leche de Tigre",
-      "price": 27
+      "price": 21
     },
     {
       "isActive": true,
@@ -111,9 +111,9 @@
     },
     {
       "isActive": true,
-      "firstLineName": "Wagyu A5 rib-eye (170/230g)",
-      "secondLineName": "brokuły . sos béarnaise",
-      "price": "340/460"
+      "firstLineName": "Wagyu A5 rostbef (150g)",
+      "secondLineName": "dziki pak choi . sos béarnaise . letnia trufla",
+      "price": "420"
     }
   ],
   "sides": [
@@ -147,8 +147,8 @@
   "desserts": [
     {
       "isActive": true,
-      "firstLineName": "morele . lody z palonego masła",
-      "secondLineName": "kruszonka . melisa",
+      "firstLineName": "Rum Baba . krem jogurtowy",
+      "secondLineName": "pigwowiec . porzeczka . migdały",
       "price": 37
     },
     {
