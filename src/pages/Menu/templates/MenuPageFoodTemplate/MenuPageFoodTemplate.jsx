@@ -13,7 +13,6 @@ function MenuPageFoodTemplate() {
     menuDessertsTitle,
     menuSoupsTitle,
     menuMainsTitle,
-    menuCheesesTitle,
     menuSidesTitle,
   } = t;
   return (

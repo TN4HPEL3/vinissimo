@@ -16,7 +16,6 @@ function MenuTemplate() {
     menuMainsTitle,
     menuSidesTitle,
     menuDessertsTitle,
-    menuCheesesTitle,
   } = t;
 
   return (
@@ -50,11 +49,6 @@ function MenuTemplate() {
               category={'desserts'}
               data={menu}
               title={menuDessertsTitle}
-            />
-            <MenuListOrganism
-              category={'cheeses'}
-              data={menu}
-              title={menuCheesesTitle}
             />
           </div>
         </div>
