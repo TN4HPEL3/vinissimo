@@ -27,11 +27,6 @@ function MenuPageFoodTemplate() {
             title={menuStartersTitle}
           />
           <MenuListOrganism
-            category={'cheeses'}
-            data={menu}
-            title={menuCheesesTitle}
-          />
-          <MenuListOrganism
             category={'soups'}
             data={menu}
             title={menuSoupsTitle}

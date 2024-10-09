@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 1.125rem;
+  line-height: 1.5rem;
   @media screen and (min-width: 48rem) {
     flex-direction: row;
   }

@@ -2,13 +2,9 @@
   "starters": [
     {
       "isActive": true,
-      "firstLineName": "ostryga Gauloise N°2 . leche di tigre",
-      "price": 27
-    },
-    {
-      "isActive": true,
-      "firstLineName": "ostryga Ostra Regal N°2 . leche di tigre",
-      "price": 34
+      "firstLineName": "ostryga Gauloise Fine de Claire N°3",
+      "secondLineName": "Leche de Tigre",
+      "price": 21
     },
     {
       "isActive": true,
@@ -20,131 +16,127 @@
       "isActive": true,
       "firstLineName": "oliwki Gordal & Leccino",
       "secondLineName": "kandyzowana cytryna",
-      "price": 26
+      "price": 27
     },
     {
       "isActive": true,
-      "firstLineName": "bakłażan . jogurt grecki . pistacje",
-      "secondLineName": "koper włoski . dressing truflowo-pomidorowy",
-      "price": 45
+      "firstLineName": "ser Blue Stilton . krakersy gryczane",
+      "secondLineName": "chutney z gruszki",
+      "price": 37
     },
     {
       "isActive": true,
-      "firstLineName": "grillowane krewetki . marakuja",
-      "secondLineName": "habanero . pomarańcza",
-      "price": 54
+      "firstLineName": "bakłażan . jogurt grecki",
+      "secondLineName": "pistacje . koper włoski",
+      "thirdLineName": "dressing truflowo-pomidorowy",
+
+      "price": 46
     },
     {
       "isActive": true,
-      "firstLineName": "tatar wołowy . czosnek niedźwiedzi",
-      "secondLineName": "rzodkiewka . chrzan",
-      "price": 55
+      "firstLineName": "grillowane kalmary . tzatziki . jalapeño",
+      "secondLineName": "kukurydza . kolendra",
+      "price": 46
     },
     {
       "isActive": true,
-      "firstLineName": "sałatka grecka . pomidory . brzoskwinie",
-      "secondLineName": "oliwki . Feta . bazylia tajska . syrop różany",
-      "price": 39
+      "firstLineName": "tatar wołowy . zielony pieprz . aioli",
+      "secondLineName": "chipsy ziemniaczane",
+      "price": 56
     },
     {
       "isActive": true,
-      "firstLineName": "krokiety z kurczaka . sałata rzymska",
-      "secondLineName": "majonez szafranowy . ogórek małosolny . sardele Boquerones",
+      "firstLineName": "kolorowe pomidory . pesto bazyliowe",
+      "secondLineName": "czosnek . ser Grana Padano",
+      "price": 44
+    },
+    {
+      "isActive": true,
+      "firstLineName": "tuńczyk żółtopłetwy . jabłko",
+      "secondLineName": "consomé pomidorowe . pachnotka . chilli",
+      "thirdLineName": "seler naciowy",
+      "price": 53
+    },
+    {
+      "isActive": true,
+      "firstLineName": "kaszanka francuska . tamaryndowiec",
+      "secondLineName": "śliwka . papryczki padron",
       "price": 43
-    },
-    {
-      "isActive": true,
-      "firstLineName": "grillowane szparagi . sos Béarnaise",
-      "secondLineName": "wędzone migdały",
-      "price": 48
-    },
-    {
-      "isActive": true,
-      "firstLineName": "gravlax z łososia szkockiego . ponzu",
-      "secondLineName": "kolendra . kapary . ogórek . czerwona cebula",
-      "price": 49
-    },
-    {
-      "isActive": true,
-      "firstLineName": "kofty wołowo – jagnięce . jogurt",
-      "secondLineName": "sos sweet chilli . papryczki padron . mięta",
-      "price": 47
-    },
-    {
-      "isActive": true,
-      "firstLineName": "kawior Antonius Siberian **** (30g)",
-      "secondLineName": "śmietana . brioche",
-      "price": 359
     }
   ],
   "soups": [
     {
       "isActive": true,
-      "firstLineName": "pomidorowa . szpecle serowe . lubczyk",
-      "secondLineName": "wywar z ogonów wołowych",
-      "price": 38
+      "firstLineName": "bulion mięsno – grzybowy . portobello",
+      "secondLineName": "udko kurczaka . kukurydza . letnia trufla",
+      "price": 39
     }
   ],
   "mains": [
     {
       "isActive": true,
-      "firstLineName": "fish & chips z dorsza . ogórki kimchi",
+      "firstLineName": "wytrawny gofr . kurki . Cheddar",
+      "secondLineName": "morele . szpinak",
+      "price": 67
+    },
+    {
+      "isActive": true,
+      "firstLineName": "Fish & Chips . dorsz . ogórki kimchi",
       "secondLineName": "frytki . majonez tzatziki z estragonem",
-      "price": 72
+      "price": 73
     },
     {
       "isActive": true,
-      "firstLineName": "grillowany schab z wieprzowiny jabłkowej",
-      "secondLineName": "młoda kapusta . sos miso . chorizo",
-      "thirdLineName": "kiszony czosnek niedźwiedzi",
-      "price": 79
+      "firstLineName": "grillowana cielęcina . sos béarnaise",
+      "secondLineName": "młoda kapusta . chorizo . kapary",
+      "price": 82
     },
     {
       "isActive": true,
-      "firstLineName": "kulbin . białe szparagi . ikra",
-      "secondLineName": "Beurre Blanc . kombu . nori",
-      "price": 99
+      "firstLineName": "halibut . fasolka szparagowa . nori",
+      "secondLineName": "pomidor . dashi",
+      "price": 111
     },
     {
       "isActive": true,
       "firstLineName": "jagnięcina . szpinak . sos z Foie Gras",
       "secondLineName": "porzeczki . czarne kurki",
-      "price": 137
-    },
-    {
-      "isActive": true,
-      "firstLineName": "kluski z ricotty . Pecorino Romano",
-      "secondLineName": "pesto z czosnku niedźwiedziego . kiszona cytryna . orzechy włoskie",
-      "price": 66
+      "price": 139
     },
     {
       "isActive": true,
       "firstLineName": "sezonowany antrykot (300g)",
       "secondLineName": "sos musztardowy",
-      "price": 166
+      "price": 169
+    },
+    {
+      "isActive": true,
+      "firstLineName": "Wagyu A5 rostbef (150g)",
+      "secondLineName": "dziki pak choi . sos béarnaise . letnia trufla",
+      "price": "420"
     }
   ],
   "sides": [
     {
       "isActive": true,
       "firstLineName": "frytki z aioli",
-      "price": 19
+      "price": 20
     },
     {
       "isActive": true,
-      "firstLineName": "klasyczne kimchi",
-      "price": 17
+      "firstLineName": "ogórki kimchi",
+      "price": 18
     },
     {
       "isActive": true,
-      "firstLineName": "młode ziemniaki . kwaśna śmietana",
-      "secondLineName": "szczaw",
-      "price": 17
+      "firstLineName": "opalane ziemniaki . kwaśna śmietana",
+      "secondLineName": "koper",
+      "price": 18
     },
     {
       "isActive": true,
       "firstLineName": "sałaty . dressing balsamiczny",
-      "price": 17
+      "price": 18
     },
     {
       "isActive": true,
@@ -155,23 +147,15 @@
   "desserts": [
     {
       "isActive": true,
-      "firstLineName": "truskawki . biszkopt . krem mleczny",
-      "secondLineName": "lody szczawiowe . czarny bez",
-      "price": 36
+      "firstLineName": "Rum Baba . krem jogurtowy",
+      "secondLineName": "pigwowiec . porzeczka . migdały",
+      "price": 37
     },
     {
       "isActive": true,
-      "firstLineName": "torcik czekoladowy . sól Maldon",
-      "secondLineName": "wiśnie . ganache jogurtowy",
-      "price": 36
-    }
-  ],
-  "cheeses": [
-    {
-      "isActive": true,
-      "firstLineName": "Bursztyn (24msc) . Brie . Stilton",
-      "secondLineName": "chutney z rabarbaru . krakersy gryczane",
-      "price": 59
+      "firstLineName": "Crémeux czekoladowe . słony karmel",
+      "secondLineName": "kokos . maliny",
+      "price": 37
     }
   ]
 }
