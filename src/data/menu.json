@@ -2,9 +2,9 @@
   "starters": [
     {
       "isActive": true,
-      "firstLineName": "ostryga Gauloise Fine de Claire N°3",
-      "secondLineName": "Leche de Tigre",
-      "price": 21
+      "firstLineName": "ostryga Gauloise Fine de Claire N°2",
+      "secondLineName": "różany mignonette",
+      "price": 27
     },
     {
       "isActive": true,
@@ -20,16 +20,14 @@
     },
     {
       "isActive": true,
-      "firstLineName": "ser Blue Stilton . krakersy gryczane",
+      "firstLineName": "ser Kornblume . krakersy gryczane",
       "secondLineName": "chutney z gruszki",
       "price": 37
     },
     {
       "isActive": true,
-      "firstLineName": "bakłażan . jogurt grecki",
-      "secondLineName": "pistacje . koper włoski",
-      "thirdLineName": "dressing truflowo-pomidorowy",
-
+      "firstLineName": "bakłażan . jogurt grecki . pistacje",
+      "secondLineName": "koper włoski . dressing truflowo-pomidorowy",
       "price": 46
     },
     {
@@ -52,10 +50,9 @@
     },
     {
       "isActive": true,
-      "firstLineName": "tuńczyk żółtopłetwy . jabłko",
-      "secondLineName": "consomé pomidorowe . pachnotka . chilli",
-      "thirdLineName": "seler naciowy",
-      "price": 53
+      "firstLineName": "wędzona troć fiordowa . kalarepa",
+      "secondLineName": "nori . mus chrzanowy",
+      "price": 55
     },
     {
       "isActive": true,
@@ -75,8 +72,15 @@
   "mains": [
     {
       "isActive": true,
-      "firstLineName": "wytrawny gofr . kurki . Cheddar",
-      "secondLineName": "morele . szpinak",
+      "firstLineName": "gołąbek z cielęciną . topinambur",
+      "secondLineName": "papryka . sos z palonych warzyw",
+      "price": 62
+    },
+    {
+      "isActive": true,
+      "firstLineName": "kopytka dyniowe . fondue serowe",
+      "secondLineName": "brokuł . kiszona cytryna . orzechy laskowe",
+      "thirdLineName": "pesto romesco",
       "price": 67
     },
     {
@@ -87,20 +91,14 @@
     },
     {
       "isActive": true,
-      "firstLineName": "grillowana cielęcina . sos béarnaise",
-      "secondLineName": "młoda kapusta . chorizo . kapary",
-      "price": 82
+      "firstLineName": "łosoś z Wysp Owczych . sos cytrynowy",
+      "secondLineName": "czarna soczewica . cukinia . pachnotka",
+      "price": 96
     },
     {
       "isActive": true,
-      "firstLineName": "halibut . fasolka szparagowa . nori",
-      "secondLineName": "pomidor . dashi",
-      "price": 111
-    },
-    {
-      "isActive": true,
-      "firstLineName": "jagnięcina . szpinak . sos z Foie Gras",
-      "secondLineName": "porzeczki . czarne kurki",
+      "firstLineName": "jagnięcina . szpinak . jus z kurczaka",
+      "secondLineName": "borowiki . żurawina",
       "price": 139
     },
     {
@@ -112,8 +110,8 @@
     {
       "isActive": true,
       "firstLineName": "Wagyu A5 rostbef (150g)",
-      "secondLineName": "dziki pak choi . sos béarnaise . letnia trufla",
-      "price": "420"
+      "secondLineName": "dziki brokuł . sos béarnaise",
+      "price": 420
     }
   ],
   "sides": [
@@ -140,8 +138,9 @@
     },
     {
       "isActive": true,
-      "firstLineName": "fasolka szparagowa . panko",
-      "price": 24
+      "firstLineName": "zasmażane buraki . żurawina",
+      "secondLineName": "orzechy włoskie",
+      "price": 18
     }
   ],
   "desserts": [
