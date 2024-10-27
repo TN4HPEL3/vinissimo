@@ -5,9 +5,6 @@ import { ParagraphAtom } from '../../../../components/atoms/ParagraphAtom/Paragr
 
 function MenuWineBottlesTextOrganism() {
   const { t } = useLanguage();
-  console.log(t);
-  console.log(t.wineBottlesPage1_1);
-
   return (
     <ArticleAtom>
       <MenuTitleAtom title={t.wineBottlesPage1_1} />
