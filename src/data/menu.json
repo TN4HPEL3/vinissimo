@@ -27,7 +27,8 @@
     {
       "isActive": true,
       "firstLineName": "bakłażan . jogurt grecki . pistacje",
-      "secondLineName": "koper włoski . dressing truflowo-pomidorowy",
+      "secondLineName": "koper włoski",
+      "thirdLineName": "dressing truflowo-pomidorowy",
       "price": 46
     },
     {
@@ -52,7 +53,7 @@
       "isActive": true,
       "firstLineName": "wędzona troć fiordowa . kalarepa",
       "secondLineName": "nori . mus chrzanowy",
-      "price": 55
+      "price": 48
     },
     {
       "isActive": true,
@@ -65,17 +66,11 @@
     {
       "isActive": true,
       "firstLineName": "bulion mięsno – grzybowy . portobello",
-      "secondLineName": "udko kurczaka . kukurydza . letnia trufla",
+      "secondLineName": "udko kurczaka . kukurydza . jesienna trufla",
       "price": 39
     }
   ],
   "mains": [
-    {
-      "isActive": true,
-      "firstLineName": "gołąbek z cielęciną . topinambur",
-      "secondLineName": "papryka . sos z palonych warzyw",
-      "price": 62
-    },
     {
       "isActive": true,
       "firstLineName": "kopytka dyniowe . fondue serowe",
@@ -85,21 +80,27 @@
     },
     {
       "isActive": true,
+      "firstLineName": "trybowane udo z kaczki . jus truflowy",
+      "secondLineName": "babka ziemniaczana . cykoria . kiszona kapusta",
+      "price": 72
+    },
+    {
+      "isActive": true,
       "firstLineName": "Fish & Chips . dorsz . ogórki kimchi",
       "secondLineName": "frytki . majonez tzatziki z estragonem",
       "price": 73
     },
     {
       "isActive": true,
-      "firstLineName": "łosoś z Wysp Owczych . sos cytrynowy",
+      "firstLineName": "łosoś szkocki . sos cytrynowy",
       "secondLineName": "czarna soczewica . cukinia . pachnotka",
       "price": 96
     },
     {
       "isActive": true,
-      "firstLineName": "jagnięcina . szpinak . jus z kurczaka",
-      "secondLineName": "borowiki . żurawina",
-      "price": 139
+      "firstLineName": "schab z wieprzowiny jabłkowej . dymka",
+      "secondLineName": "jus z kurczaka . borowiki . żurawina",
+      "price": 120
     },
     {
       "isActive": true,
@@ -109,9 +110,9 @@
     },
     {
       "isActive": true,
-      "firstLineName": "Wagyu A5 rostbef (150g)",
-      "secondLineName": "dziki brokuł . sos béarnaise",
-      "price": 420
+      "firstLineName": "Picanha Wagyu (200g) . dziki brokuł",
+      "secondLineName": "truflowy sos béarnaise",
+      "price": 275
     }
   ],
   "sides": [
@@ -127,14 +128,15 @@
     },
     {
       "isActive": true,
-      "firstLineName": "opalane ziemniaki . kwaśna śmietana",
-      "secondLineName": "koper",
-      "price": 18
+      "firstLineName": "pieczone ziemniaki . kwaśna śmietana",
+      "secondLineName": "szczypior",
+      "price": 19
     },
     {
       "isActive": true,
-      "firstLineName": "sałaty . dressing balsamiczny",
-      "price": 18
+      "firstLineName": "sałata rzymska . dressing cezar . grzanki",
+      "secondLineName": "Grana Padano",
+      "price": 24
     },
     {
       "isActive": true,
