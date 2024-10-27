@@ -2,8 +2,6 @@ import { useLanguage } from '../../../../helpers/contexts/languageContext.js';
 import { MenuListOrganism } from '../../../../components/organisms/MenuListOrganism/MenuListOrganism.jsx';
 import { MenuPageButtonsOrganism } from '../../organisms/MenuPageButtonsOrganism/MenuPageButtonsOrganism.jsx';
 
-import menu from '../../../../data/menu.json';
-
 import css from './MenuPageFoodTemplate.module.css';
 
 function MenuPageFoodTemplate() {
@@ -14,6 +12,7 @@ function MenuPageFoodTemplate() {
     menuSoupsTitle,
     menuMainsTitle,
     menuSidesTitle,
+    menu,
   } = t;
   return (
     <div className={css.menu}>

@@ -9,7 +9,8 @@ function TeamPageMolecule() {
   const { t } = useLanguage();
   const {
     teamTitle,
-    teamDescription,
+    teamDescriptionPrimary,
+    teamDescriptionSecondary,
     teamKitchenTitle,
     teamHeadChefTitle,
     teamHeadChefDescription,
@@ -36,7 +37,11 @@ function TeamPageMolecule() {
       <TeamPageTitleAtom>{teamTitle}</TeamPageTitleAtom>
       <ParagraphAtom
         className={css.team__content__description}
-        text={teamDescription}
+        text={teamDescriptionPrimary}
+      />
+      <ParagraphAtom
+        className={css.team__content__description}
+        text={teamDescriptionSecondary}
       />
       <TeamPageTitleAtom>{teamKitchenTitle}</TeamPageTitleAtom>
       <ParagraphAtom
@@ -76,6 +81,7 @@ function TeamPageMolecule() {
         text={
           <>
             <TeamPageNameAtom>{teamChefDePartieSecondTitle}</TeamPageNameAtom>
+            <br />
           </>
         }
       />

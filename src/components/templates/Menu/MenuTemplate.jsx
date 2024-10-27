@@ -3,8 +3,6 @@ import { useLanguage } from '../../../helpers/contexts/languageContext.js';
 import { MenuListOrganism } from '../../organisms/MenuListOrganism/MenuListOrganism.jsx';
 import { MenuButtonsOrganism } from '../../organisms/MenuButtonsOrganism/MenuButtonsOrganism.jsx';
 
-import menu from '../../../data/menu.json';
-
 import css from './MenuTemplate.module.css';
 
 function MenuTemplate() {
@@ -16,6 +14,7 @@ function MenuTemplate() {
     menuMainsTitle,
     menuSidesTitle,
     menuDessertsTitle,
+    menu,
   } = t;
 
   return (
