@@ -2,6 +2,8 @@ import { useState } from 'react';
 
 import { DownloadMenuAtom } from '../../atoms/DownloadMenuAtom.jsx';
 import { smoothScrollToTop } from '../../../../helpers/smoothScroll.js';
+import { useLanguage } from '../../../../helpers/contexts/languageContext.js';
+import { checkArrowDownButton } from '../../../../helpers/checkArrowDownButton.js';
 import { WinePageButtonsOrganism } from '../../organisms/WinePageButtonsOrganism/WinePageButtonsOrganism.jsx';
 import { WineGlassesFirstPageOrganism } from '../../organisms/WineGlassesFirstPageOrganism/WineGlassesFirstPageOrganism.jsx';
 import { WineGlassesThirdPageOrganism } from '../../organisms/WineGlassesThirdPageOrganism/WineGlassesThirdPageOrganism.jsx';
@@ -11,7 +13,6 @@ import { MenuPageArrowLeftButtonMolecule } from '../../../Menu/molecules/MenuPag
 import { MenuPageArrowRightButtonMolecule } from '../../../Menu/molecules/MenuPageArrowButtonMolecule/MenuPageArrowRightButtonMolecule.jsx';
 
 import css from './WineGlassesTemplate.module.css';
-import { checkArrowDownButton } from '../../../../helpers/checkArrowDownButton.js';
 
 function WineGlassesTemplate() {
   smoothScrollToTop();
@@ -29,6 +30,8 @@ function WineGlassesTemplate() {
     numberOfPages,
     pageNumber,
   });
+  const { t } = useLanguage();
+  const { wineGlassesDownloadButton } = t;
   return (
     <div className={css.menu__wine}>
       <WinePageButtonsOrganism />
@@ -62,7 +65,7 @@ function WineGlassesTemplate() {
       </div>
       <DownloadMenuAtom
         href="/WinesGlasses.pdf"
-        textButton="Pobierz kartę win na kieliszki"
+        textButton={wineGlassesDownloadButton}
         textOnDownload={'Wines glasses'}
       />
     </div>

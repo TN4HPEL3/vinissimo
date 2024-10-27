@@ -1,50 +1,58 @@
 import { SectionTemplate } from '../Section/SectionTemplate.jsx';
+import { useLanguage } from '../../../helpers/contexts/languageContext.js';
 import { MenuListOrganism } from '../../organisms/MenuListOrganism/MenuListOrganism.jsx';
 import { MenuButtonsOrganism } from '../../organisms/MenuButtonsOrganism/MenuButtonsOrganism.jsx';
-
-import menu from '../../../data/menu.json';
 
 import css from './MenuTemplate.module.css';
 
 function MenuTemplate() {
-  const buttonsText = {
-    winesBottlesBtnText: 'wina',
-    alcoholBtnText: 'alkohole',
-    wineGlassBtnText: 'wina na kieliszki',
-  };
+  const { t } = useLanguage();
+  const {
+    menuTitle,
+    menuStartersTitle,
+    menuSoupsTitle,
+    menuMainsTitle,
+    menuSidesTitle,
+    menuDessertsTitle,
+    menu,
+  } = t;
 
   return (
-    <SectionTemplate title="menu">
+    <SectionTemplate title={menuTitle}>
       <div className={css.menu}>
         <div className={css.menu__content}>
           <div>
             <MenuListOrganism
               category={'starters'}
               data={menu}
-              title={'przystawki'}
+              title={menuStartersTitle}
             />
-            <MenuListOrganism category={'soups'} data={menu} title={'zupy'} />
+            <MenuListOrganism
+              category={'soups'}
+              data={menu}
+              title={menuSoupsTitle}
+            />
           </div>
           <div>
             <MenuListOrganism
               category={'mains'}
               data={menu}
-              title={'dania główne'}
+              title={menuMainsTitle}
             />
             <MenuListOrganism
               category={'sides'}
               data={menu}
-              title={'dodatki'}
+              title={menuSidesTitle}
             />
             <MenuListOrganism
               category={'desserts'}
               data={menu}
-              title={'na słodko'}
+              title={menuDessertsTitle}
             />
           </div>
         </div>
         <div className={css.menu__buttons}>
-          <MenuButtonsOrganism text={buttonsText} />
+          <MenuButtonsOrganism />
         </div>
       </div>
     </SectionTemplate>

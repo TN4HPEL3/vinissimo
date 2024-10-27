@@ -1,10 +1,5 @@
-import {
-  addressTextPL,
-  nameTextPL,
-  openingHoursSundayTextPL,
-  openingHoursTextPL,
-} from '../../../helpers/findTextByLanguage.js';
 import { CheckMediaQuery } from '../../../helpers/checkMediaQuery.js';
+import { useLanguage } from '../../../helpers/contexts/languageContext.js';
 import { FooterHoursMolecule } from '../../molecules/FooterHoursMolecule/FooterHoursMolecule.jsx';
 import { FooterIconsMolecule } from '../../molecules/FooterIconsMolecule/FooterIconsMolecule.jsx';
 import { FooterLinksMolecule } from '../../molecules/FooterLinksMolecule/FooterLinksMolecule.jsx';
@@ -14,16 +9,23 @@ import css from './FooterOrganism.module.css';
 
 function FooterOrganism() {
   const screen = CheckMediaQuery();
+  const { t } = useLanguage();
+  const {
+    footerRestaurantName,
+    footerAddress,
+    footerOpeningHours,
+    footerOpeningHoursSunday,
+  } = t;
   return (
     <>
       <div className={css.footer__links}>
         <FooterAddressMolecule
-          textName={nameTextPL}
-          textAddress={addressTextPL}
+          textName={footerRestaurantName}
+          textAddress={footerAddress}
         />
         <FooterHoursMolecule
-          textOpeningHours={openingHoursTextPL}
-          textOpeningHoursSunday={openingHoursSundayTextPL}
+          textOpeningHours={footerOpeningHours}
+          textOpeningHoursSunday={footerOpeningHoursSunday}
         />
         <FooterLinksMolecule />
         {screen === 'desktop' && <FooterIconsMolecule />}

@@ -1,11 +1,19 @@
+import { useLanguage } from '../../../../helpers/contexts/languageContext.js';
 import { MenuListOrganism } from '../../../../components/organisms/MenuListOrganism/MenuListOrganism.jsx';
 import { MenuPageButtonsOrganism } from '../../organisms/MenuPageButtonsOrganism/MenuPageButtonsOrganism.jsx';
-
-import menu from '../../../../data/menu.json';
 
 import css from './MenuPageFoodTemplate.module.css';
 
 function MenuPageFoodTemplate() {
+  const { t } = useLanguage();
+  const {
+    menuStartersTitle,
+    menuDessertsTitle,
+    menuSoupsTitle,
+    menuMainsTitle,
+    menuSidesTitle,
+    menu,
+  } = t;
   return (
     <div className={css.menu}>
       <MenuPageButtonsOrganism />
@@ -14,21 +22,29 @@ function MenuPageFoodTemplate() {
           <MenuListOrganism
             category={'starters'}
             data={menu}
-            title={'przystawki'}
+            title={menuStartersTitle}
           />
-          <MenuListOrganism category={'soups'} data={menu} title={'zupy'} />
+          <MenuListOrganism
+            category={'soups'}
+            data={menu}
+            title={menuSoupsTitle}
+          />
         </div>
         <div>
           <MenuListOrganism
             category={'mains'}
             data={menu}
-            title={'dania główne'}
+            title={menuMainsTitle}
           />
-          <MenuListOrganism category={'sides'} data={menu} title={'dodatki'} />
+          <MenuListOrganism
+            category={'sides'}
+            data={menu}
+            title={menuSidesTitle}
+          />
           <MenuListOrganism
             category={'desserts'}
             data={menu}
-            title={'na słodko'}
+            title={menuDessertsTitle}
           />
         </div>
       </div>

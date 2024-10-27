@@ -1,6 +1,7 @@
 import { publicAccess } from '../../../helpers/publicAccess.js';
 import { SectionTemplate } from '../Section/SectionTemplate.jsx';
 import { CheckMediaQuery } from '../../../helpers/checkMediaQuery.js';
+import { useLanguage } from '../../../helpers/contexts/languageContext.js';
 import { ParagraphAtom } from '../../atoms/ParagraphAtom/ParagraphAtom.jsx';
 import { AboutContentMobileAtom } from '../../atoms/AboutContentAtoms/AboutContentMobileAtom.jsx';
 import { AboutContentDesktopAtom } from '../../atoms/AboutContentAtoms/AboutContentDesktopAtom.jsx';
@@ -9,8 +10,9 @@ import css from './AboutTemplate.module.css';
 
 function AboutTemplate() {
   const screen = CheckMediaQuery();
+  const { t } = useLanguage();
   return (
-    <SectionTemplate title="o nas">
+    <SectionTemplate title={t.aboutUsTitle}>
       <div className={css.about}>
         {screen === 'desktop' ? (
           <>
