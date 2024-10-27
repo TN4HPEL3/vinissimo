@@ -9,7 +9,7 @@
   "navigationReservation": "rezerwacja",
 
   "aboutUsTitle": "o nas",
-  "aboutUsPrimaryFirst": "Vinissimo Restaurant &amp; Wine Bar to nowa marka, pod którą od lutego 2024, działa, obecna na Bema 6 od 2017 roku - Sztuczka Bistro. Restauracja, prowadzona od 2022 roku przez Łukasza Chwojnickiego, w delikatnie zmienionym formacie i z tym samym, niezastąpionym teamem, niezmiennie serwuje przepyszną i minimalistyczną kuchnię, wspartą ogromną selekcją win i nienagannym serwisem.",
+  "aboutUsPrimaryFirst": "Vinissimo Restaurant & Wine Bar to nowa marka, pod którą od lutego 2024, działa, obecna na Bema 6 od 2017 roku - Sztuczka Bistro. Restauracja, prowadzona od 2022 roku przez Łukasza Chwojnickiego, w delikatnie zmienionym formacie i z tym samym, niezastąpionym teamem, niezmiennie serwuje przepyszną i minimalistyczną kuchnię, wspartą ogromną selekcją win i nienagannym serwisem.",
   "aboutUsPrimarySecond": "Szefem kuchni, od czerwca 2023 roku jest skromny i utalentowany Łukasz Theus, który współpracował z wieloma znakomitymi szefami. Za serwis, wina i pracę całej restauracji odpowiada manager - Diana Kalinichenko, która pracowała w najlepszych Trójmiejskich restauracjach i mimo młodego wieku posiada spore doświadczenie, które umiejętnie wykorzystuje dbając o naszych Gości.",
   "aboutUsSecondaryFirst": "Vino, Vinissimo, czyli…wino, niezwykłe wino, brzmi tak samo pięknie i intrygująco w każdym języku. To nasz znak rozpoznawczy. Ponad 400 etykiet, z czego 70 dostępne na kieliszek. Trzech sommelierów, kieliszki Riedel – dedykowane do różnych szczepów, Coravin. Konwencjonalne, naturalne, biodynamiczne. Legendy, friki, klasyka. Wszystko to pozwala nam zadbać o każdego: od poczatkującego, dla którego każdy cukier w winie jest dobry, po winomana, który wypije do lunchu Colares 1969. U nas panuje winiarski egalitaryzm i tak samo istotne jest dla nas, podstawowe Primitivo jak i Sassicaia, ważne, że i to i to sprawia wam przyjemność.",
   "aboutUsSecondarySecond": "W naszym menu znajdziecie minimalistyczne dania, oparte na klasyce z sezonowych produktów. Pracujemy na najwyższej jakości składnikach. W karcie znajdziesz: wołowinę Wagyu, dorsza Skrei, czarną zimową truflę, świeże ostrygi, wieprzowinę Ibérico i wiele innych delikatesów. Wszystkie nasze dania są idealne do dzielenia, do czego niezmiennie zachęcamy naszych Gości.",
@@ -21,13 +21,9 @@
     "starters": [
       {
         "isActive": true,
-        "firstLineName": "ostryga Gauloise N°2 . leche di tigre",
+        "firstLineName": "ostryga Gauloise Fine de Claire N°2",
+        "secondLineName": "różany mignonette",
         "price": 27
-      },
-      {
-        "isActive": true,
-        "firstLineName": "ostryga Ostra Regal N°2 . leche di tigre",
-        "price": 34
       },
       {
         "isActive": true,
@@ -39,158 +35,152 @@
         "isActive": true,
         "firstLineName": "oliwki Gordal & Leccino",
         "secondLineName": "kandyzowana cytryna",
-        "price": 26
+        "price": 27
+      },
+      {
+        "isActive": true,
+        "firstLineName": "ser Kornblume . krakersy gryczane",
+        "secondLineName": "chutney z gruszki",
+        "price": 37
       },
       {
         "isActive": true,
         "firstLineName": "bakłażan . jogurt grecki . pistacje",
         "secondLineName": "koper włoski . dressing truflowo-pomidorowy",
-        "price": 45
+        "price": 46
       },
       {
         "isActive": true,
-        "firstLineName": "grillowane krewetki . marakuja",
-        "secondLineName": "habanero . pomarańcza",
-        "price": 54
+        "firstLineName": "grillowane kalmary . tzatziki . jalapeño",
+        "secondLineName": "kukurydza . kolendra",
+        "price": 46
       },
       {
         "isActive": true,
-        "firstLineName": "tatar wołowy . czosnek niedźwiedzi",
-        "secondLineName": "rzodkiewka . chrzan",
-        "price": 55
+        "firstLineName": "tatar wołowy . zielony pieprz . aioli",
+        "secondLineName": "chipsy ziemniaczane",
+        "price": 56
       },
       {
         "isActive": true,
-        "firstLineName": "sałatka grecka . pomidory . brzoskwinie",
-        "secondLineName": "oliwki . Feta . bazylia tajska . syrop różany",
-        "price": 39
+        "firstLineName": "kolorowe pomidory . pesto bazyliowe",
+        "secondLineName": "czosnek . ser Grana Padano",
+        "price": 44
       },
       {
         "isActive": true,
-        "firstLineName": "krokiety z kurczaka . sałata rzymska",
-        "secondLineName": "majonez szafranowy . ogórek małosolny . sardele Boquerones",
-        "price": 43
-      },
-      {
-        "isActive": true,
-        "firstLineName": "grillowane szparagi . sos Béarnaise",
-        "secondLineName": "wędzone migdały",
+        "firstLineName": "wędzona troć fiordowa . kalarepa",
+        "secondLineName": "nori . mus chrzanowy",
         "price": 48
       },
       {
         "isActive": true,
-        "firstLineName": "gravlax z łososia szkockiego . ponzu",
-        "secondLineName": "kolendra . kapary . ogórek . czerwona cebula",
-        "price": 49
-      },
-      {
-        "isActive": true,
-        "firstLineName": "kofty wołowo – jagnięce . jogurt",
-        "secondLineName": "sos sweet chilli . papryczki padron . mięta",
-        "price": 47
-      },
-      {
-        "isActive": true,
-        "firstLineName": "kawior Antonius Siberian **** (30g)",
-        "secondLineName": "śmietana . brioche",
-        "price": 359
+        "firstLineName": "kaszanka francuska . tamaryndowiec",
+        "secondLineName": "śliwka . papryczki padron",
+        "price": 43
       }
     ],
     "soups": [
       {
         "isActive": true,
-        "firstLineName": "pomidorowa . szpecle serowe . lubczyk",
-        "secondLineName": "wywar z ogonów wołowych",
-        "price": 38
+        "firstLineName": "bulion mięsno – grzybowy . portobello",
+        "secondLineName": "udko kurczaka . kukurydza . jesienna trufla",
+        "price": 39
       }
     ],
     "mains": [
       {
         "isActive": true,
-        "firstLineName": "fish & chips z dorsza . ogórki kimchi",
-        "secondLineName": "frytki . majonez tzatziki z estragonem",
+        "firstLineName": "gołąbek z cielęciną . topinambur",
+        "secondLineName": "papryka . sos z palonych warzyw",
+        "price": 62
+      },
+      {
+        "isActive": true,
+        "firstLineName": "kopytka dyniowe . fondue serowe",
+        "secondLineName": "brokuł . kiszona cytryna . orzechy laskowe",
+        "thirdLineName": "pesto romesco",
+        "price": 67
+      },
+      {
+        "isActive": true,
+        "firstLineName": "trybowane udo z kaczki . jus truflowy",
+        "secondLineName": "babka ziemniaczana . cykoria . kiszona kapusta",
         "price": 72
       },
       {
         "isActive": true,
-        "firstLineName": "grillowany schab z wieprzowiny jabłkowej",
-        "secondLineName": "młoda kapusta . sos miso . chorizo",
-        "thirdLineName": "kiszony czosnek niedźwiedzi",
-        "price": 79
+        "firstLineName": "Fish & Chips . dorsz . ogórki kimchi",
+        "secondLineName": "frytki . majonez tzatziki z estragonem",
+        "price": 73
       },
       {
         "isActive": true,
-        "firstLineName": "kulbin . białe szparagi . ikra",
-        "secondLineName": "Beurre Blanc . kombu . nori",
-        "price": 99
+        "firstLineName": "łosoś szkocki . sos cytrynowy",
+        "secondLineName": "czarna soczewica . cukinia . pachnotka",
+        "price": 96
       },
       {
         "isActive": true,
-        "firstLineName": "jagnięcina . szpinak . sos z Foie Gras",
-        "secondLineName": "porzeczki . czarne kurki",
-        "price": 137
-      },
-      {
-        "isActive": true,
-        "firstLineName": "kluski z ricotty . Pecorino Romano",
-        "secondLineName": "pesto z czosnku niedźwiedziego . kiszona cytryna . orzechy włoskie",
-        "price": 66
+        "firstLineName": "schab z wieprzowiny jabłkowej . dymka",
+        "secondLineName": "jus z kurczaka . borowiki . żurawina",
+        "price": 120
       },
       {
         "isActive": true,
         "firstLineName": "sezonowany antrykot (300g)",
         "secondLineName": "sos musztardowy",
-        "price": 166
+        "price": 169
+      },
+      {
+        "isActive": true,
+        "firstLineName": "Picanha Wagyu (200g) . dziki brokuł",
+        "secondLineName": "truflowy sos béarnaise",
+        "price": 275
       }
     ],
     "sides": [
       {
         "isActive": true,
         "firstLineName": "frytki z aioli",
+        "price": 20
+      },
+      {
+        "isActive": true,
+        "firstLineName": "ogórki kimchi",
+        "price": 18
+      },
+      {
+        "isActive": true,
+        "firstLineName": "pieczone ziemniaki . kwaśna śmietana",
+        "secondLineName": "szczypior",
         "price": 19
       },
       {
         "isActive": true,
-        "firstLineName": "klasyczne kimchi",
-        "price": 17
-      },
-      {
-        "isActive": true,
-        "firstLineName": "młode ziemniaki . kwaśna śmietana",
-        "secondLineName": "szczaw",
-        "price": 17
-      },
-      {
-        "isActive": true,
-        "firstLineName": "sałaty . dressing balsamiczny",
-        "price": 17
-      },
-      {
-        "isActive": true,
-        "firstLineName": "fasolka szparagowa . panko",
+        "firstLineName": "sałata rzymska . dressing cezar . grzanki",
+        "secondLineName": "Grana Padano",
         "price": 24
+      },
+      {
+        "isActive": true,
+        "firstLineName": "zasmażane buraki . żurawina",
+        "secondLineName": "orzechy włoskie",
+        "price": 18
       }
     ],
     "desserts": [
       {
         "isActive": true,
-        "firstLineName": "truskawki . biszkopt . krem mleczny",
-        "secondLineName": "lody szczawiowe . czarny bez",
-        "price": 36
+        "firstLineName": "Rum Baba . krem jogurtowy",
+        "secondLineName": "pigwowiec . porzeczka . migdały",
+        "price": 37
       },
       {
         "isActive": true,
-        "firstLineName": "torcik czekoladowy . sól Maldon",
-        "secondLineName": "wiśnie . ganache jogurtowy",
-        "price": 36
-      }
-    ],
-    "cheeses": [
-      {
-        "isActive": true,
-        "firstLineName": "Bursztyn (24msc) . Brie . Stilton",
-        "secondLineName": "chutney z rabarbaru . krakersy gryczane",
-        "price": 59
+        "firstLineName": "Crémeux czekoladowe . słony karmel",
+        "secondLineName": "kokos . maliny",
+        "price": 37
       }
     ]
   },
@@ -227,11 +217,19 @@
   "wineGlassesDownloadButton": "Pobierz kartę win na kieliszki",
   "wineBottlesDownloadButton": "Pobierz kartę win na butelki",
 
+  "wineBottlesPage1_1": "[wine list]",
+  "wineBottlesPage1_2": "drodzy goście,",
+  "wineBottlesPage1_3": "Nasze wina naturalnie zawierają siarczyny, część z nich jest niefiltrowana, bez dodatku siarki lub wegańska.",
+  "wineBottlesPage1_4": "Wszystkie butelki mają pojemność 0,75 litra, jeśli nie podano inaczej.",
+  "wineBottlesPage1_5": "Ceny podane są w PLN zawierające wszystkie podatki.",
+  "wineBottlesPage1_6": "Wszystkie butelki dostępne są również w sprzedaży detalicznej na wynos.",
+
   "eventsPagePrimaryText": "Przy większych rezerwacjach i zapytaniach o uroczystości zorganizowane lub cateringi, zapraszamy do kontaktu mailowego:",
   "eventsPageSecondaryText": "Łącznie w obu naszych salach posadzimy maksymalnie 80 osób. W górnej sali pomieścimy maksymalnie 24 osoby, a w sali dolnej, maksymalnie 56 osób (przy 3 stolikach: 26, 19, 11). Przy jednym stole, na dole, maksymalnie zmieścimy 34 osoby. Naszą restauracje możecie wynająć na wyłączność w całości, lub na wasze potrzeby może być przeznaczona jedna z dwóch sal. Menu, każdorazowo ustalamy indywidualnie, z uwzględnieniem aktualnej karty i dostępnych produktów sezonowych.",
 
-  "teamTitle": "team",
-  "teamDescription": "Zgrany zespół, to serce każdej restauracji. A jeżeli jest on jeszcze młody i dynamiczny, to spełnienie marzeń każdego restauratora. Natomiast jeśli ten zespół jest do tego: doświadczony, pełen profesjonalistów i pasjonatów sztuki restauracyjnej, to jest jak wygrana w Eurojackpota. I ja tak mam… Pozwólcie, że przedstawię Wam:",
+  "teamTitle": "Team",
+  "teamDescriptionPrimary": "Zgrany zespół, to serce każdej restauracji. A jeżeli jest on jeszcze młody i dynamiczny, to spełnienie marzeń każdego restauratora. Natomiast jeśli ten zespół jest do tego: doświadczony, pełen profesjonalistów i pasjonatów sztuki restauracyjnej, to jest jak wygrana w Eurojackpota. I ja tak mam…",
+  "teamDescriptionSecondary": "Pozwólcie, że przedstawię Wam:",
   "teamKitchenTitle": "kuchnia",
   "teamHeadChefTitle": "Head Chef – Łukasz Theus",
   "teamHeadChefDescription": "Młody i solidnie doświadczony. Pracował z wieloma uznanymi szefami kuchni. Udźwignął minimalistyczny styl Ivana, w który potrafi ubrać swoje talerze. W Vinissimo od 2021. Od lipca 2023 samodzielnie zarządza naszą kuchnią.",
