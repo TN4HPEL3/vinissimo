@@ -8,9 +8,11 @@ import css from './OpenMobileMenuButtonAtom.module.css';
 function OpenMobileMenuButtonAtom() {
   const { open } = useContext(mobileMenuContext);
   return (
-    <button className={[css['header__mobile-menu-button']]} onClick={open}>
-      <IconAtom id="burger-menu" />
-    </button>
+    <>
+      <button className={[css['header__mobile-menu-button']]} onClick={open}>
+        <IconAtom id="burger-menu" />
+      </button>
+    </>
   );
 }
 

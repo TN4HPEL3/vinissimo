@@ -1,32 +1,29 @@
 import { CheckMediaQuery } from '../../../helpers/checkMediaQuery.js';
+import { useLanguage } from '../../../helpers/contexts/languageContext.js';
 import { MenuButtonMobileMolecule } from '../../molecules/MenuButtonMobileMolecule/MenuButtonMobileMolecule.jsx';
 import { MenuPageButtonMolecule } from '../../../pages/Menu/molecules/MenuPageButtonsMolecule/MenuPageButtonMolecule.jsx';
 
-function MenuButtonsOrganism({ text }) {
+function MenuButtonsOrganism() {
   const screen = CheckMediaQuery();
-  const { winesBottlesBtnText, alcoholBtnText, wineGlassBtnText } = text;
-
+  const { t } = useLanguage();
+  const { menuWineBottlesButton, menuAlcoholButton, menuWineGlassesButton } = t;
   return screen === 'desktop' ? (
     <>
       <MenuPageButtonMolecule
-        buttonText={winesBottlesBtnText}
+        buttonText={menuWineBottlesButton}
         link="/wine/bottles"
       />
       <MenuPageButtonMolecule
-        buttonText={wineGlassBtnText}
+        buttonText={menuWineGlassesButton}
         link="/wine/glasses"
       />
       <MenuPageButtonMolecule
-        buttonText={alcoholBtnText}
+        buttonText={menuAlcoholButton}
         link="/menu/alcohol"
       />
     </>
   ) : (
-    <MenuButtonMobileMolecule
-      winesBottlesBtnText={winesBottlesBtnText}
-      alcoholBtnText={alcoholBtnText}
-      wineGlassBtnText={wineGlassBtnText}
-    />
+    <MenuButtonMobileMolecule />
   );
 }
 

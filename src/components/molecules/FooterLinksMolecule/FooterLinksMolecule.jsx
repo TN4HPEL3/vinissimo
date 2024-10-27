@@ -1,5 +1,5 @@
 import { hrefEmail, hrefPhoneNumber } from '../../../helpers/findLink.js';
-import { privacyPolicyTextPL } from '../../../helpers/findTextByLanguage.js';
+import { useLanguage } from '../../../helpers/contexts/languageContext.js';
 import { ContactLinkAtom } from '../../atoms/ContactLinkAtom/ContactLinkAtom.jsx';
 import { FooterDownloadLinkAtom } from '../../atoms/FooterDownloadLinkAtom/FooterDownloadLinkAtom.jsx';
 
@@ -13,15 +13,17 @@ function FooterLinksMolecule() {
   const linkEmail = links.find(link => link.id === 'mail');
   const phoneNumber = linkPhone.text;
   const email = linkEmail.text;
+  const { t } = useLanguage();
+  const { footerPrivacyPolicy } = t;
   return (
     <div className={css['footer__links__phone']}>
       <ContactLinkAtom children={phoneNumber} href={hrefPhoneNumber} />
       <ContactLinkAtom children={email} href={hrefEmail} />
       <FooterDownloadLinkAtom
         href="/privacyPolicy.pdf"
-        textOnDownload="Polityka prywatności"
+        textOnDownload={footerPrivacyPolicy}
       >
-        {privacyPolicyTextPL}
+        {footerPrivacyPolicy}
       </FooterDownloadLinkAtom>
     </div>
   );

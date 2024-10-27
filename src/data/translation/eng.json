@@ -1,0 +1,246 @@
+{
+  "language": "ENG",
+
+  "navigationHome": "home",
+  "navigationMenu": "menu",
+  "navigationWine": "wine",
+  "navigationEvents": "events",
+  "navigationTeam": "team",
+  "navigationReservation": "reservation",
+
+  "aboutUsTitle": "about us",
+  "aboutUsPrimaryFirst": "Vinissimo Restaurant & Wine Bar is the new brand under which Sztuczka Bistro, present at Bema 6 since 2017, has been operating since February 2024. The restaurant, run since 2022 by Łukasz Chwojnicki, in a slightly changed format and with the same irreplaceable team, invariably serves delicious and minimalist cuisine, backed by a huge wine selection and impeccable service.",
+  "aboutUsPrimarySecond": "The head chef, since June 2023, is the humble and talented Luke Theus, who has worked with many great chefs. In charge of service, wines and the work of the entire restaurant is the manager - Diana Kalinichenko, who has worked in the best restaurants in the Tri-City and, despite her young age, has a lot of experience, which she skilfully uses to take care of our guests.",
+  "aboutUsSecondaryFirst": "Vino, Vinissimo, meaning...wine, extraordinary wine, sounds just as beautiful and intriguing in every language. It is our trademark. Over 400 labels, 70 of which are available by the glass. Four experienced sommeliers, Riedel glasses - dedicated to different grape varietals, Coravin. Conventional, natural, biodynamic. Legends, freaks and classics. All of this allows us to cater for everyone: from the beginner for whom any residual sugar in wine is good, to the wine lover who will drink Colares 1969 with lunch. Wine egalitarianism reigns with us, and as important to us, basic Primitivo, or unique Sassicaia, it is important that you enjoy both.",
+  "aboutUsSecondarySecond": "Our menu features minimalist dishes based on classics from seasonal products. We work with the highest quality ingredients. On the menu you will find Wagyu beef, Skrei cod, black winter truffle, fresh oysters, Ibérico pork and many other delicacies. All our dishes are ideal for sharing, which we invariably encourage our guests to do.",
+  "aboutUsMobile": "Vinissimo Restaurant & Wine Bar to nowa marka, pod którą od lutego 2024, działa, obecna na Bema 6 od 2017 roku - Sztuczka Bistro. Restauracja, prowadzona od 2022 roku przez Łukasza Chwojnickiego, w delikatnie zmienionym formacie i z tym samym, niezastąpionym teamem, niezmiennie serwuje przepyszną i minimalistyczną kuchnię, wspartą ogromną selekcją wini nienagannym serwisem.",
+  "aboutUsInvite": "Welcome!",
+
+  "menuTitle": "menu",
+  "menu": {
+    "starters": [
+      {
+        "isActive": true,
+        "firstLineName": "Gauloise Fine de Claire N°2 oyster",
+        "secondLineName": "rosé mignonette",
+        "price": 27
+      },
+      {
+        "isActive": true,
+        "firstLineName": "homemade sourdough bread",
+        "secondLineName": "onion butter . pickles",
+        "price": 18
+      },
+      {
+        "isActive": true,
+        "firstLineName": "Gordal & Leccino olives",
+        "secondLineName": "candied lemon",
+        "price": 27
+      },
+      {
+        "isActive": true,
+        "firstLineName": "Kornblume cheese . pear chutney",
+        "secondLineName": "buckwheat crackers",
+        "price": 37
+      },
+      {
+        "isActive": true,
+        "firstLineName": "aubergine . yoghurt . pistachio",
+        "secondLineName": "fennel . tomato and truffle dressing",
+        "price": 46
+      },
+      {
+        "isActive": true,
+        "firstLineName": "grilled squid . tzatziki . jalapeno . corn",
+        "secondLineName": "cilantro",
+        "price": 46
+      },
+      {
+        "isActive": true,
+        "firstLineName": "beef tartare . green pepper . aioli",
+        "secondLineName": "potato chips",
+        "price": 56
+      },
+      {
+        "isActive": true,
+        "firstLineName": "colourful tomatoes . basil pesto",
+        "secondLineName": "garlic . Grana Padano cheese",
+        "price": 44
+      },
+      {
+        "isActive": true,
+        "firstLineName": "smoked sea trout . kohlrabi . nori",
+        "secondLineName": "horseradish cream",
+        "price": 48
+      },
+      {
+        "isActive": true,
+        "firstLineName": "french black pudding . tamarind",
+        "secondLineName": "plum . padron peppers",
+        "price": 43
+      }
+    ],
+    "soups": [
+      {
+        "isActive": true,
+        "firstLineName": "meat – mushroom broth . portobello",
+        "secondLineName": "corn . autumn black truffle",
+        "price": 39
+      }
+    ],
+    "mains": [
+      {
+        "isActive": true,
+        "firstLineName": "pumpkin gnocchi . cheese fondue",
+        "secondLineName": "broccoli . fermented lemon . hazelnuts",
+        "thirdLineName": "pesto romesco",
+        "price": 67
+      },
+      {
+        "isActive": true,
+        "firstLineName": "deboned duck thigh . truffle jus",
+        "secondLineName": "potato cake . chicory . sauerkraut",
+        "price": 72
+      },
+      {
+        "isActive": true,
+        "firstLineName": "Fish & Chips . cod . kimchi cucumbers",
+        "secondLineName": "fries . tartar sauce with tarragon",
+        "price": 73
+      },
+      {
+        "isActive": true,
+        "firstLineName": "scotch salmon . shiso . zucchini",
+        "secondLineName": "black lentils . lemon sauce . zucchini",
+        "price": 96
+      },
+      {
+        "isActive": true,
+        "firstLineName": "apple fed pork chop . spring onion",
+        "secondLineName": "chicken jus sauce . porcini mushrooms",
+        "thirdLineName": "cranberry",
+        "price": 120
+      },
+      {
+        "isActive": true,
+        "firstLineName": "dry aged ribeye (300g)",
+        "secondLineName": "mustard sauce",
+        "price": 169
+      },
+      {
+        "isActive": true,
+        "firstLineName": "Picanha Wagyu (200g) . wild broccoli",
+        "secondLineName": "truffle béarnaise sauce",
+        "price": 275
+      }
+    ],
+    "sides": [
+      {
+        "isActive": true,
+        "firstLineName": "fries . aioli",
+        "price": 20
+      },
+      {
+        "isActive": true,
+        "firstLineName": "kimchi cucumbers",
+        "price": 18
+      },
+      {
+        "isActive": true,
+        "firstLineName": "roasted potatoes . sour cream . chives",
+        "price": 19
+      },
+      {
+        "isActive": true,
+        "firstLineName": "romaine lettuce . cesar dressing",
+        "secondLineName": "croutons . Grana Padano",
+        "price": 24
+      },
+      {
+        "isActive": true,
+        "firstLineName": "fried beets . cranberries . walnuts",
+        "price": 18
+      }
+    ],
+    "desserts": [
+      {
+        "isActive": true,
+        "firstLineName": "Babà au rum . yoghurt cream",
+        "secondLineName": "japanese quince . currants . almonds",
+        "price": 37
+      },
+      {
+        "isActive": true,
+        "firstLineName": "chocolate Crémeux . salted caramel",
+        "secondLineName": "coconut . raspberries",
+        "price": 37
+      }
+    ]
+  },
+  "menuMoreButton": "more",
+  "menuWineBottlesButton": "wines",
+  "menuWineGlassesButton": "wines by the glass",
+  "menuAlcoholButton": "alkohol",
+  "menuStartersTitle": "starters",
+  "menuSoupsTitle": "soups",
+  "menuMainsTitle": "mains",
+  "menuSidesTitle": "sides",
+  "menuDessertsTitle": "desserts",
+  "menuCheesesTitle": "cheeses",
+
+  "rateUsTitle": "rate us",
+
+  "reservationTitle": "reservation",
+  "reservationText": "Individual bookings (up to 12 people) can be made using the form below, in each case you will receive an SMS with booking details as confirmation. For larger bookings and requests for organised events or catering, please contact us by e-mail:",
+  "reservationButton": "book a table",
+
+  "footerRestaurantName": "Vinissimo Restaurant & Wine Bar",
+  "footerAddress": "6 Bema Street, Sopot",
+  "footerOpeningHours": "mon-sat: 14-22",
+  "footerOpeningHoursSunday": "sunday: 13-19",
+  "footerPrivacyPolicy": "Privacy Policy",
+
+  "menuPageFoodButton": "food",
+  "menuPageAlcoholButton": "alcohol",
+
+  "wineWineGlassesButton": "wines by the glass",
+  "wineWineBottlesButton": "wines by the bottle",
+  "winePageNumberText": "Page",
+  "winePageNumberOf": "of",
+  "wineGlassesDownloadButton": "Download the wine list by the glass",
+  "wineBottlesDownloadButton": "Download the wine list by the bottle",
+
+  "wineBottlesPage1_1": "[wine list]",
+  "wineBottlesPage1_2": "dear guests,",
+  "wineBottlesPage1_3": "Vino, Vinissimo, meaning...wine, extraordinary wine, sounds just as beautiful and intriguing in every language. It is our trademark. Over 400 labels, 70 of which are available by the glass.",
+  "wineBottlesPage1_4": "Four experienced sommeliers, Riedel glasses - dedicated to different grape varietals, Coravin. Conventional, natural, biodynamic. Legends, freaks and classics.",
+  "wineBottlesPage1_5": "All of this allows us to cater for everyone: from the beginner for whom any residual sugar in wine is good, to the wine lover who will drink Colares 1969 with lunch. Wine egalitarianism reigns with us, and as important to us, basic Primitivo, or unique Sassicaia, it is important that you enjoy both.",
+  "wineBottlesPage1_6": "Our wine list is the result of two years of hard work. We bought many wines especially for us directly from the negociants. We focus on strong classics with an emphasis on legendary wines and estates with a touch of naturalistic frenzy.",
+
+  "eventsPagePrimaryText": "Individual bookings (up to 12 people) can be made using the form below, in each case you will receive an SMS with booking details as confirmation. For larger bookings and requests for organised events or catering, please contact us by e-mail:",
+  "eventsPageSecondaryText": "In total, our two dining rooms will seat a maximum of 80 people. In the upper room we will seat a maximum of 24 people and in the lower room, a maximum of 56 people (at 3 tables: 26, 19, 11). At one table, in the lower hall, we can seat a maximum of 34 people. Our restaurant can be hired exclusively as a whole, or one of the two rooms can be used for your needs. The menu is prepared individually, taking into account the current menu and available seasonal products.",
+
+  "teamTitle": "Team",
+  "teamDescriptionPrimary": "A cohesive team is the heart of any restaurant. And if it is still young and dynamic, it is every restaurateur's dream come true. And if this team is also: experienced, full of professionals and passionate about the restaurant art, it's like winning the Eurojackpot. And that's what I have...",
+  "teamDescriptionSecondary": "Let me introduce you:",
+  "teamKitchenTitle": "kitchen",
+  "teamHeadChefTitle": "Head Chef – Łukasz Theus",
+  "teamHeadChefDescription": "Young and solidly experienced. He has worked with many renowned chefs. He has embraced Ivan's minimalist style into which he can dress his plates. At Vinissimo since 2021 and has been managing our kitchen independently since July 2023.",
+  "teamJuniorSousChefTitle": "Junior Sous Chef - Michal",
+  "teamJuniorSousChefDescription": "He has been with us since April 2023 and has served terms at most of the top Tri-City restaurants. Privately the fiancé of our friend Werka from Fino. Junior Sous Chef for several months.",
+  "teamSeniorGrillChefTitle": "Senior Grill Chef - Piotr aka Priest",
+  "teamSeniorGrillChefDescription": "An oasis of calm and composure. The rock of our team. A fan of bike rides and Warka. As he says, he always tries to work in the currently best restaurant. Privately my friend with whom we have known each other for almost 20 years.",
+  "teamChefDePartieFirstTitle": "Chef de Partie - Waleria aka Walerina",
+  "teamChefDePartieFirstDescription": "JThe only female in our kitchen. She has been with us since autumn 2022. She is in charge of cold kitchen and desserts, but easily finds herself on the pass. A lifelong hedonist, from whose hand, all the materials on our social media comes out.",
+  "teamChefDePartieSecondTitle": "Chef de Partie – Robert",
+  "teamFrontTitle": "front",
+  "teamFrontManagerTitle": "Front Manager – Diana Kalinichenko",
+  "teamFrontManagerDescription": "Provides the best hospitality in the entire Tri-City and beyond. A full mouth fashionista who loves food and wines of the highest order. Music school graduate and my foster daughter. Since 2018 my right hand in all upcoming concepts.",
+  "teamPrimarySommelierTitle": "Mateusz Hermanowski aka Herman",
+  "teamPrimarySommelierDescription": "Former lecturer and shipper, now one of the most wine educated people in Poland. Fan of Karl Lagerfeld, sybarite, philosopher and dream of many a woman. An admirer of dachshunds and entrecote. As of 2019, he is staying by my side.",
+  "teamSecondarySommelierTitle": "Hall Manager/Sommelier - Rafał Malinowski",
+  "teamSecondarySommelierDescription": "After two years, he came back to us on a white horse. A perfectionist who will take care of every detail. He has taken care of Guests in the best restaurants. Attention - a chatterbox!",
+  "teamBoss": "Boss",
+  "teamBossTitle": "Łukasz Chwojnicki aka Big Man, Chairman, Lard,",
+  "teamBossDescription": "The orchestral man who binds everything together. In his prime, the most expensive dishwasher in central Europe. GM and head sommelier in one. He co-founded the cult Tricity venues: Da Vinci, Sztuczka, Sztuczka Bistro, Probiernia Wine Bar. The biggest, in every respect, Tricity birbant. Knows everyone and everyone knows him. A joker on the verge of good taste. Loves bubbly and gossip. A great dancer and a lousy singer. Fan of Beata Kozidrak."
+}
