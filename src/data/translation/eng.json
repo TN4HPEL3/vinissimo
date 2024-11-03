@@ -17,11 +17,12 @@
   "aboutUsInvite": "Welcome!",
 
   "menuTitle": "menu",
+
   "menu": {
     "starters": [
       {
         "isActive": true,
-        "firstLineName": "Gauloise Fine de Claire N°2 oyster",
+        "firstLineName": "Speciales de Claire N°2 oyster",
         "secondLineName": "rosé mignonette",
         "price": 27
       },
@@ -39,7 +40,7 @@
       },
       {
         "isActive": true,
-        "firstLineName": "Kornblume cheese . pear chutney",
+        "firstLineName": "Blue Stilton cheese . pear chutney",
         "secondLineName": "buckwheat crackers",
         "price": 37
       },
@@ -53,7 +54,7 @@
         "isActive": true,
         "firstLineName": "grilled squid . tzatziki . jalapeno . corn",
         "secondLineName": "cilantro",
-        "price": 46
+        "price": 47
       },
       {
         "isActive": true,
@@ -69,8 +70,8 @@
       },
       {
         "isActive": true,
-        "firstLineName": "smoked sea trout . kohlrabi . nori",
-        "secondLineName": "horseradish cream",
+        "firstLineName": "smoked sea trout . leek . nori",
+        "secondLineName": "horseradish . celery remoulade",
         "price": 48
       },
       {
@@ -94,19 +95,19 @@
         "firstLineName": "pumpkin gnocchi . cheese fondue",
         "secondLineName": "broccoli . fermented lemon . hazelnuts",
         "thirdLineName": "pesto romesco",
-        "price": 67
+        "price": 69
       },
       {
         "isActive": true,
-        "firstLineName": "deboned duck thigh . truffle jus",
+        "firstLineName": "deboned goose thigh . truffle jus",
         "secondLineName": "potato cake . chicory . sauerkraut",
-        "price": 72
+        "price": 79
       },
       {
         "isActive": true,
         "firstLineName": "Fish & Chips . cod . kimchi cucumbers",
         "secondLineName": "fries . tartar sauce with tarragon",
-        "price": 73
+        "price": 74
       },
       {
         "isActive": true,
@@ -116,22 +117,16 @@
       },
       {
         "isActive": true,
-        "firstLineName": "apple fed pork chop . spring onion",
-        "secondLineName": "chicken jus sauce . porcini mushrooms",
-        "thirdLineName": "cranberry",
-        "price": 120
+        "firstLineName": "Masurian Mangalica pork chop",
+        "secondLineName": "chicken jus sauce . spring onion",
+        "thirdLineName": "porcini mushrooms . cranberry",
+        "price": 105
       },
       {
         "isActive": true,
-        "firstLineName": "dry aged ribeye (300g)",
-        "secondLineName": "mustard sauce",
-        "price": 169
-      },
-      {
-        "isActive": true,
-        "firstLineName": "Picanha Wagyu (200g) . wild broccoli",
-        "secondLineName": "truffle béarnaise sauce",
-        "price": 275
+        "firstLineName": "Black Angus Rib Eye (320g)",
+        "secondLineName": "café de Paris sauce",
+        "price": 279
       }
     ],
     "sides": [
@@ -142,7 +137,7 @@
       },
       {
         "isActive": true,
-        "firstLineName": "kimchi cucumbers",
+        "firstLineName": "classic kimchi",
         "price": 18
       },
       {
@@ -152,9 +147,9 @@
       },
       {
         "isActive": true,
-        "firstLineName": "romaine lettuce . cesar dressing",
+        "firstLineName": "romaine lettuce . Caesar dressing",
         "secondLineName": "croutons . Grana Padano",
-        "price": 24
+        "price": 25
       },
       {
         "isActive": true,
