@@ -21,7 +21,7 @@
     "starters": [
       {
         "isActive": true,
-        "firstLineName": "ostryga Gauloise Fine de Claire N°2",
+        "firstLineName": "ostryga Speciales de Claire N°2",
         "secondLineName": "różany mignonette",
         "price": 27
       },
@@ -39,21 +39,22 @@
       },
       {
         "isActive": true,
-        "firstLineName": "ser Kornblume . krakersy gryczane",
+        "firstLineName": "ser Blue Stilton . krakersy gryczane",
         "secondLineName": "chutney z gruszki",
         "price": 37
       },
       {
         "isActive": true,
-        "firstLineName": "bakłażan . jogurt grecki . pistacje",
-        "secondLineName": "koper włoski . dressing truflowo-pomidorowy",
+        "firstLineName": "bakłażan . jogurt grecki",
+        "secondLineName": "pistacje . koper włoski",
+        "thirdLineName": "dressing truflowo-pomidorowy",
         "price": 46
       },
       {
         "isActive": true,
         "firstLineName": "grillowane kalmary . tzatziki . jalapeño",
         "secondLineName": "kukurydza . kolendra",
-        "price": 46
+        "price": 47
       },
       {
         "isActive": true,
@@ -69,8 +70,8 @@
       },
       {
         "isActive": true,
-        "firstLineName": "wędzona troć fiordowa . kalarepa",
-        "secondLineName": "nori . mus chrzanowy",
+        "firstLineName": "wędzona troć fiordowa . chrzan . por",
+        "secondLineName": "remulada z selera . nori",
         "price": 48
       },
       {
@@ -91,52 +92,43 @@
     "mains": [
       {
         "isActive": true,
-        "firstLineName": "gołąbek z cielęciną . topinambur",
-        "secondLineName": "papryka . sos z palonych warzyw",
-        "price": 62
-      },
-      {
-        "isActive": true,
         "firstLineName": "kopytka dyniowe . fondue serowe",
-        "secondLineName": "brokuł . kiszona cytryna . orzechy laskowe",
-        "thirdLineName": "pesto romesco",
-        "price": 67
+        "secondLineName": "brokuł . kiszona cytryna",
+        "thirdLineName": "orzechy laskowe . pesto romesco",
+        "price": 69
       },
       {
         "isActive": true,
-        "firstLineName": "trybowane udo z kaczki . jus truflowy",
-        "secondLineName": "babka ziemniaczana . cykoria . kiszona kapusta",
-        "price": 72
+        "firstLineName": "trybowane udo z gęsi . jus truflowy",
+        "secondLineName": "babka ziemniaczana . cykoria",
+        "thirdLineName": "kiszona kapusta",
+        "price": 79
       },
       {
         "isActive": true,
         "firstLineName": "Fish & Chips . dorsz . ogórki kimchi",
         "secondLineName": "frytki . majonez tzatziki z estragonem",
-        "price": 73
+        "price": 74
       },
       {
         "isActive": true,
         "firstLineName": "łosoś szkocki . sos cytrynowy",
-        "secondLineName": "czarna soczewica . cukinia . pachnotka",
+        "secondLineName": "cukinia . czarna soczewica",
+        "thirdLineName": "pachnotka",
         "price": 96
       },
       {
         "isActive": true,
-        "firstLineName": "schab z wieprzowiny jabłkowej . dymka",
+        "firstLineName": "schab z mazurskiej mangalicy",
         "secondLineName": "jus z kurczaka . borowiki . żurawina",
-        "price": 120
+        "thirdLineName": "dymka",
+        "price": 105
       },
       {
         "isActive": true,
-        "firstLineName": "sezonowany antrykot (300g)",
-        "secondLineName": "sos musztardowy",
-        "price": 169
-      },
-      {
-        "isActive": true,
-        "firstLineName": "Picanha Wagyu (200g) . dziki brokuł",
-        "secondLineName": "truflowy sos béarnaise",
-        "price": 275
+        "firstLineName": "Rib Eye Black Angus (320g)",
+        "secondLineName": "sos café de Paris",
+        "price": 279
       }
     ],
     "sides": [
@@ -147,7 +139,7 @@
       },
       {
         "isActive": true,
-        "firstLineName": "ogórki kimchi",
+        "firstLineName": "klasyczne kimchi",
         "price": 18
       },
       {
@@ -158,9 +150,9 @@
       },
       {
         "isActive": true,
-        "firstLineName": "sałata rzymska . dressing cezar . grzanki",
-        "secondLineName": "Grana Padano",
-        "price": 24
+        "firstLineName": "sałata rzymska . dressing cezar",
+        "secondLineName": "grzanki . Grana Padano",
+        "price": 25
       },
       {
         "isActive": true,
