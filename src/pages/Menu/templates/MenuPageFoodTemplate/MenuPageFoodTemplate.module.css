@@ -19,7 +19,7 @@
   border: 1px solid var(--website-secondary-color);
   @media screen and (min-width: 48rem) {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: var(--gap--small);
   }
 }
