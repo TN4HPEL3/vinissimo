@@ -1,4 +1,5 @@
 import { Outlet } from 'react-router-dom';
+
 import { NewYearTemplate } from './templates/NewYearTemplate.jsx';
 
 import css from './NewYearPage.module.css';
