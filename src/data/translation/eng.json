@@ -310,5 +310,7 @@
     "dessert": "basque cheesecake . crème chantilly . black winter truffle",
     "drinks": "served without limits",
     "cost": ["1199 PLN | person", "(service charge, paid additionally, 12.5%)"]
-  }
+  },
+  "holidayOpeningText": "Holiday opening hours:",
+  "holidayOpeningHours": "December 24-25 - closed"
 }

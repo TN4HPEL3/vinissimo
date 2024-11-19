@@ -314,5 +314,7 @@
     "dessert": "sernik baskijski . crème chantilly . czarna zimowa trufla",
     "drinks": "serwowane bez ograniczeń",
     "cost": ["1199 zł| osoba", "(serwis kelnerski, płatny dodatkowo, 12,5%)"]
-  }
+  },
+  "holidayOpeningText": "Świąteczne godziny otwarcia:",
+  "holidayOpeningHours": "24-25 grudnia - zamknięte"
 }
