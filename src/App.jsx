@@ -17,22 +17,14 @@ function App() {
     <Routes>
       <Route path="/" element={<SharedLayout />}>
         <Route index element={<HomePage />} />
-        <Route
-          path="/wine/glasses"
-          element={<WinePage children={<WineGlassesTemplate />} />}
-        />
-        <Route
-          path="/wine/bottles"
-          element={<WinePage children={<WineBottlesTemplate />} />}
-        />
-        <Route
-          path="/menu/food"
-          element={<MenuPage children={<MenuPageFoodTemplate />} />}
-        />
-        <Route
-          path="/menu/alcohol"
-          element={<MenuPage children={<MenuPageAlcoholTemplate />} />}
-        />
+        <Route path="wine" element={<WinePage />}>
+          <Route path="glasses" element={<WineGlassesTemplate />} />
+          <Route path="bottles" element={<WineBottlesTemplate />} />
+        </Route>
+        <Route path="menu" element={<MenuPage />}>
+          <Route path="food" element={<MenuPageFoodTemplate />} />
+          <Route path="alcohol" element={<MenuPageAlcoholTemplate />} />
+        </Route>
         <Route path="/events" element={<EventsPage />} />
         <Route path="/team" element={<TeamPage />} />
       </Route>
