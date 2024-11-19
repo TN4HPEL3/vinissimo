@@ -1,4 +1,4 @@
-import { NewYearHeaderMolecule } from '../molecules/NewYearHeaderMolecule.jsx';
+import { NewYearHeaderMolecule } from '../molecules/NewYearHeaderMolecule/NewYearHeaderMolecule.jsx';
 
 function NewYearOrganism() {
   return (
