@@ -16,6 +16,7 @@ function NewYearDeLuxTemplate() {
             key={category}
             name={categoryName}
             details={categoryDetails}
+            category={category}
           />
         );
       })}

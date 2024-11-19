@@ -14,6 +14,7 @@ function NewYearBasicTemplate() {
         return (
           <NewYearCategoryOrganism
             key={category}
+            category={category}
             name={categoryName}
             details={categoryDetails}
           />
