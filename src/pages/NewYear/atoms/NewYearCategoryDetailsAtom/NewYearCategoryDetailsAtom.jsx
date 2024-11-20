@@ -16,7 +16,7 @@ function NewYearCategoryDetailsAtom({ details, category }) {
     category === 'desserts' ||
     category === 'onStart' ||
     category === 'starter1'
-      ? 'newYear__list__details' + '--' + category
+      ? `newYear__list__details--${category}`
       : 'newYear__list__details';
   const getListClassName = [css[listClassName()]];
 
