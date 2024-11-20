@@ -45,9 +45,8 @@
       },
       {
         "isActive": true,
-        "firstLineName": "bakłażan . jogurt grecki",
-        "secondLineName": "pistacje . koper włoski",
-        "thirdLineName": "dressing truflowo-pomidorowy",
+        "firstLineName": "bakłażan . jogurt grecki . nerkowce",
+        "secondLineName": "szpinak . dressing truflowy",
         "price": 46
       },
       {
@@ -58,15 +57,9 @@
       },
       {
         "isActive": true,
-        "firstLineName": "tatar wołowy . zielony pieprz . aioli",
-        "secondLineName": "chipsy ziemniaczane",
+        "firstLineName": "tatar wołowy . Dijon . lubczyk",
+        "secondLineName": "majonez z anchois",
         "price": 56
-      },
-      {
-        "isActive": true,
-        "firstLineName": "kolorowe pomidory . pesto bazyliowe",
-        "secondLineName": "czosnek . ser Grana Padano",
-        "price": 44
       },
       {
         "isActive": true,
@@ -79,6 +72,11 @@
         "firstLineName": "kaszanka francuska . tamaryndowiec",
         "secondLineName": "śliwka . papryczki padron",
         "price": 43
+      },
+      {
+        "isActive": true,
+        "firstLineName": "półgęsek z gęsi owsianej . śliwka",
+        "price": 50
       }
     ],
     "soups": [
@@ -106,22 +104,20 @@
       },
       {
         "isActive": true,
-        "firstLineName": "Fish & Chips . dorsz . ogórki kimchi",
+        "firstLineName": "Fish & Chips . dorsz . kimchi",
         "secondLineName": "frytki . majonez tzatziki z estragonem",
         "price": 74
       },
       {
         "isActive": true,
-        "firstLineName": "łosoś szkocki . sos cytrynowy",
-        "secondLineName": "cukinia . czarna soczewica",
-        "thirdLineName": "pachnotka",
+        "firstLineName": "łosoś szkocki . sos cytrynowy . cukinia",
+        "secondLineName": "czarna soczewica . pachnotka",
         "price": 96
       },
       {
         "isActive": true,
         "firstLineName": "schab z mazurskiej mangalicy",
-        "secondLineName": "jus z kurczaka . borowiki . żurawina",
-        "thirdLineName": "dymka",
+        "secondLineName": "jus z kurczaka . borowiki . żurawina . dymka",
         "price": 105
       },
       {
@@ -150,8 +146,8 @@
       },
       {
         "isActive": true,
-        "firstLineName": "sałata rzymska . dressing cezar",
-        "secondLineName": "grzanki . Grana Padano",
+        "firstLineName": "sałata rzymska . dressing cezar . grzanki",
+        "secondLineName": "Grana Padano",
         "price": 25
       },
       {
@@ -164,8 +160,8 @@
     "desserts": [
       {
         "isActive": true,
-        "firstLineName": "Rum Baba . krem jogurtowy",
-        "secondLineName": "pigwowiec . porzeczka . migdały",
+        "firstLineName": "tarta z jabłkami . kruszonka",
+        "secondLineName": "lody z topinamburu",
         "price": 37
       },
       {

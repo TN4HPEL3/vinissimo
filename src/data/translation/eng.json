@@ -17,7 +17,6 @@
   "aboutUsInvite": "Welcome!",
 
   "menuTitle": "menu",
-
   "menu": {
     "starters": [
       {
@@ -46,8 +45,8 @@
       },
       {
         "isActive": true,
-        "firstLineName": "aubergine . yoghurt . pistachio",
-        "secondLineName": "fennel . tomato and truffle dressing",
+        "firstLineName": "aubergine . yoghurt . cashews",
+        "secondLineName": "spinach . truffle dressing",
         "price": 46
       },
       {
@@ -58,15 +57,9 @@
       },
       {
         "isActive": true,
-        "firstLineName": "beef tartare . green pepper . aioli",
-        "secondLineName": "potato chips",
+        "firstLineName": "beef tartare . Dijon . lavage",
+        "secondLineName": "anchovy mayonnaise",
         "price": 56
-      },
-      {
-        "isActive": true,
-        "firstLineName": "colourful tomatoes . basil pesto",
-        "secondLineName": "garlic . Grana Padano cheese",
-        "price": 44
       },
       {
         "isActive": true,
@@ -79,6 +72,11 @@
         "firstLineName": "french black pudding . tamarind",
         "secondLineName": "plum . padron peppers",
         "price": 43
+      },
+      {
+        "isActive": true,
+        "firstLineName": "oats fed goose breast . plum",
+        "price": 50
       }
     ],
     "soups": [
@@ -105,7 +103,7 @@
       },
       {
         "isActive": true,
-        "firstLineName": "Fish & Chips . cod . kimchi cucumbers",
+        "firstLineName": "Fish & Chips . cod . kimchi",
         "secondLineName": "fries . tartar sauce with tarragon",
         "price": 74
       },
@@ -160,8 +158,8 @@
     "desserts": [
       {
         "isActive": true,
-        "firstLineName": "Babà au rum . yoghurt cream",
-        "secondLineName": "japanese quince . currants . almonds",
+        "firstLineName": "apple tart . crumble",
+        "secondLineName": "Jerusalem artichoke ice cream",
         "price": 37
       },
       {
