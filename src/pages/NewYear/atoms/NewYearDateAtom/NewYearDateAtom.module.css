@@ -1,0 +1,5 @@
+.newYear__date {
+  @media screen and (min-width: 64rem) {
+    font-size: var(--font-size-medium);
+  }
+}

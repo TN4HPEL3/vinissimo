@@ -1,0 +1,9 @@
+.newYear {
+  margin: 10rem auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  border: 1px solid var(--website-secondary-color);
+  padding-top: var(--gap--small);
+}

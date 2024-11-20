@@ -18,6 +18,9 @@
   }
   &:hover {
     color: var(--website-secondary-color-hover);
+    & > .header__button__icon {
+      fill: var(--website-secondary-color-hover);
+    }
     &::after {
       transform: scaleX(1);
       transform-origin: bottom left;
@@ -29,7 +32,10 @@
   position: relative;
   color: var(--website-secondary-color-hover);
   transition: color var(--transition);
-
+  & > .header__button__icon {
+    fill: var(--website-secondary-color-hover);
+    transition: fill var(--transition);
+  }
   &::after {
     content: '';
     position: absolute;
@@ -40,4 +46,11 @@
     padding-bottom: 0.006rem;
     background-color: var(--website-secondary-color-hover);
   }
+}
+
+.header__button__icon {
+  fill: var(--website-secondary-color);
+  margin-left: 0.5rem;
+  max-height: 1.5rem;
+  max-width: 1.5rem;
 }
