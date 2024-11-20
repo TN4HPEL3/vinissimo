@@ -50,7 +50,7 @@
 
 .header__button__icon {
   fill: var(--website-secondary-color);
+  margin-left: 0.5rem;
   max-height: 1.5rem;
   max-width: 1.5rem;
-  margin-left: 0.5rem;
 }
