@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 6rem;
-  font-size: var(--font-size-buttons-desktop);
+  font-size: 1.4rem;
 }
 
 .mobile-menu--open {

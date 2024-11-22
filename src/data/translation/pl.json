@@ -45,9 +45,8 @@
       },
       {
         "isActive": true,
-        "firstLineName": "bakłażan . jogurt grecki",
-        "secondLineName": "pistacje . koper włoski",
-        "thirdLineName": "dressing truflowo-pomidorowy",
+        "firstLineName": "bakłażan . jogurt grecki . nerkowce",
+        "secondLineName": "szpinak . dressing truflowy",
         "price": 46
       },
       {
@@ -58,15 +57,9 @@
       },
       {
         "isActive": true,
-        "firstLineName": "tatar wołowy . zielony pieprz . aioli",
-        "secondLineName": "chipsy ziemniaczane",
+        "firstLineName": "tatar wołowy . Dijon . lubczyk",
+        "secondLineName": "majonez z anchois",
         "price": 56
-      },
-      {
-        "isActive": true,
-        "firstLineName": "kolorowe pomidory . pesto bazyliowe",
-        "secondLineName": "czosnek . ser Grana Padano",
-        "price": 44
       },
       {
         "isActive": true,
@@ -79,6 +72,11 @@
         "firstLineName": "kaszanka francuska . tamaryndowiec",
         "secondLineName": "śliwka . papryczki padron",
         "price": 43
+      },
+      {
+        "isActive": true,
+        "firstLineName": "półgęsek z gęsi owsianej . śliwka",
+        "price": 50
       }
     ],
     "soups": [
@@ -106,22 +104,20 @@
       },
       {
         "isActive": true,
-        "firstLineName": "Fish & Chips . dorsz . ogórki kimchi",
+        "firstLineName": "Fish & Chips . dorsz . kimchi",
         "secondLineName": "frytki . majonez tzatziki z estragonem",
         "price": 74
       },
       {
         "isActive": true,
-        "firstLineName": "łosoś szkocki . sos cytrynowy",
-        "secondLineName": "cukinia . czarna soczewica",
-        "thirdLineName": "pachnotka",
+        "firstLineName": "łosoś szkocki . sos cytrynowy . cukinia",
+        "secondLineName": "czarna soczewica . pachnotka",
         "price": 96
       },
       {
         "isActive": true,
         "firstLineName": "schab z mazurskiej mangalicy",
-        "secondLineName": "jus z kurczaka . borowiki . żurawina",
-        "thirdLineName": "dymka",
+        "secondLineName": "jus z kurczaka . borowiki . żurawina . dymka",
         "price": 105
       },
       {
@@ -150,8 +146,8 @@
       },
       {
         "isActive": true,
-        "firstLineName": "sałata rzymska . dressing cezar",
-        "secondLineName": "grzanki . Grana Padano",
+        "firstLineName": "sałata rzymska . dressing cezar . grzanki",
+        "secondLineName": "Grana Padano",
         "price": 25
       },
       {
@@ -164,8 +160,8 @@
     "desserts": [
       {
         "isActive": true,
-        "firstLineName": "Rum Baba . krem jogurtowy",
-        "secondLineName": "pigwowiec . porzeczka . migdały",
+        "firstLineName": "tarta z jabłkami . kruszonka",
+        "secondLineName": "lody z topinamburu",
         "price": 37
       },
       {
@@ -241,5 +237,80 @@
   "teamSecondarySommelierDescription": "Po dwóch latach, wrócił do nas na białym koniu. Perfekcjonista, który zadba o każdy detal. Zajmował się Gośćmi w najlepszych restauracjach. Uwaga – gaduła!",
   "teamBoss": "boss",
   "teamBossTitle": "Łukasz Chwojnicki ps. Gruby, Prezes, Smalec, Wieprzu",
-  "teamBossDescription": "Człowiek orkiestra, który spina wszystko w jedną całość. W swoim prime, najdroższy zmywakowy w środkowej Europie. GM i Head sommelier w jednym. Współtworzył kultowe Trójmiejskie lokale: Da Vinci, Sztuczka, Sztuczka Bistro, Probiernia Wine Bar. Największy, pod każdym względem, Trójmiejski birbant. Zna wszystkich i wszyscy znają jego. Żartowniś na granicy dobrego smaku. Uwielbia bąbelki i ploteczki. Świetny tancerz i marny wokalista. Fan Beaty Kozidrak."
+  "teamBossDescription": "Człowiek orkiestra, który spina wszystko w jedną całość. W swoim prime, najdroższy zmywakowy w środkowej Europie. GM i Head sommelier w jednym. Współtworzył kultowe Trójmiejskie lokale: Da Vinci, Sztuczka, Sztuczka Bistro, Probiernia Wine Bar. Największy, pod każdym względem, Trójmiejski birbant. Zna wszystkich i wszyscy znają jego. Żartowniś na granicy dobrego smaku. Uwielbia bąbelki i ploteczki. Świetny tancerz i marny wokalista. Fan Beaty Kozidrak.",
+
+  "newYearTitleMenu": "Kolacja Sylwestrowa",
+
+  "xmasMenuBasicCategories": {
+    "aperitif": "apéritif",
+    "snackSelection": "selekcja snaków",
+    "starters": "przystawki | do wyboru",
+    "mains": "dania główne | do wyboru",
+    "desserts": "desery | do wyboru",
+    "drinks": "napoje",
+    "cost": "koszt"
+  },
+
+  "xmasMenuBasic": {
+    "aperitif": "Crucifix Père et Fils, Champagne La Grande Réserve Premier Cru Extra Brut NV",
+    "snackSelection": [
+      "gofr . mus z koziego sera . bakłażan . orzechy laskowe",
+      "tartaletka . podwędzany śledź . seler naciowy . ogórek",
+      "krokiet z wołowiną . śliwka . kiszona kapusta"
+    ],
+    "starters": [
+      "ostryga Gauloise Speciales de Claire n°2 (3szt.) . różany mignonette . leche de tigre",
+      "carpaccio z polędwicy wołowej . dijon . olej z orzechów włoskich . trybula . Parmigiano Reggiano",
+      "sashimi z serioli . consommé pomidorowe . topinamburu . ikra . pachnotka",
+      "grillowane krewetki argentyńskie . marakuja . achiote . pomarańcza . słonina z mangalicy",
+      "arancini z serem Comté . aioli . czarna zimowa trufla (vege)",
+      "chleb za zakwasie . masło cebulowe z miso . pikle"
+    ],
+    "mains": [
+      "okoń morski . szpinak . kalafior . sos holenderski . marynowane mule . sałata morska",
+      "grillowana jagnięcina . czarny czosnek . krokiet z kasztanami . pietruszka",
+      "raviolo z ricottą i płynnym żółtkiem . fondue serowe . dziki kalafior i brokuł . czarna trufla (vege)",
+      "sezonowany antrykot (200g) . opiekane ziemniaki . sos café de Paris"
+    ],
+    "desserts": [
+      "crémeux czekoladowe . karmel sosnowy . porzeczka . crème chantilly",
+      "sernik baskijski . karmelizowana biała czekolada . sorbet różany"
+    ],
+    "drinks": "woda . kawa . herbata",
+    "cost": [
+      "519 zł | osoba (kieliszek szampana, amouse, przystawka, danie główne, deser, napoje)",
+      "589 zł | osoba (kieliszek szampana, amouse, dwie przystawki, danie główne, deser, napoje)",
+      "(serwis kelnerski, płatny dodatkowo, 12,5%)"
+    ]
+  },
+
+  "xmasMenuDeLuxCategories": {
+    "aperitif": "apéritif",
+    "onStart": "na start",
+    "starter1": "przystawka #1",
+    "starter2": "przystawka #2",
+    "main": "danie główne",
+    "dessert": "deser",
+    "drinks": "napoje bezalkoholowe",
+    "cost": "koszt"
+  },
+
+  "xmasMenuDeLux": {
+    "aperitif": "Taittinger, Comtes de Champagne Blanc de Blancs 2012",
+    "onStart": [
+      "ostrygi Gillardeau no2 (4 szt.) . mignonette różane . leche de tigre",
+      "kawior Antonius Siberian 4* (30g) . brioche . kwaśna śmietana"
+    ],
+    "starter1": [
+      "carpaccio z polędwicy wołowej . musztarda dijon . olej z orzechów włoskich, Parmigiano Reggiano . czarna zimowa trufla",
+      "chleb za zakwasie . masło cebulowe z miso . pikle"
+    ],
+    "starter2": "Crab Roll – brioche z mięsem kraba . sos holenderski",
+    "main": "rostbef Wagyu A5 (150g) . krokiet z kasztanami . czarny czosnek . pietruszka",
+    "dessert": "sernik baskijski . crème chantilly . czarna zimowa trufla",
+    "drinks": "serwowane bez ograniczeń",
+    "cost": ["1199 zł| osoba", "(serwis kelnerski, płatny dodatkowo, 12,5%)"]
+  },
+  "holidayOpeningText": "Świąteczne godziny otwarcia:",
+  "holidayOpeningHours": "24-25 grudnia - zamknięte"
 }
