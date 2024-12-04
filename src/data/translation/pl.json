@@ -33,15 +33,26 @@
       },
       {
         "isActive": true,
-        "firstLineName": "oliwki Gordal & Leccino",
-        "secondLineName": "kandyzowana cytryna",
-        "price": 27
+        "firstLineName": "oliwki Castelvetrano . basil pesto",
+        "price": 24
       },
       {
         "isActive": true,
         "firstLineName": "ser Blue Stilton . krakersy gryczane",
         "secondLineName": "chutney z gruszki",
         "price": 37
+      },
+      {
+        "isActive": true,
+        "firstLineName": "kaszanka francuska . tamaryndowiec",
+        "secondLineName": "śliwka . papryczki padron",
+        "price": 43
+      },
+      {
+        "isActive": true,
+        "firstLineName": "arancini z krabem . koper włoski",
+        "secondLineName": "pomidory . chilli . Grana Padano",
+        "price": 44
       },
       {
         "isActive": true,
@@ -57,33 +68,27 @@
       },
       {
         "isActive": true,
-        "firstLineName": "tatar wołowy . Dijon . lubczyk",
-        "secondLineName": "majonez z anchois",
-        "price": 56
-      },
-      {
-        "isActive": true,
         "firstLineName": "wędzona troć fiordowa . chrzan . por",
         "secondLineName": "remulada z selera . nori",
         "price": 48
       },
       {
         "isActive": true,
-        "firstLineName": "kaszanka francuska . tamaryndowiec",
-        "secondLineName": "śliwka . papryczki padron",
-        "price": 43
+        "firstLineName": "półgęsek z gęsi owsianej . śliwka",
+        "price": 50
       },
       {
         "isActive": true,
-        "firstLineName": "półgęsek z gęsi owsianej . śliwka",
-        "price": 50
+        "firstLineName": "tatar wołowy . Dijon . lubczyk",
+        "secondLineName": "majonez z anchois . oliwki . grzanki",
+        "price": 56
       }
     ],
     "soups": [
       {
         "isActive": true,
-        "firstLineName": "bulion mięsno – grzybowy . portobello",
-        "secondLineName": "udko kurczaka . kukurydza . jesienna trufla",
+        "firstLineName": "barszcz . kiszone buraki",
+        "secondLineName": "uszka z bryndzą i grzybami . dymka . chrzan",
         "price": 39
       }
     ],
@@ -97,7 +102,7 @@
       },
       {
         "isActive": true,
-        "firstLineName": "trybowane udo z gęsi . jus truflowy",
+        "firstLineName": "trybowane udo z kaczki . jus truflowy",
         "secondLineName": "babka ziemniaczana . cykoria",
         "thirdLineName": "kiszona kapusta",
         "price": 79
@@ -122,9 +127,15 @@
       },
       {
         "isActive": true,
-        "firstLineName": "Rib Eye Black Angus (320g)",
-        "secondLineName": "sos café de Paris",
+        "firstLineName": "Rib Eye Onyx Black Angus Australia",
+        "secondLineName": "(320g) . sos café de Paris",
         "price": 279
+      },
+      {
+        "isActive": true,
+        "firstLineName": "Rostbef Waguy Hida A5 (120g)",
+        "secondLineName": "miso . brokuł . XO grzybowe",
+        "price": 219
       }
     ],
     "sides": [
@@ -161,13 +172,12 @@
       {
         "isActive": true,
         "firstLineName": "tarta z jabłkami . kruszonka",
-        "secondLineName": "lody z topinamburu",
+        "secondLineName": "lody z topinamburu . orzech laskowy",
         "price": 37
       },
       {
         "isActive": true,
-        "firstLineName": "Crémeux czekoladowe . słony karmel",
-        "secondLineName": "kokos . maliny",
+        "firstLineName": "piernik . śliwka . krem z białej czekolady",
         "price": 37
       }
     ]
