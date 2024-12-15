@@ -21,7 +21,7 @@
     "starters": [
       {
         "isActive": true,
-        "firstLineName": "ostryga Speciales de Claire N°2",
+        "firstLineName": "ostryga Fines de Claire N°2 David Hervé",
         "secondLineName": "różany mignonette",
         "price": 27
       },
@@ -33,7 +33,7 @@
       },
       {
         "isActive": true,
-        "firstLineName": "oliwki Castelvetrano . basil pesto",
+        "firstLineName": "oliwki Castelvetrano . pesto bazyliowe",
         "price": 24
       },
       {
@@ -44,9 +44,21 @@
       },
       {
         "isActive": true,
+        "firstLineName": "podwędzany śledź . seler . jabłko",
+        "secondLineName": "wasabi . zioła",
+        "price": 39
+      },
+      {
+        "isActive": true,
         "firstLineName": "kaszanka francuska . tamaryndowiec",
         "secondLineName": "śliwka . papryczki padron",
         "price": 43
+      },
+      {
+        "isActive": true,
+        "firstLineName": "tataki z polędwicy wołowej",
+        "secondLineName": "sos musztardowy . trybula . czarna trufla",
+        "price": 82
       },
       {
         "isActive": true,
@@ -68,17 +80,6 @@
       },
       {
         "isActive": true,
-        "firstLineName": "wędzona troć fiordowa . chrzan . por",
-        "secondLineName": "remulada z selera . nori",
-        "price": 48
-      },
-      {
-        "isActive": true,
-        "firstLineName": "półgęsek z gęsi owsianej . śliwka",
-        "price": 50
-      },
-      {
-        "isActive": true,
         "firstLineName": "tatar wołowy . Dijon . lubczyk",
         "secondLineName": "majonez z anchois . oliwki . grzanki",
         "price": 56
@@ -87,8 +88,8 @@
     "soups": [
       {
         "isActive": true,
-        "firstLineName": "barszcz . kiszone buraki",
-        "secondLineName": "uszka z bryndzą i grzybami . dymka . chrzan",
+        "firstLineName": "barszcz . kiszone buraki . majeranek",
+        "secondLineName": "uszka z bryndzą i grzybami . chrzan",
         "price": 39
       }
     ],
@@ -121,9 +122,9 @@
       },
       {
         "isActive": true,
-        "firstLineName": "schab z mazurskiej mangalicy",
-        "secondLineName": "jus z kurczaka . borowiki . żurawina . dymka",
-        "price": 105
+        "firstLineName": "schab z wieprzowiny jabłkowej",
+        "secondLineName": "jus z kurczaka . żurawina . jarmuż toskański",
+        "price": 86
       },
       {
         "isActive": true,
@@ -133,9 +134,9 @@
       },
       {
         "isActive": true,
-        "firstLineName": "Rostbef Waguy Hida A5 (120g)",
-        "secondLineName": "miso . brokuł . XO grzybowe",
-        "price": 219
+        "firstLineName": "Rostbef Waguy Hida A5 (150g)",
+        "secondLineName": "sos béarnaise . brokuł . XO grzybowe",
+        "price": 275
       }
     ],
     "sides": [
@@ -171,13 +172,14 @@
     "desserts": [
       {
         "isActive": true,
-        "firstLineName": "tarta z jabłkami . kruszonka",
-        "secondLineName": "lody z topinamburu . orzech laskowy",
+        "firstLineName": "rum baba . krem jogurtowy . migdały",
+        "secondLineName": "porzeczki . pigwowiec",
         "price": 37
       },
       {
         "isActive": true,
-        "firstLineName": "piernik . śliwka . krem z białej czekolady",
+        "firstLineName": "piernik . śliwka",
+        "secondLineName": "krem z białej czekolady",
         "price": 37
       }
     ]
