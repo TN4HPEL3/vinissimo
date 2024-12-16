@@ -21,7 +21,7 @@
     "starters": [
       {
         "isActive": true,
-        "firstLineName": "Speciales de Claire N°2 oyster",
+        "firstLineName": "Fines de Claire N°2 David Hervé oyster",
         "secondLineName": "rosé mignonette",
         "price": 27
       },
@@ -33,8 +33,7 @@
       },
       {
         "isActive": true,
-        "firstLineName": "Castelvetrano olives",
-        "secondLineName": "basil pesto",
+        "firstLineName": "Castelvetrano olives . basil pesto",
         "price": 24
       },
       {
@@ -42,6 +41,12 @@
         "firstLineName": "Blue Stilton cheese . pear chutney",
         "secondLineName": "buckwheat crackers",
         "price": 37
+      },
+      {
+        "isActive": true,
+        "firstLineName": "smoked herring . celery root . apple",
+        "secondLineName": "wasabi . herbs",
+        "price": 39
       },
       {
         "isActive": true,
@@ -57,26 +62,21 @@
       },
       {
         "isActive": true,
+        "firstLineName": "beef tenderloin tataki",
+        "secondLineName": "mustard sauce . chervil. black truffle",
+        "price": 82
+      },
+      {
+        "isActive": true,
         "firstLineName": "aubergine . yoghurt . cashews",
         "secondLineName": "spinach . truffle dressing . hazelnut oil",
         "price": 46
       },
       {
         "isActive": true,
-        "firstLineName": "grilled squid . tzatziki . jalapeno",
-        "secondLineName": "cilantro . corn",
+        "firstLineName": "grilled squid . tzatziki . jalapeno . corn",
+        "secondLineName": "cilantro",
         "price": 47
-      },
-      {
-        "isActive": true,
-        "firstLineName": "smoked sea trout . leek . nori",
-        "secondLineName": "horseradish . celery remoulade",
-        "price": 48
-      },
-      {
-        "isActive": true,
-        "firstLineName": "oat fed goose breast . plum",
-        "price": 50
       },
       {
         "isActive": true,
@@ -88,9 +88,9 @@
     "soups": [
       {
         "isActive": true,
-        "firstLineName": "borscht . pickled beetroot",
-        "secondLineName": "bryndza & mushroom dumplings",
-        "thirdLineName": "spring onion . horseradish",
+        "firstLineName": "borscht . pickled beetroots",
+        "secondLineName": "bryndza and mushroom dumblings",
+        "thirdLineName": "marjoram . horseradish",
         "price": 39
       }
     ],
@@ -122,10 +122,9 @@
       },
       {
         "isActive": true,
-        "firstLineName": "Masurian Mangalica pork chop",
-        "secondLineName": "chicken jus sauce . spring onion",
-        "thirdLineName": "porcini mushrooms . cranberry",
-        "price": 105
+        "firstLineName": "apple-fed pork chop",
+        "secondLineName": "chicken jus sauce . cranberry . kale",
+        "price": 86
       },
       {
         "isActive": true,
@@ -135,9 +134,10 @@
       },
       {
         "isActive": true,
-        "firstLineName": "Sirloin Waguy Hida A5 (120g)",
-        "secondLineName": "miso . broccoli . mushroom XO sauce",
-        "price": 219
+        "firstLineName": "sirloin Waguy Hida A5 (150g)",
+        "secondLineName": "béarnaise sauce . broccoli",
+        "thirdLineName": "mushroom XO sauce",
+        "price": 275
       }
     ],
     "sides": [
@@ -171,8 +171,8 @@
     "desserts": [
       {
         "isActive": true,
-        "firstLineName": "apple tart . crumble . hazelnut oil",
-        "secondLineName": "jerusalem artichoke ice cream",
+        "firstLineName": "rhum baba . yoghurt cream . almonds",
+        "secondLineName": "japanese quince . currants",
         "price": 37
       },
       {
