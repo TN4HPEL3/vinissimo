@@ -324,5 +324,8 @@
     "cost": ["1199 zł| osoba", "(serwis kelnerski, płatny dodatkowo, 12,5%)"]
   },
   "holidayOpeningText": "Świąteczne godziny otwarcia:",
-  "holidayOpeningHours": "24-25 grudnia - zamknięte"
+  "holidayOpeningHours": "24-25 grudnia - zamknięte",
+
+  "error404ButtonText": "Wróć na stronę główną",
+  "error404Description": "Ups! Wygląda na to, że trafiłeś w niezbadane rejony internetu. Może zatraciłeś się trochę po drodze jak po kilku lampkach dobrego wina? Nie martw się, wróć do głównej strony i kontynuujmy smakowanie!"
 }

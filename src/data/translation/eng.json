@@ -323,5 +323,8 @@
     "cost": ["1199 PLN | person", "(service charge, paid additionally, 12.5%)"]
   },
   "holidayOpeningText": "Holiday opening hours:",
-  "holidayOpeningHours": "December 24-25 - closed"
+  "holidayOpeningHours": "December 24-25 - closed",
+
+  "error404ButtonText": "Go back to the homepage",
+  "error404Description": "Oops! It seems you've wandered into uncharted corners of the internet. Perhaps you got a little lost along the way, like after a few glasses of fine wine? Don't worry-head back to the homepage and let's continue savoring the journey!"
 }
