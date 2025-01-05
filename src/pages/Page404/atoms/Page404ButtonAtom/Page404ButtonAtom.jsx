@@ -1,7 +1,10 @@
+import { useLanguage } from '../../../../helpers/contexts/languageContext.js';
 import { ButtonAtom } from '../../../../components/atoms/buttonAtom/ButtonAtom.jsx';
 
 function Page404ButtonAtom() {
-  return <ButtonAtom text="Wróć na stronę główną" />;
+  const { t } = useLanguage();
+
+  return <ButtonAtom text={t.error404ButtonText} />;
 }
 
 export { Page404ButtonAtom };

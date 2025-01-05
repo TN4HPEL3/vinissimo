@@ -4,7 +4,6 @@ import { FooterHoursMolecule } from '../../molecules/FooterHoursMolecule/FooterH
 import { FooterIconsMolecule } from '../../molecules/FooterIconsMolecule/FooterIconsMolecule.jsx';
 import { FooterLinksMolecule } from '../../molecules/FooterLinksMolecule/FooterLinksMolecule.jsx';
 import { FooterAddressMolecule } from '../../molecules/FooterAddressMolecule/FooterAddressMolecule.jsx';
-import { FooterHolidayHoursMolecule } from '../../molecules/FooterHolidayHoursMolecule/FooterHolidayHoursMolecule.jsx';
 
 import css from './FooterOrganism.module.css';
 
@@ -16,8 +15,6 @@ function FooterOrganism() {
     footerAddress,
     footerOpeningHours,
     footerOpeningHoursSunday,
-    holidayOpeningText,
-    holidayOpeningHours,
   } = t;
   return (
     <>
@@ -29,13 +26,7 @@ function FooterOrganism() {
         <FooterHoursMolecule
           textOpeningHours={footerOpeningHours}
           textOpeningHoursSunday={footerOpeningHoursSunday}
-        >
-          <FooterHolidayHoursMolecule
-            text={holidayOpeningText}
-            hours={holidayOpeningHours}
-          />
-        </FooterHoursMolecule>
-
+        ></FooterHoursMolecule>
         <FooterLinksMolecule />
         {screen === 'desktop' && <FooterIconsMolecule />}
       </div>
