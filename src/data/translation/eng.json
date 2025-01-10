@@ -21,9 +21,9 @@
     "starters": [
       {
         "isActive": true,
-        "firstLineName": "Fines de Claire N°2 David Hervé oyster",
+        "firstLineName": "Fine de Claire / Gillardeau N°2",
         "secondLineName": "rosé mignonette",
-        "price": 27
+        "price": "27/39"
       },
       {
         "isActive": true,
@@ -44,21 +44,39 @@
       },
       {
         "isActive": true,
-        "firstLineName": "smoked herring . celery root . apple",
-        "secondLineName": "wasabi . herbs",
-        "price": 39
-      },
-      {
-        "isActive": true,
         "firstLineName": "french black pudding . tamarind",
         "secondLineName": "plum . padron peppers",
         "price": 43
       },
       {
         "isActive": true,
-        "firstLineName": "crab arancini . fennel . tomatoes",
-        "secondLineName": "chilli . Grana Padano",
+        "firstLineName": "arancini with Comté cheese",
+        "secondLineName": "mushroom aioli . Grana Padano",
         "price": 44
+      },
+      {
+        "isActive": true,
+        "firstLineName": "aubergine . greek yoghurt . spinach",
+        "secondLineName": "cashew nuts . truffle dressing",
+        "price": 46
+      },
+      {
+        "isActive": true,
+        "firstLineName": "grilled squid . tzatziki . jalapeno",
+        "secondLineName": "corn . cilantro",
+        "price": 47
+      },
+      {
+        "isActive": true,
+        "firstLineName": "hamachi sashimi . tomato consommé",
+        "secondLineName": "jerusalem artichoke . trout roe . shiso",
+        "price": 47
+      },
+      {
+        "isActive": true,
+        "firstLineName": "beef tartare . Dijon mustard . lovage",
+        "secondLineName": "anchovy mayonnaise",
+        "price": 56
       },
       {
         "isActive": true,
@@ -68,28 +86,16 @@
       },
       {
         "isActive": true,
-        "firstLineName": "aubergine . yoghurt . cashews",
-        "secondLineName": "spinach . truffle dressing . hazelnut oil",
-        "price": 46
-      },
-      {
-        "isActive": true,
-        "firstLineName": "grilled squid . tzatziki . jalapeno . corn",
-        "secondLineName": "cilantro",
-        "price": 47
-      },
-      {
-        "isActive": true,
-        "firstLineName": "beef tartare . Dijon mustard . lovage",
-        "secondLineName": "anchovy mayonnaise",
-        "price": 56
+        "firstLineName": "tartlets with crab (2pcs.) crème fraiche",
+        "secondLineName": "caviar Antonius Siberian ****",
+        "price": 99
       }
     ],
     "soups": [
       {
         "isActive": true,
         "firstLineName": "borscht . pickled beetroots",
-        "secondLineName": "bryndza and mushroom dumblings",
+        "secondLineName": "bryndza and mushroom dumplings",
         "thirdLineName": "marjoram . horseradish",
         "price": 39
       }
@@ -97,10 +103,9 @@
     "mains": [
       {
         "isActive": true,
-        "firstLineName": "pumpkin gnocchi . cheese fondue",
-        "secondLineName": "broccoli . fermented lemon . hazelnuts",
-        "thirdLineName": "pesto romesco",
-        "price": 69
+        "firstLineName": "raviolo with ricotta and egg yolk",
+        "secondLineName": "cheese fondue . broccoli . black truffle",
+        "price": 79
       },
       {
         "isActive": true,
@@ -111,33 +116,33 @@
       {
         "isActive": true,
         "firstLineName": "Fish & Chips . cod . kimchi",
-        "secondLineName": "fries . tartar sauce with tarragon",
+        "secondLineName": "french fries . tzatziki mayonnaise with tarragon",
         "price": 74
       },
       {
         "isActive": true,
-        "firstLineName": "scotch salmon . shiso . zucchini",
-        "secondLineName": "black lentils . lemon sauce . zucchini",
+        "firstLineName": "scottish salmon . broccoli . sea salad",
+        "secondLineName": "hollandaise sauce . marinated mussels",
         "price": 96
       },
       {
         "isActive": true,
-        "firstLineName": "apple-fed pork chop",
-        "secondLineName": "chicken jus sauce . cranberry . kale",
+        "firstLineName": "grilled apple pork chop . thyme jus",
+        "secondLineName": "pickled cranberries . kale. chervil",
         "price": 86
       },
       {
         "isActive": true,
-        "firstLineName": "Australian Onyx Black Angus Rib Eye",
-        "secondLineName": "(320g) . café de Paris sauce",
-        "price": 279
+        "firstLineName": "dry aged polish rib-eye (300g)",
+        "secondLineName": "café de Paris sauce",
+        "price": 169
       },
       {
         "isActive": true,
-        "firstLineName": "sirloin Waguy Hida A5 (150g)",
-        "secondLineName": "béarnaise sauce . broccoli",
-        "thirdLineName": "mushroom XO sauce",
-        "price": 275
+        "firstLineName": "Wagyu Burger (160g)",
+        "secondLineName": "Mimolette . romaine lettuce . pickled cucumber",
+        "thirdLineName": "aioli . red onion . chipotle ketchup . french fries",
+        "price": 99
       }
     ],
     "sides": [
@@ -171,14 +176,14 @@
     "desserts": [
       {
         "isActive": true,
-        "firstLineName": "rhum baba . yoghurt cream . almonds",
-        "secondLineName": "japanese quince . currants",
+        "firstLineName": "gingerbread . white chocolate cream",
+        "secondLineName": "plum",
         "price": 37
       },
       {
         "isActive": true,
-        "firstLineName": "gingerbread . plum",
-        "secondLineName": "white chocolate cream",
+        "firstLineName": "apple tart . hazelnut oil",
+        "secondLineName": "jerusalem artichoke ice cream",
         "price": 37
       }
     ]
