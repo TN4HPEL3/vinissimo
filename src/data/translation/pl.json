@@ -21,10 +21,9 @@
     "starters": [
       {
         "isActive": true,
-        "firstLineName": "ostryga",
-        "secondLineName": "Fine de Claire / Gillardeau N°2",
-        "thirdLineName": "różany mignonette",
-        "price": "27/39"
+        "firstLineName": "ostryga Fine de Claire N°3",
+        "secondLineName": "różany mignonette",
+        "price": 27
       },
       {
         "isActive": true,
@@ -42,6 +41,12 @@
         "firstLineName": "ser Blue Stilton . krakersy gryczane",
         "secondLineName": "chutney z gruszki",
         "price": 37
+      },
+      {
+        "isActive": true,
+        "firstLineName": "podwędzany śledź . remulada z selera",
+        "secondLineName": "wasabi . koper",
+        "price": 39
       },
       {
         "isActive": true,
@@ -63,15 +68,9 @@
       },
       {
         "isActive": true,
-        "firstLineName": "grillowane kalmary . tzatziki . jalapeño",
+        "firstLineName": "grillowane kalmary . tzatziki . jalapeno",
         "secondLineName": "kukurydza . kolendra",
         "price": 46
-      },
-      {
-        "isActive": true,
-        "firstLineName": "sashimi z serioli . pachnotka . ikra",
-        "secondLineName": "consommé pomidorowe . topinambur",
-        "price": 47
       },
       {
         "isActive": true,
@@ -87,7 +86,7 @@
       },
       {
         "isActive": true,
-        "firstLineName": "tartaletka z krabem . creme fraîche",
+        "firstLineName": "tartaletka z krabem . crème fraîche",
         "secondLineName": "kawior Antonius Siberian **** (2szt.)",
         "price": 99
       }
@@ -95,9 +94,9 @@
     "soups": [
       {
         "isActive": true,
-        "firstLineName": "barszcz . kiszone buraki . majeranek",
-        "secondLineName": "uszka z bryndzą i grzybami . chrzan",
-        "price": 39
+        "firstLineName": "cebulowa",
+        "secondLineName": "grzanki . ser Gruyère",
+        "price": 44
       }
     ],
     "mains": [
@@ -110,8 +109,7 @@
       {
         "isActive": true,
         "firstLineName": "trybowane udo z kaczki . jus truflowy",
-        "secondLineName": "babka ziemniaczana . cykoria",
-        "thirdLineName": "kiszona kapusta",
+        "secondLineName": "babka ziemniaczana . cykoria . kiszona kapusta",
         "price": 79
       },
       {
@@ -123,21 +121,8 @@
       {
         "isActive": true,
         "firstLineName": "łosoś szkocki . brokuł . sos holenderski",
-        "secondLineName": "marynowane mule . sałata morska",
+        "secondLineName": "sałata morska",
         "price": 96
-      },
-      {
-        "isActive": true,
-        "firstLineName": "grillowany schab z wieprzowiny jabłkowej",
-        "secondLineName": "jus tymiankowy . piklowana żurawina",
-        "thirdLineName": "jarmuż . trybula",
-        "price": 86
-      },
-      {
-        "isActive": true,
-        "firstLineName": "sezonowany antrykot wołowy (300g)",
-        "secondLineName": "sos café de Paris",
-        "price": 169
       },
       {
         "isActive": true,
@@ -145,6 +130,18 @@
         "secondLineName": "Mimolette . sałata rzymska . ogórek kiszony",
         "thirdLineName": "aioli . czerwona cebula . ketchup chipotle . frytki",
         "price": 99
+      },
+      {
+        "isActive": true,
+        "firstLineName": "biodrówka jagnięca . czarne kurki",
+        "secondLineName": "jarmuż toskański . żurawina",
+        "price": 144
+      },
+      {
+        "isActive": true,
+        "firstLineName": "sezonowany antrykot wołowy (300g)",
+        "secondLineName": "sos café de Paris",
+        "price": 169
       }
     ],
     "sides": [
