@@ -21,9 +21,10 @@
     "starters": [
       {
         "isActive": true,
-        "firstLineName": "ostryga Fines de Claire N°2 David Hervé",
-        "secondLineName": "różany mignonette",
-        "price": 27
+        "firstLineName": "ostryga",
+        "secondLineName": "Fine de Claire / Gillardeau N°2",
+        "thirdLineName": "różany mignonette",
+        "price": "27/39"
       },
       {
         "isActive": true,
@@ -44,15 +45,39 @@
       },
       {
         "isActive": true,
-        "firstLineName": "podwędzany śledź . seler . jabłko",
-        "secondLineName": "wasabi . zioła",
-        "price": 39
-      },
-      {
-        "isActive": true,
         "firstLineName": "kaszanka francuska . tamaryndowiec",
         "secondLineName": "śliwka . papryczki padron",
         "price": 43
+      },
+      {
+        "isActive": true,
+        "firstLineName": "arancini z serem Comte",
+        "secondLineName": "aioli grzybowe . Grana Padano",
+        "price": 44
+      },
+      {
+        "isActive": true,
+        "firstLineName": "bakłażan . nerkowce . szpinak",
+        "secondLineName": "jogurt grecki . dressing truflowy",
+        "price": 46
+      },
+      {
+        "isActive": true,
+        "firstLineName": "grillowane kalmary . tzatziki . jalapeño",
+        "secondLineName": "kukurydza . kolendra",
+        "price": 46
+      },
+      {
+        "isActive": true,
+        "firstLineName": "sashimi z serioli . pachnotka . ikra",
+        "secondLineName": "consommé pomidorowe . topinambur",
+        "price": 47
+      },
+      {
+        "isActive": true,
+        "firstLineName": "tatar wołowy . Dijon . lubczyk",
+        "secondLineName": "majonez z anchois . oliwki . grzanki",
+        "price": 56
       },
       {
         "isActive": true,
@@ -62,27 +87,9 @@
       },
       {
         "isActive": true,
-        "firstLineName": "arancini z krabem . koper włoski",
-        "secondLineName": "pomidory . chilli . Grana Padano",
-        "price": 44
-      },
-      {
-        "isActive": true,
-        "firstLineName": "bakłażan . jogurt grecki . nerkowce",
-        "secondLineName": "szpinak . dressing truflowy",
-        "price": 46
-      },
-      {
-        "isActive": true,
-        "firstLineName": "grillowane kalmary . tzatziki . jalapeño",
-        "secondLineName": "kukurydza . kolendra",
-        "price": 47
-      },
-      {
-        "isActive": true,
-        "firstLineName": "tatar wołowy . Dijon . lubczyk",
-        "secondLineName": "majonez z anchois . oliwki . grzanki",
-        "price": 56
+        "firstLineName": "tartaletka z krabem . creme fraîche",
+        "secondLineName": "kawior Antonius Siberian **** (2szt.)",
+        "price": 99
       }
     ],
     "soups": [
@@ -96,10 +103,9 @@
     "mains": [
       {
         "isActive": true,
-        "firstLineName": "kopytka dyniowe . fondue serowe",
-        "secondLineName": "brokuł . kiszona cytryna",
-        "thirdLineName": "orzechy laskowe . pesto romesco",
-        "price": 69
+        "firstLineName": "raviolo z ricottą i płynnym żółtkiem",
+        "secondLineName": "fondue serowe . brokuł . czarna trufla",
+        "price": 79
       },
       {
         "isActive": true,
@@ -116,27 +122,29 @@
       },
       {
         "isActive": true,
-        "firstLineName": "łosoś szkocki . sos cytrynowy . cukinia",
-        "secondLineName": "czarna soczewica . pachnotka",
+        "firstLineName": "łosoś szkocki . brokuł . sos holenderski",
+        "secondLineName": "marynowane mule . sałata morska",
         "price": 96
       },
       {
         "isActive": true,
-        "firstLineName": "schab z wieprzowiny jabłkowej",
-        "secondLineName": "jus z kurczaka . żurawina . jarmuż toskański",
+        "firstLineName": "grillowany schab z wieprzowiny jabłkowej",
+        "secondLineName": "jus tymiankowy . piklowana żurawina",
+        "thirdLineName": "jarmuż . trybula",
         "price": 86
       },
       {
         "isActive": true,
-        "firstLineName": "Rib Eye Onyx Black Angus Australia",
-        "secondLineName": "(320g) . sos café de Paris",
-        "price": 279
+        "firstLineName": "sezonowany antrykot wołowy (300g)",
+        "secondLineName": "sos café de Paris",
+        "price": 169
       },
       {
         "isActive": true,
-        "firstLineName": "Rostbef Waguy Hida A5 (150g)",
-        "secondLineName": "sos béarnaise . brokuł . XO grzybowe",
-        "price": 275
+        "firstLineName": "Burger Wagyu (160g)",
+        "secondLineName": "Mimolette . sałata rzymska . ogórek kiszony",
+        "thirdLineName": "aioli . czerwona cebula . ketchup chipotle . frytki",
+        "price": 99
       }
     ],
     "sides": [
@@ -172,14 +180,13 @@
     "desserts": [
       {
         "isActive": true,
-        "firstLineName": "rum baba . krem jogurtowy . migdały",
-        "secondLineName": "porzeczki . pigwowiec",
+        "firstLineName": "piernik . śliwka . krem z białej czekolady",
         "price": 37
       },
       {
         "isActive": true,
-        "firstLineName": "piernik . śliwka",
-        "secondLineName": "krem z białej czekolady",
+        "firstLineName": "tarta z jabłkami . lody z topinamburu",
+        "secondLineName": "orzechy laskowe",
         "price": 37
       }
     ]
