@@ -21,9 +21,9 @@
     "starters": [
       {
         "isActive": true,
-        "firstLineName": "Fine de Claire / Gillardeau N°2",
+        "firstLineName": "Fine de Claire oyster N°3",
         "secondLineName": "rosé mignonette",
-        "price": "27/39"
+        "price": 27
       },
       {
         "isActive": true,
@@ -41,6 +41,12 @@
         "firstLineName": "Blue Stilton cheese . pear chutney",
         "secondLineName": "buckwheat crackers",
         "price": 37
+      },
+      {
+        "isActive": true,
+        "firstLineName": "smoked herring . celery remulade",
+        "secondLineName": "wasabi . dill",
+        "price": 39
       },
       {
         "isActive": true,
@@ -68,12 +74,6 @@
       },
       {
         "isActive": true,
-        "firstLineName": "hamachi sashimi . tomato consommé",
-        "secondLineName": "jerusalem artichoke . trout roe . shiso",
-        "price": 47
-      },
-      {
-        "isActive": true,
         "firstLineName": "beef tartare . Dijon mustard . lovage",
         "secondLineName": "anchovy mayonnaise",
         "price": 56
@@ -81,12 +81,12 @@
       {
         "isActive": true,
         "firstLineName": "beef tenderloin tataki",
-        "secondLineName": "mustard sauce . chervil. black truffle",
+        "secondLineName": "mustard sauce . chervil . black truffle",
         "price": 82
       },
       {
         "isActive": true,
-        "firstLineName": "tartlets with crab (2pcs.) crème fraiche",
+        "firstLineName": "tartlets with crab (2pcs.) . crème fraiche",
         "secondLineName": "caviar Antonius Siberian ****",
         "price": 99
       }
@@ -94,9 +94,8 @@
     "soups": [
       {
         "isActive": true,
-        "firstLineName": "borscht . pickled beetroots",
-        "secondLineName": "bryndza and mushroom dumplings",
-        "thirdLineName": "marjoram . horseradish",
+        "firstLineName": "onion soup",
+        "secondLineName": "croutons . Gruyère cheese",
         "price": 39
       }
     ],
@@ -122,14 +121,15 @@
       {
         "isActive": true,
         "firstLineName": "scottish salmon . broccoli . sea salad",
-        "secondLineName": "hollandaise sauce . marinated mussels",
+        "secondLineName": "hollandaise sauce",
         "price": 96
       },
       {
         "isActive": true,
-        "firstLineName": "grilled apple pork chop . thyme jus",
-        "secondLineName": "pickled cranberries . kale. chervil",
-        "price": 86
+        "firstLineName": "Wagyu Burger (160g) . Mimolette",
+        "secondLineName": "romaine lettuce . pickled cucumber . aioli",
+        "thirdLineName": "red onion . chipotle ketchup . french fries",
+        "price": 99
       },
       {
         "isActive": true,
@@ -139,10 +139,9 @@
       },
       {
         "isActive": true,
-        "firstLineName": "Wagyu Burger (160g)",
-        "secondLineName": "Mimolette . romaine lettuce . pickled cucumber",
-        "thirdLineName": "aioli . red onion . chipotle ketchup . french fries",
-        "price": 99
+        "firstLineName": "lamb hip . black trumpet mushroom",
+        "secondLineName": "toscanian kale . parsley . cranberries",
+        "price": 144
       }
     ],
     "sides": [
@@ -158,7 +157,8 @@
       },
       {
         "isActive": true,
-        "firstLineName": "roasted potatoes . sour cream . chives",
+        "firstLineName": "roasted potatoes . sour cream",
+        "secondLineName": "chives",
         "price": 19
       },
       {
@@ -169,7 +169,8 @@
       },
       {
         "isActive": true,
-        "firstLineName": "fried beets . cranberries . walnuts",
+        "firstLineName": "fried beets . cranberries",
+        "secondLineName": "walnuts",
         "price": 18
       }
     ],
