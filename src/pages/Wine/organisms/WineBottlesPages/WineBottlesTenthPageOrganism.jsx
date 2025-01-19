@@ -24,6 +24,11 @@ function WineBottlesTenthPageOrganism() {
         regionName="CASTILIA Y LEON"
       />
       <WineGlassesListOrganism
+        category={'bierzo'}
+        data={page}
+        regionName="BIERZO"
+      />
+      <WineGlassesListOrganism
         category={'priorat'}
         data={page}
         regionName="PRIORAT"

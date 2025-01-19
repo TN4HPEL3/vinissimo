@@ -7,11 +7,26 @@ function WineBottlesSixthPageOrganism() {
   return (
     <div>
       <WineGlassesListOrganism
-        category={'rioja'}
+        category={'priorat'}
         data={page.spain}
         countryName="SPAIN"
-        regionName={'RIOJA'}
+        regionName={'PRIORAT'}
         categoryTitle="WHITE WINES"
+      />
+      <WineGlassesListOrganism
+        category={'canaryIslands'}
+        data={page.spain}
+        regionName={'CANARY ISLANDS'}
+      />
+      <WineGlassesListOrganism
+        category={'rioja'}
+        data={page.spain}
+        regionName={'RIOJA'}
+      />
+      <WineGlassesListOrganism
+        category={'riberaDelDuero'}
+        data={page.spain}
+        regionName={'RIBERA DEL DUERO'}
       />
       <WineGlassesListOrganism
         category={'rueda'}
@@ -42,11 +57,6 @@ function WineBottlesSixthPageOrganism() {
         category={'portugal'}
         data={page}
         countryName="PORTUGAL"
-      />
-      <WineGlassesListOrganism
-        category={'england'}
-        data={page}
-        countryName="ENGLAND"
       />
       <WineGlassesListOrganism
         category={'hungary'}

@@ -16,7 +16,7 @@ function WineGlassesFirstPageOrganism() {
         volumeThird="750 ml"
         category={'bubbles'}
         data={menu}
-        title={'bubbles by the glass | bąble na kieliszek'}
+        title={'SPARKLING WINES'}
       />
       <WineGlassesListOrganism
         volumeFirst={volumeSmallGlass}
@@ -24,9 +24,7 @@ function WineGlassesFirstPageOrganism() {
         volumeThird={volumeBottle}
         category={'orangeAndOxidizedWines'}
         data={menu}
-        title={
-          'orange&oxidized wines by the glass | wina utlenione&pomarańczowe na kieliszek'
-        }
+        title={'ORANGE AND OXIDIZED WINES'}
       />
       <WineGlassesListOrganism
         volumeFirst={volumeSmallGlass}
@@ -34,7 +32,7 @@ function WineGlassesFirstPageOrganism() {
         volumeThird={volumeBottle}
         category={'roseWines'}
         data={menu}
-        title={'rosé wines by the glass | wina różowe na kieliszek'}
+        title={'ROSE'}
       />
       <WineGlassesListOrganism
         volumeFirst="75 ml |"
@@ -42,9 +40,7 @@ function WineGlassesFirstPageOrganism() {
         volumeThird={volumeBottle}
         category={'sweetAndFortifiedWines'}
         data={menu}
-        title={
-          'sweet and fortified wines by the glass | wina słodkie i wzmacniane na kieliszek'
-        }
+        title={'SWEET AND FORTIFIED WINES'}
       />
       <WineGlassesListOrganism
         volumeFirst="250 ml"
@@ -52,9 +48,7 @@ function WineGlassesFirstPageOrganism() {
         volumeThird="750 ml"
         category={'nonAlcoholicWines'}
         data={menu}
-        title={
-          'non-alcoholic wines by the glass | wina bezalkoholowe na kieliszek'
-        }
+        title={'ALCOHOL FREE'}
       />
     </div>
   );

@@ -16,7 +16,7 @@ function WineGlassesSecondPageOrganism() {
         volumeThird={volumeBottle}
         category={'whiteWines'}
         data={menu}
-        title={'white wines by the glass | wina białe na kieliszek'}
+        title={'WHITE WINES'}
       />
     </div>
   );
