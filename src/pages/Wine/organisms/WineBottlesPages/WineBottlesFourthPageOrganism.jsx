@@ -39,9 +39,9 @@ function WineBottlesFourthPageOrganism() {
         regionName="TOSCANY"
       />
       <WineGlassesListOrganism
-        category={'lazio'}
+        category={'sicily'}
         data={page}
-        regionName="LAZIO"
+        regionName="SICILY"
       />
     </div>
   );

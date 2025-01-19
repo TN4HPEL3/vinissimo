@@ -24,6 +24,11 @@ function WineBottlesFifthPageOrganism() {
         regionName="MOSEL"
       />
       <WineGlassesListOrganism
+        category={'rheinhessen'}
+        data={page.germany}
+        regionName="RHEINHESSEN"
+      />
+      <WineGlassesListOrganism
         category={'austria'}
         data={page}
         countryName="AUSTRIA"
