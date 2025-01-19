@@ -20,6 +20,11 @@ function WineBottlesSeventhPageOrganism() {
         categoryTitle="NEW WORLD"
       />
       <WineGlassesListOrganism
+        category={'uruguay'}
+        data={page}
+        countryName="URUGUAY"
+      />
+      <WineGlassesListOrganism
         category={'chile'}
         data={page}
         countryName="CHILE"
@@ -31,9 +36,9 @@ function WineBottlesSeventhPageOrganism() {
       />
       <WineGlassesListOrganism category={'usa'} data={page} countryName="USA" />
       <WineGlassesListOrganism
-        category={'uruguay'}
+        category={'southAfrica'}
         data={page}
-        countryName="URUGUAY"
+        countryName="SOUTH AFRICA"
       />
     </div>
   );

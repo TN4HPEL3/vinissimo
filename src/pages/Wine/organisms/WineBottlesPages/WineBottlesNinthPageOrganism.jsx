@@ -34,6 +34,11 @@ function WineBottlesNinthPageOrganism() {
         regionName="PUGLIA"
       />
       <WineGlassesListOrganism
+        category={'trentinoAltoAdige'}
+        data={page}
+        regionName="TRENTINO – ALTO ADIGE"
+      />
+      <WineGlassesListOrganism
         category={'veneto'}
         data={page}
         regionName="VENETO"

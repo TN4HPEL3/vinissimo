@@ -7,6 +7,7 @@
 
 .wine__title {
   font-size: var(--font-size-medium);
+  padding-top: 1rem;
 }
 
 .wine__volume {
@@ -50,6 +51,8 @@
 
 .wine__list__name--bottle {
   display: flex;
+  max-width: 43rem;
+  align-items: center;
   & > p {
     width: 3.125rem;
     margin-right: 0.625rem;
@@ -77,6 +80,8 @@
 .wine__list__price--bottle {
   width: fit-content;
   margin-left: 0.625rem;
+  text-align: end;
+  max-width: 4rem;
 }
 
 .wine__category-name {

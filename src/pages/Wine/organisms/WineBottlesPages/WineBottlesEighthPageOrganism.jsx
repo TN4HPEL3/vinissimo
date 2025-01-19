@@ -7,12 +7,16 @@ function WineBottlesEighthPageOrganism() {
   return (
     <div>
       <WineGlassesListOrganism
-        category={'pinotNoir'}
-        data={page.burgundy}
+        category={'burgundy'}
+        data={page}
         countryName="FRANCE"
         regionName="BURGUNDY"
-        grapeName="PINOT NOIR"
         categoryTitle="RED WINES"
+      />
+      <WineGlassesListOrganism
+        category={'jura'}
+        data={page}
+        regionName="JURA"
       />
       <WineGlassesListOrganism
         category={'saintEstephe'}
@@ -61,6 +65,11 @@ function WineBottlesEighthPageOrganism() {
         countryName="SOUTH WEST"
       />
       <WineGlassesListOrganism
+        category={'loireValley'}
+        data={page}
+        countryName="LOIRE VALLEY"
+      />
+      <WineGlassesListOrganism
         category={'rhoneValley'}
         data={page}
         countryName="RHÔNE VALLEY"
@@ -69,6 +78,11 @@ function WineBottlesEighthPageOrganism() {
         category={'langueDocRoussillon'}
         data={page}
         countryName="LANGUEDOC-ROUSSILLON"
+      />
+      <WineGlassesListOrganism
+        category={'provence'}
+        data={page}
+        countryName="PROVENCE"
       />
     </div>
   );
