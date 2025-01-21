@@ -33,6 +33,11 @@ function MobileMenuOrganism() {
         text={t.navigationTeam}
         activeRoutes={['']}
       />
+      <NavigationListItemMolecule
+        item="valentine"
+        text={t.navigationValentines}
+        activeRoutes={['/valentine']}
+      />
       <HashLinkMolecule item="/#reservation" text={t.navigationReservation} />
     </>
   );
