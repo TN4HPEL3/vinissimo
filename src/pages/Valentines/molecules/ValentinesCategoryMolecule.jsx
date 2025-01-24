@@ -8,7 +8,7 @@ function ValentinesCategoryMolecule({ name, details }) {
     <div>
       <NewYearCategoryAtom
         name={name}
-        classNme={css.valentines__category__name}
+        className={css.valentines__category__name}
       />
       <ValentinesCategoryDetailsAtom details={details} />
     </div>
