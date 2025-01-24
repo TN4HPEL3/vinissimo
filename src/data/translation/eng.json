@@ -7,6 +7,7 @@
   "navigationEvents": "events",
   "navigationTeam": "team",
   "navigationReservation": "reservation",
+  "navigationValentines": "Valentine's Day",
 
   "aboutUsTitle": "about us",
   "aboutUsPrimaryFirst": "Vinissimo Restaurant & Wine Bar is the new brand under which Sztuczka Bistro, present at Bema 6 since 2017, has been operating since February 2024. The restaurant, run since 2022 by Łukasz Chwojnicki, in a slightly changed format and with the same irreplaceable team, invariably serves delicious and minimalist cuisine, backed by a huge wine selection and impeccable service.",
@@ -332,5 +333,47 @@
   "holidayOpeningHours": "December 24-25 - closed",
 
   "error404ButtonText": "Go back to the homepage",
-  "error404Description": "Oops! It seems you've wandered into uncharted corners of the internet. Perhaps you got a little lost along the way, like after a few glasses of fine wine? Don't worry-head back to the homepage and let's continue savoring the journey!"
+  "error404Description": "Oops! It seems you've wandered into uncharted corners of the internet. Perhaps you got a little lost along the way, like after a few glasses of fine wine? Don't worry-head back to the homepage and let's continue savoring the journey!",
+
+  "valentinesMenu": {
+    "aperitif": [
+      "Winnica Jakubów, Riesling Sekt 2020",
+      "Gustavshof, Holunder Secco Demeter NV (0% alk.)"
+    ],
+    "amuseBouche": "goat cheese tartelette . aubergine",
+    "starters": [
+      "beef tartare . grilled green onion . wasabi . croûtons",
+      "shrimps gyoza . bisque . white turnip . furikake",
+      "tuna tataki . truffle ponzu . crème fraîche . fennel . cilantro",
+      "arancini with Comté . mushroom aioli . portobello . black truffle",
+      "oysters „Secrete” David Hevre no3 . rose mignonette (3 szt.)",
+      "homemade sourdough bread . onion butter with miso . pickles"
+    ],
+    "mains": [
+      "grilled scotch salmon . cider sauce . roe . tarragon . couscous . chinese broccoli",
+      "veal hip . Diane sauce . mushroom croquette . kale",
+      "raviolo with ricotta and liquid yolk . cheese fondue . wild cauliflower . black truffle",
+      "rib-eye steak (200g) . Béarnaise sauce . french fries . salads with dressing"
+    ],
+    "desserts": [
+      "basque cheesecake . blood orange . caramelized white chocolate",
+      "financier . plum . chocolate ganache . tonka bean"
+    ],
+    "drinks": "water . coffee . tea",
+    "cost": [
+      "289 zł|person (apéritif, amuse bouche, starter, main course, dessert, soft drinks)",
+      "339 zł|person (apéritif, amuse bouche, two starters, main course, dessert, soft drinks)",
+      "(additional 12.5% waiter service charge)"
+    ]
+  },
+  "valentinesMenuCategories": {
+    "aperitif": "apéritif",
+    "amuseBouche": "amuse bouche",
+    "starters": "starters | to choose",
+    "mains": "main course | to choose",
+    "desserts": "desserts | to choose",
+    "drinks": "soft drinks",
+    "cost": "cost"
+  },
+  "valentinesTitleMenu": "Valentine's Dinner"
 }

@@ -7,6 +7,7 @@ import { TeamPage } from './pages/Team/TeamPage.jsx';
 import { Page404 } from './pages/Page404/Page404.jsx';
 import { EventsPage } from './pages/Events/EventsPage.jsx';
 import { NewYearPage } from './pages/NewYear/NewYearPage.jsx';
+import { ValentinesPage } from './pages/Valentines/ValentinesPage.jsx';
 import { SharedLayout } from './components/templates/SharedLayout/SharedLayout.jsx';
 import { NewYearBasicTemplate } from './pages/NewYear/templates/NewYearBasicTemplate.jsx';
 import { NewYearDeLuxTemplate } from './pages/NewYear/templates/NewYearDeLuxTemplate.jsx';
@@ -34,6 +35,7 @@ function App() {
           <Route path="basic" element={<NewYearBasicTemplate />} />
           <Route path="de-lux" element={<NewYearDeLuxTemplate />} />
         </Route>
+        <Route path="valentine" element={<ValentinesPage />} />
       </Route>
       <Route path="*" element={<Page404 />} />
     </Routes>

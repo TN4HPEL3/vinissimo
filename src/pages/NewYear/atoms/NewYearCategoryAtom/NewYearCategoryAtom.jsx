@@ -1,5 +1,5 @@
-function NewYearCategoryAtom({ name }) {
-  return <h3>{name}</h3>;
+function NewYearCategoryAtom({ name, className }) {
+  return <h3 className={className}>{name}</h3>;
 }
 
 export { NewYearCategoryAtom };
