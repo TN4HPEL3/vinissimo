@@ -19,6 +19,7 @@ function NavigationListOrganisms() {
     navigationEvents,
     navigationTeam,
     navigationReservation,
+    navigationValentines,
   } = t;
   return (
     <div className={css.header__content}>
@@ -48,6 +49,11 @@ function NavigationListOrganisms() {
           item="team"
           text={navigationTeam}
           activeRoutes={['/team']}
+        />
+        <NavigationListItemMolecule
+          item="valentine"
+          text={navigationValentines}
+          activeRoutes={['/valentine']}
         />
         <HashLinkMolecule item="/#reservation" text={navigationReservation} />
       </nav>

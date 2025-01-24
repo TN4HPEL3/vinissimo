@@ -1,0 +1,9 @@
+.valentines__title {
+  padding-bottom: 1rem;
+  @media screen and (min-width: 32rem) {
+    font-size: var(--font-size-large);
+  }
+  @media screen and (min-width: 64rem) {
+    font-size: var(--font-size-title-desktop);
+  }
+}
