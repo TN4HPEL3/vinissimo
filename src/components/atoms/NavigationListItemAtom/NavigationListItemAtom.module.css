@@ -2,7 +2,7 @@
   position: relative;
   color: var(--website-secondary-color);
   transition: color var(--transition);
-
+  font-size: 1.5rem;
   &::after {
     content: '';
     position: absolute;
@@ -32,6 +32,7 @@
   position: relative;
   color: var(--website-secondary-color-hover);
   transition: color var(--transition);
+  font-size: 1.5rem;
   & > .header__button__icon {
     fill: var(--website-secondary-color-hover);
     transition: fill var(--transition);
@@ -45,6 +46,9 @@
     left: 0;
     padding-bottom: 0.006rem;
     background-color: var(--website-secondary-color-hover);
+  }
+  & > svg {
+    fill: var(--website-secondary-color-hover);
   }
 }
 

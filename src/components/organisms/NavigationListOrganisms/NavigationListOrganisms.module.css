@@ -18,3 +18,14 @@
     justify-content: center;
   }
 }
+
+.header_icon {
+  fill: var(--website-secondary-color);
+  transition: fill var(--transition);
+  width: 2rem;
+  height: 1.1rem;
+  /* display: none; */
+  &:hover {
+    fill: var(--website-secondary-color-hover);
+  }
+}
