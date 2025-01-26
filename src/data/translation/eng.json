@@ -7,7 +7,7 @@
   "navigationEvents": "events",
   "navigationTeam": "team",
   "navigationReservation": "reservation",
-  "navigationValentines": "Valentine's Day",
+  "navigationValentines": "valentine's day",
 
   "aboutUsTitle": "about us",
   "aboutUsPrimaryFirst": "Vinissimo Restaurant & Wine Bar is the new brand under which Sztuczka Bistro, present at Bema 6 since 2017, has been operating since February 2024. The restaurant, run since 2022 by Łukasz Chwojnicki, in a slightly changed format and with the same irreplaceable team, invariably serves delicious and minimalist cuisine, backed by a huge wine selection and impeccable service.",
@@ -233,7 +233,7 @@
   "eventsPagePrimaryText": "Individual bookings (up to 12 people) can be made using the form below, in each case you will receive an SMS with booking details as confirmation. For larger bookings and requests for organised events or catering, please contact us by e-mail:",
   "eventsPageSecondaryText": "In total, our two dining rooms will seat a maximum of 80 people. In the upper room we will seat a maximum of 24 people and in the lower room, a maximum of 56 people (at 3 tables: 26, 19, 11). At one table, in the lower hall, we can seat a maximum of 34 people. Our restaurant can be hired exclusively as a whole, or one of the two rooms can be used for your needs. The menu is prepared individually, taking into account the current menu and available seasonal products.",
 
-  "teamTitle": "Team",
+  "teamTitle": "team",
   "teamDescriptionPrimary": "A cohesive team is the heart of any restaurant. And if it is still young and dynamic, it is every restaurateur's dream come true. And if this team is also: experienced, full of professionals and passionate about the restaurant art, it's like winning the Eurojackpot. And that's what I have...",
   "teamDescriptionSecondary": "Let me introduce you:",
   "teamKitchenTitle": "kitchen",
@@ -244,8 +244,7 @@
   "teamSeniorGrillChefTitle": "Senior Grill Chef - Piotr aka Priest",
   "teamSeniorGrillChefDescription": "An oasis of calm and composure. The rock of our team. A fan of bike rides and Warka. As he says, he always tries to work in the currently best restaurant. Privately my friend with whom we have known each other for almost 20 years.",
   "teamChefDePartieFirstTitle": "Chef de Partie - Waleria aka Walerina",
-  "teamChefDePartieFirstDescription": "JThe only female in our kitchen. She has been with us since autumn 2022. She is in charge of cold kitchen and desserts, but easily finds herself on the pass. A lifelong hedonist, from whose hand, all the materials on our social media comes out.",
-  "teamChefDePartieSecondTitle": "Chef de Partie – Robert",
+  "teamChefDePartieFirstDescription": "The only female in our kitchen. She has been with us since autumn 2022. She is in charge of cold kitchen and desserts, but easily finds herself on the pass. A lifelong hedonist, from whose hand, all the materials on our social media comes out.",
   "teamFrontTitle": "front",
   "teamFrontManagerTitle": "Front Manager – Diana Kalinichenko",
   "teamFrontManagerDescription": "Provides the best hospitality in the entire Tri-City and beyond. A full mouth fashionista who loves food and wines of the highest order. Music school graduate and my foster daughter. Since 2018 my right hand in all upcoming concepts.",
@@ -253,8 +252,8 @@
   "teamPrimarySommelierDescription": "Former lecturer and shipper, now one of the most wine educated people in Poland. Fan of Karl Lagerfeld, sybarite, philosopher and dream of many a woman. An admirer of dachshunds and entrecote. As of 2019, he is staying by my side.",
   "teamSecondarySommelierTitle": "Hall Manager/Sommelier - Rafał Malinowski",
   "teamSecondarySommelierDescription": "After two years, he came back to us on a white horse. A perfectionist who will take care of every detail. He has taken care of Guests in the best restaurants. Attention - a chatterbox!",
-  "teamBoss": "Boss",
-  "teamBossTitle": "Łukasz Chwojnicki aka Big Man, Chairman, Lard,",
+  "teamBoss": "boss",
+  "teamBossTitle": "Łukasz Chwojnicki aka Big Man, Chairman, Lard",
   "teamBossDescription": "The orchestral man who binds everything together. In his prime, the most expensive dishwasher in central Europe. GM and head sommelier in one. He co-founded the cult Tricity venues: Da Vinci, Sztuczka, Sztuczka Bistro, Probiernia Wine Bar. The biggest, in every respect, Tricity birbant. Knows everyone and everyone knows him. A joker on the verge of good taste. Loves bubbly and gossip. A great dancer and a lousy singer. Fan of Beata Kozidrak.",
 
   "newYearTitleMenu": "New Year's Dinner",
