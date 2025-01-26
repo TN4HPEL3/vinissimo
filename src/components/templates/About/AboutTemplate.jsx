@@ -19,7 +19,7 @@ function AboutTemplate() {
             <div className={[css['about__content--top']]}>
               <img
                 className={[css['about__content__image']]}
-                src={publicAccess('/Table.jpg')}
+                src={publicAccess('/IMG_4135.jpeg')}
                 alt={'A restaurant table adorned with a plate and flowers.'}
               />
               <ParagraphAtom text={<AboutContentDesktopAtom />} />
@@ -27,7 +27,7 @@ function AboutTemplate() {
             <div className={[css['about__content--bottom']]}>
               <ParagraphAtom text={<AboutContentDesktopAtom isTop={false} />} />
               <img
-                src={publicAccess('/Seabass.jpg')}
+                src={publicAccess('/IMG_8954.jpeg')}
                 alt={'A restaurant table set with a bottle of wine and a dish.'}
                 className={[css['about__content__image']]}
               />
