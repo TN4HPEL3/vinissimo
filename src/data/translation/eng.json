@@ -22,82 +22,75 @@
     "starters": [
       {
         "isActive": true,
-        "firstLineName": "Fine de Claire oyster N°3",
-        "secondLineName": "rosé mignonette",
-        "price": 27
+        "firstLineName": "Speciales Fonteneau Juline oyster N°2",
+        "secondLineName": "rosé mignonette (1pcs.)",
+        "price": 29
       },
       {
         "isActive": true,
         "firstLineName": "homemade sourdough bread",
         "secondLineName": "onion butter . pickles",
-        "price": 18
+        "price": 19
       },
       {
         "isActive": true,
-        "firstLineName": "Castelvetrano olives . basil pesto",
-        "price": 24
+        "firstLineName": "Castelvetrano olives . pesto Romesco",
+        "price": 25
       },
       {
         "isActive": true,
-        "firstLineName": "Blue Stilton cheese . pear chutney",
-        "secondLineName": "buckwheat crackers",
-        "price": 37
+        "firstLineName": "Fourme d’Ambert cheese",
+        "secondLineName": "pear chutney . buckwheat crackers",
+        "price": 38
       },
       {
         "isActive": true,
-        "firstLineName": "smoked herring . celery remulade",
-        "secondLineName": "wasabi . dill",
-        "price": 39
-      },
-      {
-        "isActive": true,
-        "firstLineName": "french black pudding . tamarind",
-        "secondLineName": "plum . padron peppers",
-        "price": 43
+        "firstLineName": "Ibérico pork belly . Chorizo jus . capers",
+        "secondLineName": "mizuna",
+        "price": 44
       },
       {
         "isActive": true,
         "firstLineName": "arancini with Comté cheese",
         "secondLineName": "mushroom aioli . Grana Padano",
-        "price": 44
+        "price": 45
+      },
+      {
+        "isActive": true,
+        "firstLineName": "brussels sprouts . mushroom XO",
+        "secondLineName": "hollandaise sauce . Togarashi",
+        "price": 39
       },
       {
         "isActive": true,
         "firstLineName": "aubergine . greek yoghurt . spinach",
         "secondLineName": "cashew nuts . truffle dressing",
-        "price": 46
+        "price": 47
       },
       {
         "isActive": true,
-        "firstLineName": "grilled squid . tzatziki . jalapeno",
-        "secondLineName": "corn . cilantro",
-        "price": 47
+        "firstLineName": "Hamachi sashimi . white ponzu . chilli",
+        "secondLineName": "cilantro . kumquat",
+        "price": 53
       },
       {
         "isActive": true,
         "firstLineName": "beef tartare . Dijon mustard . lovage",
         "secondLineName": "anchovy mayonnaise",
-        "price": 56
+        "price": 57
       },
       {
         "isActive": true,
-        "firstLineName": "beef tenderloin tataki",
-        "secondLineName": "mustard sauce . chervil . black truffle",
-        "price": 82
-      },
-      {
-        "isActive": true,
-        "firstLineName": "tartlets with crab (2pcs.) . crème fraiche",
-        "secondLineName": "caviar Antonius Siberian ****",
-        "price": 99
+        "firstLineName": "beef tataki . mustard sauce . chervil",
+        "secondLineName": "black truffle",
+        "price": 84
       }
     ],
     "soups": [
       {
         "isActive": true,
-        "firstLineName": "onion soup",
-        "secondLineName": "croutons . Gruyère cheese",
-        "price": 39
+        "firstLineName": "onion soup . croutons . Gruyère cheese",
+        "price": 44
       }
     ],
     "mains": [
@@ -109,78 +102,76 @@
       },
       {
         "isActive": true,
-        "firstLineName": "deboned duck thigh . truffle jus",
-        "secondLineName": "potato cake . chicory . sauerkraut",
-        "price": 79
+        "firstLineName": "apple feed pork chop . burnt butter",
+        "secondLineName": "capers . dill",
+        "price": 69
       },
       {
         "isActive": true,
-        "firstLineName": "Fish & Chips . cod . kimchi",
-        "secondLineName": "french fries . tzatziki mayonnaise with tarragon",
-        "price": 74
+        "firstLineName": "Fish & Chips . cod . kimchi . french fries",
+        "secondLineName": "tzatziki mayonnaise with tarragon",
+        "price": 75
       },
       {
         "isActive": true,
-        "firstLineName": "scottish salmon . broccoli . sea salad",
-        "secondLineName": "hollandaise sauce",
-        "price": 96
+        "firstLineName": "Skrei cod . crab butter . couscous",
+        "secondLineName": "fennel . sesame . nori",
+        "price": 97
       },
       {
         "isActive": true,
-        "firstLineName": "Wagyu Burger (160g) . Mimolette",
-        "secondLineName": "romaine lettuce . pickled cucumber . aioli",
-        "thirdLineName": "red onion . chipotle ketchup . french fries",
+        "firstLineName": "Wagyu burger (160g) . Mimolette",
+        "secondLineName": "romaine lettuce . french fries",
+        "thirdLineName": "pickled cucumber . aioli . red onion . chipotle ketchup",
         "price": 99
       },
       {
         "isActive": true,
-        "firstLineName": "dry aged polish rib-eye (300g)",
-        "secondLineName": "café de Paris sauce",
-        "price": 169
+        "firstLineName": "lamb hip . black trumpet mushroom",
+        "secondLineName": "Tuscan kale . parsley . cranberries",
+        "price": 146
       },
       {
         "isActive": true,
-        "firstLineName": "lamb hip . black trumpet mushroom",
-        "secondLineName": "toscanian kale . parsley . cranberries",
-        "price": 144
+        "firstLineName": "Rubia Gallega beef tenderloin (180g)",
+        "secondLineName": "Café de Paris sauce",
+        "price": 269
       }
     ],
     "sides": [
       {
         "isActive": true,
         "firstLineName": "fries . aioli",
-        "price": 20
+        "price": 21
       },
       {
         "isActive": true,
         "firstLineName": "classic kimchi",
-        "price": 18
+        "price": 19
       },
       {
         "isActive": true,
-        "firstLineName": "roasted potatoes . sour cream",
-        "secondLineName": "chives",
-        "price": 19
+        "firstLineName": "roasted potatoes . sour cream . chives",
+        "price": 20
       },
       {
         "isActive": true,
         "firstLineName": "romaine lettuce . Caesar dressing",
         "secondLineName": "croutons . Grana Padano",
-        "price": 25
+        "price": 26
       },
       {
         "isActive": true,
-        "firstLineName": "fried beets . cranberries",
-        "secondLineName": "walnuts",
-        "price": 18
+        "firstLineName": "fried beets . cranberries . walnuts",
+        "price": 19
       }
     ],
     "desserts": [
       {
         "isActive": true,
-        "firstLineName": "gingerbread . white chocolate cream",
+        "firstLineName": "chocolate fondant . hazelnut caramel",
         "secondLineName": "plum",
-        "price": 37
+        "price": 39
       },
       {
         "isActive": true,
