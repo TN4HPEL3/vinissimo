@@ -1,15 +1,11 @@
-import { IconAtom } from '../../atoms/IconAtom/IconAtom.jsx';
 import { useLanguage } from '../../../helpers/contexts/languageContext.js';
 import { HashLinkMolecule } from '../../molecules/HashLinkMolecule/HashLinkMolecule.jsx';
 import { CloseMobileMenuButtonAtom } from '../../atoms/CloseMobileMenuButtonAtom/CloseMobileMenuButtonAtom.jsx';
 import { NavigationListItemMolecule } from '../../molecules/NavigationListItemMolecule/NavigationListItemMolecule.jsx';
 
-import css from '../NavigationListOrganisms/NavigationListOrganisms.module.css';
-
 function MobileMenuOrganism() {
   const { t } = useLanguage();
   const {
-    navigationValentines,
     navigationHome,
     navigationMenu,
     navigationWine,
@@ -23,16 +19,6 @@ function MobileMenuOrganism() {
       <NavigationListItemMolecule
         item=""
         text={navigationHome}
-        activeRoutes={['']}
-      />
-      <NavigationListItemMolecule
-        item="valentine"
-        text={
-          <>
-            {navigationValentines}{' '}
-            <IconAtom id="hearts" className={css.header_icon} />
-          </>
-        }
         activeRoutes={['']}
       />
       <NavigationListItemMolecule
