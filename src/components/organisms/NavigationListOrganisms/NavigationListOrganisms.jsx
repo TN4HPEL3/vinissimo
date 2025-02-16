@@ -8,7 +8,6 @@ import { SwitchLanguageButtonAtom } from '../../atoms/SwitchLanguageButtonAtom/S
 import { NavigationListItemMolecule } from '../../molecules/NavigationListItemMolecule/NavigationListItemMolecule.jsx';
 
 import css from './NavigationListOrganisms.module.css';
-import { IconAtom } from '../../atoms/IconAtom/IconAtom.jsx';
 
 function NavigationListOrganisms() {
   const screen = CheckMediaQuery();
@@ -20,7 +19,6 @@ function NavigationListOrganisms() {
     navigationEvents,
     navigationTeam,
     navigationReservation,
-    navigationValentines,
   } = t;
   return (
     <div className={css.header__content}>
@@ -30,16 +28,6 @@ function NavigationListOrganisms() {
           item=""
           text={navigationHome}
           activeRoutes={['/']}
-        />
-        <NavigationListItemMolecule
-          item="valentine"
-          text={
-            <>
-              {navigationValentines}{' '}
-              <IconAtom id="hearts" className={css.header_icon} />
-            </>
-          }
-          activeRoutes={['/valentine']}
         />
         <NavigationListItemMolecule
           item="menu/food"
