@@ -168,23 +168,30 @@
     ],
     "desserts": [
       {
-        "isActive": true,
-        "firstLineName": "chocolate fondant . hazelnut caramel",
-        "secondLineName": "plum",
+        "firstLineName": "chocolate fondant",
+        "secondLineName": "plum . hazelnut caramel",
         "price": 39
       },
       {
-        "isActive": true,
-        "firstLineName": "apple tart . hazelnut oil",
-        "secondLineName": "jerusalem artichoke ice cream",
+        "firstLineName": "apple tart",
+        "secondLineName": "jerusalem artichoke ise cream . milk crumble . hazelnuts",
         "price": 37
+      },
+      {
+        "firstLineName": "Foume d`Ambert cheese",
+        "secondLineName": "buckwheat crackers . pear chutney",
+        "price": 37
+      },
+      {
+        "firstLineName": "ice creams (ask our staff about the flavours)",
+        "price": 16
       }
     ]
   },
   "menuMoreButton": "more",
   "menuWineBottlesButton": "wines",
   "menuWineGlassesButton": "wines by the glass",
-  "menuAlcoholButton": "alkohol",
+  "menuAlcoholButton": "alcohol",
   "menuStartersTitle": "starters",
   "menuSoupsTitle": "soups",
   "menuMainsTitle": "mains",
