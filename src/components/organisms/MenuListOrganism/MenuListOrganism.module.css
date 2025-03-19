@@ -1,6 +1,10 @@
 .menu__list-item {
-  gap: 0.3rem;
   padding: 0.6rem 0;
   display: flex;
   justify-content: space-between;
+  gap: 0.4rem;
+}
+
+.menu__list__title {
+  letter-spacing: 0.6rem;
 }
