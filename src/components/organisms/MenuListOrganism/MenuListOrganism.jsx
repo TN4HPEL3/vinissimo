@@ -9,22 +9,26 @@ function MenuListOrganism({ category, data, title }) {
   const itemsByCategory = data[category];
   const items = itemsByCategory.map(item => {
     const id = nanoid();
-    const { firstLineName, secondLineName, thirdLineName, price, isActive } =
-      item;
-    return isActive ? (
+    const { firstLineName, secondLineName, price } = item;
+    return (
       <li className={css['menu__list-item']} key={id}>
-        <div>
-          <MenuTextMolecule text={firstLineName} />
-          <MenuTextMolecule text={secondLineName} />
-          <MenuTextMolecule text={thirdLineName} />
+        <div className={css['menu__list-item__text']}>
+          <MenuTextMolecule
+            text={
+              <>
+                <b>{firstLineName}</b>
+                {secondLineName && ` . ${secondLineName}`}
+              </>
+            }
+          />
         </div>
         <MenuTextMolecule text={price} />
       </li>
-    ) : null;
+    );
   });
   return (
     <>
-      <MenuTitleAtom title={title} />
+      <MenuTitleAtom className={css.menu__list__title} title={title} />
       <ul>{items}</ul>
     </>
   );
