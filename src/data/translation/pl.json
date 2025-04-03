@@ -339,5 +339,93 @@
     "drinks": "napoje",
     "cost": "koszt"
   },
-  "valentinesTitleMenu": "Kolacja Walentynkowa"
+  "valentinesTitleMenu": "Kolacja Walentynkowa",
+  "alcohols": {
+    "titles": [
+      "Likiery",
+      "Whisky / Whiskey",
+      "Miód Pitny Quantum Satis Mead",
+      "Inne alkohole"
+    ],
+    "liqueurs": [
+      {
+        "name": "Rosolis Herbal / Rose",
+        "price": 15
+      },
+      {
+        "name": "Giffard Pastille Peppermint",
+        "price": 19
+      },
+      {
+        "name": "Disaronno Amaretto",
+        "price": 17
+      },
+      {
+        "name": "Bottega Limoncino",
+        "price": 17
+      },
+      {
+        "name": "Jagermeister",
+        "price": 17
+      },
+      {
+        "name": "Fernet Branca",
+        "price": 25
+      },
+      {
+        "name": "Fernet Branca Menta",
+        "price": 22
+      },
+      {
+        "name": "Unicum Riserva",
+        "price": 45
+      },
+      {
+        "name": "Chartreuse Jaune",
+        "price": 45
+      }
+    ],
+    "whisky": [
+      {
+        "name": "The Macallan 12YO",
+        "price": 59
+      },
+      {
+        "name": "The Macallan The Harmony Collection 12",
+        "price": 129
+      },
+      {
+        "name": "Bushmills 18YO Spanish Brandy Casks",
+        "price": 159
+      }
+    ],
+    "mead": [
+      {
+        "name": "Coffee Melomel",
+        "price": 39
+      }
+    ],
+    "others": [
+      {
+        "name": "Sessantani 60 Grappa di Primitivo",
+        "price": 39
+      },
+      {
+        "name": "Calvados Boulard V.S.O.P",
+        "price": 39
+      },
+      {
+        "name": "Remy Martin 1738 Royal",
+        "price": 59
+      },
+      {
+        "name": "Armagnac Castarede X.O",
+        "price": 69
+      },
+      {
+        "name": "Calvados Chateau de Breuil",
+        "price": 69
+      }
+    ]
+  }
 }
