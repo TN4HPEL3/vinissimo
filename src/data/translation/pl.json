@@ -21,28 +21,28 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "ostryga Speciales Fonteneau Juline N°2 (1szt)",
+        "firstLineName": "ostryga Boudeuse David Herve N°4 (1szt)",
         "secondLineName": "różany mignonette",
-        "price": 29
+        "price": 27
       },
       {
         "firstLineName": "chleb na zakwasie własnego wypieku",
         "secondLineName": "masło cebulowe . pikle",
-        "price": 18
+        "price": 19
       },
       {
         "firstLineName": "oliwki Castelvetrano",
         "secondLineName": "pesto romesco",
-        "price": 24
+        "price": 29
       },
       {
-        "firstLineName": "ser Fourme d’Ambert",
-        "secondLineName": "krakersy gryczane . chutney z gruszki (krowi, dojrzewający pleśniowy, łagodny)",
-        "price": 37
+        "firstLineName": "sery Reblochon i Gruyere",
+        "secondLineName": "krakersy gryczane . chutney z gruszki",
+        "price": 38
       },
       {
         "firstLineName": "brukselka",
-        "secondLineName": "grzybowe XO . sos holenderski . togarashi",
+        "secondLineName": "grzybowe XO . sos holenderski . Togarashi",
         "price": 39
       },
       {
@@ -66,26 +66,26 @@
         "price": 57
       },
       {
-        "firstLineName": "tataki z polędwicy wołowej",
-        "secondLineName": "sos musztardowy . trybula . trufla Borchii",
-        "price": 82
+        "firstLineName": "cielęcina",
+        "secondLineName": "sos cezar . trybula . szalotka",
+        "price": 52
       },
       {
-        "firstLineName": "zupa cebulowa",
-        "secondLineName": "grzanki . ser Gruyère",
-        "price": 44
+        "firstLineName": "żurek na żytnim zakwasie",
+        "secondLineName": "biała kiełbasa . jajko . szczypior",
+        "price": 42
       }
     ],
     "mains": [
       {
         "firstLineName": "raviolo z ricottą i płynnym żółtkiem",
-        "secondLineName": "fondue serowe . brokuł . trufla Borchii",
+        "secondLineName": "fondue serowe . brokuł . czarna trufla",
         "price": 69
       },
       {
         "firstLineName": "Fish & Chips z dorsza",
         "secondLineName": "kimchi . frytki . majonez tzatziki z estragonem",
-        "price": 74
+        "price": 75
       },
       {
         "firstLineName": "sznycel z wieprzowiny jabłkowej",
@@ -95,7 +95,7 @@
       {
         "firstLineName": "dorsz Skrei",
         "secondLineName": "masło krabowe . kuskus perłowy . koper włoski . nori . sezam",
-        "price": 86
+        "price": 99
       },
       {
         "firstLineName": "biodrówka cielęca",
@@ -106,36 +106,31 @@
         "firstLineName": "sezonowany antrykot (300g)",
         "secondLineName": "sos Café de Paris",
         "price": 169
-      },
-      {
-        "firstLineName": "bavette Wagyu (180g)",
-        "secondLineName": "brokuł . portobello . sos holenderski",
-        "price": 199
       }
     ],
     "sides": [
       {
         "firstLineName": "frytki z aioli",
-        "price": 20
+        "price": 21
       },
       {
         "firstLineName": "klasyczne kimchi",
-        "price": 18
+        "price": 19
       },
       {
         "firstLineName": "pieczone ziemniaki",
         "secondLineName": "kwaśna śmietana . szczypior",
-        "price": 19
+        "price": 20
       },
       {
-        "firstLineName": "sałata rzymska",
-        "secondLineName": "dressing cezar . grzanki . Grana Padano",
-        "price": 25
+        "firstLineName": "sałaty",
+        "secondLineName": "dressing balsamiczny",
+        "price": 16
       },
       {
         "firstLineName": "zasmażane buraki",
         "secondLineName": "żurawina . orzechy włoskie",
-        "price": 18
+        "price": 19
       }
     ],
     "desserts": [
@@ -150,9 +145,9 @@
         "price": 37
       },
       {
-        "firstLineName": "ser Foume d`Ambert",
+        "firstLineName": "ser Reblochon i Gruyere",
         "secondLineName": "krakersy gryczane . chutney z gruszki",
-        "price": 37
+        "price": 38
       },
       {
         "firstLineName": "lody (o dostępne smaki zapytaj obsługę)",
@@ -344,5 +339,93 @@
     "drinks": "napoje",
     "cost": "koszt"
   },
-  "valentinesTitleMenu": "Kolacja Walentynkowa"
+  "valentinesTitleMenu": "Kolacja Walentynkowa",
+  "alcohols": {
+    "titles": [
+      "Likiery",
+      "Whisky / Whiskey",
+      "Miód Pitny Quantum Satis Mead",
+      "Inne alkohole"
+    ],
+    "liqueurs": [
+      {
+        "name": "Rosolis Herbal / Rose",
+        "price": 15
+      },
+      {
+        "name": "Giffard Pastille Peppermint",
+        "price": 19
+      },
+      {
+        "name": "Disaronno Amaretto",
+        "price": 17
+      },
+      {
+        "name": "Bottega Limoncino",
+        "price": 17
+      },
+      {
+        "name": "Jagermeister",
+        "price": 17
+      },
+      {
+        "name": "Fernet Branca",
+        "price": 25
+      },
+      {
+        "name": "Fernet Branca Menta",
+        "price": 22
+      },
+      {
+        "name": "Unicum Riserva",
+        "price": 45
+      },
+      {
+        "name": "Chartreuse Jaune",
+        "price": 45
+      }
+    ],
+    "whisky": [
+      {
+        "name": "The Macallan 12YO",
+        "price": 59
+      },
+      {
+        "name": "The Macallan The Harmony Collection 12",
+        "price": 129
+      },
+      {
+        "name": "Bushmills 18YO Spanish Brandy Casks",
+        "price": 159
+      }
+    ],
+    "mead": [
+      {
+        "name": "Coffee Melomel",
+        "price": 39
+      }
+    ],
+    "others": [
+      {
+        "name": "Sessantani 60 Grappa di Primitivo",
+        "price": 39
+      },
+      {
+        "name": "Calvados Boulard V.S.O.P",
+        "price": 39
+      },
+      {
+        "name": "Remy Martin 1738 Royal",
+        "price": 59
+      },
+      {
+        "name": "Armagnac Castarede X.O",
+        "price": 69
+      },
+      {
+        "name": "Calvados Chateau de Breuil",
+        "price": 69
+      }
+    ]
+  }
 }

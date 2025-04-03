@@ -21,148 +21,116 @@
   "menu": {
     "starters": [
       {
-        "isActive": true,
-        "firstLineName": "Speciales Fonteneau Juline oyster N°2",
-        "secondLineName": "rosé mignonette (1pcs.)",
-        "price": 29
+        "firstLineName": "oyster Boudeuse David Herve N°4 (1pcs.)",
+        "secondLineName": "rose mignonette",
+        "price": 27
       },
       {
-        "isActive": true,
         "firstLineName": "homemade sourdough bread",
         "secondLineName": "onion butter . pickles",
         "price": 19
       },
       {
-        "isActive": true,
-        "firstLineName": "Castelvetrano olives . pesto Romesco",
-        "price": 25
+        "firstLineName": "Castelvetrano olives",
+        "secondLineName": "pesto romesco",
+        "price": 29
       },
       {
-        "isActive": true,
-        "firstLineName": "Fourme d’Ambert cheese",
-        "secondLineName": "pear chutney . buckwheat crackers",
-        "price": 38
+        "firstLineName": "Reblochon and Gruyere cheeses",
+        "secondLineName": "buckwheat crackers . pear chutney",
+        "price": 37
       },
       {
-        "isActive": true,
-        "firstLineName": "Ibérico pork belly . Chorizo jus . capers",
-        "secondLineName": "mizuna",
-        "price": 44
-      },
-      {
-        "isActive": true,
-        "firstLineName": "arancini with Comté cheese",
-        "secondLineName": "mushroom aioli . Grana Padano",
-        "price": 45
-      },
-      {
-        "isActive": true,
-        "firstLineName": "brussels sprouts . mushroom XO",
-        "secondLineName": "hollandaise sauce . Togarashi",
+        "firstLineName": "brussel sprouts",
+        "secondLineName": "mushroom XO . hollandaise sauce . togarashi",
         "price": 39
       },
       {
-        "isActive": true,
-        "firstLineName": "aubergine . greek yoghurt . spinach",
-        "secondLineName": "cashew nuts . truffle dressing",
+        "firstLineName": "arancini with Comte cheese",
+        "secondLineName": "mushroom aioli . Grana Padano cheese",
+        "price": 45
+      },
+      {
+        "firstLineName": "aubergine",
+        "secondLineName": "greek yoghurt . cashew nuts . spinach . truffle dressing",
         "price": 47
       },
       {
-        "isActive": true,
-        "firstLineName": "Hamachi sashimi . white ponzu . chilli",
-        "secondLineName": "cilantro . kumquat",
+        "firstLineName": "hamachi sashimi",
+        "secondLineName": "white ponzu . chili . coriander . kumquat",
         "price": 53
       },
       {
-        "isActive": true,
-        "firstLineName": "beef tartare . Dijon mustard . lovage",
-        "secondLineName": "anchovy mayonnaise",
+        "firstLineName": "beef tartare",
+        "secondLineName": "Dijon . lovage . anchovy mayonnaise . Kalamata olives . croutons",
         "price": 57
       },
       {
-        "isActive": true,
-        "firstLineName": "beef tataki . mustard sauce . chervil",
-        "secondLineName": "black truffle",
-        "price": 84
-      }
-    ],
-    "soups": [
+        "firstLineName": "veal",
+        "secondLineName": "Caesar sauce . shallot . chervil",
+        "price": 52
+      },
       {
-        "isActive": true,
-        "firstLineName": "onion soup . croutons . Gruyère cheese",
-        "price": 44
+        "firstLineName": "sour rye soup",
+        "secondLineName": "white sausage . egg . spring onion . horseradish",
+        "price": 42
       }
     ],
     "mains": [
       {
-        "isActive": true,
-        "firstLineName": "raviolo with ricotta and egg yolk",
+        "firstLineName": "raviolo with ricotta cheese and egg yolk",
         "secondLineName": "cheese fondue . broccoli . black truffle",
-        "price": 79
-      },
-      {
-        "isActive": true,
-        "firstLineName": "apple feed pork chop . burnt butter",
-        "secondLineName": "capers . dill",
         "price": 69
       },
       {
-        "isActive": true,
-        "firstLineName": "Fish & Chips . cod . kimchi . french fries",
-        "secondLineName": "tzatziki mayonnaise with tarragon",
+        "firstLineName": "Fish & Chips",
+        "secondLineName": "cod . kimchi . french fries . tzatziki mayonnaise with tarragon",
         "price": 75
       },
       {
-        "isActive": true,
-        "firstLineName": "Skrei cod . crab butter . couscous",
-        "secondLineName": "fennel . sesame . nori",
-        "price": 97
+        "firstLineName": "apple fed pork schnitzel",
+        "secondLineName": "brown butter . capers . dill",
+        "price": 79
       },
       {
-        "isActive": true,
-        "firstLineName": "Wagyu burger (160g) . Mimolette",
-        "secondLineName": "romaine lettuce . french fries",
-        "thirdLineName": "pickled cucumber . aioli . red onion . chipotle ketchup",
+        "firstLineName": "Skrei cod",
+        "secondLineName": "crab butter . couscous . fennel . nori . sesame",
         "price": 99
       },
       {
-        "isActive": true,
-        "firstLineName": "lamb hip . black trumpet mushroom",
-        "secondLineName": "Tuscan kale . parsley . cranberries",
-        "price": 146
+        "firstLineName": "calf hip",
+        "secondLineName": "young cabbage . nduja . bagna cauda sauce . radish",
+        "price": 89
       },
       {
-        "isActive": true,
-        "firstLineName": "Rubia Gallega beef tenderloin (180g)",
+        "firstLineName": "seasoned rib eye (300g)",
         "secondLineName": "Café de Paris sauce",
-        "price": 269
+        "price": 169
       }
     ],
     "sides": [
       {
-        "isActive": true,
-        "firstLineName": "fries . aioli",
+        "firstLineName": "french fries",
+        "secondLineName": "aioli",
         "price": 21
       },
       {
-        "isActive": true,
-        "firstLineName": "classic kimchi",
+        "firstLineName": "homemade kimchi",
         "price": 19
       },
       {
-        "isActive": true,
-        "firstLineName": "roasted potatoes . sour cream . chives",
+        "firstLineName": "roasted potatoes",
+        "secondLineName": "sour cream . chives",
         "price": 20
       },
       {
-        "isActive": true,
-        "firstLineName": "romaine lettuce . Caesar dressing",
-        "secondLineName": "croutons . Grana Padano",
-        "price": 26
+        "firstLineName": "lettuces",
+        "secondLineName": "balsamic dressing",
+        "price": 16
       },
       {
-        "isActive": true,
-        "firstLineName": "fried beets . cranberries . walnuts",
+        "firstLineName": "fried beets",
+        "secondLineName": "cranberries . walnuts",
         "price": 19
       }
     ],
@@ -174,13 +142,13 @@
       },
       {
         "firstLineName": "apple tart",
-        "secondLineName": "jerusalem artichoke ise cream . milk crumble . hazelnuts",
+        "secondLineName": "Jerusalem artichoke ice cream . milk crumble . hazelnuts",
         "price": 37
       },
       {
-        "firstLineName": "Foume d`Ambert cheese",
+        "firstLineName": "Reblochon and Gruyere cheese",
         "secondLineName": "buckwheat crackers . pear chutney",
-        "price": 37
+        "price": 38
       },
       {
         "firstLineName": "ice creams (ask our staff about the flavours)",
@@ -372,5 +340,93 @@
     "drinks": "soft drinks",
     "cost": "cost"
   },
-  "valentinesTitleMenu": "Valentine's Dinner"
+  "valentinesTitleMenu": "Valentine's Dinner",
+  "alcohols": {
+    "titles": [
+      "Liqueurs",
+      "Whisky / Whiskey",
+      "Polish Mead Quantum Satis",
+      "Others"
+    ],
+    "liqueurs": [
+      {
+        "name": "Rosolis Herbal / Rose",
+        "price": 15
+      },
+      {
+        "name": "Giffard Pastille Peppermint",
+        "price": 19
+      },
+      {
+        "name": "Disaronno Amaretto",
+        "price": 17
+      },
+      {
+        "name": "Bottega Limoncino",
+        "price": 17
+      },
+      {
+        "name": "Jagermeister",
+        "price": 17
+      },
+      {
+        "name": "Fernet Branca",
+        "price": 25
+      },
+      {
+        "name": "Fernet Branca Menta",
+        "price": 22
+      },
+      {
+        "name": "Unicum Riserva",
+        "price": 45
+      },
+      {
+        "name": "Chartreuse Jaune",
+        "price": 45
+      }
+    ],
+    "whisky": [
+      {
+        "name": "The Macallan 12YO",
+        "price": 59
+      },
+      {
+        "name": "The Macallan The Harmony Collection 12",
+        "price": 129
+      },
+      {
+        "name": "Bushmills 18YO Spanish Brandy Casks",
+        "price": 159
+      }
+    ],
+    "mead": [
+      {
+        "name": "Coffee Melomel",
+        "price": 39
+      }
+    ],
+    "others": [
+      {
+        "name": "Sessantani 60 Grappa di Primitivo",
+        "price": 39
+      },
+      {
+        "name": "Calvados Boulard V.S.O.P",
+        "price": 39
+      },
+      {
+        "name": "Remy Martin 1738 Royal",
+        "price": 59
+      },
+      {
+        "name": "Armagnac Castarede X.O",
+        "price": 69
+      },
+      {
+        "name": "Calvados Chateau de Breuil",
+        "price": 69
+      }
+    ]
+  }
 }

@@ -1,40 +1,32 @@
+import { useLanguage } from '../../../../helpers/contexts/languageContext.js';
 import { MenuAlcoholsOrganism } from '../MenuAlcoholsOrganism/MenuAlcoholsOrganism.jsx';
 
-import menu from '../../../../data/alcohols.json';
-
 function MenuAlcoholsFirstPageOrganism() {
+  const { t } = useLanguage();
+  const { alcohols } = t;
+  const titles = alcohols.titles;
   return (
     <>
-      <div>
-        <MenuAlcoholsOrganism
-          category={'cocktails'}
-          data={menu}
-          title={'cocktails 37'}
-        />
-        <MenuAlcoholsOrganism
-          category={'apéritif'}
-          data={menu}
-          title={'apéritif'}
-        />
-        <MenuAlcoholsOrganism
-          category={'vodka'}
-          data={menu}
-          title={'vodka | tincture'}
-        />
-      </div>
-      <div>
-        <MenuAlcoholsOrganism
-          category={'highlandPark'}
-          data={menu}
-          title={'highland park single malt whisky'}
-        />
-        <MenuAlcoholsOrganism
-          category={'whisky'}
-          data={menu}
-          title={'whisky | bourbon | whiskey'}
-        />
-        <MenuAlcoholsOrganism category={'rum'} data={menu} title={'rum'} />
-      </div>
+      <MenuAlcoholsOrganism
+        category={'liqueurs'}
+        data={alcohols}
+        title={titles[0]}
+      />
+      <MenuAlcoholsOrganism
+        category={'whisky'}
+        data={alcohols}
+        title={titles[1]}
+      />
+      <MenuAlcoholsOrganism
+        category={'mead'}
+        data={alcohols}
+        title={titles[2]}
+      />
+      <MenuAlcoholsOrganism
+        category={'others'}
+        data={alcohols}
+        title={titles[3]}
+      />
     </>
   );
 }
