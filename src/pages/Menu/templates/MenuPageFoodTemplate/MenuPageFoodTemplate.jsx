@@ -9,7 +9,6 @@ function MenuPageFoodTemplate() {
   const {
     menuStartersTitle,
     menuDessertsTitle,
-    menuSoupsTitle,
     menuMainsTitle,
     menuSidesTitle,
     menu,
