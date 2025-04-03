@@ -16,21 +16,8 @@
 
 .menu__alcohols__content--page {
   padding: 1.87rem;
-  display: flex;
   border: 1px solid var(--website-secondary-color);
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
   width: 100%;
-  gap: 0.5rem;
-  @media screen and (min-width: 48rem) {
-    flex-direction: row;
-  }
-  & > div {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
 }
 
 .menu__button__arrow--left,
