@@ -8,6 +8,7 @@
   "navigationTeam": "team",
   "navigationReservation": "reservation",
   "navigationValentines": "valentine's day",
+  "navigationEaster": "Easter",
 
   "aboutUsTitle": "about us",
   "aboutUsPrimaryFirst": "Vinissimo Restaurant & Wine Bar is the new brand under which Sztuczka Bistro, present at Bema 6 since 2017, has been operating since February 2024. The restaurant, run since 2022 by Łukasz Chwojnicki, in a slightly changed format and with the same irreplaceable team, invariably serves delicious and minimalist cuisine, backed by a huge wine selection and impeccable service.",
@@ -341,6 +342,53 @@
     "cost": "cost"
   },
   "valentinesTitleMenu": "Valentine's Dinner",
+
+  "easterTitle": "Easter Catering 2025",
+
+  "easterMenuCategories": {
+    "breadAndButter": "pieczywo & masło",
+    "soup": "zupa",
+    "coldDishes": "na zimno",
+    "hotDishes": "na ciepło",
+    "sides": "dodatki",
+    "desserts": "na słodko",
+    "orders": "zamówienia",
+    "pickup": "odbiór"
+  },
+
+  "easterMenu": {
+    "breadAndButter": [
+      "chleb pszenny (700g) | 25 zł",
+      "masło cebulowe z miso (200g) | 25 zł"
+    ],
+    "soup": [
+      "żurek staropolski na zakwasie z kiełbasą własnej roboty i majerankiem (0,9l) | 55 zł"
+    ],
+    "coldDishes": [
+      "tradycyjna sałatka jarzynowa (500g) | 37 zł",
+      "łosoś w galarecie (400g) | 39 zł",
+      "truflowa pasta jajeczna (500g) | 39 zł",
+      "pasta jajeczna z wędzonym pstrągiem i szparagami (500g) | 45 zł",
+      "pâté z wątróbki z Foie Gras (300g) | 59 zł",
+      "pieczony pasztet wieprzowy z mangalicą (400g) | 75 zł"
+    ],
+    "hotDishes": [
+      "gołąbek z cielęciną w sosie własnym z pomidorami (250g) | 39 zł",
+      "udo z królika w śmietanie z tymiankiem i porem (ok. 200g) | 42 zł",
+      "polędwica z dorsza w sosie krabowym ze szpinakiem (400g) | 72 zł"
+    ],
+    "sides": [
+      "zasmażana młoda kapusta z koperkiem (400g) | 39 zł",
+      "pieczone ziemniaki z palonym masłem (400g) | 35 zł"
+    ],
+    "desserts": [
+      "mazurek z kremem karmelowym oraz porzeczką i bakaliami (400g) | 55 zł",
+      "sernik baskijski z rabarbarem (1100g) | 159 zł"
+    ],
+    "orders": "do godziny 16:00 17.04.2025 | booking@vinissimorestaurant.pl",
+    "pickup": "19.04.2025 od 12:30 do 20:00"
+  },
+
   "alcohols": {
     "titles": [
       "Liqueurs",
