@@ -8,6 +8,7 @@
   "navigationTeam": "team",
   "navigationReservation": "reservation",
   "navigationValentines": "valentine's day",
+  "navigationEaster": "Easter",
 
   "aboutUsTitle": "about us",
   "aboutUsPrimaryFirst": "Vinissimo Restaurant & Wine Bar is the new brand under which Sztuczka Bistro, present at Bema 6 since 2017, has been operating since February 2024. The restaurant, run since 2022 by Łukasz Chwojnicki, in a slightly changed format and with the same irreplaceable team, invariably serves delicious and minimalist cuisine, backed by a huge wine selection and impeccable service.",
@@ -341,6 +342,53 @@
     "cost": "cost"
   },
   "valentinesTitleMenu": "Valentine's Dinner",
+
+  "easterTitle": "Easter Catering 2025",
+
+  "easterMenuCategories": {
+    "breadAndButter": "bread & butter",
+    "soup": "soup",
+    "coldDishes": "cold dishes",
+    "hotDishes": "hot dishes",
+    "sides": "sides",
+    "desserts": "desserts",
+    "orders": "orders",
+    "pickup": "pickup"
+  },
+
+  "easterMenu": {
+    "breadAndButter": [
+      "wheat bread (700g) | 25 PLN",
+      "onion miso butter (200g) | 25 PLN"
+    ],
+    "soup": [
+      "traditional sour rye soup with homemade sausage and marjoram (0.9l) | 55 PLN"
+    ],
+    "coldDishes": [
+      "classic vegetable salad (500g) | 37 PLN",
+      "salmon in aspic (400g) | 39 PLN",
+      "truffle egg spread (500g) | 39 PLN",
+      "smoked trout & asparagus egg spread (500g) | 45 PLN",
+      "duck liver pâté with Foie Gras (300g) | 59 PLN",
+      "baked mangalica pork pâté (400g) | 75 PLN"
+    ],
+    "hotDishes": [
+      "veal cabbage roll in tomato jus (250g) | 39 PLN",
+      "rabbit leg in cream with thyme and leek (approx. 200g) | 42 PLN",
+      "cod loin in crab sauce with spinach (400g) | 72 PLN"
+    ],
+    "sides": [
+      "braised young cabbage with dill (400g) | 39 PLN",
+      "roasted potatoes with brown butter (400g) | 35 PLN"
+    ],
+    "desserts": [
+      "caramel cream mazurek with currants & dried fruit (400g) | 55 PLN",
+      "Basque cheesecake with rhubarb (1100g) | 159 PLN"
+    ],
+    "orders": "by 4:00 PM on April 17, 2025 | booking@vinissimorestaurant.pl",
+    "pickup": "April 19, 2025 from 12:30 PM to 8:00 PM"
+  },
+
   "alcohols": {
     "titles": [
       "Liqueurs",
