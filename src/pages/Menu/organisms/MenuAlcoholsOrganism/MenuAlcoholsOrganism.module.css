@@ -8,4 +8,6 @@
 .alcohols__list__item {
   display: flex;
   justify-content: space-between;
+  text-align: left;
+  align-items: center;
 }

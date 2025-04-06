@@ -3,6 +3,7 @@
   color: var(--website-secondary-color);
   transition: color var(--transition);
   font-size: 1.5rem;
+  display: flex;
   &::after {
     content: '';
     position: absolute;
