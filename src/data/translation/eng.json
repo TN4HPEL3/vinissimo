@@ -346,47 +346,47 @@
   "easterTitle": "Easter Catering 2025",
 
   "easterMenuCategories": {
-    "breadAndButter": "pieczywo & masło",
-    "soup": "zupa",
-    "coldDishes": "na zimno",
-    "hotDishes": "na ciepło",
-    "sides": "dodatki",
-    "desserts": "na słodko",
-    "orders": "zamówienia",
-    "pickup": "odbiór"
+    "breadAndButter": "bread & butter",
+    "soup": "soup",
+    "coldDishes": "cold dishes",
+    "hotDishes": "hot dishes",
+    "sides": "sides",
+    "desserts": "desserts",
+    "orders": "orders",
+    "pickup": "pickup"
   },
 
   "easterMenu": {
     "breadAndButter": [
-      "chleb pszenny (700g) | 25 zł",
-      "masło cebulowe z miso (200g) | 25 zł"
+      "wheat bread (700g) | 25 PLN",
+      "onion miso butter (200g) | 25 PLN"
     ],
     "soup": [
-      "żurek staropolski na zakwasie z kiełbasą własnej roboty i majerankiem (0,9l) | 55 zł"
+      "traditional sour rye soup with homemade sausage and marjoram (0.9l) | 55 PLN"
     ],
     "coldDishes": [
-      "tradycyjna sałatka jarzynowa (500g) | 37 zł",
-      "łosoś w galarecie (400g) | 39 zł",
-      "truflowa pasta jajeczna (500g) | 39 zł",
-      "pasta jajeczna z wędzonym pstrągiem i szparagami (500g) | 45 zł",
-      "pâté z wątróbki z Foie Gras (300g) | 59 zł",
-      "pieczony pasztet wieprzowy z mangalicą (400g) | 75 zł"
+      "classic vegetable salad (500g) | 37 PLN",
+      "salmon in aspic (400g) | 39 PLN",
+      "truffle egg spread (500g) | 39 PLN",
+      "smoked trout & asparagus egg spread (500g) | 45 PLN",
+      "duck liver pâté with Foie Gras (300g) | 59 PLN",
+      "baked mangalica pork pâté (400g) | 75 PLN"
     ],
     "hotDishes": [
-      "gołąbek z cielęciną w sosie własnym z pomidorami (250g) | 39 zł",
-      "udo z królika w śmietanie z tymiankiem i porem (ok. 200g) | 42 zł",
-      "polędwica z dorsza w sosie krabowym ze szpinakiem (400g) | 72 zł"
+      "veal cabbage roll in tomato jus (250g) | 39 PLN",
+      "rabbit leg in cream with thyme and leek (approx. 200g) | 42 PLN",
+      "cod loin in crab sauce with spinach (400g) | 72 PLN"
     ],
     "sides": [
-      "zasmażana młoda kapusta z koperkiem (400g) | 39 zł",
-      "pieczone ziemniaki z palonym masłem (400g) | 35 zł"
+      "braised young cabbage with dill (400g) | 39 PLN",
+      "roasted potatoes with brown butter (400g) | 35 PLN"
     ],
     "desserts": [
-      "mazurek z kremem karmelowym oraz porzeczką i bakaliami (400g) | 55 zł",
-      "sernik baskijski z rabarbarem (1100g) | 159 zł"
+      "caramel cream mazurek with currants & dried fruit (400g) | 55 PLN",
+      "Basque cheesecake with rhubarb (1100g) | 159 PLN"
     ],
-    "orders": "do godziny 16:00 17.04.2025 | booking@vinissimorestaurant.pl",
-    "pickup": "19.04.2025 od 12:30 do 20:00"
+    "orders": "by 4:00 PM on April 17, 2025 | booking@vinissimorestaurant.pl",
+    "pickup": "April 19, 2025 from 12:30 PM to 8:00 PM"
   },
 
   "alcohols": {
