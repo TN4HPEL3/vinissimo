@@ -391,89 +391,308 @@
 
   "alcohols": {
     "titles": [
-      "Liqueurs",
-      "Whisky / Whiskey",
-      "Polish Mead Quantum Satis",
-      "Others"
+      "C O C K T A I L S",
+      "A P E R I T I F",
+      "V O D K A",
+      "HIGHLAND PARK . SINGLE MALT WHISKY",
+      "WHISKY . BOURBON . WHISKEY",
+      "R U M",
+      "T E Q U I L A",
+      "MIÓD PITNY | MEAD",
+      "G I N",
+      "COGNAC . BRANDY . CALVADOS . ARMAGNAC",
+      "V E R M O U T H",
+      "D I G E S T I F",
+      "L I Q U E U R S"
     ],
-    "liqueurs": [
+    "cocktails": [
       {
-        "name": "Rosolis Herbal / Rose",
+        "name": "Aperol Spritz",
+        "description": "Aperol · prosecco · sparkling water · orange 10%"
+      },
+      {
+        "name": "Cardinale",
+        "description": "The London no.1 · Campari · Dolin dry vermouth 25%"
+      },
+      {
+        "name": "Whisky Sour",
+        "description": "Highland Park 10yo · lemon · egg white · simple syrup · Angostura 23%"
+      },
+      {
+        "name": "Espresso Martini",
+        "description": "Distil No.9 · simple syrup · espresso · kahlua 24%"
+      },
+      {
+        "name": "Pink Sour",
+        "description": "Rosolis rose · lemon · simple syrup · egg white · prosecco 22%"
+      },
+      {
+        "name": "Gin & Tonic",
+        "description": "The London no.1 · Thomas Henry tonic water · lime 14%"
+      },
+      {
+        "name": "Dark & Stormy",
+        "description": "Kraken rum · ginger beer · lime 14%"
+      }
+    ],
+    "aperitif": [
+      {
+        "name": "Aperol 25%",
         "price": 15
       },
       {
-        "name": "Giffard Pastille Peppermint",
-        "price": 19
-      },
-      {
-        "name": "Disaronno Amaretto",
-        "price": 17
-      },
-      {
-        "name": "Bottega Limoncino",
-        "price": 17
-      },
-      {
-        "name": "Jagermeister",
-        "price": 17
-      },
-      {
-        "name": "Fernet Branca",
+        "name": "Campari 11%",
         "price": 25
       },
       {
-        "name": "Fernet Branca Menta",
-        "price": 22
+        "name": "Barsol Pisco 41.3%",
+        "price": 25
+      }
+    ],
+    "vodka": [
+      {
+        "name": "Distil No. 9 40%",
+        "price": 15
+      }
+    ],
+    "highland_park": [
+      {
+        "name": "10yo 40%",
+        "price": 35
       },
       {
-        "name": "Unicum Riserva",
-        "price": 45
+        "name": "12yo 40%",
+        "price": 39
       },
       {
-        "name": "Chartreuse Jaune",
-        "price": 45
+        "name": "15yo 44%",
+        "price": 79
+      },
+      {
+        "name": "Cask Strength 64.1%",
+        "price": 49
+      },
+      {
+        "name": "Highland Park Tasting Set (3x20ml)",
+        "price": 69
       }
     ],
     "whisky": [
       {
-        "name": "The Macallan 12YO",
+        "name": "Buffalo Trace 40%",
+        "price": 22
+      },
+      {
+        "name": "Naked Malt 40%",
+        "price": 25
+      },
+      {
+        "name": "Sexton Irish Single Malt 40%",
+        "price": 25
+      },
+      {
+        "name": "Sazerac Rye 45%",
+        "price": 27
+      },
+      {
+        "name": "Bushmills Irish Single Malt 40%",
+        "price": 29
+      },
+      {
+        "name": "Elijah Craig Kentucky Bourbon 47%",
+        "price": 31
+      },
+      {
+        "name": "Eagle Rare Aged 10YO",
+        "price": 33
+      },
+      {
+        "name": "Port Askaig Islay Single Malt 57.1%",
+        "price": 49
+      },
+      {
+        "name": "Nikka Whisky From The Barrel 51.4%",
+        "price": 49
+      },
+      {
+        "name": "Nikka Single Malt Miyagikyo 45%",
+        "price": 55
+      },
+      {
+        "name": "The Macallan 12YO 40%",
         "price": 59
       },
       {
-        "name": "The Macallan The Harmony Collection 12",
+        "name": "The Macallan Harmony Collection 44.2%",
         "price": 129
       },
       {
-        "name": "Bushmills 18YO Spanish Brandy Casks",
+        "name": "Bushmills 18YO Spanish Brandy Casks 40%",
         "price": 159
+      }
+    ],
+    "rum": [
+      {
+        "name": "Brugal Dominican Anejo Superior 38%",
+        "price": 18
+      },
+      {
+        "name": "Brugal Dominican Blanco Especial 40%",
+        "price": 18
+      },
+      {
+        "name": "Kraken Caribbean Black Spiced 40%",
+        "price": 23
+      },
+      {
+        "name": "Planteray Barbados Rum 5YO 40%",
+        "price": 24
+      },
+      {
+        "name": "Planteray Jamaican Rum Xaymaca 43%",
+        "price": 29
+      },
+      {
+        "name": "Plantation Overproof O.F.T.D. 69%",
+        "price": 29
+      },
+      {
+        "name": "Don Papa 40%",
+        "price": 39
+      },
+      {
+        "name": "Brugal 1888 Dominican 40%",
+        "price": 42
+      }
+    ],
+    "tequila": [
+      {
+        "name": "Jose Cuervo Reposado 38%",
+        "price": 19
+      },
+      {
+        "name": "Jose Cuervo Silver 38%",
+        "price": 19
+      },
+      {
+        "name": "1800 Reposado 38%",
+        "price": 25
+      },
+      {
+        "name": "1800 Blanco 38%",
+        "price": 25
+      },
+      {
+        "name": "Los Arango Anejo 40%",
+        "price": 35
       }
     ],
     "mead": [
       {
-        "name": "Coffee Melomel",
+        "name": "Quantum Satis Mead 12% (375ml)",
+        "price": 195
+      },
+      {
+        "name": "Coffee Melomel 12.5% (75ml)",
         "price": 39
+      },
+      {
+        "name": "Cherry 12% (info only)",
+        "price": null
+      }
+    ],
+    "gin": [
+      {
+        "name": "Drumshanbo Gunpowder Irish Gin 43%",
+        "price": 29
+      },
+      {
+        "name": "London Dry Gin No. 3 46%",
+        "price": 35
       }
     ],
     "others": [
       {
-        "name": "Sessantani 60 Grappa di Primitivo",
+        "name": "Calvados Boulard VSOP 40%",
         "price": 39
       },
       {
-        "name": "Calvados Boulard V.S.O.P",
-        "price": 39
-      },
-      {
-        "name": "Remy Martin 1738 Royal",
+        "name": "Remy Martin 1738 Accord Royal 40%",
         "price": 59
       },
       {
-        "name": "Armagnac Castarede X.O",
+        "name": "Chateau De Breuil Calvados Reserve Des Seigneurs 41%",
         "price": 69
       },
       {
-        "name": "Calvados Chateau de Breuil",
+        "name": "Armagnac Castarede X.O 40%",
         "price": 69
+      },
+      {
+        "name": "Pliska Brandy 1983 40%",
+        "price": 119
+      }
+    ],
+    "vermouth": [
+      {
+        "name": "Carlo Alberto Rouge 17%",
+        "price": 35
+      },
+      {
+        "name": "1757 Vermouth Di Torino Extra Dry 18%",
+        "price": 39
+      }
+    ],
+    "digestif": [
+      {
+        "name": "Jagermeister 35%",
+        "price": 17
+      },
+      {
+        "name": "Giffards Peppermint Pastille 21%",
+        "price": 19
+      },
+      {
+        "name": "Fernet Branca Mentha 28%",
+        "price": 22
+      },
+      {
+        "name": "Fernet Branca 39%",
+        "price": 25
+      },
+      {
+        "name": "Unicum Riserva 40%",
+        "price": 39
+      },
+      {
+        "name": "Sessantani 60 Grappa Di Primitivo 40%",
+        "price": 39
+      },
+      {
+        "name": "Chartreuse Jaune 43%",
+        "price": 45
+      }
+    ],
+    "liqueurs": [
+      {
+        "name": "Krupnik Old Liquer",
+        "price": 15
+      },
+      {
+        "name": "Rosolis Rose / Herbal 35%",
+        "price": 15
+      },
+      {
+        "name": "Bottega Limoncino 30%",
+        "price": 17
+      },
+      {
+        "name": "Disaronno Amaretto 28%",
+        "price": 17
+      },
+      {
+        "name": "Kahlua 16%",
+        "price": 15
       }
     ]
   }
