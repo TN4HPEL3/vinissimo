@@ -22,9 +22,9 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "ostryga Boudeuse David Herve N°4 (1szt)",
+        "firstLineName": "ostryga Fonteaneau Julina N°2 (1szt)",
         "secondLineName": "różany mignonette",
-        "price": 27
+        "price": 29
       },
       {
         "firstLineName": "chleb na zakwasie własnego wypieku",
@@ -42,9 +42,9 @@
         "price": 38
       },
       {
-        "firstLineName": "brukselka",
-        "secondLineName": "grzybowe XO . sos holenderski . Togarashi",
-        "price": 39
+        "firstLineName": "grillowane szparagi",
+        "secondLineName": "sos holenderski . harissa . wędzone migdały",
+        "price": 51
       },
       {
         "firstLineName": "arancini z serem Comte",
@@ -63,13 +63,13 @@
       },
       {
         "firstLineName": "tatar wołowy",
-        "secondLineName": "musztarda dijon . lubczyk . majonez z anchois . oliwki Kalamata . grzanki",
+        "secondLineName": "musztarda Dijon . czosnek niedźwiedzi . rzodkiewka . chrzan",
         "price": 57
       },
       {
         "firstLineName": "cielęcina",
-        "secondLineName": "sos cezar . trybula . szalotka",
-        "price": 52
+        "secondLineName": "sos cezar . trybula . szalotka . trufle",
+        "price": 55
       },
       {
         "firstLineName": "żurek na żytnim zakwasie",
@@ -79,8 +79,8 @@
     ],
     "mains": [
       {
-        "firstLineName": "raviolo z ricottą i płynnym żółtkiem",
-        "secondLineName": "fondue serowe . brokuł . czarna trufla",
+        "firstLineName": "tortelloni z ricottą",
+        "secondLineName": "duxelle grzybowe . groszek . Grana Padano . smardze",
         "price": 69
       },
       {
@@ -107,6 +107,11 @@
         "firstLineName": "sezonowany antrykot (300g)",
         "secondLineName": "sos Café de Paris",
         "price": 169
+      },
+      {
+        "firstLineName": "bavetta Wagyu Australia (180g)",
+        "secondLineName": "brokuł . pieczarka portobello . sos holenderski",
+        "price": 199
       }
     ],
     "sides": [
@@ -129,16 +134,16 @@
         "price": 16
       },
       {
-        "firstLineName": "zasmażane buraki",
-        "secondLineName": "żurawina . orzechy włoskie",
-        "price": 19
+        "firstLineName": "młoda marchew",
+        "secondLineName": "cytrusy . miso . feta . orzechy włoskie",
+        "price": 26
       }
     ],
     "desserts": [
       {
-        "firstLineName": "fondant czekoladowy",
-        "secondLineName": "śliwka . karmel orzechowy",
-        "price": 39
+        "firstLineName": "ciasto finansjer",
+        "secondLineName": "czarna porzeczka . krem orzechowo - karmelowy",
+        "price": 37
       },
       {
         "firstLineName": "tarta z jabłkami",
@@ -149,10 +154,6 @@
         "firstLineName": "ser Reblochon i Gruyere",
         "secondLineName": "krakersy gryczane . chutney z gruszki",
         "price": 38
-      },
-      {
-        "firstLineName": "lody (o dostępne smaki zapytaj obsługę)",
-        "price": 16
       }
     ]
   },

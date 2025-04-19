@@ -22,9 +22,9 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "oyster Boudeuse David Herve N°4 (1pcs.)",
+        "firstLineName": "oyster Fonteneau Julina N°2 (1szt)",
         "secondLineName": "rose mignonette",
-        "price": 27
+        "price": 29
       },
       {
         "firstLineName": "homemade sourdough bread",
@@ -39,12 +39,12 @@
       {
         "firstLineName": "Reblochon and Gruyere cheeses",
         "secondLineName": "buckwheat crackers . pear chutney",
-        "price": 37
+        "price": 38
       },
       {
-        "firstLineName": "brussel sprouts",
-        "secondLineName": "mushroom XO . hollandaise sauce . togarashi",
-        "price": 39
+        "firstLineName": "grilled asparagus",
+        "secondLineName": "hollandaise sauce . harissa . smoked almonds",
+        "price": 51
       },
       {
         "firstLineName": "arancini with Comte cheese",
@@ -63,13 +63,13 @@
       },
       {
         "firstLineName": "beef tartare",
-        "secondLineName": "Dijon . lovage . anchovy mayonnaise . Kalamata olives . croutons",
+        "secondLineName": "Dijon mustard . wild garlic . radish . horseradish",
         "price": 57
       },
       {
         "firstLineName": "veal",
-        "secondLineName": "Caesar sauce . shallot . chervil",
-        "price": 52
+        "secondLineName": "Caesar sauce . shallot . chervil . truffle",
+        "price": 55
       },
       {
         "firstLineName": "sour rye soup",
@@ -79,8 +79,8 @@
     ],
     "mains": [
       {
-        "firstLineName": "raviolo with ricotta cheese and egg yolk",
-        "secondLineName": "cheese fondue . broccoli . black truffle",
+        "firstLineName": "tortelloni with ricotta cheese",
+        "secondLineName": "mushroom duxelles . peas . Grana Padano cheese . morels mushrooms",
         "price": 69
       },
       {
@@ -94,7 +94,7 @@
         "price": 79
       },
       {
-        "firstLineName": "Skrei cod",
+        "firstLineName": "skrei cod",
         "secondLineName": "crab butter . couscous . fennel . nori . sesame",
         "price": 99
       },
@@ -107,6 +107,11 @@
         "firstLineName": "seasoned rib eye (300g)",
         "secondLineName": "Café de Paris sauce",
         "price": 169
+      },
+      {
+        "firstLineName": "Australian Wagyu bavette (180g)",
+        "secondLineName": "broccoli . portobello mushroom . hollandaise sauce",
+        "price": 199
       }
     ],
     "sides": [
@@ -130,30 +135,26 @@
         "price": 16
       },
       {
-        "firstLineName": "fried beets",
-        "secondLineName": "cranberries . walnuts",
-        "price": 19
+        "firstLineName": "young carrot",
+        "secondLineName": "citrus . miso . feta cheese . walnuts",
+        "price": 26
       }
     ],
     "desserts": [
       {
-        "firstLineName": "chocolate fondant",
-        "secondLineName": "plum . hazelnut caramel",
-        "price": 39
+        "firstLineName": "financier cake",
+        "secondLineName": "blackcurrant . hazelnut-caramel cream",
+        "price": 37
       },
       {
         "firstLineName": "apple tart",
-        "secondLineName": "Jerusalem artichoke ice cream . milk crumble . hazelnuts",
+        "secondLineName": "jerusalem artichoke ice cream . milk crumble . hazelnuts",
         "price": 37
       },
       {
         "firstLineName": "Reblochon and Gruyere cheese",
         "secondLineName": "buckwheat crackers . pear chutney",
         "price": 38
-      },
-      {
-        "firstLineName": "ice creams (ask our staff about the flavours)",
-        "price": 16
       }
     ]
   },
