@@ -20,16 +20,9 @@ function WineGlassesListOrganism({
   const itemsByCategory = data[category];
   const items = itemsByCategory.map(item => {
     const id = nanoid();
-    const {
-      isActive,
-      name,
-      description,
-      priceGlass,
-      priceBigGlass,
-      priceBottle,
-      year,
-    } = item;
-    return isActive ? (
+    const { name, description, priceGlass, priceBigGlass, priceBottle, year } =
+      item;
+    return (
       <li key={id} className={css.wine__list__item}>
         {year ? (
           <div className={css['wine__list__name--bottle']}>
@@ -56,7 +49,7 @@ function WineGlassesListOrganism({
           <MenuTextMolecule text={priceBottle} />
         </div>
       </li>
-    ) : null;
+    );
   });
   return (
     <>
