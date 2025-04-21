@@ -31,7 +31,6 @@ function App() {
         </Route>
         <Route path="/events" element={<EventsPage />} />
         <Route path="/team" element={<TeamPage />} />
-        <Route path="/easter" element={<EasterPage />} />
         <Route path="new-year" element={<NewYearPage />}>
           <Route path="basic" element={<NewYearBasicTemplate />} />
           <Route path="de-lux" element={<NewYearDeLuxTemplate />} />

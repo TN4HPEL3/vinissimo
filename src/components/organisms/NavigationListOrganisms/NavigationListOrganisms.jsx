@@ -32,16 +32,6 @@ function NavigationListOrganisms() {
           activeRoutes={['/']}
         />
         <NavigationListItemMolecule
-          item="easter"
-          text={
-            <>
-              {navigationEaster}
-              <IconAtom id="easter" className={css.header__icon} />
-            </>
-          }
-          activeRoutes={['/easter']}
-        />
-        <NavigationListItemMolecule
           item="menu/food"
           text={navigationMenu}
           activeRoutes={['/menu/food', '/menu/alcohol']}
