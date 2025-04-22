@@ -20,7 +20,6 @@ function TeamPageMolecule() {
     teamSeniorGrillChefDescription,
     teamChefDePartieFirstTitle,
     teamChefDePartieFirstDescription,
-    teamChefDePartieSecondTitle,
     teamFrontTitle,
     teamFrontManagerTitle,
     teamFrontManagerDescription,
@@ -73,15 +72,6 @@ function TeamPageMolecule() {
           <>
             <TeamPageNameAtom>{teamChefDePartieFirstTitle}</TeamPageNameAtom>
             {teamChefDePartieFirstDescription}
-          </>
-        }
-      />
-
-      <ParagraphAtom
-        text={
-          <>
-            <TeamPageNameAtom>{teamChefDePartieSecondTitle}</TeamPageNameAtom>
-            <br />
           </>
         }
       />

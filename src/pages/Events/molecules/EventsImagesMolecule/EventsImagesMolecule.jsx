@@ -7,7 +7,7 @@ function EventsImagesMolecule() {
     <>
       <img
         className={[css['events__content__image']]}
-        src={publicAccess('/sala.jpeg')}
+        src={publicAccess('/Frame5.png')}
         alt={'A restaurant table.'}
       />
       <img

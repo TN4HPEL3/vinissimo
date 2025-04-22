@@ -7,7 +7,7 @@ function HeroAtom() {
     <img
       className={css.hero__image}
       alt="Beef tartare"
-      src={publicAccess('/IMG_9598.jpeg')}
+      src={publicAccess('/IMG_3903899.jpg')}
     />
   );
 }

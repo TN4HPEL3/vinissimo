@@ -1,0 +1,13 @@
+.alcohols__list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 0 1rem 0;
+}
+
+.alcohols__list__item {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+}

@@ -8,6 +8,7 @@
   "navigationTeam": "team",
   "navigationReservation": "rezerwacja",
   "navigationValentines": "walentynki",
+  "navigationEaster": "Wielkanoc",
 
   "aboutUsTitle": "o nas",
   "aboutUsPrimaryFirst": "Vinissimo Restaurant & Wine Bar to nowa marka, pod którą od lutego 2024, działa, obecna na Bema 6 od 2017 roku - Sztuczka Bistro. Restauracja, prowadzona od 2022 roku przez Łukasza Chwojnickiego, w delikatnie zmienionym formacie i z tym samym, niezastąpionym teamem, niezmiennie serwuje przepyszną i minimalistyczną kuchnię, wspartą ogromną selekcją win i nienagannym serwisem.",
@@ -21,170 +22,138 @@
   "menu": {
     "starters": [
       {
-        "isActive": true,
-        "firstLineName": "ostryga Fine de Claire N°3",
+        "firstLineName": "ostryga Fonteaneau Julina N°2 (1szt)",
         "secondLineName": "różany mignonette",
-        "price": 27
+        "price": 29
       },
       {
-        "isActive": true,
         "firstLineName": "chleb na zakwasie własnego wypieku",
         "secondLineName": "masło cebulowe . pikle",
-        "price": 18
+        "price": 19
       },
       {
-        "isActive": true,
-        "firstLineName": "oliwki Castelvetrano . pesto bazyliowe",
-        "price": 24
+        "firstLineName": "oliwki Castelvetrano",
+        "secondLineName": "pesto romesco",
+        "price": 29
       },
       {
-        "isActive": true,
-        "firstLineName": "ser Blue Stilton . krakersy gryczane",
-        "secondLineName": "chutney z gruszki",
-        "price": 37
+        "firstLineName": "sery Reblochon i Gruyere",
+        "secondLineName": "krakersy gryczane . chutney z gruszki",
+        "price": 38
       },
       {
-        "isActive": true,
-        "firstLineName": "podwędzany śledź . remulada z selera",
-        "secondLineName": "wasabi . koper",
-        "price": 39
+        "firstLineName": "grillowane szparagi",
+        "secondLineName": "sos holenderski . harissa . wędzone migdały",
+        "price": 51
       },
       {
-        "isActive": true,
-        "firstLineName": "kaszanka francuska . tamaryndowiec",
-        "secondLineName": "śliwka . papryczki padron",
-        "price": 43
-      },
-      {
-        "isActive": true,
         "firstLineName": "arancini z serem Comte",
-        "secondLineName": "aioli grzybowe . Grana Padano",
-        "price": 44
+        "secondLineName": "aioli grzybowe . ser Grana Padano",
+        "price": 45
       },
       {
-        "isActive": true,
-        "firstLineName": "bakłażan . nerkowce . szpinak",
-        "secondLineName": "jogurt grecki . dressing truflowy",
-        "price": 46
+        "firstLineName": "bakłażan",
+        "secondLineName": "jogurt grecki . nerkowce . szpinak . dressing truflowy",
+        "price": 47
       },
       {
-        "isActive": true,
-        "firstLineName": "grillowane kalmary . tzatziki . jalapeno",
-        "secondLineName": "kukurydza . kolendra",
-        "price": 46
+        "firstLineName": "sashimi z serioli",
+        "secondLineName": "białe ponzu . chili . kolendra . kumkwat",
+        "price": 53
       },
       {
-        "isActive": true,
-        "firstLineName": "tatar wołowy . Dijon . lubczyk",
-        "secondLineName": "majonez z anchois . oliwki . grzanki",
-        "price": 56
+        "firstLineName": "tatar wołowy",
+        "secondLineName": "musztarda Dijon . czosnek niedźwiedzi . rzodkiewka . chrzan",
+        "price": 57
       },
       {
-        "isActive": true,
-        "firstLineName": "tataki z polędwicy wołowej",
-        "secondLineName": "sos musztardowy . trybula . czarna trufla",
-        "price": 82
+        "firstLineName": "cielęcina",
+        "secondLineName": "sos cezar . trybula . szalotka . trufle",
+        "price": 55
       },
       {
-        "isActive": true,
-        "firstLineName": "tartaletka z krabem . crème fraîche",
-        "secondLineName": "kawior Antonius Siberian **** (2szt.)",
-        "price": 99
-      }
-    ],
-    "soups": [
-      {
-        "isActive": true,
-        "firstLineName": "cebulowa . grzanki . ser Gruyère",
-        "price": 44
+        "firstLineName": "żurek na żytnim zakwasie",
+        "secondLineName": "biała kiełbasa . jajko . szczypior",
+        "price": 42
       }
     ],
     "mains": [
       {
-        "isActive": true,
-        "firstLineName": "raviolo z ricottą i płynnym żółtkiem",
-        "secondLineName": "fondue serowe . brokuł . czarna trufla",
+        "firstLineName": "tortelloni z ricottą",
+        "secondLineName": "duxelle grzybowe . groszek . Grana Padano . smardze",
+        "price": 69
+      },
+      {
+        "firstLineName": "Fish & Chips z dorsza",
+        "secondLineName": "kimchi . frytki . majonez tzatziki z estragonem",
+        "price": 75
+      },
+      {
+        "firstLineName": "sznycel z wieprzowiny jabłkowej",
+        "secondLineName": "palone masło . kapary . koper",
         "price": 79
       },
       {
-        "isActive": true,
-        "firstLineName": "trybowane udo z kaczki . jus truflowy",
-        "secondLineName": "babka ziemniaczana . cykoria . kiszona kapusta",
-        "price": 79
-      },
-      {
-        "isActive": true,
-        "firstLineName": "Fish & Chips . dorsz . kimchi",
-        "secondLineName": "frytki . majonez tzatziki z estragonem",
-        "price": 74
-      },
-      {
-        "isActive": true,
-        "firstLineName": "łosoś szkocki . brokuł . sos holenderski",
-        "secondLineName": "sałata morska",
-        "price": 96
-      },
-      {
-        "isActive": true,
-        "firstLineName": "Burger Wagyu (160g)",
-        "secondLineName": "Mimolette . sałata rzymska . ogórek kiszony",
-        "thirdLineName": "aioli . czerwona cebula . ketchup chipotle . frytki",
+        "firstLineName": "dorsz Skrei",
+        "secondLineName": "masło krabowe . kuskus perłowy . koper włoski . nori . sezam",
         "price": 99
       },
       {
-        "isActive": true,
-        "firstLineName": "biodrówka jagnięca . czarne kurki",
-        "secondLineName": "jarmuż toskański . żurawina",
-        "price": 144
+        "firstLineName": "biodrówka cielęca",
+        "secondLineName": "młoda kapusta . nduja . sos bagna cauda . rzodkiewka",
+        "price": 89
       },
       {
-        "isActive": true,
-        "firstLineName": "sezonowany antrykot wołowy (300g)",
-        "secondLineName": "sos café de Paris",
+        "firstLineName": "sezonowany antrykot (300g)",
+        "secondLineName": "sos Café de Paris",
         "price": 169
+      },
+      {
+        "firstLineName": "bavetta Wagyu Australia (180g)",
+        "secondLineName": "brokuł . pieczarka portobello . sos holenderski",
+        "price": 199
       }
     ],
     "sides": [
       {
-        "isActive": true,
         "firstLineName": "frytki z aioli",
-        "price": 20
+        "price": 21
       },
       {
-        "isActive": true,
         "firstLineName": "klasyczne kimchi",
-        "price": 18
-      },
-      {
-        "isActive": true,
-        "firstLineName": "pieczone ziemniaki . kwaśna śmietana",
-        "secondLineName": "szczypior",
         "price": 19
       },
       {
-        "isActive": true,
-        "firstLineName": "sałata rzymska . dressing cezar . grzanki",
-        "secondLineName": "Grana Padano",
-        "price": 25
+        "firstLineName": "pieczone ziemniaki",
+        "secondLineName": "kwaśna śmietana . szczypior",
+        "price": 20
       },
       {
-        "isActive": true,
-        "firstLineName": "zasmażane buraki . żurawina",
-        "secondLineName": "orzechy włoskie",
-        "price": 18
+        "firstLineName": "sałaty",
+        "secondLineName": "dressing balsamiczny",
+        "price": 16
+      },
+      {
+        "firstLineName": "młoda marchew",
+        "secondLineName": "cytrusy . miso . feta . orzechy włoskie",
+        "price": 26
       }
     ],
     "desserts": [
       {
-        "isActive": true,
-        "firstLineName": "piernik . śliwka . krem z białej czekolady",
+        "firstLineName": "ciasto finansjer",
+        "secondLineName": "czarna porzeczka . krem orzechowo - karmelowy",
         "price": 37
       },
       {
-        "isActive": true,
-        "firstLineName": "tarta z jabłkami . lody z topinamburu",
-        "secondLineName": "orzechy laskowe",
+        "firstLineName": "tarta z jabłkami",
+        "secondLineName": "lody z topinamburu . kruszonka mleczna . orzechy laskowe",
         "price": 37
+      },
+      {
+        "firstLineName": "ser Reblochon i Gruyere",
+        "secondLineName": "krakersy gryczane . chutney z gruszki",
+        "price": 38
       }
     ]
   },
@@ -231,7 +200,7 @@
   "eventsPagePrimaryText": "Przy większych rezerwacjach i zapytaniach o uroczystości zorganizowane lub cateringi, zapraszamy do kontaktu mailowego:",
   "eventsPageSecondaryText": "Łącznie w obu naszych salach posadzimy maksymalnie 80 osób. W górnej sali pomieścimy maksymalnie 24 osoby, a w sali dolnej, maksymalnie 56 osób (przy 3 stolikach: 26, 19, 11). Przy jednym stole, na dole, maksymalnie zmieścimy 34 osoby. Naszą restauracje możecie wynająć na wyłączność w całości, lub na wasze potrzeby może być przeznaczona jedna z dwóch sal. Menu, każdorazowo ustalamy indywidualnie, z uwzględnieniem aktualnej karty i dostępnych produktów sezonowych.",
 
-  "teamTitle": "Team",
+  "teamTitle": "team",
   "teamDescriptionPrimary": "Zgrany zespół, to serce każdej restauracji. A jeżeli jest on jeszcze młody i dynamiczny, to spełnienie marzeń każdego restauratora. Natomiast jeśli ten zespół jest do tego: doświadczony, pełen profesjonalistów i pasjonatów sztuki restauracyjnej, to jest jak wygrana w Eurojackpota. I ja tak mam…",
   "teamDescriptionSecondary": "Pozwólcie, że przedstawię Wam:",
   "teamKitchenTitle": "kuchnia",
@@ -243,7 +212,6 @@
   "teamSeniorGrillChefDescription": "Oaza spokoju i opanowania. Opoka naszego zespołu. Wielbiciel rowerowych przejażdżek i Warki. Jak twierdzi, zawsze stara się pracować w aktualnie najlepszej restauracji. Prywatnie mój przyjaciel z który znamy się prawie 20 lat.",
   "teamChefDePartieFirstTitle": "Chef de Partie – Waleria ps. Walerina",
   "teamChefDePartieFirstDescription": "Jedyna „rodzynka” w naszej kuchni. Jest z nami od jesieni 2022 roku. Zajmuje się kuchnią zimną i deserami, ale bez problemu odnajduje się na wydawce. Życiowa hedonistka, spod której ręki, wychodzą wszelkie materiały na naszych socjałach.",
-  "teamChefDePartieSecondTitle": "Chef de Partie – Robert",
   "teamFrontTitle": "sala",
   "teamFrontManagerTitle": "Front Manager – Diana Kalinichenko",
   "teamFrontManagerDescription": "Zapewnia najlepsze hospitality w całym Trójmieście i nie tylko. Fashionistka pełną gębą, która uwielbia jedzenie i wina najwyższy lotów. Absolwentka szkoły muzycznej i moja przybrana córka. Od 2018 roku moja prawa ręka we wszystkich kolejnych konceptach.",
@@ -373,5 +341,359 @@
     "drinks": "napoje",
     "cost": "koszt"
   },
-  "valentinesTitleMenu": "Kolacja Walentynkowa"
+  "valentinesTitleMenu": "Kolacja Walentynkowa",
+
+  "easterTitle": "Catering Wielkanocny 2025",
+
+  "easterMenuCategories": {
+    "breadAndButter": "pieczywo & masło",
+    "soup": "zupa",
+    "coldDishes": "na zimno",
+    "hotDishes": "na ciepło",
+    "sides": "dodatki",
+    "desserts": "na słodko",
+    "orders": "zamówienia",
+    "pickup": "odbiór"
+  },
+
+  "easterMenu": {
+    "breadAndButter": [
+      "chleb pszenny (700g) | 25 zł",
+      "masło cebulowe z miso (200g) | 25 zł"
+    ],
+    "soup": [
+      "żurek staropolski na zakwasie z kiełbasą własnej roboty i majerankiem (0,9l) | 55 zł"
+    ],
+    "coldDishes": [
+      "tradycyjna sałatka jarzynowa (500g) | 37 zł",
+      "łosoś w galarecie (400g) | 39 zł",
+      "truflowa pasta jajeczna (500g) | 39 zł",
+      "pasta jajeczna z wędzonym pstrągiem i szparagami (500g) | 45 zł",
+      "pâté z wątróbki z Foie Gras (300g) | 59 zł",
+      "pieczony pasztet wieprzowy z mangalicą (400g) | 75 zł"
+    ],
+    "hotDishes": [
+      "gołąbek z cielęciną w sosie własnym z pomidorami (250g) | 39 zł",
+      "udo z królika w śmietanie z tymiankiem i porem (ok. 200g) | 42 zł",
+      "polędwica z dorsza w sosie krabowym ze szpinakiem (400g) | 72 zł"
+    ],
+    "sides": [
+      "zasmażana młoda kapusta z koperkiem (400g) | 39 zł",
+      "pieczone ziemniaki z palonym masłem (400g) | 35 zł"
+    ],
+    "desserts": [
+      "mazurek z kremem karmelowym oraz porzeczką i bakaliami (400g) | 55 zł",
+      "sernik baskijski z rabarbarem (1100g) | 159 zł"
+    ],
+    "orders": "do godziny 16:00 17.04.2025 | booking@vinissimorestaurant.pl",
+    "pickup": "19.04.2025 od 12:30 do 20:00"
+  },
+
+  "alcohols": {
+    "titles": [
+      "C O C K T A I L S",
+      "A P E R I T I F",
+      "V O D K A",
+      "HIGHLAND PARK . SINGLE MALT WHISKY",
+      "WHISKY . BOURBON . WHISKEY",
+      "R U M",
+      "T E Q U I L A",
+      "MIÓD PITNY | MEAD",
+      "G I N",
+      "COGNAC . BRANDY . CALVADOS . ARMAGNAC",
+      "V E R M O U T H",
+      "D I G E S T I F",
+      "L I Q U E U R S"
+    ],
+    "cocktails": [
+      {
+        "name": "Aperol Spritz",
+        "description": "Aperol · prosecco · sparkling water · orange 10%"
+      },
+      {
+        "name": "Cardinale",
+        "description": "The London no.1 · Campari · Dolin dry vermouth 25%"
+      },
+      {
+        "name": "Whisky Sour",
+        "description": "Highland Park 10yo · lemon · egg white · simple syrup · Angostura 23%"
+      },
+      {
+        "name": "Espresso Martini",
+        "description": "Distil No.9 · simple syrup · espresso · kahlua 24%"
+      },
+      {
+        "name": "Pink Sour",
+        "description": "Rosolis rose · lemon · simple syrup · egg white · prosecco 22%"
+      },
+      {
+        "name": "Gin & Tonic",
+        "description": "The London no.1 · Thomas Henry tonic water · lime 14%"
+      },
+      {
+        "name": "Dark & Stormy",
+        "description": "Kraken rum · ginger beer · lime 14%"
+      }
+    ],
+    "aperitif": [
+      {
+        "name": "Aperol 25%",
+        "price": 15
+      },
+      {
+        "name": "Campari 11%",
+        "price": 25
+      },
+      {
+        "name": "Barsol Pisco 41.3%",
+        "price": 25
+      }
+    ],
+    "vodka": [
+      {
+        "name": "Distil No. 9 40%",
+        "price": 15
+      }
+    ],
+    "highland_park": [
+      {
+        "name": "10yo 40%",
+        "price": 35
+      },
+      {
+        "name": "12yo 40%",
+        "price": 39
+      },
+      {
+        "name": "15yo 44%",
+        "price": 79
+      },
+      {
+        "name": "Cask Strength 64.1%",
+        "price": 49
+      },
+      {
+        "name": "Highland Park Tasting Set (3x20ml)",
+        "price": 69
+      }
+    ],
+    "whisky": [
+      {
+        "name": "Buffalo Trace 40%",
+        "price": 22
+      },
+      {
+        "name": "Naked Malt 40%",
+        "price": 25
+      },
+      {
+        "name": "Sexton Irish Single Malt 40%",
+        "price": 25
+      },
+      {
+        "name": "Sazerac Rye 45%",
+        "price": 27
+      },
+      {
+        "name": "Bushmills Irish Single Malt 40%",
+        "price": 29
+      },
+      {
+        "name": "Elijah Craig Kentucky Bourbon 47%",
+        "price": 31
+      },
+      {
+        "name": "Eagle Rare Aged 10YO",
+        "price": 33
+      },
+      {
+        "name": "Port Askaig Islay Single Malt 57.1%",
+        "price": 49
+      },
+      {
+        "name": "Nikka Whisky From The Barrel 51.4%",
+        "price": 49
+      },
+      {
+        "name": "Nikka Single Malt Miyagikyo 45%",
+        "price": 55
+      },
+      {
+        "name": "The Macallan 12YO 40%",
+        "price": 59
+      },
+      {
+        "name": "The Macallan Harmony Collection 44.2%",
+        "price": 129
+      },
+      {
+        "name": "Bushmills 18YO Spanish Brandy Casks 40%",
+        "price": 159
+      }
+    ],
+    "rum": [
+      {
+        "name": "Brugal Dominican Anejo Superior 38%",
+        "price": 18
+      },
+      {
+        "name": "Brugal Dominican Blanco Especial 40%",
+        "price": 18
+      },
+      {
+        "name": "Kraken Caribbean Black Spiced 40%",
+        "price": 23
+      },
+      {
+        "name": "Planteray Barbados Rum 5YO 40%",
+        "price": 24
+      },
+      {
+        "name": "Planteray Jamaican Rum Xaymaca 43%",
+        "price": 29
+      },
+      {
+        "name": "Plantation Overproof O.F.T.D. 69%",
+        "price": 29
+      },
+      {
+        "name": "Don Papa 40%",
+        "price": 39
+      },
+      {
+        "name": "Brugal 1888 Dominican 40%",
+        "price": 42
+      }
+    ],
+    "tequila": [
+      {
+        "name": "Jose Cuervo Reposado 38%",
+        "price": 19
+      },
+      {
+        "name": "Jose Cuervo Silver 38%",
+        "price": 19
+      },
+      {
+        "name": "1800 Reposado 38%",
+        "price": 25
+      },
+      {
+        "name": "1800 Blanco 38%",
+        "price": 25
+      },
+      {
+        "name": "Los Arango Anejo 40%",
+        "price": 35
+      }
+    ],
+    "mead": [
+      {
+        "name": "Quantum Satis Mead 12% (375ml)",
+        "price": 195
+      },
+      {
+        "name": "Coffee Melomel 12.5% (75ml)",
+        "price": 39
+      },
+      {
+        "name": "Cherry 12% (info only)",
+        "price": null
+      }
+    ],
+    "gin": [
+      {
+        "name": "Drumshanbo Gunpowder Irish Gin 43%",
+        "price": 29
+      },
+      {
+        "name": "London Dry Gin No. 3 46%",
+        "price": 35
+      }
+    ],
+    "others": [
+      {
+        "name": "Calvados Boulard VSOP 40%",
+        "price": 39
+      },
+      {
+        "name": "Remy Martin 1738 Accord Royal 40%",
+        "price": 59
+      },
+      {
+        "name": "Chateau De Breuil Calvados Reserve Des Seigneurs 41%",
+        "price": 69
+      },
+      {
+        "name": "Armagnac Castarede X.O 40%",
+        "price": 69
+      },
+      {
+        "name": "Pliska Brandy 1983 40%",
+        "price": 119
+      }
+    ],
+    "vermouth": [
+      {
+        "name": "Carlo Alberto Rouge 17%",
+        "price": 35
+      },
+      {
+        "name": "1757 Vermouth Di Torino Extra Dry 18%",
+        "price": 39
+      }
+    ],
+    "digestif": [
+      {
+        "name": "Jagermeister 35%",
+        "price": 17
+      },
+      {
+        "name": "Giffards Peppermint Pastille 21%",
+        "price": 19
+      },
+      {
+        "name": "Fernet Branca Mentha 28%",
+        "price": 22
+      },
+      {
+        "name": "Fernet Branca 39%",
+        "price": 25
+      },
+      {
+        "name": "Unicum Riserva 40%",
+        "price": 39
+      },
+      {
+        "name": "Sessantani 60 Grappa Di Primitivo 40%",
+        "price": 39
+      },
+      {
+        "name": "Chartreuse Jaune 43%",
+        "price": 45
+      }
+    ],
+    "liqueurs": [
+      {
+        "name": "Krupnik Old Liquer",
+        "price": 15
+      },
+      {
+        "name": "Rosolis Rose / Herbal 35%",
+        "price": 15
+      },
+      {
+        "name": "Bottega Limoncino 30%",
+        "price": 17
+      },
+      {
+        "name": "Disaronno Amaretto 28%",
+        "price": 17
+      },
+      {
+        "name": "Kahlua 16%",
+        "price": 15
+      }
+    ]
+  }
 }

@@ -1,40 +1,14 @@
-import { MenuAlcoholsOrganism } from '../MenuAlcoholsOrganism/MenuAlcoholsOrganism.jsx';
-
-import menu from '../../../../data/alcohols.json';
+import { useLanguage } from '../../../../helpers/contexts/languageContext.js';
+import { MenuAlcoholByCategoriesMolecule } from '../../molecules/MenuAlcoholByCategoriesMolecule/MenuAlcoholByCategoriesMolecule.jsx';
 
 function MenuAlcoholsFirstPageOrganism() {
+  const { t } = useLanguage();
+  const { alcohols } = t;
+  const titles = alcohols.titles;
+
   return (
     <>
-      <div>
-        <MenuAlcoholsOrganism
-          category={'cocktails'}
-          data={menu}
-          title={'cocktails 37'}
-        />
-        <MenuAlcoholsOrganism
-          category={'apéritif'}
-          data={menu}
-          title={'apéritif'}
-        />
-        <MenuAlcoholsOrganism
-          category={'vodka'}
-          data={menu}
-          title={'vodka | tincture'}
-        />
-      </div>
-      <div>
-        <MenuAlcoholsOrganism
-          category={'highlandPark'}
-          data={menu}
-          title={'highland park single malt whisky'}
-        />
-        <MenuAlcoholsOrganism
-          category={'whisky'}
-          data={menu}
-          title={'whisky | bourbon | whiskey'}
-        />
-        <MenuAlcoholsOrganism category={'rum'} data={menu} title={'rum'} />
-      </div>
+      <MenuAlcoholByCategoriesMolecule alcohols={alcohols} titles={titles} />
     </>
   );
 }

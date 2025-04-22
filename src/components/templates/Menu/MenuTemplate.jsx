@@ -10,7 +10,6 @@ function MenuTemplate() {
   const {
     menuTitle,
     menuStartersTitle,
-    menuSoupsTitle,
     menuMainsTitle,
     menuSidesTitle,
     menuDessertsTitle,
@@ -26,11 +25,6 @@ function MenuTemplate() {
               category={'starters'}
               data={menu}
               title={menuStartersTitle}
-            />
-            <MenuListOrganism
-              category={'soups'}
-              data={menu}
-              title={menuSoupsTitle}
             />
           </div>
           <div>
