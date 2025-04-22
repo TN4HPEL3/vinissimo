@@ -6,7 +6,6 @@ import { WinePage } from './pages/Wine/WinePage.jsx';
 import { TeamPage } from './pages/Team/TeamPage.jsx';
 import { Page404 } from './pages/Page404/Page404.jsx';
 import { EventsPage } from './pages/Events/EventsPage.jsx';
-import { EasterPage } from './pages/Easter/EasterPage.jsx';
 import { NewYearPage } from './pages/NewYear/NewYearPage.jsx';
 import { SharedLayout } from './components/templates/SharedLayout/SharedLayout.jsx';
 import { NewYearBasicTemplate } from './pages/NewYear/templates/NewYearBasicTemplate.jsx';
@@ -31,7 +30,6 @@ function App() {
         </Route>
         <Route path="/events" element={<EventsPage />} />
         <Route path="/team" element={<TeamPage />} />
-        <Route path="/easter" element={<EasterPage />} />
         <Route path="new-year" element={<NewYearPage />}>
           <Route path="basic" element={<NewYearBasicTemplate />} />
           <Route path="de-lux" element={<NewYearDeLuxTemplate />} />
