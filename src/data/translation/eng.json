@@ -22,9 +22,14 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "oyster Fonteneau Julina N°2 (1szt)",
-        "secondLineName": "rose mignonette",
+        "firstLineName": "oyster Fonteneau Julina N°2 (1pc)",
+        "secondLineName": "leche di tigre",
         "price": 29
+      },
+      {
+        "firstLineName": "oyster Gillardeau N°3 (1pc)",
+        "secondLineName": "leche di tigre",
+        "price": 34
       },
       {
         "firstLineName": "homemade sourdough bread",
@@ -32,12 +37,12 @@
         "price": 19
       },
       {
-        "firstLineName": "Castelvetrano olives",
-        "secondLineName": "pesto romesco",
+        "firstLineName": "Gordal olives",
+        "secondLineName": "marinated artichokes",
         "price": 29
       },
       {
-        "firstLineName": "Reblochon and Gruyere cheeses",
+        "firstLineName": "Reblochon and Gruyere cheese",
         "secondLineName": "buckwheat crackers . pear chutney",
         "price": 38
       },
@@ -48,7 +53,7 @@
       },
       {
         "firstLineName": "arancini with Comte cheese",
-        "secondLineName": "mushroom aioli . Grana Padano cheese",
+        "secondLineName": "mushroom aioli . parmesan",
         "price": 45
       },
       {
@@ -68,19 +73,24 @@
       },
       {
         "firstLineName": "veal",
-        "secondLineName": "Caesar sauce . shallot . chervil . truffle",
+        "secondLineName": "caesar sauce . shallot . chervil . summer truffle",
         "price": 55
       },
       {
-        "firstLineName": "sour rye soup",
-        "secondLineName": "white sausage . egg . spring onion . horseradish",
+        "firstLineName": "beef and lamb koftas",
+        "secondLineName": "tamarind . ground cucumbers . mint",
+        "price": 51
+      },
+      {
+        "firstLineName": "white borscht",
+        "secondLineName": "sorrel . white sausage . egg",
         "price": 42
       }
     ],
     "mains": [
       {
         "firstLineName": "tortelloni with ricotta cheese",
-        "secondLineName": "mushroom duxelles . peas . Grana Padano cheese . morels mushrooms",
+        "secondLineName": "mushroom duxelles . peas . parmesan . morel mushrooms",
         "price": 69
       },
       {
@@ -95,7 +105,7 @@
       },
       {
         "firstLineName": "skrei cod",
-        "secondLineName": "crab butter . couscous . fennel . nori . sesame",
+        "secondLineName": "crab butter . couscous . white asparagus . nori . sesame",
         "price": 99
       },
       {
@@ -104,14 +114,14 @@
         "price": 89
       },
       {
-        "firstLineName": "seasoned rib eye (300g)",
+        "firstLineName": "seasoned rib eye steak (300g)",
         "secondLineName": "Café de Paris sauce",
         "price": 169
       },
       {
-        "firstLineName": "Australian Wagyu bavette (180g)",
-        "secondLineName": "broccoli . portobello mushroom . hollandaise sauce",
-        "price": 199
+        "firstLineName": "striploin Wagyu Kagoshima A5 (160g)",
+        "secondLineName": "asparagus . morel mushrooms . hollandaise sauce",
+        "price": 329
       }
     ],
     "sides": [
@@ -125,8 +135,8 @@
         "price": 19
       },
       {
-        "firstLineName": "roasted potatoes",
-        "secondLineName": "sour cream . chives",
+        "firstLineName": "spring potatoes",
+        "secondLineName": "sour cream . sorrel",
         "price": 20
       },
       {
@@ -135,8 +145,8 @@
         "price": 16
       },
       {
-        "firstLineName": "young carrot",
-        "secondLineName": "citrus . miso . feta cheese . walnuts",
+        "firstLineName": "spring carrot",
+        "secondLineName": "citrus fruits . miso . Feta cheese . walnuts",
         "price": 26
       }
     ],
