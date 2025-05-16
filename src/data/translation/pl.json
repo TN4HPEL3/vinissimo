@@ -23,8 +23,13 @@
     "starters": [
       {
         "firstLineName": "ostryga Fonteaneau Julina N°2 (1szt)",
-        "secondLineName": "różany mignonette",
+        "secondLineName": "leche di tigre",
         "price": 29
+      },
+      {
+        "firstLineName": "ostryga Gillardeau N°3 (1szt)",
+        "secondLineName": "leche di tigre",
+        "price": 34
       },
       {
         "firstLineName": "chleb na zakwasie własnego wypieku",
@@ -32,8 +37,8 @@
         "price": 19
       },
       {
-        "firstLineName": "oliwki Castelvetrano",
-        "secondLineName": "pesto romesco",
+        "firstLineName": "oliwki Gordal",
+        "secondLineName": "karczochy marynowane",
         "price": 29
       },
       {
@@ -48,7 +53,7 @@
       },
       {
         "firstLineName": "arancini z serem Comte",
-        "secondLineName": "aioli grzybowe . ser Grana Padano",
+        "secondLineName": "aioli grzybowe . parmezan",
         "price": 45
       },
       {
@@ -68,19 +73,24 @@
       },
       {
         "firstLineName": "cielęcina",
-        "secondLineName": "sos cezar . trybula . szalotka . trufle",
+        "secondLineName": "sos cezar . trybula . szalotka . letnia trufla",
         "price": 55
       },
       {
-        "firstLineName": "żurek na żytnim zakwasie",
-        "secondLineName": "biała kiełbasa . jajko . szczypior",
+        "firstLineName": "kofty wołowo-jagnięce",
+        "secondLineName": "tamaryndowiec . ogórki gruntowe . mięta",
+        "price": 51
+      },
+      {
+        "firstLineName": "barszcz biały",
+        "secondLineName": "szczaw . biała kiełbasa . jajko",
         "price": 42
       }
     ],
     "mains": [
       {
         "firstLineName": "tortelloni z ricottą",
-        "secondLineName": "duxelle grzybowe . groszek . Grana Padano . smardze",
+        "secondLineName": "duxelle grzybowe . groszek . parmezan . smardze",
         "price": 69
       },
       {
@@ -94,8 +104,8 @@
         "price": 79
       },
       {
-        "firstLineName": "dorsz Skrei",
-        "secondLineName": "masło krabowe . kuskus perłowy . koper włoski . nori . sezam",
+        "firstLineName": "dorsz skrei",
+        "secondLineName": "masło krabowe . kuskus perłowy . białe szparagi . nori . sezam",
         "price": 99
       },
       {
@@ -109,9 +119,9 @@
         "price": 169
       },
       {
-        "firstLineName": "bavetta Wagyu Australia (180g)",
-        "secondLineName": "brokuł . pieczarka portobello . sos holenderski",
-        "price": 199
+        "firstLineName": "rostbef wagyu Kagoshima A5 (160g)",
+        "secondLineName": "smardze . szparagi . sos holenderski",
+        "price": 329
       }
     ],
     "sides": [
@@ -124,8 +134,8 @@
         "price": 19
       },
       {
-        "firstLineName": "pieczone ziemniaki",
-        "secondLineName": "kwaśna śmietana . szczypior",
+        "firstLineName": "młode ziemniaki",
+        "secondLineName": "kwaśna śmietana . szczaw",
         "price": 20
       },
       {
@@ -146,8 +156,8 @@
         "price": 37
       },
       {
-        "firstLineName": "tarta z jabłkami",
-        "secondLineName": "lody z topinamburu . kruszonka mleczna . orzechy laskowe",
+        "firstLineName": "sernik baskijski",
+        "secondLineName": "kruszonka mleczna . rabarbar",
         "price": 37
       },
       {
