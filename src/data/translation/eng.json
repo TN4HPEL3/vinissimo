@@ -27,11 +27,6 @@
         "price": 29
       },
       {
-        "firstLineName": "oyster Gillardeau N°3 (1pc)",
-        "secondLineName": "leche di tigre",
-        "price": 34
-      },
-      {
         "firstLineName": "homemade sourdough bread",
         "secondLineName": "onion butter . pickles",
         "price": 19
@@ -42,9 +37,9 @@
         "price": 29
       },
       {
-        "firstLineName": "Reblochon and Gruyere cheese",
+        "firstLineName": "Reblochon and Comté cheese (24 mth.)",
         "secondLineName": "buckwheat crackers . pear chutney",
-        "price": 38
+        "price": 39
       },
       {
         "firstLineName": "grilled asparagus",
@@ -52,13 +47,13 @@
         "price": 51
       },
       {
-        "firstLineName": "arancini with Comte cheese",
-        "secondLineName": "mushroom aioli . parmesan",
+        "firstLineName": "skrei cod croquettes",
+        "secondLineName": "saffron aioli . pickled asparagus",
         "price": 45
       },
       {
         "firstLineName": "aubergine",
-        "secondLineName": "greek yoghurt . cashew nuts . spinach . truffle dressing",
+        "secondLineName": "goat yogurt . tomatoes . mint . hazelnuts",
         "price": 47
       },
       {
@@ -111,7 +106,7 @@
       {
         "firstLineName": "calf hip",
         "secondLineName": "young cabbage . nduja . bagna cauda sauce . radish",
-        "price": 89
+        "price": 94
       },
       {
         "firstLineName": "seasoned rib eye steak (300g)",
@@ -146,7 +141,7 @@
       },
       {
         "firstLineName": "spring carrot",
-        "secondLineName": "citrus fruits . miso . Feta cheese . walnuts",
+        "secondLineName": "citrus fruits . miso . feta cheese . walnuts",
         "price": 26
       }
     ],
@@ -162,7 +157,7 @@
         "price": 37
       },
       {
-        "firstLineName": "Reblochon and Gruyere cheese",
+        "firstLineName": "Reblochon and Comté (24 mth.)",
         "secondLineName": "buckwheat crackers . pear chutney",
         "price": 38
       }
