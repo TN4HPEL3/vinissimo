@@ -27,11 +27,6 @@
         "price": 29
       },
       {
-        "firstLineName": "ostryga Gillardeau N°3 (1szt)",
-        "secondLineName": "leche di tigre",
-        "price": 34
-      },
-      {
         "firstLineName": "chleb na zakwasie własnego wypieku",
         "secondLineName": "masło cebulowe . pikle",
         "price": 19
@@ -42,9 +37,9 @@
         "price": 29
       },
       {
-        "firstLineName": "sery Reblochon i Gruyere",
+        "firstLineName": "sery Reblochon i Comté (24 msc.)",
         "secondLineName": "krakersy gryczane . chutney z gruszki",
-        "price": 38
+        "price": 39
       },
       {
         "firstLineName": "grillowane szparagi",
@@ -52,13 +47,13 @@
         "price": 51
       },
       {
-        "firstLineName": "arancini z serem Comte",
-        "secondLineName": "aioli grzybowe . parmezan",
+        "firstLineName": "krokiety z dorsza skrei",
+        "secondLineName": "szafranowe aioli . piklowane szparagi",
         "price": 45
       },
       {
         "firstLineName": "bakłażan",
-        "secondLineName": "jogurt grecki . nerkowce . szpinak . dressing truflowy",
+        "secondLineName": "kozi jogurt . pomidory . mięta . orzechy laskowe",
         "price": 47
       },
       {
@@ -111,7 +106,7 @@
       {
         "firstLineName": "biodrówka cielęca",
         "secondLineName": "młoda kapusta . nduja . sos bagna cauda . rzodkiewka",
-        "price": 89
+        "price": 94
       },
       {
         "firstLineName": "sezonowany antrykot (300g)",
@@ -161,7 +156,7 @@
         "price": 37
       },
       {
-        "firstLineName": "ser Reblochon i Gruyere",
+        "firstLineName": "ser Reblochon i Comté (24 msc.)",
         "secondLineName": "krakersy gryczane . chutney z gruszki",
         "price": 38
       }
