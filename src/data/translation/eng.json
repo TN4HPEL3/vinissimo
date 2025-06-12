@@ -22,9 +22,9 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "oyster Fonteneau Julina N°2 (1pc)",
-        "secondLineName": "leche di tigre",
-        "price": 29
+        "firstLineName": "oyster Cadoret Spéciales No.3",
+        "secondLineName": "leche de tigre",
+        "price": 26
       },
       {
         "firstLineName": "homemade sourdough bread",
@@ -47,14 +47,14 @@
         "price": 51
       },
       {
-        "firstLineName": "skrei cod croquettes",
-        "secondLineName": "saffron aioli . pickled asparagus",
-        "price": 45
-      },
-      {
         "firstLineName": "aubergine",
         "secondLineName": "goat yogurt . tomatoes . mint . hazelnuts",
         "price": 47
+      },
+      {
+        "firstLineName": "skrei cod croquettes",
+        "secondLineName": "saffron aioli . marinated asparagus",
+        "price": 45
       },
       {
         "firstLineName": "hamachi sashimi",
@@ -72,9 +72,9 @@
         "price": 55
       },
       {
-        "firstLineName": "beef and lamb koftas",
-        "secondLineName": "tamarind . ground cucumbers . mint",
-        "price": 51
+        "firstLineName": "lamb ribs",
+        "secondLineName": "harissa . ground cucumbers . mint",
+        "price": 52
       },
       {
         "firstLineName": "white borscht",
@@ -99,8 +99,8 @@
         "price": 79
       },
       {
-        "firstLineName": "skrei cod",
-        "secondLineName": "crab butter . couscous . white asparagus . nori . sesame",
+        "firstLineName": "monkfish",
+        "secondLineName": "tarragon beurre blanc . tomatoes . kombu . white asparagus",
         "price": 99
       },
       {
@@ -109,12 +109,12 @@
         "price": 94
       },
       {
-        "firstLineName": "seasoned rib eye steak (300g)",
-        "secondLineName": "Café de Paris sauce",
-        "price": 169
+        "firstLineName": "beef tenderloin (160g)",
+        "secondLineName": "mustard sauce . asparagus . portobello",
+        "price": 124
       },
       {
-        "firstLineName": "striploin Wagyu Kagoshima A5 (160g)",
+        "firstLineName": "rib-eye Wagyu Kagoshima A5 (160g)",
         "secondLineName": "asparagus . morel mushrooms . hollandaise sauce",
         "price": 329
       }
@@ -157,7 +157,7 @@
         "price": 37
       },
       {
-        "firstLineName": "Reblochon and Comté (24 mth.)",
+        "firstLineName": "Reblochon and Comté (24 msc.)",
         "secondLineName": "buckwheat crackers . pear chutney",
         "price": 38
       }
