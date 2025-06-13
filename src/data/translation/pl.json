@@ -22,14 +22,9 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "ostryga Fonteaneau Julina N°2 (1szt)",
-        "secondLineName": "leche di tigre",
-        "price": 29
-      },
-      {
-        "firstLineName": "ostryga Gillardeau N°3 (1szt)",
-        "secondLineName": "leche di tigre",
-        "price": 34
+        "firstLineName": "ostryga Cadoret Spéciales No.3",
+        "secondLineName": "leche de tigre",
+        "price": 26
       },
       {
         "firstLineName": "chleb na zakwasie własnego wypieku",
@@ -42,9 +37,9 @@
         "price": 29
       },
       {
-        "firstLineName": "sery Reblochon i Gruyere",
+        "firstLineName": "sery Reblochon i Comté (24 msc.)",
         "secondLineName": "krakersy gryczane . chutney z gruszki",
-        "price": 38
+        "price": 39
       },
       {
         "firstLineName": "grillowane szparagi",
@@ -52,14 +47,14 @@
         "price": 51
       },
       {
-        "firstLineName": "arancini z serem Comte",
-        "secondLineName": "aioli grzybowe . parmezan",
-        "price": 45
+        "firstLineName": "bakłażan",
+        "secondLineName": "kozi jogurt . pomidory . mięta . orzechy laskowe",
+        "price": 47
       },
       {
-        "firstLineName": "bakłażan",
-        "secondLineName": "jogurt grecki . nerkowce . szpinak . dressing truflowy",
-        "price": 47
+        "firstLineName": "krokiety z dorsza skrei",
+        "secondLineName": "szafranowe aioli . marynowane szparagi",
+        "price": 45
       },
       {
         "firstLineName": "sashimi z serioli",
@@ -77,9 +72,9 @@
         "price": 55
       },
       {
-        "firstLineName": "kofty wołowo-jagnięce",
-        "secondLineName": "tamaryndowiec . ogórki gruntowe . mięta",
-        "price": 51
+        "firstLineName": "żeberka jagnięce",
+        "secondLineName": "harissa . ogórki gruntowe . mięta",
+        "price": 52
       },
       {
         "firstLineName": "barszcz biały",
@@ -104,22 +99,22 @@
         "price": 79
       },
       {
-        "firstLineName": "dorsz skrei",
-        "secondLineName": "masło krabowe . kuskus perłowy . białe szparagi . nori . sezam",
+        "firstLineName": "żabnica",
+        "secondLineName": "beurre blanc estragonowy . pomidory . kombu . białe szparagi",
         "price": 99
       },
       {
         "firstLineName": "biodrówka cielęca",
         "secondLineName": "młoda kapusta . nduja . sos bagna cauda . rzodkiewka",
-        "price": 89
+        "price": 94
       },
       {
-        "firstLineName": "sezonowany antrykot (300g)",
-        "secondLineName": "sos Café de Paris",
-        "price": 169
+        "firstLineName": "polędwica wołowa (160g)",
+        "secondLineName": "sos musztardowy . szparagi . portobello",
+        "price": 124
       },
       {
-        "firstLineName": "rostbef wagyu Kagoshima A5 (160g)",
+        "firstLineName": "rib-eye wagyu Hida A5 (160g)",
         "secondLineName": "smardze . szparagi . sos holenderski",
         "price": 329
       }
@@ -161,7 +156,7 @@
         "price": 37
       },
       {
-        "firstLineName": "ser Reblochon i Gruyere",
+        "firstLineName": "ser Reblochon i Comté (24 msc.)",
         "secondLineName": "krakersy gryczane . chutney z gruszki",
         "price": 38
       }
