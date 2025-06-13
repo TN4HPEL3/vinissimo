@@ -22,9 +22,14 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "oyster Cadoret Spéciales No.3",
-        "secondLineName": "leche de tigre",
-        "price": 26
+        "firstLineName": "oyster Fonteneau Julina N°2 (1pc)",
+        "secondLineName": "leche di tigre",
+        "price": 29
+      },
+      {
+        "firstLineName": "oyster Gillardeau N°3 (1pc)",
+        "secondLineName": "leche di tigre",
+        "price": 34
       },
       {
         "firstLineName": "homemade sourdough bread",
@@ -37,9 +42,9 @@
         "price": 29
       },
       {
-        "firstLineName": "Reblochon and Comté cheese (24 mth.)",
+        "firstLineName": "Reblochon and Gruyere cheese",
         "secondLineName": "buckwheat crackers . pear chutney",
-        "price": 39
+        "price": 38
       },
       {
         "firstLineName": "grilled asparagus",
@@ -47,14 +52,14 @@
         "price": 51
       },
       {
-        "firstLineName": "aubergine",
-        "secondLineName": "goat yogurt . tomatoes . mint . hazelnuts",
-        "price": 47
+        "firstLineName": "arancini with Comte cheese",
+        "secondLineName": "mushroom aioli . parmesan",
+        "price": 45
       },
       {
-        "firstLineName": "skrei cod croquettes",
-        "secondLineName": "saffron aioli . marinated asparagus",
-        "price": 45
+        "firstLineName": "aubergine",
+        "secondLineName": "greek yoghurt . cashew nuts . spinach . truffle dressing",
+        "price": 47
       },
       {
         "firstLineName": "hamachi sashimi",
@@ -72,9 +77,9 @@
         "price": 55
       },
       {
-        "firstLineName": "lamb ribs",
-        "secondLineName": "harissa . ground cucumbers . mint",
-        "price": 52
+        "firstLineName": "beef and lamb koftas",
+        "secondLineName": "tamarind . ground cucumbers . mint",
+        "price": 51
       },
       {
         "firstLineName": "white borscht",
@@ -99,22 +104,22 @@
         "price": 79
       },
       {
-        "firstLineName": "monkfish",
-        "secondLineName": "tarragon beurre blanc . tomatoes . kombu . white asparagus",
+        "firstLineName": "skrei cod",
+        "secondLineName": "crab butter . couscous . white asparagus . nori . sesame",
         "price": 99
       },
       {
         "firstLineName": "calf hip",
         "secondLineName": "young cabbage . nduja . bagna cauda sauce . radish",
-        "price": 94
+        "price": 89
       },
       {
-        "firstLineName": "beef tenderloin (160g)",
-        "secondLineName": "mustard sauce . asparagus . portobello",
-        "price": 124
+        "firstLineName": "seasoned rib eye steak (300g)",
+        "secondLineName": "Café de Paris sauce",
+        "price": 169
       },
       {
-        "firstLineName": "rib-eye Wagyu Kagoshima A5 (160g)",
+        "firstLineName": "striploin Wagyu Kagoshima A5 (160g)",
         "secondLineName": "asparagus . morel mushrooms . hollandaise sauce",
         "price": 329
       }
@@ -141,7 +146,7 @@
       },
       {
         "firstLineName": "spring carrot",
-        "secondLineName": "citrus fruits . miso . feta cheese . walnuts",
+        "secondLineName": "citrus fruits . miso . Feta cheese . walnuts",
         "price": 26
       }
     ],
@@ -157,7 +162,7 @@
         "price": 37
       },
       {
-        "firstLineName": "Reblochon and Comté (aged 24 months)",
+        "firstLineName": "Reblochon and Gruyere cheese",
         "secondLineName": "buckwheat crackers . pear chutney",
         "price": 38
       }
