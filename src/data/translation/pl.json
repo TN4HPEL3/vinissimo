@@ -27,6 +27,11 @@
         "price": 26
       },
       {
+        "firstLineName": "ostryga Gillardeau No.3",
+        "secondLineName": "leche de tigre",
+        "price": 34
+      },
+      {
         "firstLineName": "chleb na zakwasie własnego wypieku",
         "secondLineName": "masło cebulowe . pikle",
         "price": 19
@@ -52,14 +57,9 @@
         "price": 47
       },
       {
-        "firstLineName": "krokiety z dorsza skrei",
-        "secondLineName": "szafranowe aioli . marynowane szparagi",
-        "price": 45
-      },
-      {
-        "firstLineName": "sashimi z serioli",
-        "secondLineName": "białe ponzu . chili . kolendra . kumkwat",
-        "price": 53
+        "firstLineName": "sashimi z tuńczyka",
+        "secondLineName": "białe ponzu . papryka piquillo . rabarbar . kolendra",
+        "price": 54
       },
       {
         "firstLineName": "tatar wołowy",
@@ -67,9 +67,9 @@
         "price": 57
       },
       {
-        "firstLineName": "cielęcina",
-        "secondLineName": "sos cezar . trybula . szalotka . letnia trufla",
-        "price": 55
+        "firstLineName": "tost z krabem",
+        "secondLineName": "seler naciowy . ogórek . crème fraîche . limonka",
+        "price": 99
       },
       {
         "firstLineName": "żeberka jagnięce",
@@ -90,7 +90,7 @@
       },
       {
         "firstLineName": "Fish & Chips z dorsza",
-        "secondLineName": "kimchi . frytki . majonez tzatziki z estragonem",
+        "secondLineName": "ogórki kimchi . frytki . majonez tzatziki z estragonem",
         "price": 75
       },
       {
@@ -99,19 +99,19 @@
         "price": 79
       },
       {
-        "firstLineName": "żabnica",
-        "secondLineName": "beurre blanc estragonowy . pomidory . kombu . białe szparagi",
-        "price": 99
-      },
-      {
         "firstLineName": "biodrówka cielęca",
         "secondLineName": "młoda kapusta . nduja . sos bagna cauda . rzodkiewka",
         "price": 94
       },
       {
-        "firstLineName": "polędwica wołowa (160g)",
-        "secondLineName": "sos musztardowy . szparagi . portobello",
-        "price": 124
+        "firstLineName": "żabnica",
+        "secondLineName": "beurre blanc estragonowy . pomidory . kombu . fasolka szparagowa",
+        "price": 109
+      },
+      {
+        "firstLineName": "antrykot wołowy (300g)",
+        "secondLineName": "sos musztardowy",
+        "price": 169
       },
       {
         "firstLineName": "rib-eye wagyu Hida A5 (160g)",
@@ -125,7 +125,7 @@
         "price": 21
       },
       {
-        "firstLineName": "klasyczne kimchi",
+        "firstLineName": "ogórki kimchi",
         "price": 19
       },
       {
@@ -156,7 +156,7 @@
         "price": 38
       },
       {
-        "firstLineName": "ser Reblochon i Comté (24 msc.)",
+        "firstLineName": "sery Reblochon i Comté (24 msc.)",
         "secondLineName": "krakersy gryczane . chutney z gruszki",
         "price": 39
       }
