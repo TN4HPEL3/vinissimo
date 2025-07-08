@@ -148,17 +148,17 @@
     ],
     "desserts": [
       {
-        "firstLineName": "ciasto finansjer",
-        "secondLineName": "czarna porzeczka . krem orzechowo - karmelowy",
+        "firstLineName": "financier cake",
+        "secondLineName": "blackcurrant . hazelnut-caramel cream",
         "price": 37
       },
       {
-        "firstLineName": "lodowe parfait",
-        "secondLineName": "kaszubskie truskawki . kwiaty czarnego bzu",
+        "firstLineName": "parfait",
+        "secondLineName": "kashubian strawberries . elderflower",
         "price": 38
       },
       {
-        "firstLineName": "Reblochon and Comté cheese (24 mth.)",
+        "firstLineName": "Reblochon and Comté (24 msc.)",
         "secondLineName": "buckwheat crackers . pear chutney",
         "price": 39
       }
