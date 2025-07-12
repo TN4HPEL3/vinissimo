@@ -19,12 +19,18 @@
   "aboutUsInvite": "Welcome!",
 
   "menuTitle": "menu",
+
   "menu": {
     "starters": [
       {
         "firstLineName": "oyster Cadoret Spéciales No.3",
         "secondLineName": "leche de tigre",
         "price": 26
+      },
+      {
+        "firstLineName": "oyster Gillardeau No.3",
+        "secondLineName": "leche de tigre",
+        "price": 34
       },
       {
         "firstLineName": "homemade sourdough bread",
@@ -52,14 +58,9 @@
         "price": 47
       },
       {
-        "firstLineName": "skrei cod croquettes",
-        "secondLineName": "saffron aioli . marinated asparagus",
-        "price": 45
-      },
-      {
-        "firstLineName": "hamachi sashimi",
-        "secondLineName": "white ponzu . chili . coriander . kumquat",
-        "price": 53
+        "firstLineName": "tuna sashimi",
+        "secondLineName": "white ponzu . piquillo pepper . rhubarb . coriander",
+        "price": 54
       },
       {
         "firstLineName": "beef tartare",
@@ -67,9 +68,9 @@
         "price": 57
       },
       {
-        "firstLineName": "veal",
-        "secondLineName": "caesar sauce . shallot . chervil . summer truffle",
-        "price": 55
+        "firstLineName": "crab toast",
+        "secondLineName": "celery . cucumber . crème fraîche . lime",
+        "price": 99
       },
       {
         "firstLineName": "lamb ribs",
@@ -90,7 +91,7 @@
       },
       {
         "firstLineName": "Fish & Chips",
-        "secondLineName": "cod . kimchi . french fries . tzatziki mayonnaise with tarragon",
+        "secondLineName": "cod . cucumber kimchi . french fries . tzatziki mayonnaise with tarragon",
         "price": 75
       },
       {
@@ -99,19 +100,19 @@
         "price": 79
       },
       {
-        "firstLineName": "monkfish",
-        "secondLineName": "tarragon beurre blanc . tomatoes . kombu . white asparagus",
-        "price": 99
-      },
-      {
         "firstLineName": "calf hip",
         "secondLineName": "young cabbage . nduja . bagna cauda sauce . radish",
         "price": 94
       },
       {
-        "firstLineName": "beef tenderloin (160g)",
-        "secondLineName": "mustard sauce . asparagus . portobello",
-        "price": 124
+        "firstLineName": "monkfish",
+        "secondLineName": "tarragon beurre blanc . tomatoes . kombu . green bean",
+        "price": 109
+      },
+      {
+        "firstLineName": "beef entrecôte (300g)",
+        "secondLineName": "mustard sauce",
+        "price": 169
       },
       {
         "firstLineName": "rib-eye Wagyu Kagoshima A5 (160g)",
@@ -126,7 +127,7 @@
         "price": 21
       },
       {
-        "firstLineName": "homemade kimchi",
+        "firstLineName": "cucumber kimchi",
         "price": 19
       },
       {
@@ -152,17 +153,18 @@
         "price": 37
       },
       {
-        "firstLineName": "Basque cheesecake",
-        "secondLineName": "rhubarb . milk crumble",
-        "price": 37
+        "firstLineName": "parfait",
+        "secondLineName": "kashubian strawberries . elderflower",
+        "price": 38
       },
       {
-        "firstLineName": "Reblochon and Comté (aged 24 months)",
+        "firstLineName": "Reblochon and Comté (24 msc.)",
         "secondLineName": "buckwheat crackers . pear chutney",
-        "price": 38
+        "price": 39
       }
     ]
   },
+
   "menuMoreButton": "more",
   "menuWineBottlesButton": "wines",
   "menuWineGlassesButton": "wines by the glass",
