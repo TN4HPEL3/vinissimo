@@ -23,14 +23,14 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "oyster Cadoret Spéciales No.3",
-        "secondLineName": "leche de tigre",
-        "price": 26
+        "firstLineName": "oyster Gillardeau No.3",
+        "secondLineName": "leche di tigre",
+        "price": 37
       },
       {
-        "firstLineName": "oyster Gillardeau No.3",
-        "secondLineName": "leche de tigre",
-        "price": 34
+        "firstLineName": "oyster Prat-Ar-Coum No.3",
+        "secondLineName": "leche di tigre",
+        "price": 28
       },
       {
         "firstLineName": "homemade sourdough bread",
@@ -38,19 +38,19 @@
         "price": 19
       },
       {
-        "firstLineName": "Gordal olives",
+        "firstLineName": "gordal olives",
         "secondLineName": "marinated artichokes",
         "price": 29
       },
       {
-        "firstLineName": "Reblochon and Comté cheese (24 mth.)",
+        "firstLineName": "Monte Enebro and Comté cheese (24m.)",
         "secondLineName": "buckwheat crackers . pear chutney",
         "price": 39
       },
       {
-        "firstLineName": "grilled asparagus",
-        "secondLineName": "hollandaise sauce . harissa . smoked almonds",
-        "price": 51
+        "firstLineName": "zucchini flowers in tempura",
+        "secondLineName": "stracciatella . dried tomatoes . kumquat . basil",
+        "price": 54
       },
       {
         "firstLineName": "aubergine",
@@ -59,7 +59,7 @@
       },
       {
         "firstLineName": "tuna sashimi",
-        "secondLineName": "white ponzu . piquillo pepper . rhubarb . coriander",
+        "secondLineName": "white ponzu . piquillo pepper . gooseberry . coriander",
         "price": 54
       },
       {
@@ -73,20 +73,20 @@
         "price": 99
       },
       {
-        "firstLineName": "lamb ribs",
+        "firstLineName": "beef koftas",
         "secondLineName": "harissa . ground cucumbers . mint",
         "price": 52
       },
       {
-        "firstLineName": "white borscht",
-        "secondLineName": "sorrel . white sausage . egg",
+        "firstLineName": "gazpacho",
+        "secondLineName": "raspberry tomato . feta cheese . peach . olives . basil",
         "price": 42
       }
     ],
     "mains": [
       {
         "firstLineName": "tortelloni with ricotta cheese",
-        "secondLineName": "mushroom duxelles . peas . parmesan . morel mushrooms",
+        "secondLineName": "wild garlic . broad bean . parmesan . chanterelle . nuts",
         "price": 69
       },
       {
@@ -106,18 +106,18 @@
       },
       {
         "firstLineName": "monkfish",
-        "secondLineName": "tarragon beurre blanc . tomatoes . kombu . green bean",
+        "secondLineName": "tarragon beurre blanc . tomatoes . kombu . string beans",
         "price": 109
       },
       {
         "firstLineName": "beef entrecôte (300g)",
         "secondLineName": "mustard sauce",
-        "price": 169
+        "price": 179
       },
       {
-        "firstLineName": "rib-eye Wagyu Kagoshima A5 (160g)",
-        "secondLineName": "asparagus . morel mushrooms . hollandaise sauce",
-        "price": 329
+        "firstLineName": "striploin Wagyu Hida A5 (160g)",
+        "secondLineName": "string beans . morel mushrooms . hollandaise sauce",
+        "price": 349
       }
     ],
     "sides": [
@@ -127,7 +127,7 @@
         "price": 21
       },
       {
-        "firstLineName": "cucumber kimchi",
+        "firstLineName": "kimchi cucumbers",
         "price": 19
       },
       {
@@ -158,7 +158,7 @@
         "price": 38
       },
       {
-        "firstLineName": "Reblochon and Comté (24 msc.)",
+        "firstLineName": "Monte Enebro and Comté (2YO)",
         "secondLineName": "buckwheat crackers . pear chutney",
         "price": 39
       }
