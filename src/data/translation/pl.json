@@ -19,17 +19,18 @@
   "aboutUsInvite": "Zapraszamy!",
 
   "menuTitle": "menu",
+
   "menu": {
     "starters": [
       {
-        "firstLineName": "ostryga Cadoret Spéciales No.3",
-        "secondLineName": "leche de tigre",
-        "price": 26
-      },
-      {
         "firstLineName": "ostryga Gillardeau No.3",
         "secondLineName": "leche de tigre",
-        "price": 34
+        "price": 37
+      },
+      {
+        "firstLineName": "ostryga Prat-Ar-Coum No.3",
+        "secondLineName": "leche de tigre",
+        "price": 28
       },
       {
         "firstLineName": "chleb na zakwasie własnego wypieku",
@@ -42,14 +43,14 @@
         "price": 29
       },
       {
-        "firstLineName": "sery Reblochon i Comté (24 msc.)",
+        "firstLineName": "sery Monte Enebro i Comté (24 msc.)",
         "secondLineName": "krakersy gryczane . chutney z gruszki",
         "price": 39
       },
       {
-        "firstLineName": "grillowane szparagi",
-        "secondLineName": "sos holenderski . harissa . wędzone migdały",
-        "price": 51
+        "firstLineName": "kwiat cukinii w tempurze",
+        "secondLineName": "stracciatella . suszone pomidory . kumkwat . bazylia",
+        "price": 54
       },
       {
         "firstLineName": "bakłażan",
@@ -58,7 +59,7 @@
       },
       {
         "firstLineName": "sashimi z tuńczyka",
-        "secondLineName": "białe ponzu . papryka piquillo . rabarbar . kolendra",
+        "secondLineName": "białe ponzu . papryka piquillo . agrest . kolendra",
         "price": 54
       },
       {
@@ -72,20 +73,20 @@
         "price": 99
       },
       {
-        "firstLineName": "żeberka jagnięce",
+        "firstLineName": "kofty wołowe",
         "secondLineName": "harissa . ogórki gruntowe . mięta",
         "price": 52
       },
       {
-        "firstLineName": "barszcz biały",
-        "secondLineName": "szczaw . biała kiełbasa . jajko",
+        "firstLineName": "gazpacho",
+        "secondLineName": "pomidory malinowe . feta . brzoskwinia . oliwki . bazylia",
         "price": 42
       }
     ],
     "mains": [
       {
         "firstLineName": "tortelloni z ricottą",
-        "secondLineName": "duxelle grzybowe . groszek . parmezan . smardze",
+        "secondLineName": "czosnek niedźwiedzi . bób . parmezan . kurki . orzechy",
         "price": 69
       },
       {
@@ -105,18 +106,18 @@
       },
       {
         "firstLineName": "żabnica",
-        "secondLineName": "beurre blanc estragonowy . pomidory . kombu . fasolka szparagowa",
+        "secondLineName": "beurre blanc z estragonem . pomidory . kombu . fasolka szparagowa",
         "price": 109
       },
       {
-        "firstLineName": "antrykot wołowy (300g)",
+        "firstLineName": "sezonowany antrykot wołowy (300g)",
         "secondLineName": "sos musztardowy",
-        "price": 169
+        "price": 179
       },
       {
-        "firstLineName": "rib-eye wagyu Hida A5 (160g)",
-        "secondLineName": "smardze . szparagi . sos holenderski",
-        "price": 329
+        "firstLineName": "rostbef wagyu Hida A5 (160g)",
+        "secondLineName": "smardze . fasolka szparagowa . sos holenderski",
+        "price": 349
       }
     ],
     "sides": [
@@ -156,7 +157,7 @@
         "price": 38
       },
       {
-        "firstLineName": "sery Reblochon i Comté (24 msc.)",
+        "firstLineName": "ser Monte Enebro i Comté (24 msc.)",
         "secondLineName": "krakersy gryczane . chutney z gruszki",
         "price": 39
       }
