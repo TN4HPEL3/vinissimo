@@ -23,18 +23,13 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "oyster Gillardeau No.3",
-        "secondLineName": "leche di tigre",
-        "price": 37
-      },
-      {
-        "firstLineName": "oyster Prat-Ar-Coum No.3",
+        "firstLineName": "oyster Fonteneau Julina No.3",
         "secondLineName": "leche di tigre",
         "price": 28
       },
       {
         "firstLineName": "homemade sourdough bread",
-        "secondLineName": "onion butter . pickles",
+        "secondLineName": "onion butter . pickles (homemade lard spread +8zł)",
         "price": 19
       },
       {
@@ -43,8 +38,13 @@
         "price": 29
       },
       {
-        "firstLineName": "Monte Enebro and Comté cheese (24m.)",
+        "firstLineName": "Brebis and Comté cheese (24m.)",
         "secondLineName": "buckwheat crackers . pear chutney",
+        "price": 39
+      },
+      {
+        "firstLineName": "buffalo heart tomatoes",
+        "secondLineName": "fig . olives . basil . pecorino bianco",
         "price": 39
       },
       {
@@ -59,7 +59,7 @@
       },
       {
         "firstLineName": "tuna sashimi",
-        "secondLineName": "white ponzu . piquillo pepper . gooseberry . coriander",
+        "secondLineName": "white ponzu . piquillo pepper . red currant . apricot . coriander",
         "price": 54
       },
       {
@@ -73,13 +73,13 @@
         "price": 99
       },
       {
-        "firstLineName": "beef koftas",
-        "secondLineName": "harissa . ground cucumbers . mint",
+        "firstLineName": "lamb ribs",
+        "secondLineName": "black garlic . cucumber . harrisa . mint . fennel",
         "price": 52
       },
       {
-        "firstLineName": "gazpacho",
-        "secondLineName": "raspberry tomato . feta cheese . peach . olives . basil",
+        "firstLineName": "free range chicken broth",
+        "secondLineName": "corn . tomatoes . chanterelles . lovage . batter noodles",
         "price": 42
       }
     ],
@@ -116,7 +116,7 @@
       },
       {
         "firstLineName": "striploin Wagyu Hida A5 (160g)",
-        "secondLineName": "string beans . morel mushrooms . hollandaise sauce",
+        "secondLineName": "string beans . chanterelles . hollandaise sauce",
         "price": 349
       }
     ],
@@ -132,7 +132,7 @@
       },
       {
         "firstLineName": "spring potatoes",
-        "secondLineName": "sour cream . sorrel",
+        "secondLineName": "sour cream . dill",
         "price": 20
       },
       {
@@ -153,12 +153,12 @@
         "price": 37
       },
       {
-        "firstLineName": "parfait",
-        "secondLineName": "kashubian strawberries . elderflower",
+        "firstLineName": "sponge cake",
+        "secondLineName": "milk cream . raspberries . sorrel ice cream",
         "price": 38
       },
       {
-        "firstLineName": "Monte Enebro and Comté (2YO)",
+        "firstLineName": "Brebis and Comté (2YO)",
         "secondLineName": "buckwheat crackers . pear chutney",
         "price": 39
       }
