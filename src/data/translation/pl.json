@@ -23,18 +23,13 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "ostryga Gillardeau No.3",
-        "secondLineName": "leche de tigre",
-        "price": 37
-      },
-      {
-        "firstLineName": "ostryga Prat-Ar-Coum No.3",
+        "firstLineName": "ostryga Fonteneau Julina No.3",
         "secondLineName": "leche de tigre",
         "price": 28
       },
       {
         "firstLineName": "chleb na zakwasie własnego wypieku",
-        "secondLineName": "masło cebulowe . pikle",
+        "secondLineName": "masło cebulowe . pikle (smalec z majerankiem i jabłkami +8zł)",
         "price": 19
       },
       {
@@ -43,8 +38,13 @@
         "price": 29
       },
       {
-        "firstLineName": "sery Monte Enebro i Comté (24 msc.)",
+        "firstLineName": "sery Brebis i Comté (24 msc.)",
         "secondLineName": "krakersy gryczane . chutney z gruszki",
+        "price": 39
+      },
+      {
+        "firstLineName": "pomidory bawole serce",
+        "secondLineName": "figa . oliwki . bazylia . pecorino bianco",
         "price": 39
       },
       {
@@ -59,7 +59,7 @@
       },
       {
         "firstLineName": "sashimi z tuńczyka",
-        "secondLineName": "białe ponzu . papryka piquillo . agrest . kolendra",
+        "secondLineName": "białe ponzu . papryka piquillo . morela . porzeczka . kolendra",
         "price": 54
       },
       {
@@ -73,13 +73,13 @@
         "price": 99
       },
       {
-        "firstLineName": "kofty wołowe",
-        "secondLineName": "harissa . ogórki gruntowe . mięta",
+        "firstLineName": "żeberka jagnięce",
+        "secondLineName": "czarny czosnek . ogórek . harissa . mięta . koper włoski",
         "price": 52
       },
       {
-        "firstLineName": "gazpacho",
-        "secondLineName": "pomidory malinowe . feta . brzoskwinia . oliwki . bazylia",
+        "firstLineName": "bullion z kurczaka zagrodowego",
+        "secondLineName": "lane kluski . kukurydza . pomidory . kurki . lubczyk",
         "price": 42
       }
     ],
@@ -116,7 +116,7 @@
       },
       {
         "firstLineName": "rostbef wagyu Hida A5 (160g)",
-        "secondLineName": "smardze . fasolka szparagowa . sos holenderski",
+        "secondLineName": "kurki . fasolka szparagowa . sos holenderski",
         "price": 349
       }
     ],
@@ -131,7 +131,7 @@
       },
       {
         "firstLineName": "młode ziemniaki",
-        "secondLineName": "kwaśna śmietana . szczaw",
+        "secondLineName": "kwaśna śmietana . koperek",
         "price": 20
       },
       {
@@ -147,17 +147,17 @@
     ],
     "desserts": [
       {
-        "firstLineName": "ciasto finansjer",
+        "firstLineName": "ciasto financier",
         "secondLineName": "czarna porzeczka . krem orzechowo - karmelowy",
         "price": 37
       },
       {
-        "firstLineName": "lodowe parfait",
-        "secondLineName": "kaszubskie truskawki . kwiaty czarnego bzu",
+        "firstLineName": "biszkopt",
+        "secondLineName": "krem mleczny . maliny . lody szczawiowe",
         "price": 38
       },
       {
-        "firstLineName": "ser Monte Enebro i Comté (24 msc.)",
+        "firstLineName": "ser Brebis i Comté (24 msc.)",
         "secondLineName": "krakersy gryczane . chutney z gruszki",
         "price": 39
       }
