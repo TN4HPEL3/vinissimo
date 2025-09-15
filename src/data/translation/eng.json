@@ -23,14 +23,14 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "oyster Fonteneau Julina No.3",
-        "secondLineName": "leche di tigre",
-        "price": 28
-      },
-      {
         "firstLineName": "homemade sourdough bread",
         "secondLineName": "onion butter . pickles (homemade lard spread +8zł)",
         "price": 19
+      },
+      {
+        "firstLineName": "oyster Fonteaneau Julina No 3 (1pc.)",
+        "secondLineName": "dressing leche di tigre",
+        "price": 28
       },
       {
         "firstLineName": "gordal olives",
@@ -48,18 +48,13 @@
         "price": 39
       },
       {
-        "firstLineName": "zucchini flowers in tempura",
-        "secondLineName": "stracciatella . dried tomatoes . kumquat . basil",
-        "price": 54
-      },
-      {
         "firstLineName": "aubergine",
-        "secondLineName": "goat yogurt . tomatoes . mint . hazelnuts",
+        "secondLineName": "goat yoghurt . tomatoes . mint . hazelnuts",
         "price": 47
       },
       {
-        "firstLineName": "tuna sashimi",
-        "secondLineName": "white ponzu . piquillo pepper . red currant . apricot . coriander",
+        "firstLineName": "sea trout",
+        "secondLineName": "avocado . cucumber . celery . chilli . cilantro",
         "price": 54
       },
       {
@@ -68,14 +63,14 @@
         "price": 57
       },
       {
-        "firstLineName": "crab toast",
-        "secondLineName": "celery . cucumber . crème fraîche . lime",
-        "price": 99
+        "firstLineName": "grilled Argentine shrimps",
+        "secondLineName": "passion fruit . habanero . orange . lardo",
+        "price": 64
       },
       {
-        "firstLineName": "lamb ribs",
-        "secondLineName": "black garlic . cucumber . harrisa . mint . fennel",
-        "price": 52
+        "firstLineName": "veal croquettes",
+        "secondLineName": "herbal mayonnaise with jalapeno . shallots . Grana Padano . dill . chervil",
+        "price": 45
       },
       {
         "firstLineName": "free range chicken broth",
@@ -86,28 +81,28 @@
     "mains": [
       {
         "firstLineName": "tortelloni with ricotta cheese",
-        "secondLineName": "wild garlic . broad bean . parmesan . chanterelle . nuts",
+        "secondLineName": "wild garlic . green beans . parmesan . chanterelle . nuts",
         "price": 69
       },
       {
-        "firstLineName": "Fish & Chips",
+        "firstLineName": "cod fish & chips",
         "secondLineName": "cod . cucumber kimchi . french fries . tzatziki mayonnaise with tarragon",
         "price": 75
       },
       {
-        "firstLineName": "apple fed pork schnitzel",
-        "secondLineName": "brown butter . capers . dill",
-        "price": 79
+        "firstLineName": "grilled pork pluma",
+        "secondLineName": "green beans . red currant . chicken jus . capers",
+        "price": 86
       },
       {
-        "firstLineName": "calf hip",
+        "firstLineName": "veal rump",
         "secondLineName": "young cabbage . nduja . bagna cauda sauce . radish",
         "price": 94
       },
       {
-        "firstLineName": "monkfish",
-        "secondLineName": "tarragon beurre blanc . tomatoes . kombu . string beans",
-        "price": 109
+        "firstLineName": "corvina",
+        "secondLineName": "shellfish bisque . zucchini . tomatoes . edamame",
+        "price": 119
       },
       {
         "firstLineName": "beef entrecôte (300g)",
@@ -115,9 +110,9 @@
         "price": 179
       },
       {
-        "firstLineName": "striploin Wagyu Hida A5 (160g)",
-        "secondLineName": "string beans . chanterelles . hollandaise sauce",
-        "price": 349
+        "firstLineName": "wagyu burger (160g)",
+        "secondLineName": "chipotle . truffle mayo . mimolette cheese . fries",
+        "price": 99
       }
     ],
     "sides": [
