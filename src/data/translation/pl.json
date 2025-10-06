@@ -59,7 +59,7 @@
       },
       {
         "firstLineName": "tatar wołowy",
-        "secondLineName": "musztarda Dijon . czosnek niedźwiedzi . rzodkiewka . chrzan",
+        "secondLineName": "lubczyk . sos Cezar . chipsy ziemniaczane",
         "price": 57
       },
       {
@@ -95,9 +95,9 @@
         "price": 86
       },
       {
-        "firstLineName": "biodrówka cielęca",
-        "secondLineName": "młoda kapusta . nduja . sos bagna cauda . rzodkiewka",
-        "price": 94
+        "firstLineName": "jagnięcina",
+        "secondLineName": "sos cebulowy . borowiki . rokitnik",
+        "price": 99
       },
       {
         "firstLineName": "kulbin",
@@ -142,9 +142,9 @@
     ],
     "desserts": [
       {
-        "firstLineName": "ciasto financier",
-        "secondLineName": "czarna porzeczka . krem orzechowo - karmelowy",
-        "price": 37
+        "firstLineName": "ciasto migdałowe",
+        "secondLineName": "orzechy laskowe . czekolada . sól Maldon",
+        "price": 38
       },
       {
         "firstLineName": "biszkopt",
@@ -158,7 +158,6 @@
       }
     ]
   },
-
   "menuMoreButton": "więcej",
   "menuWineBottlesButton": "wina",
   "menuWineGlassesButton": "wina na kieliszki",

@@ -54,12 +54,12 @@
       },
       {
         "firstLineName": "sea trout",
-        "secondLineName": "avocado . cucumber . celery . chilli . cilantro",
+        "secondLineName": "avocado . ogórek . celery . chilli . cilantro",
         "price": 54
       },
       {
         "firstLineName": "beef tartare",
-        "secondLineName": "Dijon mustard . wild garlic . radish . horseradish",
+        "secondLineName": "lavage . Caesar sauce . potato chips",
         "price": 57
       },
       {
@@ -95,9 +95,9 @@
         "price": 86
       },
       {
-        "firstLineName": "veal rump",
-        "secondLineName": "young cabbage . nduja . bagna cauda sauce . radish",
-        "price": 94
+        "firstLineName": "lamb",
+        "secondLineName": "onion sauce . porcini mushrooms . sea buckthorn",
+        "price": 99
       },
       {
         "firstLineName": "corvina",
@@ -143,9 +143,9 @@
     ],
     "desserts": [
       {
-        "firstLineName": "financier cake",
-        "secondLineName": "blackcurrant . hazelnut-caramel cream",
-        "price": 37
+        "firstLineName": "almond cake",
+        "secondLineName": "hazelnuts . chocolate . Maldon salt",
+        "price": 38
       },
       {
         "firstLineName": "sponge cake",
