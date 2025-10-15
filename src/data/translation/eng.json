@@ -59,7 +59,7 @@
       },
       {
         "firstLineName": "beef tartare",
-        "secondLineName": "lavage . Caesar sauce . potato chips",
+        "secondLineName": "lavage . caesar dressing . potato chips",
         "price": 57
       },
       {
@@ -80,8 +80,8 @@
     ],
     "mains": [
       {
-        "firstLineName": "tortelloni with ricotta cheese",
-        "secondLineName": "wild garlic . green beans . parmesan . chanterelle . nuts",
+        "firstLineName": "dumplings with smoked cheese and mushrooms",
+        "secondLineName": "sauerkraut . truffle sauce . chanterelles . walnuts",
         "price": 69
       },
       {
@@ -96,8 +96,8 @@
       },
       {
         "firstLineName": "lamb",
-        "secondLineName": "onion sauce . porcini mushrooms . sea buckthorn",
-        "price": 99
+        "secondLineName": "onion sauce . porcini mushrooms . sea buckthorn . russet apple",
+        "price": 119
       },
       {
         "firstLineName": "corvina",
@@ -105,9 +105,9 @@
         "price": 119
       },
       {
-        "firstLineName": "beef entrecôte (300g)",
+        "firstLineName": "ribeye steak Black Angus (Argentina, 300g)",
         "secondLineName": "mustard sauce",
-        "price": 179
+        "price": 220
       },
       {
         "firstLineName": "wagyu burger (160g)",
@@ -126,8 +126,8 @@
         "price": 19
       },
       {
-        "firstLineName": "spring potatoes",
-        "secondLineName": "sour cream . dill",
+        "firstLineName": "roasted potatoes",
+        "secondLineName": "ranch dressing",
         "price": 20
       },
       {
