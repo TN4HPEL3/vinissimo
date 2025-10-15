@@ -19,7 +19,6 @@
   "aboutUsInvite": "Zapraszamy!",
 
   "menuTitle": "menu",
-
   "menu": {
     "starters": [
       {
@@ -59,7 +58,7 @@
       },
       {
         "firstLineName": "tatar wołowy",
-        "secondLineName": "lubczyk . sos Cezar . chipsy ziemniaczane",
+        "secondLineName": "lubczyk . sos cezar . chipsy ziemniaczane",
         "price": 57
       },
       {
@@ -80,8 +79,8 @@
     ],
     "mains": [
       {
-        "firstLineName": "tortelloni z ricottą",
-        "secondLineName": "czosnek niedźwiedzi . fasolka szparagowa . parmezan . kurki . orzechy",
+        "firstLineName": "pierogi z wędzonym serem i grzybami",
+        "secondLineName": "kiszona kapusta . sos truflowy . kurki . orzechy włoskie",
         "price": 69
       },
       {
@@ -96,8 +95,8 @@
       },
       {
         "firstLineName": "jagnięcina",
-        "secondLineName": "sos cebulowy . borowiki . rokitnik",
-        "price": 99
+        "secondLineName": "sos cebulowy . borowiki . rokitnik . szara reneta",
+        "price": 119
       },
       {
         "firstLineName": "kulbin",
@@ -105,9 +104,9 @@
         "price": 119
       },
       {
-        "firstLineName": "sezonowany antrykot wołowy (300g)",
+        "firstLineName": "stek ribeye Black Angus (Argentyna, 300g)",
         "secondLineName": "sos musztardowy",
-        "price": 179
+        "price": 220
       },
       {
         "firstLineName": "burger wagyu (160g)",
@@ -125,8 +124,8 @@
         "price": 19
       },
       {
-        "firstLineName": "młode ziemniaki",
-        "secondLineName": "kwaśna śmietana . koperek",
+        "firstLineName": "pieczone ziemniaki",
+        "secondLineName": "sos rancherski",
         "price": 20
       },
       {
@@ -158,6 +157,7 @@
       }
     ]
   },
+
   "menuMoreButton": "więcej",
   "menuWineBottlesButton": "wina",
   "menuWineGlassesButton": "wina na kieliszki",
