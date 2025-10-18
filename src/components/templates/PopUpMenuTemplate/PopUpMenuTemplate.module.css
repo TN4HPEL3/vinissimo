@@ -17,6 +17,30 @@
   border: 1px solid var(--website-secondary-color);
 }
 
+.logos,
+.logo,
+.logo_farm {
+  max-height: 4rem;
+  object-fit: contain;
+  @media screen and (min-width: 48rem) {
+    max-height: 7rem;
+  }
+}
+
+.logos {
+  display: flex;
+  margin: 0 0 2rem 0;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo_farm {
+  border-radius: 49%;
+  margin: 0 auto;
+}
+
 .title {
   margin: var(--gap--large) auto 0 auto;
   color: var(--website-secondary-color);
