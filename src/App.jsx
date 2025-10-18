@@ -30,7 +30,7 @@ function App() {
           <Route path="alcohol" element={<MenuPageAlcoholTemplate />} />
         </Route>
         <Route path="/events" element={<EventsPage />} />
-        <Route path="/popUp" element={<PopUpPage />} />
+        <Route path="/pop-up" element={<PopUpPage />} />
         <Route path="/team" element={<TeamPage />} />
         <Route path="new-year" element={<NewYearPage />}>
           <Route path="basic" element={<NewYearBasicTemplate />} />

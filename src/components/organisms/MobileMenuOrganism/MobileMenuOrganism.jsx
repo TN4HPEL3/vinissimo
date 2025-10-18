@@ -23,7 +23,7 @@ function MobileMenuOrganism() {
         activeRoutes={['']}
       />
       <NavigationListItemMolecule
-        item="popUp"
+        item="pop-up"
         text={navigationPopUp}
         activeRoutes={['']}
       />
