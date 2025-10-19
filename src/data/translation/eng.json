@@ -9,6 +9,7 @@
   "navigationReservation": "reservation",
   "navigationValentines": "valentine's day",
   "navigationEaster": "Easter",
+  "navigationPopUp": "pop-up",
 
   "aboutUsTitle": "about us",
   "aboutUsPrimaryFirst": "Vinissimo Restaurant & Wine Bar is the new brand under which Sztuczka Bistro, present at Bema 6 since 2017, has been operating since February 2024. The restaurant, run since 2022 by Łukasz Chwojnicki, in a slightly changed format and with the same irreplaceable team, invariably serves delicious and minimalist cuisine, backed by a huge wine selection and impeccable service.",
@@ -158,6 +159,134 @@
         "price": 39
       }
     ]
+  },
+
+  "popUpEvent": {
+    "menuTitle": "pop-up 24-25/10/2025",
+    "snackTitle": "snacks",
+    "dessertTitle": "desserts",
+    "menu": {
+      "snacks": [
+        {
+          "firstLineName": "oyster Fonteneau Juline №3 (1pc)",
+          "secondLineName": "bergamot . kiwi . kaffir",
+          "price": 29
+        },
+        {
+          "firstLineName": "fried chicken",
+          "secondLineName": "herb crème fraîche . Antonius sturgeon caviar",
+          "price": 69
+        },
+        {
+          "firstLineName": "rosti with black pudding",
+          "secondLineName": "pastrami . pickled cucumber . blackberry",
+          "price": 39
+        },
+        {
+          "firstLineName": "truffle pudding",
+          "secondLineName": "aged cheese . quince",
+          "price": 39
+        }
+      ],
+      "starters": [
+        {
+          "firstLineName": "wild garlic velouté",
+          "secondLineName": "egg . wild broccoli . dill",
+          "price": 35
+        },
+        {
+          "firstLineName": "mackerel",
+          "secondLineName": "nduja . pepper . zucchini",
+          "price": 55
+        },
+        {
+          "firstLineName": "chicory with oxtail",
+          "secondLineName": "green strawberry . caramelized onion . saffron milk cap mushrooms",
+          "price": 57
+        },
+        {
+          "firstLineName": "eggplant",
+          "secondLineName": "goat yogurt . tomatoes . mint . hazelnuts",
+          "price": 47
+        },
+        {
+          "firstLineName": "beef tartare",
+          "secondLineName": "capers . truffle . lardo",
+          "price": 59
+        },
+        {
+          "firstLineName": "langoustines",
+          "secondLineName": "béarnaise Marie Rose . romaine lettuce . cucumber . croutons",
+          "price": 65
+        }
+      ],
+      "mains": [
+        {
+          "firstLineName": "beef rib with black garlic",
+          "secondLineName": "cherry . beetroot . brussels sprouts",
+          "price": 109
+        },
+        {
+          "firstLineName": "grilled pink sea bream",
+          "secondLineName": "mussels . tomatoes . dashi beurre blanc . samphire",
+          "price": 99
+        },
+        {
+          "firstLineName": "ravioli with smoked cheese and mushrooms",
+          "secondLineName": "sea buckthorn . leek . black chanterelles",
+          "price": 69
+        },
+        {
+          "firstLineName": "cod fish and chips",
+          "secondLineName": "fries . gribiche sauce . kimchi",
+          "price": 75
+        },
+        {
+          "firstLineName": "club steak – bone-in sirloin (550g)",
+          "secondLineName": "saffron béarnaise . kale",
+          "price": 249
+        }
+      ],
+      "sides": [
+        {
+          "firstLineName": "delica pumpkin in tempura",
+          "secondLineName": "almonds . lime . chili honey",
+          "price": 29
+        },
+        {
+          "firstLineName": "brussels sprouts with miso sauce",
+          "secondLineName": "bergamot . peanuts",
+          "price": 29
+        },
+        {
+          "firstLineName": "roasted potatoes with brown butter",
+          "secondLineName": "ranch sauce . chives",
+          "price": 20
+        },
+        {
+          "firstLineName": "fries",
+          "secondLineName": "aioli",
+          "price": 21
+        },
+        {
+          "firstLineName": "salads",
+          "secondLineName": "balsamic dressing",
+          "price": 16
+        }
+      ],
+      "desserts": [
+        {
+          "firstLineName": "apple tart with sour cream ice cream",
+          "secondLineName": "sweet woodruff",
+          "price": 34
+        },
+        {
+          "firstLineName": "ice parfait with sea buckthorn",
+          "secondLineName": "honey . vanilla . wood sorrel",
+          "price": 37
+        }
+      ]
+    }
   },
 
   "menuMoreButton": "more",
