@@ -19,6 +19,7 @@ function NavigationListOrganisms() {
     navigationEvents,
     navigationTeam,
     navigationReservation,
+    navigationPopUp,
   } = t;
   return (
     <div className={css.header__content}>
@@ -28,6 +29,11 @@ function NavigationListOrganisms() {
           item=""
           text={navigationHome}
           activeRoutes={['/']}
+        />
+        <NavigationListItemMolecule
+          item="pop-up"
+          text={navigationPopUp}
+          activeRoutes={['/pop-up']}
         />
         <NavigationListItemMolecule
           item="menu/food"
