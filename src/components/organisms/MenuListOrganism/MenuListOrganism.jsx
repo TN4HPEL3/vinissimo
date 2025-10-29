@@ -16,8 +16,9 @@ function MenuListOrganism({ category, data, title }) {
           <MenuTextMolecule
             text={
               <>
-                <b>{firstLineName}</b>
-                {secondLineName && ` . ${secondLineName}`}
+                {firstLineName}
+                <br />
+                {secondLineName && secondLineName}
               </>
             }
           />
