@@ -9,7 +9,7 @@
   "navigationReservation": "reservation",
   "navigationValentines": "valentine's day",
   "navigationEaster": "Easter",
-  "navigationPopUp": "pop-up",
+  "navigationDegustation": "champagne dinner",
 
   "aboutUsTitle": "about us",
   "aboutUsPrimaryFirst": "Vinissimo Restaurant & Wine Bar is the new brand under which Sztuczka Bistro, present at Bema 6 since 2017, has been operating since February 2024. The restaurant, run since 2022 by Łukasz Chwojnicki, in a slightly changed format and with the same irreplaceable team, invariably serves delicious and minimalist cuisine, backed by a huge wine selection and impeccable service.",
@@ -161,129 +161,50 @@
     ]
   },
 
-  "popUpEvent": {
-    "menuTitle": "pop-up 24-25/10/2025",
-    "snackTitle": "snacks",
-    "dessertTitle": "desserts",
+  "degustation": {
+    "menuFirstTitle": "Dom Pérignon Experience",
+    "menuSecondTitle": "| Champagne Dinner |",
+    "descriptionFirst": "Serdecznie zapraszamy 21 listopada o godzinie 20:00 na wyjątkowe wydarzenie — Dom Pérignon Experience | Champagne Dinner.",
+    "descriptionSecond": "Wieczór rozpocznie się od degustacji sensorycznej Dom Pérignon Vintage 2015, którą poprowadzi Stanisław Domin, Brand Ambassador marki Dom Pérignon w Polsce. To pasjonat dziedzictwa i rzemiosła ukrytego w każdej kropli tego legendarnego szampana. Dzięki swojemu wieloletniemu doświadczeniu Stanisław odpowiada za edukację oraz storytelling marek luksusowych z portfolio Moët Hennessy.",
+    "descriptionThird": "Do specjalnie skomponowanego menu zaserwujemy cztery wyjątkowe cuvée Dom Pérignon, a wieczór zwieńczy deser w towarzystwie koniaku Hennessy X.O.",
+    "snackTitle": "snack",
+    "menuTitle": "menu",
+    "drinksTitle": "napoje",
+    "costTitle": "koszt",
     "menu": {
       "snacks": [
         {
-          "firstLineName": "oyster Fonteneau Juline №3 (1pc)",
-          "secondLineName": "bergamot . kiwi . kaffir",
-          "price": 29
-        },
-        {
-          "firstLineName": "fried chicken",
-          "secondLineName": "herb crème fraîche . Antonius sturgeon caviar",
-          "price": 69
-        },
-        {
-          "firstLineName": "rosti with black pudding",
-          "secondLineName": "pastrami . pickled cucumber . blackberry",
-          "price": 39
-        },
-        {
-          "firstLineName": "truffle pudding",
-          "secondLineName": "aged cheese . quince",
-          "price": 39
+          "firstLineName": "lobster roll, brioche, homar, béarnaise",
+          "secondLineName": "Dom Pérignon, Vintage Rosé 2009"
         }
       ],
-      "starters": [
+      "menu": [
         {
-          "firstLineName": "wild garlic velouté",
-          "secondLineName": "egg . wild broccoli . dill",
-          "price": 35
+          "firstLineName": "tatar z polędwicy wołowej, trufla, kapary, lardo",
+          "secondLineName": "Dom Pérignon, Vintage Rosé 2009"
         },
         {
-          "firstLineName": "mackerel",
-          "secondLineName": "nduja . pepper . zucchini",
-          "price": 55
+          "firstLineName": "biały halibut, bisque, langustynka, cukinia, estragon, bazylia",
+          "secondLineName": "Dom Pérignon, Vintage 2013 | Dom Pérignon, Vintage 2015"
         },
         {
-          "firstLineName": "chicory with oxtail",
-          "secondLineName": "green strawberry . caramelized onion . saffron milk cap mushrooms",
-          "price": 57
+          "firstLineName": "comber jagnięcy, jus foie gras, jarmuż, rokitnik, grzyby",
+          "secondLineName": "Dom Pérignon, Plénitude 2 Vintage 2006"
         },
         {
-          "firstLineName": "eggplant",
-          "secondLineName": "goat yogurt . tomatoes . mint . hazelnuts",
-          "price": 47
-        },
-        {
-          "firstLineName": "beef tartare",
-          "secondLineName": "capers . truffle . lardo",
-          "price": 59
-        },
-        {
-          "firstLineName": "langoustines",
-          "secondLineName": "béarnaise Marie Rose . romaine lettuce . cucumber . croutons",
-          "price": 65
+          "firstLineName": "finansjer, wędzona śliwka, kardamon, pistacja, czekolada",
+          "secondLineName": "Hennessy X.O."
         }
       ],
-      "mains": [
+      "drinks": [
         {
-          "firstLineName": "beef rib with black garlic",
-          "secondLineName": "cherry . beetroot . brussels sprouts",
-          "price": 109
-        },
-        {
-          "firstLineName": "grilled pink sea bream",
-          "secondLineName": "mussels . tomatoes . dashi beurre blanc . samphire",
-          "price": 99
-        },
-        {
-          "firstLineName": "ravioli with smoked cheese and mushrooms",
-          "secondLineName": "sea buckthorn . leek . black chanterelles",
-          "price": 69
-        },
-        {
-          "firstLineName": "cod fish and chips",
-          "secondLineName": "fries . gribiche sauce . kimchi",
-          "price": 75
-        },
-        {
-          "firstLineName": "club steak – bone-in sirloin (550g)",
-          "secondLineName": "saffron béarnaise . kale",
-          "price": 249
+          "firstLineName": "woda | kawa | herbata"
         }
       ],
-      "sides": [
+      "cost": [
         {
-          "firstLineName": "delica pumpkin in tempura",
-          "secondLineName": "almonds . lime . chili honey",
-          "price": 29
-        },
-        {
-          "firstLineName": "brussels sprouts with miso sauce",
-          "secondLineName": "bergamot . peanuts",
-          "price": 29
-        },
-        {
-          "firstLineName": "roasted potatoes with brown butter",
-          "secondLineName": "ranch sauce . chives",
-          "price": 20
-        },
-        {
-          "firstLineName": "fries",
-          "secondLineName": "aioli",
-          "price": 21
-        },
-        {
-          "firstLineName": "salads",
-          "secondLineName": "balsamic dressing",
-          "price": 16
-        }
-      ],
-      "desserts": [
-        {
-          "firstLineName": "apple tart with sour cream ice cream",
-          "secondLineName": "sweet woodruff",
-          "price": 34
-        },
-        {
-          "firstLineName": "ice parfait with sea buckthorn",
-          "secondLineName": "honey . vanilla . wood sorrel",
-          "price": 37
+          "firstLineName": "2199 zł|osoba",
+          "secondLineName": "(serwis kelnerski, płatny dodatkowo, 12,5%)"
         }
       ]
     }
