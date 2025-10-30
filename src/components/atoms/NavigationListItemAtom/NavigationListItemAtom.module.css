@@ -4,6 +4,8 @@
   transition: color var(--transition);
   font-size: 1.5rem;
   display: flex;
+  flex-direction: column;
+  text-align: center;
   &::after {
     content: '';
     position: absolute;
@@ -58,4 +60,5 @@
   margin-left: 0.5rem;
   max-height: 1.5rem;
   max-width: 1.5rem;
+  margin: 0 auto;
 }
