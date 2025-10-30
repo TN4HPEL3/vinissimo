@@ -1,3 +1,4 @@
+import { IconAtom } from '../../atoms/IconAtom/IconAtom.jsx';
 import { useLanguage } from '../../../helpers/contexts/languageContext.js';
 import { ParagraphAtom } from '../../atoms/ParagraphAtom/ParagraphAtom.jsx';
 import { MenuListOrganism } from '../../organisms/MenuListOrganism/MenuListOrganism.jsx';
@@ -27,6 +28,7 @@ function WineDegustationTemplate() {
       <ParagraphAtom className={css.description} text={descriptionSecond} />
       <ParagraphAtom className={css.description} text={descriptionThird} />
       <div className={css.menu__content}>
+        <IconAtom className={css.icon} id="dom-perignon" />
         <div>
           <MenuListOrganism
             category={'snacks'}
@@ -42,6 +44,7 @@ function WineDegustationTemplate() {
             title={drinksTitle}
           />
           <MenuListOrganism category={'cost'} data={menu} title={costTitle} />
+          <IconAtom className={css.icon} id="logo-desktop" />
         </div>
       </div>
     </div>

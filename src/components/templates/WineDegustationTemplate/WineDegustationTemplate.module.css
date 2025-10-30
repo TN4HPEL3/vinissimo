@@ -41,9 +41,18 @@
 }
 
 .description {
-  color: var(--website-secondary-color);
+  color: var(--text-color);
   text-align: center;
   &:nth-child(5) {
     padding: 0 0 var(--gap--small) 0;
+  }
+}
+
+.icon {
+  margin: 0 auto;
+  display: block;
+  max-width: 9rem;
+  @media screen and (min-width: 64rem) {
+    max-width: 15rem;
   }
 }
