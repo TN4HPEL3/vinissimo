@@ -3,17 +3,17 @@ import { useContext } from 'react';
 import { Outlet } from 'react-router-dom';
 import { mobileMenuContext } from '../../helpers/mobileMenuProvider.jsx';
 import { ArrowUpTemplate } from '../../components/templates/ArrowUpTemplate/ArrowUpTemplate.jsx';
-import { PopUpMenuTemplate } from '../../components/templates/PopUpMenuTemplate/PopUpMenuTemplate.jsx';
+import { WineDegustationTemplate } from '../../components/templates/WineDegustationTemplate/WineDegustationTemplate.jsx';
 
-function PopUpPage() {
+function WineDegustationPage() {
   const { isOpen } = useContext(mobileMenuContext);
   return (
     <>
-      <PopUpMenuTemplate />
+      <WineDegustationTemplate />
       <Outlet />
       {!isOpen && <ArrowUpTemplate />}
     </>
   );
 }
 
-export { PopUpPage };
+export { WineDegustationPage };

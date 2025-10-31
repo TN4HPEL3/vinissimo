@@ -9,7 +9,7 @@
   "navigationReservation": "rezerwacja",
   "navigationValentines": "walentynki",
   "navigationEaster": "Wielkanoc",
-  "navigationPopUp": "pop-up",
+  "navigationDegustation": "champagne dinner",
 
   "aboutUsTitle": "o nas",
   "aboutUsPrimaryFirst": "Vinissimo Restaurant & Wine Bar to nowa marka, pod którą od lutego 2024, działa, obecna na Bema 6 od 2017 roku - Sztuczka Bistro. Restauracja, prowadzona od 2022 roku przez Łukasza Chwojnickiego, w delikatnie zmienionym formacie i z tym samym, niezastąpionym teamem, niezmiennie serwuje przepyszną i minimalistyczną kuchnię, wspartą ogromną selekcją win i nienagannym serwisem.",
@@ -158,129 +158,50 @@
       }
     ]
   },
-  "popUpEvent": {
-    "menuTitle": "pop-up 24-25/10/2025",
-    "snackTitle": "snacki",
-    "dessertTitle": "desery",
+  "degustation": {
+    "menuFirstTitle": "Dom Pérignon Experience",
+    "menuSecondTitle": "| Champagne Dinner |",
+    "descriptionFirst": "Serdecznie zapraszamy 21 listopada o godzinie 20:00 na wyjątkowe wydarzenie — Dom Pérignon Experience | Champagne Dinner.",
+    "descriptionSecond": "Wieczór rozpocznie się od degustacji sensorycznej Dom Pérignon Vintage 2015, którą poprowadzi Stanisław Domin, Brand Ambassador marki Dom Pérignon w Polsce. To pasjonat dziedzictwa i rzemiosła ukrytego w każdej kropli tego legendarnego szampana. Dzięki swojemu wieloletniemu doświadczeniu Stanisław odpowiada za edukację oraz storytelling marek luksusowych z portfolio Moët Hennessy.",
+    "descriptionThird": "Do specjalnie skomponowanego menu zaserwujemy cztery wyjątkowe cuvée Dom Pérignon, a wieczór zwieńczy deser w towarzystwie koniaku Hennessy X.O.",
+    "snackTitle": "snack",
+    "menuTitle": "menu",
+    "drinksTitle": "napoje",
+    "costTitle": "koszt",
     "menu": {
       "snacks": [
         {
-          "firstLineName": "ostryga Fonteaneau Juline № 3 (1szt.)",
-          "secondLineName": "bergamotka . kiwi . kafir",
-          "price": 29
-        },
-        {
-          "firstLineName": "smażony kurczak",
-          "secondLineName": "ziołowy crème fraîche . kawior Antonius z jesiotra",
-          "price": 69
-        },
-        {
-          "firstLineName": "rosti z kaszanką",
-          "secondLineName": "pastrami . marynowany ogórek . jeżyna",
-          "price": 39
-        },
-        {
-          "firstLineName": "pudding truflowy",
-          "secondLineName": "ser dojrzewający . pigwa",
-          "price": 39
+          "firstLineName": "lobster roll, brioche, homar, béarnaise",
+          "secondLineName": "Dom Pérignon, Vintage Rosé 2009"
         }
       ],
-      "starters": [
+      "menu": [
         {
-          "firstLineName": "velouté z czosnku niedźwiedziego",
-          "secondLineName": "jajko . dziki brokuł . koperek",
-          "price": 35
+          "firstLineName": "tatar z polędwicy wołowej, trufla, kapary, lardo",
+          "secondLineName": "Dom Pérignon, Vintage Rosé 2009"
         },
         {
-          "firstLineName": "makrela",
-          "secondLineName": "nduja . papryka . cukinia",
-          "price": 55
+          "firstLineName": "biały halibut, bisque, langustynka, cukinia, estragon, bazylia",
+          "secondLineName": "Dom Pérignon, Vintage 2013 | Dom Pérignon, Vintage 2015"
         },
         {
-          "firstLineName": "cykoria z ogonem wołowym",
-          "secondLineName": "zielona truskawka . karmelizowana cebula . rydze",
-          "price": 57
+          "firstLineName": "comber jagnięcy, jus foie gras, jarmuż, rokitnik, grzyby",
+          "secondLineName": "Dom Pérignon, Plénitude 2 Vintage 2006"
         },
         {
-          "firstLineName": "bakłażan",
-          "secondLineName": "kozi jogurt . pomidory . mięta . orzechy laskowe",
-          "price": 47
-        },
-        {
-          "firstLineName": "tatar wołowy",
-          "secondLineName": "kapary . trufla . lardo",
-          "price": 59
-        },
-        {
-          "firstLineName": "langustynki",
-          "secondLineName": "béarnaise Marie Rose . sałata rzymska . ogórek . grzanki",
-          "price": 65
+          "firstLineName": "finansjer, wędzona śliwka, kardamon, pistacja, czekolada",
+          "secondLineName": "Hennessy X.O."
         }
       ],
-      "mains": [
+      "drinks": [
         {
-          "firstLineName": "żebro wołowe z czarnym czosnkiem",
-          "secondLineName": "czereśnia . burak . brukselka",
-          "price": 109
-        },
-        {
-          "firstLineName": "grillowana różowa dorada",
-          "secondLineName": "mule . pomidory . dashi buerre blanc . soliród",
-          "price": 99
-        },
-        {
-          "firstLineName": "ravioli z wędzonym serem i grzybami",
-          "secondLineName": "rokitnik . por . czarne kurki",
-          "price": 69
-        },
-        {
-          "firstLineName": "fish and chips z dorsza",
-          "secondLineName": "frytki . sos gribiche . kimchi",
-          "price": 75
-        },
-        {
-          "firstLineName": "club steak - rostbef na kości (550g)",
-          "secondLineName": "szafranowy béarnaise . jarmuż",
-          "price": 249
+          "firstLineName": "woda | kawa | herbata"
         }
       ],
-      "sides": [
+      "cost": [
         {
-          "firstLineName": "dynia delica w tempurze",
-          "secondLineName": "migdały . limonka . miód chilli",
-          "price": 29
-        },
-        {
-          "firstLineName": "brukselka z sosem miso",
-          "secondLineName": "bergamotka . orzechy ziemne",
-          "price": 29
-        },
-        {
-          "firstLineName": "pieczone ziemniaki z palonym masłem",
-          "secondLineName": "sos ranczerski . szczypior",
-          "price": 20
-        },
-        {
-          "firstLineName": "frytki",
-          "secondLineName": "aioli",
-          "price": 21
-        },
-        {
-          "firstLineName": "sałaty",
-          "secondLineName": "dressing balsamiczny",
-          "price": 16
-        }
-      ],
-      "desserts": [
-        {
-          "firstLineName": "tarta jabłkowa z lodami z kwaśnej śmietany",
-          "secondLineName": "marzanka wonna",
-          "price": 34
-        },
-        {
-          "firstLineName": "lodowe parfait z rokitnikiem",
-          "secondLineName": "miód . wanilia . szczaw zajęczy",
-          "price": 37
+          "firstLineName": "2199 zł|osoba",
+          "secondLineName": "(serwis kelnerski, płatny dodatkowo, 12,5%)"
         }
       ]
     }
