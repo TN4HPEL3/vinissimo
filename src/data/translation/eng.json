@@ -29,9 +29,9 @@
         "price": 19
       },
       {
-        "firstLineName": "oyster Fonteaneau Julina No 3 (1pc.)",
+        "firstLineName": "oyster Fonteneau Juline № 3 (1pc.)",
         "secondLineName": "dressing leche di tigre",
-        "price": 28
+        "price": 27
       },
       {
         "firstLineName": "gordal olives",
@@ -39,7 +39,7 @@
         "price": 29
       },
       {
-        "firstLineName": "Brebis and Comté cheese (24m.)",
+        "firstLineName": "Brillat-Savarin and Comté cheese (24m.)",
         "secondLineName": "buckwheat crackers . pear chutney",
         "price": 39
       },
@@ -60,7 +60,7 @@
       },
       {
         "firstLineName": "beef tartare",
-        "secondLineName": "lavage . caesar dressing . potato chips",
+        "secondLineName": "lovage . caesar dressing . potato chips",
         "price": 57
       },
       {
@@ -69,14 +69,14 @@
         "price": 64
       },
       {
-        "firstLineName": "veal croquettes",
-        "secondLineName": "herbal mayonnaise with jalapeno . shallots . Grana Padano . dill . chervil",
-        "price": 45
+        "firstLineName": "lamb rib",
+        "secondLineName": "pumpkin . coriander . mint . thai dressing",
+        "price": 52
       },
       {
-        "firstLineName": "free range chicken broth",
-        "secondLineName": "corn . tomatoes . chanterelles . lovage . batter noodles",
-        "price": 42
+        "firstLineName": "goose broth",
+        "secondLineName": "leek . funnel chanterelle . dumplings with goose meat . lovage",
+        "price": 47
       }
     ],
     "mains": [
@@ -87,7 +87,7 @@
       },
       {
         "firstLineName": "cod fish & chips",
-        "secondLineName": "cod . cucumber kimchi . french fries . tzatziki mayonnaise with tarragon",
+        "secondLineName": "cod . cucumber kimchi . french fries . gribiche sauce",
         "price": 75
       },
       {
@@ -97,7 +97,7 @@
       },
       {
         "firstLineName": "lamb",
-        "secondLineName": "onion sauce . porcini mushrooms . sea buckthorn . russet apple",
+        "secondLineName": "onion sauce . funnel chantarelle . sea buckthorn . russet apple",
         "price": 119
       },
       {
@@ -109,11 +109,6 @@
         "firstLineName": "ribeye steak Black Angus (Argentina, 300g)",
         "secondLineName": "mustard sauce",
         "price": 220
-      },
-      {
-        "firstLineName": "wagyu burger (160g)",
-        "secondLineName": "chipotle . truffle mayo . mimolette cheese . fries",
-        "price": 99
       }
     ],
     "sides": [
@@ -137,9 +132,9 @@
         "price": 16
       },
       {
-        "firstLineName": "spring carrot",
-        "secondLineName": "citrus fruits . miso . feta cheese . walnuts",
-        "price": 26
+        "firstLineName": "hot served beetroots",
+        "secondLineName": "cranberry . horseradish",
+        "price": 19
       }
     ],
     "desserts": [
@@ -149,12 +144,12 @@
         "price": 38
       },
       {
-        "firstLineName": "sponge cake",
-        "secondLineName": "milk cream . raspberries . sorrel ice cream",
+        "firstLineName": "pumpkin cheesecake",
+        "secondLineName": "white chocolate . Jerusalem artichoke . cornelian cherry sorbet",
         "price": 38
       },
       {
-        "firstLineName": "Brebis and Comté (2YO)",
+        "firstLineName": "Brillat-Savarin and Comté (2YO)",
         "secondLineName": "buckwheat crackers . pear chutney",
         "price": 39
       }
