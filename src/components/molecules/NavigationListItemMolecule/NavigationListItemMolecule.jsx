@@ -5,7 +5,6 @@ import css from '../../atoms/NavigationListItemAtom/NavigationListItemAtom.modul
 
 function NavigationListItemMolecule({ item, text, activeRoutes }) {
   const isDegustationButton = item.startsWith('degustat');
-  console.log(item);
 
   return (
     <>
