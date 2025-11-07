@@ -29,9 +29,9 @@
         "price": 19
       },
       {
-        "firstLineName": "oyster Fonteaneau Julina No 3 (1pc.)",
+        "firstLineName": "oyster Fonteneau Juline № 3 (1pc.)",
         "secondLineName": "dressing leche di tigre",
-        "price": 28
+        "price": 27
       },
       {
         "firstLineName": "gordal olives",
@@ -39,7 +39,7 @@
         "price": 29
       },
       {
-        "firstLineName": "Brebis and Comté cheese (24m.)",
+        "firstLineName": "Brillat-Savarin and Comté cheese (24m.)",
         "secondLineName": "buckwheat crackers . pear chutney",
         "price": 39
       },
@@ -60,7 +60,7 @@
       },
       {
         "firstLineName": "beef tartare",
-        "secondLineName": "lavage . caesar dressing . potato chips",
+        "secondLineName": "lovage . caesar dressing . potato chips",
         "price": 57
       },
       {
@@ -69,14 +69,14 @@
         "price": 64
       },
       {
-        "firstLineName": "veal croquettes",
-        "secondLineName": "herbal mayonnaise with jalapeno . shallots . Grana Padano . dill . chervil",
-        "price": 45
+        "firstLineName": "lamb rib",
+        "secondLineName": "pumpkin . coriander . mint . thai dressing",
+        "price": 52
       },
       {
-        "firstLineName": "free range chicken broth",
-        "secondLineName": "corn . tomatoes . chanterelles . lovage . batter noodles",
-        "price": 42
+        "firstLineName": "goose broth",
+        "secondLineName": "leek . funnel chanterelle . dumplings with goose meat . lovage",
+        "price": 47
       }
     ],
     "mains": [
@@ -87,7 +87,7 @@
       },
       {
         "firstLineName": "cod fish & chips",
-        "secondLineName": "cod . cucumber kimchi . french fries . tzatziki mayonnaise with tarragon",
+        "secondLineName": "cod . cucumber kimchi . french fries . gribiche sauce",
         "price": 75
       },
       {
@@ -97,7 +97,7 @@
       },
       {
         "firstLineName": "lamb",
-        "secondLineName": "onion sauce . porcini mushrooms . sea buckthorn . russet apple",
+        "secondLineName": "onion sauce . funnel chantarelle . sea buckthorn . russet apple",
         "price": 119
       },
       {
@@ -109,11 +109,6 @@
         "firstLineName": "ribeye steak Black Angus (Argentina, 300g)",
         "secondLineName": "mustard sauce",
         "price": 220
-      },
-      {
-        "firstLineName": "wagyu burger (160g)",
-        "secondLineName": "chipotle . truffle mayo . mimolette cheese . fries",
-        "price": 99
       }
     ],
     "sides": [
@@ -137,9 +132,9 @@
         "price": 16
       },
       {
-        "firstLineName": "spring carrot",
-        "secondLineName": "citrus fruits . miso . feta cheese . walnuts",
-        "price": 26
+        "firstLineName": "hot served beetroots",
+        "secondLineName": "cranberry . horseradish",
+        "price": 19
       }
     ],
     "desserts": [
@@ -149,12 +144,12 @@
         "price": 38
       },
       {
-        "firstLineName": "sponge cake",
-        "secondLineName": "milk cream . raspberries . sorrel ice cream",
+        "firstLineName": "pumpkin cheesecake",
+        "secondLineName": "white chocolate . Jerusalem artichoke . cornelian cherry sorbet",
         "price": 38
       },
       {
-        "firstLineName": "Brebis and Comté (2YO)",
+        "firstLineName": "Brillat-Savarin and Comté (2YO)",
         "secondLineName": "buckwheat crackers . pear chutney",
         "price": 39
       }
@@ -276,12 +271,22 @@
   "teamBossTitle": "Łukasz Chwojnicki aka Big Man, Chairman, Lard",
   "teamBossDescription": "The orchestral man who binds everything together. In his prime, the most expensive dishwasher in central Europe. GM and head sommelier in one. He co-founded the cult Tricity venues: Da Vinci, Sztuczka, Sztuczka Bistro, Probiernia Wine Bar. The biggest, in every respect, Tricity birbant. Knows everyone and everyone knows him. A joker on the verge of good taste. Loves bubbly and gossip. A great dancer and a lousy singer. Fan of Beata Kozidrak.",
 
-  "newYearTitleMenu": "New Year's Dinner",
+  "newYearTitleMenu": "New Year's Eve",
+
+  "newYearDescription": [
+    "We warmly invite you to join us for a New Year’s Eve dinner at Vinissimo.",
+    "We have prepared two menu options, and we will be happy to help you choose from our selection of over 400 wines.",
+    "The Basic Menu includes a glass of champagne, snacks, soft drinks, and the option to choose your appetizer, main course, and dessert on the spot.",
+    "Within this menu you may also choose two appetizers if you wish.",
+    "The De Luxe Menu features the most exquisite ingredients. This menu does not include options to choose between dishes, and we are accepting reservations for it until December 20th, 2024.",
+    "On December 31st, until 5:30 PM, our regular à la carte menu will also be available to order from.",
+    "We warmly invite you to make a reservation!"
+  ],
 
   "xmasMenuBasicCategories": {
     "aperitif": "apéritif",
     "snackSelection": "selection of snacks",
-    "starters": "starter’s | to choose",
+    "starters": "starters | to choose",
     "mains": "main courses | to choice",
     "desserts": "desserts | to choice",
     "drinks": "soft drinks",
@@ -291,32 +296,32 @@
   "xmasMenuBasic": {
     "aperitif": "Crucifix Père et Fils, Champagne La Grande Réserve Premier Cru Extra Brut NV",
     "snackSelection": [
-      "waffle . goat cheese mousse . eggplant . hazelnuts",
-      "tartlet . smoked herring . celery . cucumber",
-      "beef croquette . plum . sauerkraut"
+      "gougères with 24-month Comté",
+      "tartlet with sea trout and crème fraîche",
+      "duck and horseradish doughnut"
     ],
     "starters": [
-      "oyster Gauloise Speciales de Claire n°2 (3 pcs.) . rose mignonette . leche de tigre",
-      "beef tenderloin carpaccio . Dijon . walnut oil . chervil . Parmigiano Reggiano",
-      "seriola sashimi . tomato consommé . jerusalem artichoke . roe . perilla",
-      "grilled Argentine shrimps . passion fruit . achiote . orange . mangalica pork fat",
-      "arancini with Comté cheese . aioli. black winter truffle (Vege)",
-      "sourdough bread . onion butter with miso . pickles"
+      "Fonteneau Juline oyster n°3 (3 pcs) . bergamot . chilli",
+      "beef tartare . smoked mayonnaise . capers . Jerusalem artichoke",
+      "gamberjack sashimi . yuzu . seaweed . roe",
+      "grilled Argentine prawns . lime . chilli . Thai basil",
+      "cheese churros . parmesan . aioli . black winter truffle (vege)",
+      "sourdough bread . onion miso butter . pickles"
     ],
     "mains": [
-      "sea bass . spinach . cauliflower . hollandaise sauce . marinated mussels . sea lettuce",
-      "grilled lamb . black garlic . croquette with chestnuts . parsley",
-      "raviolo with ricotta and egg yolk . cheese fondue . wild cauliflower and broccoli . black truffle (Vege)",
-      "dry aged rib-eye (200g) . roasted potatoes . Café de Paris sauce"
+      "turbot . spinach . bisque . wild cauliflower",
+      "grilled lamb . eggplant . bordelaise sauce . Jerusalem artichoke . pumpkin",
+      "mushroom ravioli . spinach . funnel chanterelle . Taleggio cheese . black winter truffle (vege)",
+      "beef tenderloin . saffron béarnaise . wild broccoli . dauphinois potatoes"
     ],
     "desserts": [
-      "chocolate crémeux . pine caramel . currant . crème chantilly",
-      "Basque cheesecake . caramelized white chocolate . rose sorbet"
+      "sponge cake . coconut . raspberries . verbena ice cream",
+      "financier . chocolate . earl grey . macadamia nuts"
     ],
     "drinks": "water. coffee. tea",
     "cost": [
-      "519 PLN|person (a glass of champagne, snacks, starter, main course, dessert, soft’s)",
-      "589 PLN|person (a glass of champagne, snacks, two starters, main course, dessert, drinks)",
+      "569 PLN | per person (glass of champagne, snacks, starter, main course, dessert, beverages)",
+      "629 PLN | per person (glass of champagne, snacks, two starters, main course, dessert, beverages)",
       "(service charge, paid additionally, 12.5%)"
     ]
   },
@@ -333,20 +338,23 @@
   },
 
   "xmasMenuDeLux": {
-    "aperitif": "Taittinger, Comtes de Champagne Blanc de Blancs 2012",
+    "aperitif": "Dom Pérignon, 'Vintage' Extra Brut, Champagne, France 2013",
     "onStart": [
-      "Gillardeau oysters no2 (4 pcs) . rose mignonette . leche de tigre",
-      "Antonius Siberian 4* caviar (30g) . brioche . sour cream"
+      "Gillardeau oysters no2 (4 pcs) . bergamot . chilli",
+      "Antonius Siberian 4* caviar (30g) . brioche . potato doughnuts . crème fraîche"
     ],
     "starter1": [
-      "beef tenderloin carpaccio . Dijon mustard . walnut oil, Parmigiano Reggiano . black winter truffle",
-      "sourdough bread . onion butter with miso . pickles"
+      "beef tartare . Dijon mustard . capers . Parmigiano Reggiano . black winter truffle",
+      "sourdough bread . onion miso butter . pickles"
     ],
-    "starter2": "Crab Roll – brioche with crab meat . hollandaise sauce",
-    "main": "striploin Wagyu beef A5 (150g) . croquette with chestnuts . black garlic . parsley",
-    "dessert": "basque cheesecake . crème chantilly . black winter truffle",
-    "drinks": "served without limits",
-    "cost": ["1199 PLN | person", "(service charge, paid additionally, 12.5%)"]
+    "starter2": "grilled langoustines . browned butter . lemon . brioche",
+    "main": "Wagyu A5 striploin (150g) . saffron béarnaise . wild broccoli . dauphinois potatoes",
+    "dessert": "financier . chocolate . earl grey . black truffle",
+    "drinks": "served without limit",
+    "cost": [
+      "1299 PLN | per person",
+      "(waiter service charged additionally, 12.5%)"
+    ]
   },
   "holidayOpeningText": "Holiday opening hours:",
   "holidayOpeningHours": "December 24-25 - closed",
