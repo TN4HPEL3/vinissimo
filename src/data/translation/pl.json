@@ -20,6 +20,7 @@
   "aboutUsInvite": "Zapraszamy!",
 
   "menuTitle": "menu",
+
   "menu": {
     "starters": [
       {
@@ -28,9 +29,9 @@
         "price": 19
       },
       {
-        "firstLineName": "ostryga Fonteaneau Julina No 3 (1szt.)",
+        "firstLineName": "ostryga Fonteneau Juline № 3 (1szt.)",
         "secondLineName": "dressing leche di tigre",
-        "price": 28
+        "price": 27
       },
       {
         "firstLineName": "oliwki Gordal",
@@ -38,7 +39,7 @@
         "price": 29
       },
       {
-        "firstLineName": "sery Brebis i Comté (24 msc.)",
+        "firstLineName": "sery Brillat-Savarin i Comté (24 msc.)",
         "secondLineName": "krakersy gryczane . chutney z gruszki",
         "price": 39
       },
@@ -68,14 +69,14 @@
         "price": 64
       },
       {
-        "firstLineName": "krokiety cielęce",
-        "secondLineName": "majonez ziołowy z jalapeno . szalotka . Grana Padano . trybula . koper",
-        "price": 45
+        "firstLineName": "żebro jagnięce",
+        "secondLineName": "dynia . kolendra . mięta . dressing tajski",
+        "price": 52
       },
       {
-        "firstLineName": "bullion z kurczaka zagrodowego",
-        "secondLineName": "lane kluski . kukurydza . pomidory . kurki . lubczyk",
-        "price": 42
+        "firstLineName": "bullion z gęsi",
+        "secondLineName": "por . lejkowiec . kołduny z gęsiną . lubczyk",
+        "price": 47
       }
     ],
     "mains": [
@@ -86,7 +87,7 @@
       },
       {
         "firstLineName": "fish & chips z dorsza",
-        "secondLineName": "ogórki kimchi . frytki . majonez tzatziki z estragonem",
+        "secondLineName": "ogórki kimchi . frytki . sos gribiche",
         "price": 75
       },
       {
@@ -96,7 +97,7 @@
       },
       {
         "firstLineName": "jagnięcina",
-        "secondLineName": "sos cebulowy . borowiki . rokitnik . szara reneta",
+        "secondLineName": "sos cebulowy . lejkowiec . rokitnik . szara reneta",
         "price": 119
       },
       {
@@ -108,11 +109,6 @@
         "firstLineName": "stek ribeye Black Angus (Argentyna, 300g)",
         "secondLineName": "sos musztardowy",
         "price": 220
-      },
-      {
-        "firstLineName": "burger wagyu (160g)",
-        "secondLineName": "chipotle . majonez truflowy . ser mimolette . frytki",
-        "price": 99
       }
     ],
     "sides": [
@@ -135,9 +131,9 @@
         "price": 16
       },
       {
-        "firstLineName": "młoda marchew",
-        "secondLineName": "cytrusy . miso . feta . orzechy włoskie",
-        "price": 26
+        "firstLineName": "buraki na ciepło",
+        "secondLineName": "żurawina . chrzan",
+        "price": 19
       }
     ],
     "desserts": [
@@ -147,12 +143,12 @@
         "price": 38
       },
       {
-        "firstLineName": "biszkopt",
-        "secondLineName": "krem mleczny . maliny . lody szczawiowe",
+        "firstLineName": "sernik dyniowy",
+        "secondLineName": "biała czekolada . topinambur . sorbet z derenia",
         "price": 38
       },
       {
-        "firstLineName": "ser Brebis i Comté (24 msc.)",
+        "firstLineName": "ser Brillat-Savarin i Comté (24 msc.)",
         "secondLineName": "krakersy gryczane . chutney z gruszki",
         "price": 39
       }
