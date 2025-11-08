@@ -39,7 +39,7 @@ function NavigationListOrganisms() {
         <NavigationListItemMolecule
           item="new-year/basic"
           text={newYearTitleMenu}
-          activeRoutes={['/new-year']}
+          activeRoutes={['/new-year/basic', '/new-year/de-lux']}
         />
         <NavigationListItemMolecule
           item="menu/food"
