@@ -404,9 +404,9 @@
   },
   "valentinesTitleMenu": "Valentine's Dinner",
 
-  "easterTitle": "Easter Catering 2025",
+  "cateringTitle": "Festive Menu",
 
-  "easterMenuCategories": {
+  "cateringMenuCategories": {
     "breadAndButter": "bread & butter",
     "soup": "soup",
     "coldDishes": "cold dishes",
@@ -417,7 +417,7 @@
     "pickup": "pickup"
   },
 
-  "easterMenu": {
+  "cateringMenu": {
     "breadAndButter": [
       "wheat bread (700g) | 25 PLN",
       "onion miso butter (200g) | 25 PLN"
