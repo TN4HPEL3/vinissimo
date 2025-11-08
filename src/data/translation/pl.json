@@ -44,9 +44,9 @@
         "price": 39
       },
       {
-        "firstLineName": "pomidory bawole serce",
-        "secondLineName": "figa . oliwki . bazylia . pecorino bianco",
-        "price": 39
+        "firstLineName": "cykoria",
+        "secondLineName": "jabłko . dynia . miso . orzechy włoskie . ser Ossau-Iraty",
+        "price": 44
       },
       {
         "firstLineName": "bakłażan",
@@ -60,7 +60,7 @@
       },
       {
         "firstLineName": "tatar wołowy",
-        "secondLineName": "lubczyk . sos cezar . chipsy ziemniaczane",
+        "secondLineName": "chipotle . majonez wędzony . kapary . chipsy ziemniaczane",
         "price": 57
       },
       {
@@ -92,13 +92,18 @@
       },
       {
         "firstLineName": "grillowana pluma wieprzowa",
-        "secondLineName": "fasolka szparagowa . czerwona porzeczka . jus drobiowy . kapary",
+        "secondLineName": "jarmuż . czerwona porzeczka . jus drobiowy . kapary",
         "price": 86
       },
       {
         "firstLineName": "jagnięcina",
         "secondLineName": "sos cebulowy . lejkowiec . rokitnik . szara reneta",
         "price": 119
+      },
+      {
+        "firstLineName": "udo z gęsi",
+        "secondLineName": "terrina z gęsi . brukiew . brukselka . pączki ziemniaczane",
+        "price": 109
       },
       {
         "firstLineName": "kulbin",
@@ -132,7 +137,7 @@
       },
       {
         "firstLineName": "buraki na ciepło",
-        "secondLineName": "żurawina . chrzan",
+        "secondLineName": "żurawina . chrzan . pestki dyni",
         "price": 19
       }
     ],
@@ -154,6 +159,7 @@
       }
     ]
   },
+
   "degustation": {
     "menuFirstTitle": "Dom Pérignon Experience",
     "menuSecondTitle": "| Champagne Dinner |",
