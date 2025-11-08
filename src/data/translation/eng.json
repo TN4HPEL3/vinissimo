@@ -34,7 +34,7 @@
         "price": 27
       },
       {
-        "firstLineName": "gordal olives",
+        "firstLineName": "Gordal olives",
         "secondLineName": "marinated artichokes",
         "price": 29
       },
@@ -44,9 +44,9 @@
         "price": 39
       },
       {
-        "firstLineName": "buffalo heart tomatoes",
-        "secondLineName": "fig . olives . basil . pecorino bianco",
-        "price": 39
+        "firstLineName": "chicory",
+        "secondLineName": "apple . pumpkin . miso . walnuts . Ossau-Iraty cheese",
+        "price": 44
       },
       {
         "firstLineName": "aubergine",
@@ -60,7 +60,7 @@
       },
       {
         "firstLineName": "beef tartare",
-        "secondLineName": "lovage . caesar dressing . potato chips",
+        "secondLineName": "chipotle . smoked mayonnaise . capers . potato chips",
         "price": 57
       },
       {
@@ -87,18 +87,23 @@
       },
       {
         "firstLineName": "cod fish & chips",
-        "secondLineName": "cod . cucumber kimchi . french fries . gribiche sauce",
+        "secondLineName": "cucumber kimchi . french fries . gribiche sauce",
         "price": 75
       },
       {
         "firstLineName": "grilled pork pluma",
-        "secondLineName": "green beans . red currant . chicken jus . capers",
+        "secondLineName": "kale . red currant . chicken jus . capers",
         "price": 86
       },
       {
         "firstLineName": "lamb",
-        "secondLineName": "onion sauce . funnel chantarelle . sea buckthorn . russet apple",
+        "secondLineName": "onion sauce . funnel chanterelle . sea buckthorn . russet apple",
         "price": 119
+      },
+      {
+        "firstLineName": "goose leg",
+        "secondLineName": "goose terrine . rutabaga . brussels sprouts . potato doughnuts",
+        "price": 109
       },
       {
         "firstLineName": "corvina",
@@ -133,7 +138,7 @@
       },
       {
         "firstLineName": "hot served beetroots",
-        "secondLineName": "cranberry . horseradish",
+        "secondLineName": "cranberry . horseradish . pumpkin seeds",
         "price": 19
       }
     ],
@@ -149,7 +154,7 @@
         "price": 38
       },
       {
-        "firstLineName": "Brillat-Savarin and Comté (2YO)",
+        "firstLineName": "Brillat-Savarin and Comté cheese (2YO)",
         "secondLineName": "buckwheat crackers . pear chutney",
         "price": 39
       }
