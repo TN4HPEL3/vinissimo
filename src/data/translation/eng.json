@@ -404,9 +404,9 @@
   },
   "valentinesTitleMenu": "Valentine's Dinner",
 
-  "easterTitle": "Easter Catering 2025",
+  "cateringTitle": "Festive Menu",
 
-  "easterMenuCategories": {
+  "cateringMenuCategories": {
     "breadAndButter": "bread & butter",
     "soup": "soup",
     "coldDishes": "cold dishes",
@@ -417,37 +417,40 @@
     "pickup": "pickup"
   },
 
-  "easterMenu": {
+  "cateringMenu": {
     "breadAndButter": [
-      "wheat bread (700g) | 25 PLN",
-      "onion miso butter (200g) | 25 PLN"
+      "chleb pszenno-żytni (700g) | 26 zł",
+      "masło cebulowe z miso (200g) | 28 zł"
     ],
     "soup": [
-      "traditional sour rye soup with homemade sausage and marjoram (0.9l) | 55 PLN"
+      "barszcz czerwony na zakwasie (0,9l) | 47 zł",
+      "zupa grzybowa z lanymi kluskami i grillowaną kapustą (0,9l) | 65 zł"
     ],
     "coldDishes": [
-      "classic vegetable salad (500g) | 37 PLN",
-      "salmon in aspic (400g) | 39 PLN",
-      "truffle egg spread (500g) | 39 PLN",
-      "smoked trout & asparagus egg spread (500g) | 45 PLN",
-      "duck liver pâté with Foie Gras (300g) | 59 PLN",
-      "baked mangalica pork pâté (400g) | 75 PLN"
+      "tradycyjna sałatka jarzynowa (500g) | 49 zł",
+      "paprykarz z sandacza z wędzoną papryka (500g) | 65 zł",
+      "podwędzany śledź z remuladą z selera i żurawiną (300g) | 42 zł",
+      "dorsz w sosie z słodko-kwaśnym z przyprawami korzennymi (500g) | 69 zł",
+      "pâté z wątróbek z porto i Foie Gras (300g) | 64 zł",
+      "łosoś w galarecie z warzywami (500g) | 72 zł",
+      "wolno gotowana cielęcina z sosem Vitello Tonnato (250g) | 69 zł"
     ],
     "hotDishes": [
-      "veal cabbage roll in tomato jus (250g) | 39 PLN",
-      "rabbit leg in cream with thyme and leek (approx. 200g) | 42 PLN",
-      "cod loin in crab sauce with spinach (400g) | 72 PLN"
+      "duszona gicz jagnięca w sosie własnym z czerwonym winem (1szt, ok 350g) | 69 zł",
+      "pierogi z kapustą i grzybami (10szt) | 42 zł",
+      "konfitowana noga z kaczki z pomarańczami (1szt) | 27 zł",
+      "pstrąg z kapustą i grzybami z sosem truflowym (400g / 200g) | 49 zł"
     ],
     "sides": [
-      "braised young cabbage with dill (400g) | 39 PLN",
-      "roasted potatoes with brown butter (400g) | 35 PLN"
+      "zasmażane buraki z żurawiną (400g) | 39zł",
+      "pieczone ziemniaki w maślę (400g) | 35 zł"
     ],
     "desserts": [
-      "caramel cream mazurek with currants & dried fruit (400g) | 55 PLN",
-      "Basque cheesecake with rhubarb (1100g) | 159 PLN"
+      "sernik baskijski z kremem waniliowym i malinami (900g) | 120 zł",
+      "piernik ze śliwką, czekoladą i orzechami laskowymi (300g) | 69 zł"
     ],
-    "orders": "by 4:00 PM on April 17, 2025 | booking@vinissimorestaurant.pl",
-    "pickup": "April 19, 2025 from 12:30 PM to 8:00 PM"
+    "orders": "do 21.12.2025",
+    "pickup": "23.12.2025 od 12:00 do 21:00"
   },
 
   "alcohols": {
