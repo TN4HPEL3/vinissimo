@@ -14,6 +14,7 @@ function MobileMenuOrganism() {
     navigationReservation,
     navigationDegustation,
     newYearTitleMenu,
+    cateringTitle,
   } = t;
   return (
     <>
@@ -33,7 +34,11 @@ function MobileMenuOrganism() {
         text={newYearTitleMenu}
         activeRoutes={['']}
       />
-
+      <NavigationListItemMolecule
+        item="catering"
+        text={cateringTitle}
+        activeRoutes={['']}
+      />
       <NavigationListItemMolecule
         item="menu/food"
         text={navigationMenu}
