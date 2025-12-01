@@ -1,21 +1,21 @@
 import { useContext } from 'react';
 import { Outlet } from 'react-router-dom';
 
-import { EasterTemplate } from './Template/EasterTemplate.jsx';
+import { CateringTemplate } from './Template/CateringTemplate.jsx';
 import { mobileMenuContext } from '../../helpers/mobileMenuProvider.jsx';
 import { ArrowUpTemplate } from '../../components/templates/ArrowUpTemplate/ArrowUpTemplate.jsx';
 
 import css from '../NewYear/NewYearPage.module.css';
 
-function EasterPage() {
+function CateringPage() {
   const { isOpen } = useContext(mobileMenuContext);
   return (
     <div className={css.newYear}>
-      <EasterTemplate />
+      <CateringTemplate />
       {!isOpen && <ArrowUpTemplate />}
       <Outlet />
     </div>
   );
 }
 
-export { EasterPage };
+export { CateringPage };
