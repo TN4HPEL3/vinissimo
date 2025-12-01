@@ -24,14 +24,14 @@
   "menu": {
     "starters": [
       {
+        "firstLineName": "ostryga Fonteneau Juline No. 3 (1szt.)",
+        "secondLineName": "leche de tigre",
+        "price": 27
+      },
+      {
         "firstLineName": "chleb na zakwasie własnego wypieku",
         "secondLineName": "masło cebulowe . pikle (smalec z majerankiem i jabłkami +8zł)",
         "price": 19
-      },
-      {
-        "firstLineName": "ostryga Fonteneau Juline № 3 (1szt.)",
-        "secondLineName": "dressing leche di tigre",
-        "price": 27
       },
       {
         "firstLineName": "oliwki Gordal",
@@ -44,9 +44,9 @@
         "price": 39
       },
       {
-        "firstLineName": "pomidory bawole serce",
-        "secondLineName": "figa . oliwki . bazylia . pecorino bianco",
-        "price": 39
+        "firstLineName": "cykoria",
+        "secondLineName": "jabłko . dynia . miso . orzechy włoskie . ser Ossau-Iraty",
+        "price": 44
       },
       {
         "firstLineName": "bakłażan",
@@ -60,7 +60,7 @@
       },
       {
         "firstLineName": "tatar wołowy",
-        "secondLineName": "lubczyk . sos cezar . chipsy ziemniaczane",
+        "secondLineName": "chipotle . majonez wędzony . kapary . chipsy ziemniaczane",
         "price": 57
       },
       {
@@ -69,9 +69,9 @@
         "price": 64
       },
       {
-        "firstLineName": "żebro jagnięce",
-        "secondLineName": "dynia . kolendra . mięta . dressing tajski",
-        "price": 52
+        "firstLineName": "ozory cielęce",
+        "secondLineName": "sos cezar . karczochy . trybula . szalotka",
+        "price": 53
       },
       {
         "firstLineName": "bullion z gęsi",
@@ -82,23 +82,18 @@
     "mains": [
       {
         "firstLineName": "pierogi z wędzonym serem i grzybami",
-        "secondLineName": "kiszona kapusta . sos truflowy . kurki . orzechy włoskie",
+        "secondLineName": "kiszona kapusta . sos truflowy . boczniaki . orzechy włoskie",
         "price": 69
       },
       {
         "firstLineName": "fish & chips z dorsza",
-        "secondLineName": "ogórki kimchi . frytki . sos gribiche",
+        "secondLineName": "kimchi . frytki . sos gribiche",
         "price": 75
       },
       {
         "firstLineName": "grillowana pluma wieprzowa",
-        "secondLineName": "fasolka szparagowa . czerwona porzeczka . jus drobiowy . kapary",
+        "secondLineName": "jarmuż . żurawina . jus drobiowy . kapary",
         "price": 86
-      },
-      {
-        "firstLineName": "jagnięcina",
-        "secondLineName": "sos cebulowy . lejkowiec . rokitnik . szara reneta",
-        "price": 119
       },
       {
         "firstLineName": "kulbin",
@@ -106,9 +101,19 @@
         "price": 119
       },
       {
-        "firstLineName": "stek ribeye Black Angus (Argentyna, 300g)",
-        "secondLineName": "sos musztardowy",
-        "price": 220
+        "firstLineName": "biodrówka jagnięca",
+        "secondLineName": "sos cebulowy . lejkowiec . rokitnik . szara reneta",
+        "price": 119
+      },
+      {
+        "firstLineName": "polędwica wołowa (160g)",
+        "secondLineName": "sos musztardowy . portobello . brokuł gałązkowy",
+        "price": 159
+      },
+      {
+        "firstLineName": "antrykot Wagyu (Australia MB5, 350g)",
+        "secondLineName": "sos holenderski . brokuł gałązkowy",
+        "price": 389
       }
     ],
     "sides": [
@@ -117,7 +122,7 @@
         "price": 21
       },
       {
-        "firstLineName": "ogórki kimchi",
+        "firstLineName": "klasyczne kimchi",
         "price": 19
       },
       {
@@ -132,7 +137,7 @@
       },
       {
         "firstLineName": "buraki na ciepło",
-        "secondLineName": "żurawina . chrzan",
+        "secondLineName": "żurawina . chrzan . pestki dyni",
         "price": 19
       }
     ],
@@ -154,6 +159,7 @@
       }
     ]
   },
+
   "degustation": {
     "menuFirstTitle": "Dom Pérignon Experience",
     "menuSecondTitle": "| Champagne Dinner |",
