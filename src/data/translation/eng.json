@@ -24,17 +24,17 @@
   "menu": {
     "starters": [
       {
+        "firstLineName": "oyster Fonteneau Juline No. 3 (1pc.)",
+        "secondLineName": "leche de tigre",
+        "price": 27
+      },
+      {
         "firstLineName": "homemade sourdough bread",
         "secondLineName": "onion butter . pickles (homemade lard spread +8zł)",
         "price": 19
       },
       {
-        "firstLineName": "oyster Fonteneau Juline № 3 (1pc.)",
-        "secondLineName": "dressing leche di tigre",
-        "price": 27
-      },
-      {
-        "firstLineName": "Gordal olives",
+        "firstLineName": "gordal olives",
         "secondLineName": "marinated artichokes",
         "price": 29
       },
@@ -69,41 +69,31 @@
         "price": 64
       },
       {
-        "firstLineName": "lamb rib",
-        "secondLineName": "pumpkin . coriander . mint . thai dressing",
-        "price": 52
+        "firstLineName": "veal tongue",
+        "secondLineName": "caesar sauce . artichokes . chervil . shallot",
+        "price": 53
       },
       {
         "firstLineName": "goose broth",
-        "secondLineName": "leek . funnel chanterelle . dumplings with goose meat . lovage",
+        "secondLineName": "parsley . funnel chanterelle . dumplings with goose meat . lovage",
         "price": 47
       }
     ],
     "mains": [
       {
         "firstLineName": "dumplings with smoked cheese and mushrooms",
-        "secondLineName": "sauerkraut . truffle sauce . chanterelles . walnuts",
+        "secondLineName": "sauerkraut . truffle sauce . oyster mushrooms . walnuts",
         "price": 69
       },
       {
         "firstLineName": "cod fish & chips",
-        "secondLineName": "cucumber kimchi . french fries . gribiche sauce",
+        "secondLineName": "cod . kimchi . french fries . gribiche sauce",
         "price": 75
       },
       {
         "firstLineName": "grilled pork pluma",
-        "secondLineName": "kale . red currant . chicken jus . capers",
+        "secondLineName": "kale . cranberries . chicken jus . capers",
         "price": 86
-      },
-      {
-        "firstLineName": "lamb",
-        "secondLineName": "onion sauce . funnel chanterelle . sea buckthorn . russet apple",
-        "price": 119
-      },
-      {
-        "firstLineName": "goose leg",
-        "secondLineName": "goose terrine . rutabaga . brussels sprouts . potato doughnuts",
-        "price": 109
       },
       {
         "firstLineName": "corvina",
@@ -111,9 +101,19 @@
         "price": 119
       },
       {
-        "firstLineName": "ribeye steak Black Angus (Argentina, 300g)",
-        "secondLineName": "mustard sauce",
-        "price": 220
+        "firstLineName": "lamb rump steak",
+        "secondLineName": "onion sauce . black trumpet mushroom . sea buckthorn . russet apple",
+        "price": 119
+      },
+      {
+        "firstLineName": "tenderloin (160g)",
+        "secondLineName": "mustard sauce . portobello mushroom . wild broccoli",
+        "price": 159
+      },
+      {
+        "firstLineName": "rib-eye Wagyu (Australia MB5, 350g)",
+        "secondLineName": "hollandaise sauce . wild broccoli",
+        "price": 389
       }
     ],
     "sides": [
@@ -123,7 +123,7 @@
         "price": 21
       },
       {
-        "firstLineName": "kimchi cucumbers",
+        "firstLineName": "classic kimchi",
         "price": 19
       },
       {
