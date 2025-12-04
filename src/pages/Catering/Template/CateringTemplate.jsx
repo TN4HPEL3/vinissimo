@@ -3,18 +3,18 @@ import { useLanguage } from '../../../helpers/contexts/languageContext.js';
 import { ValentinesCategoryOrganism } from '../../Valentines/organisms/ValentinesCategoryOrganism.jsx';
 import { ValentinesTitleAtom } from '../../Valentines/atoms/ValentinesTitleAtom/ValentinesTitleAtom.jsx';
 
-function EasterTemplate() {
+function CateringTemplate() {
   const { t } = useLanguage();
-  const { easterMenu, easterMenuCategories, easterTitle } = t;
-  const categories = Object.keys(easterMenuCategories);
+  const { cateringMenu, cateringMenuCategories, cateringTitle } = t;
+  const categories = Object.keys(cateringMenuCategories);
   smoothScrollToTop();
 
   return (
     <div>
-      <ValentinesTitleAtom text={easterTitle} />
+      <ValentinesTitleAtom text={cateringTitle} />
       {categories.map(category => {
-        const categoryName = easterMenuCategories[category];
-        const categoryDetails = easterMenu[category];
+        const categoryName = cateringMenuCategories[category];
+        const categoryDetails = cateringMenu[category];
         return (
           <ValentinesCategoryOrganism
             key={category}
@@ -27,4 +27,4 @@ function EasterTemplate() {
   );
 }
 
-export { EasterTemplate };
+export { CateringTemplate };

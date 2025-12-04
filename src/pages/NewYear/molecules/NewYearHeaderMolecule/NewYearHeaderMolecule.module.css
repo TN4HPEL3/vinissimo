@@ -3,3 +3,9 @@
   justify-content: center;
   gap: 10%;
 }
+
+.NewYear__description {
+  margin: 0 auto;
+  color: var(--website-secondary-color-hover);
+  padding: 0.1rem 1rem;
+}

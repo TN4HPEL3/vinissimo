@@ -7,7 +7,9 @@ import { TeamPage } from './pages/Team/TeamPage.jsx';
 import { Page404 } from './pages/Page404/Page404.jsx';
 import { EventsPage } from './pages/Events/EventsPage.jsx';
 import { NewYearPage } from './pages/NewYear/NewYearPage.jsx';
+import { CateringPage } from './pages/Catering/CateringPage.jsx';
 import { SharedLayout } from './components/templates/SharedLayout/SharedLayout.jsx';
+import { WineDegustationPage } from './pages/WineDegustationPage/WineDegustationPage.jsx';
 import { NewYearBasicTemplate } from './pages/NewYear/templates/NewYearBasicTemplate.jsx';
 import { NewYearDeLuxTemplate } from './pages/NewYear/templates/NewYearDeLuxTemplate.jsx';
 import { WineGlassesTemplate } from './pages/Wine/templates/WineGlassesTemplate/WineGlassesTemplate.jsx';
@@ -29,11 +31,13 @@ function App() {
           <Route path="alcohol" element={<MenuPageAlcoholTemplate />} />
         </Route>
         <Route path="/events" element={<EventsPage />} />
+        <Route path="/degustation" element={<WineDegustationPage />} />
         <Route path="/team" element={<TeamPage />} />
         <Route path="new-year" element={<NewYearPage />}>
           <Route path="basic" element={<NewYearBasicTemplate />} />
           <Route path="de-lux" element={<NewYearDeLuxTemplate />} />
         </Route>
+        <Route path="/catering" element={<CateringPage />} />
       </Route>
       <Route path="*" element={<Page404 />} />
     </Routes>

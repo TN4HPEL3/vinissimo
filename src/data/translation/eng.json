@@ -9,6 +9,7 @@
   "navigationReservation": "reservation",
   "navigationValentines": "valentine's day",
   "navigationEaster": "Easter",
+  "navigationDegustation": "champagne dinner",
 
   "aboutUsTitle": "about us",
   "aboutUsPrimaryFirst": "Vinissimo Restaurant & Wine Bar is the new brand under which Sztuczka Bistro, present at Bema 6 since 2017, has been operating since February 2024. The restaurant, run since 2022 by Łukasz Chwojnicki, in a slightly changed format and with the same irreplaceable team, invariably serves delicious and minimalist cuisine, backed by a huge wine selection and impeccable service.",
@@ -19,99 +20,100 @@
   "aboutUsInvite": "Welcome!",
 
   "menuTitle": "menu",
+
   "menu": {
     "starters": [
       {
-        "firstLineName": "oyster Fonteneau Julina N°2 (1szt)",
-        "secondLineName": "rose mignonette",
-        "price": 29
+        "firstLineName": "oyster Fonteneau Juline No. 3 (1pc.)",
+        "secondLineName": "leche de tigre",
+        "price": 27
       },
       {
         "firstLineName": "homemade sourdough bread",
-        "secondLineName": "onion butter . pickles",
+        "secondLineName": "onion butter . pickles (homemade lard spread +8zł)",
         "price": 19
       },
       {
-        "firstLineName": "Castelvetrano olives",
-        "secondLineName": "pesto romesco",
+        "firstLineName": "gordal olives",
+        "secondLineName": "marinated artichokes",
         "price": 29
       },
       {
-        "firstLineName": "Reblochon and Gruyere cheeses",
+        "firstLineName": "Brillat-Savarin and Comté cheese (24m.)",
         "secondLineName": "buckwheat crackers . pear chutney",
-        "price": 38
+        "price": 39
       },
       {
-        "firstLineName": "grilled asparagus",
-        "secondLineName": "hollandaise sauce . harissa . smoked almonds",
-        "price": 51
-      },
-      {
-        "firstLineName": "arancini with Comte cheese",
-        "secondLineName": "mushroom aioli . Grana Padano cheese",
-        "price": 45
+        "firstLineName": "chicory",
+        "secondLineName": "apple . pumpkin . miso . walnuts . Ossau-Iraty cheese",
+        "price": 44
       },
       {
         "firstLineName": "aubergine",
-        "secondLineName": "greek yoghurt . cashew nuts . spinach . truffle dressing",
+        "secondLineName": "goat yoghurt . tomatoes . mint . hazelnuts",
         "price": 47
       },
       {
-        "firstLineName": "hamachi sashimi",
-        "secondLineName": "white ponzu . chili . coriander . kumquat",
-        "price": 53
+        "firstLineName": "sea trout",
+        "secondLineName": "avocado . cucumber . celery . chilli . cilantro",
+        "price": 54
       },
       {
         "firstLineName": "beef tartare",
-        "secondLineName": "Dijon mustard . wild garlic . radish . horseradish",
+        "secondLineName": "chipotle . smoked mayonnaise . capers . potato chips",
         "price": 57
       },
       {
-        "firstLineName": "veal",
-        "secondLineName": "Caesar sauce . shallot . chervil . truffle",
-        "price": 55
+        "firstLineName": "grilled Argentine shrimps",
+        "secondLineName": "passion fruit . habanero . orange . lardo",
+        "price": 64
       },
       {
-        "firstLineName": "sour rye soup",
-        "secondLineName": "white sausage . egg . spring onion . horseradish",
-        "price": 42
+        "firstLineName": "veal tongue",
+        "secondLineName": "caesar sauce . artichokes . chervil . shallot",
+        "price": 53
+      },
+      {
+        "firstLineName": "goose broth",
+        "secondLineName": "parsley . funnel chanterelle . dumplings with goose meat . lovage",
+        "price": 47
       }
     ],
     "mains": [
       {
-        "firstLineName": "tortelloni with ricotta cheese",
-        "secondLineName": "mushroom duxelles . peas . Grana Padano cheese . morels mushrooms",
+        "firstLineName": "dumplings with smoked cheese and mushrooms",
+        "secondLineName": "sauerkraut . truffle sauce . oyster mushrooms . walnuts",
         "price": 69
       },
       {
-        "firstLineName": "Fish & Chips",
-        "secondLineName": "cod . kimchi . french fries . tzatziki mayonnaise with tarragon",
+        "firstLineName": "cod fish & chips",
+        "secondLineName": "cod . kimchi . french fries . gribiche sauce",
         "price": 75
       },
       {
-        "firstLineName": "apple fed pork schnitzel",
-        "secondLineName": "brown butter . capers . dill",
-        "price": 79
+        "firstLineName": "grilled pork pluma",
+        "secondLineName": "kale . cranberries . chicken jus . capers",
+        "price": 86
       },
       {
-        "firstLineName": "skrei cod",
-        "secondLineName": "crab butter . couscous . fennel . nori . sesame",
-        "price": 99
+        "firstLineName": "corvina",
+        "secondLineName": "shellfish bisque . zucchini . tomatoes . edamame",
+        "price": 119
       },
       {
-        "firstLineName": "calf hip",
-        "secondLineName": "young cabbage . nduja . bagna cauda sauce . radish",
-        "price": 89
+        "firstLineName": "lamb rump steak",
+        "secondLineName": "onion sauce . black trumpet mushroom . sea buckthorn . russet apple",
+        "price": 119
       },
       {
-        "firstLineName": "seasoned rib eye (300g)",
-        "secondLineName": "Café de Paris sauce",
-        "price": 169
+        "firstLineName": "tenderloin (160g)",
+        "secondLineName": "mustard sauce . portobello mushroom . wild broccoli",
+        "price": 159
       },
       {
-        "firstLineName": "Australian Wagyu bavette (180g)",
-        "secondLineName": "broccoli . portobello mushroom . hollandaise sauce",
-        "price": 199
+        "firstLineName": "rib-eye Wagyu (Australia MB5, 350g)",
+        "secondLineName": "hollandaise sauce . wild broccoli",
+        "price": 389
       }
     ],
     "sides": [
@@ -121,12 +123,12 @@
         "price": 21
       },
       {
-        "firstLineName": "homemade kimchi",
+        "firstLineName": "classic kimchi",
         "price": 19
       },
       {
         "firstLineName": "roasted potatoes",
-        "secondLineName": "sour cream . chives",
+        "secondLineName": "ranch dressing",
         "price": 20
       },
       {
@@ -135,29 +137,79 @@
         "price": 16
       },
       {
-        "firstLineName": "young carrot",
-        "secondLineName": "citrus . miso . feta cheese . walnuts",
-        "price": 26
+        "firstLineName": "hot served beetroots",
+        "secondLineName": "cranberry . horseradish . pumpkin seeds",
+        "price": 19
       }
     ],
     "desserts": [
       {
-        "firstLineName": "financier cake",
-        "secondLineName": "blackcurrant . hazelnut-caramel cream",
-        "price": 37
-      },
-      {
-        "firstLineName": "apple tart",
-        "secondLineName": "jerusalem artichoke ice cream . milk crumble . hazelnuts",
-        "price": 37
-      },
-      {
-        "firstLineName": "Reblochon and Gruyere cheese",
-        "secondLineName": "buckwheat crackers . pear chutney",
+        "firstLineName": "almond cake",
+        "secondLineName": "hazelnuts . chocolate . Maldon salt",
         "price": 38
+      },
+      {
+        "firstLineName": "pumpkin cheesecake",
+        "secondLineName": "white chocolate . Jerusalem artichoke . cornelian cherry sorbet",
+        "price": 38
+      },
+      {
+        "firstLineName": "Brillat-Savarin and Comté cheese (2YO)",
+        "secondLineName": "buckwheat crackers . pear chutney",
+        "price": 39
       }
     ]
   },
+
+  "degustation": {
+    "menuFirstTitle": "Dom Pérignon Experience",
+    "menuSecondTitle": "| Champagne Dinner |",
+    "descriptionFirst": "Serdecznie zapraszamy 21 listopada o godzinie 20:00 na wyjątkowe wydarzenie — Dom Pérignon Experience | Champagne Dinner.",
+    "descriptionSecond": "Wieczór rozpocznie się od degustacji sensorycznej Dom Pérignon Vintage 2015, którą poprowadzi Stanisław Domin, Brand Ambassador marki Dom Pérignon w Polsce. To pasjonat dziedzictwa i rzemiosła ukrytego w każdej kropli tego legendarnego szampana. Dzięki swojemu wieloletniemu doświadczeniu Stanisław odpowiada za edukację oraz storytelling marek luksusowych z portfolio Moët Hennessy.",
+    "descriptionThird": "Do specjalnie skomponowanego menu zaserwujemy cztery wyjątkowe cuvée Dom Pérignon, a wieczór zwieńczy deser w towarzystwie koniaku Hennessy X.O.",
+    "snackTitle": "snack",
+    "menuTitle": "menu",
+    "drinksTitle": "napoje",
+    "costTitle": "koszt",
+    "menu": {
+      "snacks": [
+        {
+          "firstLineName": "lobster roll, brioche, homar, béarnaise",
+          "secondLineName": "Dom Pérignon, Vintage Rosé 2009"
+        }
+      ],
+      "menu": [
+        {
+          "firstLineName": "tatar z polędwicy wołowej, trufla, kapary, lardo",
+          "secondLineName": "Dom Pérignon, Vintage Rosé 2009"
+        },
+        {
+          "firstLineName": "biały halibut, bisque, langustynka, cukinia, estragon, bazylia",
+          "secondLineName": "Dom Pérignon, Vintage 2013 | Dom Pérignon, Vintage 2015"
+        },
+        {
+          "firstLineName": "comber jagnięcy, jus foie gras, jarmuż, rokitnik, grzyby",
+          "secondLineName": "Dom Pérignon, Plénitude 2 Vintage 2006"
+        },
+        {
+          "firstLineName": "finansjer, wędzona śliwka, kardamon, pistacja, czekolada",
+          "secondLineName": "Hennessy X.O."
+        }
+      ],
+      "drinks": [
+        {
+          "firstLineName": "woda | kawa | herbata"
+        }
+      ],
+      "cost": [
+        {
+          "firstLineName": "2199 zł|osoba",
+          "secondLineName": "(serwis kelnerski, płatny dodatkowo, 12,5%)"
+        }
+      ]
+    }
+  },
+
   "menuMoreButton": "more",
   "menuWineBottlesButton": "wines",
   "menuWineGlassesButton": "wines by the glass",
@@ -224,12 +276,22 @@
   "teamBossTitle": "Łukasz Chwojnicki aka Big Man, Chairman, Lard",
   "teamBossDescription": "The orchestral man who binds everything together. In his prime, the most expensive dishwasher in central Europe. GM and head sommelier in one. He co-founded the cult Tricity venues: Da Vinci, Sztuczka, Sztuczka Bistro, Probiernia Wine Bar. The biggest, in every respect, Tricity birbant. Knows everyone and everyone knows him. A joker on the verge of good taste. Loves bubbly and gossip. A great dancer and a lousy singer. Fan of Beata Kozidrak.",
 
-  "newYearTitleMenu": "New Year's Dinner",
+  "newYearTitleMenu": "New Year's Eve",
+
+  "newYearDescription": [
+    "We warmly invite you to join us for a New Year’s Eve dinner at Vinissimo.",
+    "We have prepared two menu options, and we will be happy to help you choose from our selection of over 400 wines.",
+    "The Basic Menu includes a glass of champagne, snacks, soft drinks, and the option to choose your appetizer, main course, and dessert on the spot.",
+    "Within this menu you may also choose two appetizers if you wish.",
+    "The De Luxe Menu features the most exquisite ingredients. This menu does not include options to choose between dishes, and we are accepting reservations for it until December 20th, 2024.",
+    "On December 31st, until 5:30 PM, our regular à la carte menu will also be available to order from.",
+    "We warmly invite you to make a reservation!"
+  ],
 
   "xmasMenuBasicCategories": {
     "aperitif": "apéritif",
     "snackSelection": "selection of snacks",
-    "starters": "starter’s | to choose",
+    "starters": "starters | to choose",
     "mains": "main courses | to choice",
     "desserts": "desserts | to choice",
     "drinks": "soft drinks",
@@ -239,32 +301,32 @@
   "xmasMenuBasic": {
     "aperitif": "Crucifix Père et Fils, Champagne La Grande Réserve Premier Cru Extra Brut NV",
     "snackSelection": [
-      "waffle . goat cheese mousse . eggplant . hazelnuts",
-      "tartlet . smoked herring . celery . cucumber",
-      "beef croquette . plum . sauerkraut"
+      "gougères with 24-month Comté",
+      "tartlet with sea trout and crème fraîche",
+      "duck and horseradish doughnut"
     ],
     "starters": [
-      "oyster Gauloise Speciales de Claire n°2 (3 pcs.) . rose mignonette . leche de tigre",
-      "beef tenderloin carpaccio . Dijon . walnut oil . chervil . Parmigiano Reggiano",
-      "seriola sashimi . tomato consommé . jerusalem artichoke . roe . perilla",
-      "grilled Argentine shrimps . passion fruit . achiote . orange . mangalica pork fat",
-      "arancini with Comté cheese . aioli. black winter truffle (Vege)",
-      "sourdough bread . onion butter with miso . pickles"
+      "Fonteneau Juline oyster n°3 (3 pcs) . bergamot . chilli",
+      "beef tartare . smoked mayonnaise . capers . Jerusalem artichoke",
+      "gamberjack sashimi . yuzu . seaweed . roe",
+      "grilled Argentine prawns . lime . chilli . Thai basil",
+      "cheese churros . parmesan . aioli . black winter truffle (vege)",
+      "sourdough bread . onion miso butter . pickles"
     ],
     "mains": [
-      "sea bass . spinach . cauliflower . hollandaise sauce . marinated mussels . sea lettuce",
-      "grilled lamb . black garlic . croquette with chestnuts . parsley",
-      "raviolo with ricotta and egg yolk . cheese fondue . wild cauliflower and broccoli . black truffle (Vege)",
-      "dry aged rib-eye (200g) . roasted potatoes . Café de Paris sauce"
+      "turbot . spinach . bisque . wild cauliflower",
+      "grilled lamb . eggplant . bordelaise sauce . Jerusalem artichoke . pumpkin",
+      "mushroom ravioli . spinach . funnel chanterelle . Taleggio cheese . black winter truffle (vege)",
+      "beef tenderloin . saffron béarnaise . wild broccoli . dauphinois potatoes"
     ],
     "desserts": [
-      "chocolate crémeux . pine caramel . currant . crème chantilly",
-      "Basque cheesecake . caramelized white chocolate . rose sorbet"
+      "sponge cake . coconut . raspberries . verbena ice cream",
+      "financier . chocolate . earl grey . macadamia nuts"
     ],
     "drinks": "water. coffee. tea",
     "cost": [
-      "519 PLN|person (a glass of champagne, snacks, starter, main course, dessert, soft’s)",
-      "589 PLN|person (a glass of champagne, snacks, two starters, main course, dessert, drinks)",
+      "569 PLN | per person (glass of champagne, snacks, starter, main course, dessert, beverages)",
+      "629 PLN | per person (glass of champagne, snacks, two starters, main course, dessert, beverages)",
       "(service charge, paid additionally, 12.5%)"
     ]
   },
@@ -281,20 +343,23 @@
   },
 
   "xmasMenuDeLux": {
-    "aperitif": "Taittinger, Comtes de Champagne Blanc de Blancs 2012",
+    "aperitif": "Dom Pérignon, 'Vintage' Extra Brut, Champagne, France 2013",
     "onStart": [
-      "Gillardeau oysters no2 (4 pcs) . rose mignonette . leche de tigre",
-      "Antonius Siberian 4* caviar (30g) . brioche . sour cream"
+      "Gillardeau oysters no2 (4 pcs) . bergamot . chilli",
+      "Antonius Siberian 4* caviar (30g) . brioche . potato doughnuts . crème fraîche"
     ],
     "starter1": [
-      "beef tenderloin carpaccio . Dijon mustard . walnut oil, Parmigiano Reggiano . black winter truffle",
-      "sourdough bread . onion butter with miso . pickles"
+      "beef tartare . Dijon mustard . capers . Parmigiano Reggiano . black winter truffle",
+      "sourdough bread . onion miso butter . pickles"
     ],
-    "starter2": "Crab Roll – brioche with crab meat . hollandaise sauce",
-    "main": "striploin Wagyu beef A5 (150g) . croquette with chestnuts . black garlic . parsley",
-    "dessert": "basque cheesecake . crème chantilly . black winter truffle",
-    "drinks": "served without limits",
-    "cost": ["1199 PLN | person", "(service charge, paid additionally, 12.5%)"]
+    "starter2": "grilled langoustines . browned butter . lemon . brioche",
+    "main": "Wagyu A5 striploin (150g) . saffron béarnaise . wild broccoli . dauphinois potatoes",
+    "dessert": "financier . chocolate . earl grey . black truffle",
+    "drinks": "served without limit",
+    "cost": [
+      "1299 PLN | per person",
+      "(waiter service charged additionally, 12.5%)"
+    ]
   },
   "holidayOpeningText": "Holiday opening hours:",
   "holidayOpeningHours": "December 24-25 - closed",
@@ -344,9 +409,9 @@
   },
   "valentinesTitleMenu": "Valentine's Dinner",
 
-  "easterTitle": "Easter Catering 2025",
+  "cateringTitle": "Festive Menu",
 
-  "easterMenuCategories": {
+  "cateringMenuCategories": {
     "breadAndButter": "bread & butter",
     "soup": "soup",
     "coldDishes": "cold dishes",
@@ -357,37 +422,40 @@
     "pickup": "pickup"
   },
 
-  "easterMenu": {
+  "cateringMenu": {
     "breadAndButter": [
-      "wheat bread (700g) | 25 PLN",
-      "onion miso butter (200g) | 25 PLN"
+      "chleb pszenno-żytni (700g) | 26 zł",
+      "masło cebulowe z miso (200g) | 28 zł"
     ],
     "soup": [
-      "traditional sour rye soup with homemade sausage and marjoram (0.9l) | 55 PLN"
+      "barszcz czerwony na zakwasie (0,9l) | 47 zł",
+      "zupa grzybowa z lanymi kluskami i grillowaną kapustą (0,9l) | 65 zł"
     ],
     "coldDishes": [
-      "classic vegetable salad (500g) | 37 PLN",
-      "salmon in aspic (400g) | 39 PLN",
-      "truffle egg spread (500g) | 39 PLN",
-      "smoked trout & asparagus egg spread (500g) | 45 PLN",
-      "duck liver pâté with Foie Gras (300g) | 59 PLN",
-      "baked mangalica pork pâté (400g) | 75 PLN"
+      "tradycyjna sałatka jarzynowa (500g) | 49 zł",
+      "paprykarz z sandacza z wędzoną papryka (500g) | 65 zł",
+      "podwędzany śledź z remuladą z selera i żurawiną (300g) | 42 zł",
+      "dorsz w sosie z słodko-kwaśnym z przyprawami korzennymi (500g) | 69 zł",
+      "pâté z wątróbek z porto i Foie Gras (300g) | 64 zł",
+      "łosoś w galarecie z warzywami (500g) | 72 zł",
+      "wolno gotowana cielęcina z sosem Vitello Tonnato (250g) | 69 zł"
     ],
     "hotDishes": [
-      "veal cabbage roll in tomato jus (250g) | 39 PLN",
-      "rabbit leg in cream with thyme and leek (approx. 200g) | 42 PLN",
-      "cod loin in crab sauce with spinach (400g) | 72 PLN"
+      "duszona gicz jagnięca w sosie własnym z czerwonym winem (1szt, ok 350g) | 69 zł",
+      "pierogi z kapustą i grzybami (10szt) | 42 zł",
+      "konfitowana noga z kaczki z pomarańczami (1szt) | 27 zł",
+      "pstrąg z kapustą i grzybami z sosem truflowym (400g / 200g) | 49 zł"
     ],
     "sides": [
-      "braised young cabbage with dill (400g) | 39 PLN",
-      "roasted potatoes with brown butter (400g) | 35 PLN"
+      "zasmażane buraki z żurawiną (400g) | 39zł",
+      "pieczone ziemniaki w maślę (400g) | 35 zł"
     ],
     "desserts": [
-      "caramel cream mazurek with currants & dried fruit (400g) | 55 PLN",
-      "Basque cheesecake with rhubarb (1100g) | 159 PLN"
+      "sernik baskijski z kremem waniliowym i malinami (900g) | 120 zł",
+      "piernik ze śliwką, czekoladą i orzechami laskowymi (300g) | 69 zł"
     ],
-    "orders": "by 4:00 PM on April 17, 2025 | booking@vinissimorestaurant.pl",
-    "pickup": "April 19, 2025 from 12:30 PM to 8:00 PM"
+    "orders": "do 21.12.2025",
+    "pickup": "23.12.2025 od 12:00 do 21:00"
   },
 
   "alcohols": {

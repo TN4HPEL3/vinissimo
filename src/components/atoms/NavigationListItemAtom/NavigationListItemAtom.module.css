@@ -4,6 +4,12 @@
   transition: color var(--transition);
   font-size: 1.5rem;
   display: flex;
+  flex-direction: column;
+  text-align: center;
+  @media screen and (min-width: 48rem) {
+    flex-direction: initial;
+  }
+
   &::after {
     content: '';
     position: absolute;
@@ -55,7 +61,10 @@
 
 .header__button__icon {
   fill: var(--website-secondary-color);
-  margin-left: 0.5rem;
   max-height: 1.5rem;
   max-width: 1.5rem;
+  margin: 0 auto;
+  @media screen and (min-width: 48rem) {
+    margin: 0 0 0 0.5rem;
+  }
 }

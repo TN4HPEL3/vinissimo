@@ -19,6 +19,9 @@ function NavigationListOrganisms() {
     navigationEvents,
     navigationTeam,
     navigationReservation,
+    navigationDegustation,
+    newYearTitleMenu,
+    cateringTitle,
   } = t;
   return (
     <div className={css.header__content}>
@@ -28,6 +31,21 @@ function NavigationListOrganisms() {
           item=""
           text={navigationHome}
           activeRoutes={['/']}
+        />
+        <NavigationListItemMolecule
+          item="degustation"
+          text={navigationDegustation}
+          activeRoutes={['/degustation']}
+        />
+        <NavigationListItemMolecule
+          item="new-year/basic"
+          text={newYearTitleMenu}
+          activeRoutes={['/new-year/basic', '/new-year/de-lux']}
+        />
+        <NavigationListItemMolecule
+          item="catering"
+          text={cateringTitle}
+          activeRoutes={['/catering']}
         />
         <NavigationListItemMolecule
           item="menu/food"
