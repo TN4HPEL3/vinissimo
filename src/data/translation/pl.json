@@ -24,23 +24,23 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "ostryga Fonteneau Juline No. 3 (1szt.)",
+        "firstLineName": "ostryga Gillardeau No. 4 (1szt.)",
         "secondLineName": "leche de tigre",
-        "price": 27
-      },
-      {
-        "firstLineName": "chleb na zakwasie własnego wypieku",
-        "secondLineName": "masło cebulowe . pikle (smalec z majerankiem i jabłkami +8zł)",
-        "price": 19
-      },
-      {
-        "firstLineName": "oliwki Gordal",
-        "secondLineName": "karczochy marynowane",
         "price": 29
       },
       {
-        "firstLineName": "sery Brillat-Savarin i Comté (24 msc.)",
-        "secondLineName": "krakersy gryczane . chutney z gruszki",
+        "firstLineName": "chleb na zakwasie własnego wypieku",
+        "secondLineName": "masło cebulowe . pikle",
+        "price": 19
+      },
+      {
+        "firstLineName": "oliwki Manzanilla",
+        "secondLineName": "marynowane słodkie peperoncini",
+        "price": 21
+      },
+      {
+        "firstLineName": "ser Beaufort",
+        "secondLineName": "migdały Marcona . chutney z pigwy",
         "price": 39
       },
       {
@@ -54,9 +54,9 @@
         "price": 47
       },
       {
-        "firstLineName": "troć",
-        "secondLineName": "awokado . ogórek . seler naciowy . chilli . kolendra",
-        "price": 54
+        "firstLineName": "sashimi z serioli",
+        "secondLineName": "dressing yuzu . wodorosty . rzodkiew",
+        "price": 65
       },
       {
         "firstLineName": "tatar wołowy",
@@ -74,15 +74,20 @@
         "price": 53
       },
       {
-        "firstLineName": "bullion z gęsi",
-        "secondLineName": "por . lejkowiec . kołduny z gęsiną . lubczyk",
-        "price": 47
+        "firstLineName": "smażone skrzydełka kurczaka (2szt.)",
+        "secondLineName": "mus truflowy . crème fraiche . kawior Antonius",
+        "price": 69
+      },
+      {
+        "firstLineName": "barszcz na zakwasie buraczanym",
+        "secondLineName": "uszka z grzybami . majeranek",
+        "price": 39
       }
     ],
     "mains": [
       {
-        "firstLineName": "pierogi z wędzonym serem i grzybami",
-        "secondLineName": "kiszona kapusta . sos truflowy . boczniaki . orzechy włoskie",
+        "firstLineName": "ravioli z grzybami",
+        "secondLineName": "szpinak . boczniaki . sos serowy . czarna trufla",
         "price": 69
       },
       {
@@ -96,24 +101,24 @@
         "price": 86
       },
       {
-        "firstLineName": "kulbin",
-        "secondLineName": "bisque ze skorupiaków . cukinia . pomidory . edamame",
-        "price": 119
-      },
-      {
         "firstLineName": "biodrówka jagnięca",
-        "secondLineName": "sos cebulowy . lejkowiec . rokitnik . szara reneta",
+        "secondLineName": "sos cebulowy . brukselka . rokitnik . szara reneta",
         "price": 119
       },
       {
-        "firstLineName": "polędwica wołowa (160g)",
-        "secondLineName": "sos musztardowy . portobello . brokuł gałązkowy",
-        "price": 159
+        "firstLineName": "biały halibut",
+        "secondLineName": "bisque ze skorupiaków . kalafior . szpinak . edamame",
+        "price": 144
       },
       {
-        "firstLineName": "antrykot Wagyu (Australia MB5, 350g)",
-        "secondLineName": "sos holenderski . brokuł gałązkowy",
-        "price": 389
+        "firstLineName": "turbot",
+        "secondLineName": "brokuły . sos holenderski . czarna trufla",
+        "price": 199
+      },
+      {
+        "firstLineName": "antrykot sezonowany Black Angus (300g)",
+        "secondLineName": "sos musztardowy",
+        "price": 220
       }
     ],
     "sides": [
@@ -148,18 +153,17 @@
         "price": 38
       },
       {
-        "firstLineName": "sernik dyniowy",
-        "secondLineName": "biała czekolada . topinambur . sorbet z derenia",
+        "firstLineName": "piernik",
+        "secondLineName": "chutney z czarnej porzeczki . słony karmel . lody mleczne",
         "price": 38
       },
       {
-        "firstLineName": "ser Brillat-Savarin i Comté (24 msc.)",
-        "secondLineName": "krakersy gryczane . chutney z gruszki",
+        "firstLineName": "ser Beaufort",
+        "secondLineName": "migdały Marcona . chutney z pigwy",
         "price": 39
       }
     ]
   },
-
   "degustation": {
     "menuFirstTitle": "Dom Pérignon Experience",
     "menuSecondTitle": "| Champagne Dinner |",
