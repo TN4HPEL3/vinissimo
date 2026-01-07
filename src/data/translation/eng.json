@@ -24,23 +24,23 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "oyster Fonteneau Juline No. 3 (1pc.)",
+        "firstLineName": "oyster Gillardeau No. 4 (1pc.)",
         "secondLineName": "leche de tigre",
-        "price": 27
-      },
-      {
-        "firstLineName": "homemade sourdough bread",
-        "secondLineName": "onion butter . pickles (homemade lard spread +8zł)",
-        "price": 19
-      },
-      {
-        "firstLineName": "gordal olives",
-        "secondLineName": "marinated artichokes",
         "price": 29
       },
       {
-        "firstLineName": "Brillat-Savarin and Comté cheese (24m.)",
-        "secondLineName": "buckwheat crackers . pear chutney",
+        "firstLineName": "homemade sourdough bread",
+        "secondLineName": "onion butter . pickles",
+        "price": 19
+      },
+      {
+        "firstLineName": "Manzanilla olives",
+        "secondLineName": "marinated sweet peperoncini",
+        "price": 21
+      },
+      {
+        "firstLineName": "Beaufort cheese",
+        "secondLineName": "Marcona almonds . quince chutney",
         "price": 39
       },
       {
@@ -54,9 +54,9 @@
         "price": 47
       },
       {
-        "firstLineName": "sea trout",
-        "secondLineName": "avocado . cucumber . celery . chilli . cilantro",
-        "price": 54
+        "firstLineName": "amberjack sashimi",
+        "secondLineName": "yuzu dressing . seaweed . radish",
+        "price": 65
       },
       {
         "firstLineName": "beef tartare",
@@ -74,19 +74,24 @@
         "price": 53
       },
       {
-        "firstLineName": "goose broth",
-        "secondLineName": "parsley . funnel chanterelle . dumplings with goose meat . lovage",
-        "price": 47
+        "firstLineName": "deep fried chicken wings (2pc.)",
+        "secondLineName": "truffle mousse . crème fraiche . Antonius caviar",
+        "price": 69
+      },
+      {
+        "firstLineName": "red borscht",
+        "secondLineName": "mushroom-filled dumplings . marjoram",
+        "price": 39
       }
     ],
     "mains": [
       {
-        "firstLineName": "dumplings with smoked cheese and mushrooms",
-        "secondLineName": "sauerkraut . truffle sauce . oyster mushrooms . walnuts",
+        "firstLineName": "ravioli with mushrooms",
+        "secondLineName": "spinach . oyster mushrooms . cheese sauce . black truffle",
         "price": 69
       },
       {
-        "firstLineName": "cod fish & chips",
+        "firstLineName": "fish & chips",
         "secondLineName": "cod . kimchi . french fries . gribiche sauce",
         "price": 75
       },
@@ -96,24 +101,24 @@
         "price": 86
       },
       {
-        "firstLineName": "corvina",
-        "secondLineName": "shellfish bisque . zucchini . tomatoes . edamame",
-        "price": 119
-      },
-      {
         "firstLineName": "lamb rump steak",
-        "secondLineName": "onion sauce . black trumpet mushroom . sea buckthorn . russet apple",
+        "secondLineName": "onion sauce . brussels sprouts . sea buckthorn . russet apple",
         "price": 119
       },
       {
-        "firstLineName": "tenderloin (160g)",
-        "secondLineName": "mustard sauce . portobello mushroom . wild broccoli",
-        "price": 159
+        "firstLineName": "white halibut",
+        "secondLineName": "shellfish bisque . cauliflower . spinach . edamame",
+        "price": 144
       },
       {
-        "firstLineName": "rib-eye Wagyu (Australia MB5, 350g)",
-        "secondLineName": "hollandaise sauce . wild broccoli",
-        "price": 389
+        "firstLineName": "turbot",
+        "secondLineName": "broccoli . hollandaise sauce . black truffle",
+        "price": 199
+      },
+      {
+        "firstLineName": "Black Angus rib-eye steak (300g)",
+        "secondLineName": "mustard sauce",
+        "price": 220
       }
     ],
     "sides": [
@@ -149,18 +154,17 @@
         "price": 38
       },
       {
-        "firstLineName": "pumpkin cheesecake",
-        "secondLineName": "white chocolate . Jerusalem artichoke . cornelian cherry sorbet",
+        "firstLineName": "gingerbread",
+        "secondLineName": "black currant chutney . salted caramel . milk ice cream",
         "price": 38
       },
       {
-        "firstLineName": "Brillat-Savarin and Comté cheese (2YO)",
-        "secondLineName": "buckwheat crackers . pear chutney",
+        "firstLineName": "Beaufort cheese",
+        "secondLineName": "Marcona almonds . quince chutney",
         "price": 39
       }
     ]
   },
-
   "degustation": {
     "menuFirstTitle": "Dom Pérignon Experience",
     "menuSecondTitle": "| Champagne Dinner |",
