@@ -24,9 +24,9 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "ostryga Gillardeau No. 4 (1szt.)",
-        "secondLineName": "leche de tigre",
-        "price": 29
+        "firstLineName": "ostryga Gillardeau No.2 (1szt.)",
+        "secondLineName": "dressing z bergamotki . chilli",
+        "price": 33
       },
       {
         "firstLineName": "chleb na zakwasie własnego wypieku",
@@ -50,7 +50,7 @@
       },
       {
         "firstLineName": "bakłażan",
-        "secondLineName": "kozi jogurt . pomidory . mięta . orzechy laskowe",
+        "secondLineName": "jogurt grecki . dressing truflowy . szpinak . orzechy laskowe",
         "price": 47
       },
       {
@@ -79,16 +79,21 @@
         "price": 69
       },
       {
-        "firstLineName": "barszcz na zakwasie buraczanym",
-        "secondLineName": "uszka z grzybami . majeranek",
-        "price": 39
+        "firstLineName": "zupa rybna z turbota",
+        "secondLineName": "pomidory . kiszona cytryna . kolendra",
+        "price": 45
       }
     ],
     "mains": [
       {
         "firstLineName": "ravioli z grzybami",
-        "secondLineName": "szpinak . boczniaki . sos serowy . czarna trufla",
+        "secondLineName": "boczniaki . sos serowy . jarmuż . orzechy włoskie . trufla bagnoli",
         "price": 69
+      },
+      {
+        "firstLineName": "pierogi z ragu wołowo–jagnięcym",
+        "secondLineName": "sos bordelaise . cebula perłowa . Grana Padano",
+        "price": 71
       },
       {
         "firstLineName": "fish & chips z dorsza",
@@ -96,13 +101,13 @@
         "price": 75
       },
       {
-        "firstLineName": "grillowana pluma wieprzowa",
-        "secondLineName": "jarmuż . żurawina . jus drobiowy . kapary",
-        "price": 86
+        "firstLineName": "udko z perliczki",
+        "secondLineName": "pistacje . seler . guanciale . jus grzybowy . radicchio Castelfranco",
+        "price": 89
       },
       {
         "firstLineName": "biodrówka jagnięca",
-        "secondLineName": "sos cebulowy . brukselka . rokitnik . szara reneta",
+        "secondLineName": "sos cebulowy . brukselka . rokitnik . szara reneta . boczniak królewski",
         "price": 119
       },
       {
@@ -111,13 +116,8 @@
         "price": 144
       },
       {
-        "firstLineName": "turbot",
-        "secondLineName": "brokuły . sos holenderski . czarna trufla",
-        "price": 199
-      },
-      {
         "firstLineName": "antrykot sezonowany Black Angus (300g)",
-        "secondLineName": "sos musztardowy",
+        "secondLineName": "sos café de Paris",
         "price": 220
       }
     ],
@@ -137,8 +137,8 @@
       },
       {
         "firstLineName": "sałaty",
-        "secondLineName": "dressing balsamiczny",
-        "price": 16
+        "secondLineName": "vinaigrette musztardowy . Grana Padano . słonecznik",
+        "price": 18
       },
       {
         "firstLineName": "buraki na ciepło",
