@@ -24,9 +24,9 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "oyster Gillardeau No. 4 (1pc.)",
-        "secondLineName": "leche de tigre",
-        "price": 29
+        "firstLineName": "oyster Gillardeau No.2 (1pc.)",
+        "secondLineName": "bergamot dressing . chilli",
+        "price": 33
       },
       {
         "firstLineName": "homemade sourdough bread",
@@ -50,7 +50,7 @@
       },
       {
         "firstLineName": "aubergine",
-        "secondLineName": "goat yoghurt . tomatoes . mint . hazelnuts",
+        "secondLineName": "greek yoghurt . truffle dressing . spinach . hazelnuts",
         "price": 47
       },
       {
@@ -79,16 +79,21 @@
         "price": 69
       },
       {
-        "firstLineName": "red borscht",
-        "secondLineName": "mushroom-filled dumplings . marjoram",
-        "price": 39
+        "firstLineName": "turbot fish soup",
+        "secondLineName": "tomatoes . preserved lemon . coriander",
+        "price": 45
       }
     ],
     "mains": [
       {
         "firstLineName": "ravioli with mushrooms",
-        "secondLineName": "spinach . oyster mushrooms . cheese sauce . black truffle",
+        "secondLineName": "oyster mushrooms . cheese sauce . kale . walnuts . bagnoli truffle",
         "price": 69
+      },
+      {
+        "firstLineName": "dumplings with beef and lamb ragu",
+        "secondLineName": "bordelaise sauce . pearl onion . Grana Padano",
+        "price": 71
       },
       {
         "firstLineName": "fish & chips",
@@ -96,13 +101,13 @@
         "price": 75
       },
       {
-        "firstLineName": "grilled pork pluma",
-        "secondLineName": "kale . cranberries . chicken jus . capers",
-        "price": 86
+        "firstLineName": "guinea fowl",
+        "secondLineName": "pistachios . celery root . guanciale . mushroom jus . radicchio Castelfranco",
+        "price": 89
       },
       {
         "firstLineName": "lamb rump steak",
-        "secondLineName": "onion sauce . brussels sprouts . sea buckthorn . russet apple",
+        "secondLineName": "onion sauce . brussels sprouts . sea buckthorn . russet apple . king oyster mushroom",
         "price": 119
       },
       {
@@ -111,12 +116,7 @@
         "price": 144
       },
       {
-        "firstLineName": "turbot",
-        "secondLineName": "broccoli . hollandaise sauce . black truffle",
-        "price": 199
-      },
-      {
-        "firstLineName": "Black Angus rib-eye steak (300g)",
+        "firstLineName": "Black Angus rib-eye steak (300 g)",
         "secondLineName": "mustard sauce",
         "price": 220
       }
@@ -138,8 +138,8 @@
       },
       {
         "firstLineName": "lettuces",
-        "secondLineName": "balsamic dressing",
-        "price": 16
+        "secondLineName": "mustard vinaigrette . Grana Padano . sunflower seeds",
+        "price": 18
       },
       {
         "firstLineName": "hot served beetroots",
