@@ -11,6 +11,7 @@ import { WineGlassesTemplate } from './pages/Wine/templates/WineGlassesTemplate/
 import { WineBottlesTemplate } from './pages/Wine/templates/WineBottlesTemplate/WineBottlesTemplate.jsx';
 import { MenuPageFoodTemplate } from './pages/Menu/templates/MenuPageFoodTemplate/MenuPageFoodTemplate.jsx';
 import { MenuPageAlcoholTemplate } from './pages/Menu/templates/MenuPageAlcoholTemplate/MenuPageAlcoholTemplate.jsx';
+import { ValentinesPage } from './pages/Valentines/ValentinesPage.jsx';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         </Route>
         <Route path="/events" element={<EventsPage />} />
         <Route path="/team" element={<TeamPage />} />
+        <Route path="/valentine" element={<ValentinesPage />} />
       </Route>
       <Route path="*" element={<Page404 />} />
     </Routes>
