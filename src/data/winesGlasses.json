@@ -2,58 +2,51 @@
   "bubbles": [
     {
       "name": "2022 Bodega Agejas, Journée Royale Petit Cuvée 'Brut Nature', Catalonia, Spain",
-      "description": "macabeo, xarel-lo, parellada | 11,5%",
+      "description": "macabeo, xarel-lo, parellada | 11.5%",
       "priceGlass": 26,
       "priceBigGlass": false,
       "priceBottle": 159
     },
     {
-      "name": "2022 Winnica Jakubów, 'Pet-Nat Sur Lie', Lower Silesia, Poland",
-      "description": "sibera | Natural wine | 11,5%",
+      "name": "2022 Winnica Jakubów, 'Bąbel i Poziomek Pet-Nat', Lower Silesia, Poland",
+      "description": "sibera | Natural wine | 11.5%",
       "priceGlass": 32,
       "priceBigGlass": false,
       "priceBottle": 225
     },
     {
       "name": "N.V. Crucifix Père et Fils, 'La Grande Reserve' Extra Brut, Champagne, France",
-      "description": "pinot noir, chardonnay | 12,5%",
+      "description": "pinot noir, chardonnay | 12.5%",
       "priceGlass": 66,
       "priceBigGlass": false,
       "priceBottle": 459
     },
     {
       "name": "N.V. Taittinger, 'Prestige Rosé', Reims, Champagne, France",
-      "description": "pinot noir, chardonnay | 12,5%",
+      "description": "pinot noir, chardonnay | 12.5%",
       "priceGlass": 85,
       "priceBigGlass": false,
       "priceBottle": 649
+    },
+    {
+      "name": "2013 Dom Perignon, 'Vintage' Extra Brut, Champagne, France",
+      "description": "chardonnay, pinot noir | 12.5%",
+      "priceGlass": 289,
+      "priceBigGlass": false,
+      "priceBottle": 1699
     }
   ],
   "orangeAndOxidizedWines": [
     {
-      "name": "2023 Stefanago, 'Aro’', Lombardy, Italy",
-      "description": "traminer | Orange Wine | 13%",
-      "priceGlass": 40,
-      "priceBigGlass": 78,
-      "priceBottle": 229
-    },
-    {
-      "name": "2022 Winnica Jakubów, 'Yacobus Orange', Lower Silesia, Poland",
-      "description": "hibernal, riesling, solaris | Natural & Orange Wine | 12%",
+      "name": "2023 Winnica Jakubów, 'Yacobus Orange', Lower Silesia, Poland",
+      "description": "albillo mayor, pirules | Orange Wine | 13.5%",
       "priceGlass": 43,
       "priceBigGlass": 84,
       "priceBottle": 249
     },
     {
-      "name": "2023 Philipp Kuhn, 'PiWi Orange', Pfalz, Germany",
-      "description": "cabernet blanc | Orange Wine | 12,5%",
-      "priceGlass": 46,
-      "priceBigGlass": 91,
-      "priceBottle": 259
-    },
-    {
       "name": "2020 Lambuena, 'Finca Las Conejeras' Blanco, Castilla y Leon, Spain",
-      "description": "albillo mayor, pirules | Oxidized Wine | 13,5%",
+      "description": "albillo mayor, pirules | Oxidized Wine | 13.5%",
       "priceGlass": 64,
       "priceBigGlass": 124,
       "priceBottle": 359
@@ -61,17 +54,17 @@
   ],
   "roseWines": [
     {
-      "name": "2023 Weingut Andres, '”A’ Old Skool Rose', Pfalz, Germany",
-      "description": "pinot noir | 11,5%",
-      "priceGlass": 29,
-      "priceBigGlass": 55,
-      "priceBottle": 155
+      "name": "2024 Château d’Esclans, 'Whispering Angel', Provence, France",
+      "description": "grenache, cinsault, vermentino | 13%",
+      "priceGlass": 47,
+      "priceBigGlass": 92,
+      "priceBottle": 269
     }
   ],
   "sweetAndFortifiedWines": [
     {
-      "name": "2022 Winnica Jakubów, ‘S5’, Lower Silesia, Poland 500ml",
-      "description": "solaris | 13,5%",
+      "name": "N.V. Winnica Jakubów, ‘S5’, Lower Silesia, Poland 500ml",
+      "description": "solaris | 13.5%",
       "priceGlass": 41,
       "priceBigGlass": 78,
       "priceBottle": 249
@@ -99,17 +92,17 @@
     },
     {
       "name": "2020 Castell Encus, ‘Ekam Essència’, Catalonia, Spain",
-      "description": "riesling | 10,5%",
+      "description": "riesling | 10.5%",
       "priceGlass": 67,
       "priceBigGlass": 127,
       "priceBottle": 639
     },
     {
-      "name": "2003 Chateau Doisy-Védrines, ‘Sauternes Grand Cru Classe’, Bordeaux, France",
-      "description": "muscadelle, sauvignon blanc, semillon | 10,5%",
-      "priceGlass": 86,
-      "priceBigGlass": 167,
-      "priceBottle": 829
+      "name": "1986 Château d’Yquem, ‘Lur Saluces’, Sauternes, Bordeaux, France",
+      "description": "semillon, sauvignon blanc | 14%",
+      "priceGlass": 349,
+      "priceBigGlass": false,
+      "priceBottle": 3399
     }
   ],
   "nonAlcoholicWines": [
@@ -130,25 +123,46 @@
       "priceBottle": 145
     },
     {
-      "name": "2022 Fritz Zimmer, 'Riesling Trocken', Rheinhessen, Germany",
-      "description": "riesling | 12,5%",
+      "name": "2024 Fritz Zimmer, 'Riesling Trocken', Mosel, Germany",
+      "description": "riesling | 12.5%",
       "priceGlass": 27,
       "priceBigGlass": 52,
       "priceBottle": 149
     },
     {
-      "name": "2022 Fritz Zimmer, 'Riesling Kabinett', Mosel, Germany",
-      "description": "riesling | Off-dry | 8%",
+      "name": "2023 Fritz Zimmer, 'Riesling Kabinett', Rheinhessen, Germany",
+      "description": "riesling | Off-dry | 10.5%",
       "priceGlass": 28,
       "priceBigGlass": 54,
       "priceBottle": 155
     },
     {
-      "name": "2018 Château Hauts Cabroles, 'Bordeaux Blanc', Bordeaux, France",
-      "description": "sauvignon blanc, semillon | 13,5%",
+      "name": "2024 Château Des Moulins A Vent, 'Héritage', Graves, Bordeaux, France",
+      "description": "semillon, sauvignon blanc | 12%",
       "priceGlass": 29,
       "priceBigGlass": 56,
       "priceBottle": 159
+    },
+    {
+      "name": "2024 Josef Ehmoser, 'Grüner Veltliner Terrasen', Wagram, Austria",
+      "description": "grüner veltliner | 12%",
+      "priceGlass": 33,
+      "priceBigGlass": 63,
+      "priceBottle": 185
+    },
+    {
+      "name": "2023 Majątek Drzewce, ‘Solaris’, Lubelskie, Poland",
+      "description": "solaris | 11.5%",
+      "priceGlass": 34,
+      "priceBigGlass": 66,
+      "priceBottle": 189
+    },
+    {
+      "name": "2021 Fruscalzo, 'Ribolla Gialla', Friuli-Venezia Giulia, Italy",
+      "description": "ribolla gialla | 12.5%",
+      "priceGlass": 35,
+      "priceBigGlass": 68,
+      "priceBottle": 195
     },
     {
       "name": "2023 Cantine Astroni, 'Colle Imperatrice Campi Flegrei Falanghina', Campania, Italy",
@@ -158,50 +172,43 @@
       "priceBottle": 215
     },
     {
-      "name": "2023 Josef Ehmoser, 'Grüner Veltliner Terrasen', Wagram, Austria",
-      "description": "grüner veltliner | 12%",
-      "priceGlass": 33,
-      "priceBigGlass": 63,
-      "priceBottle": 185
-    },
-    {
-      "name": "2021 Fruscalzo, 'Ribolla Gialla', Friuli-Venezia Gulia, Italy",
-      "description": "ribolla gialla | 12,5%",
-      "priceGlass": 35,
-      "priceBigGlass": 68,
-      "priceBottle": 195
-    },
-    {
-      "name": "2023 Yealands Estate, 'Baby Doll', Marlborough, New Zealand",
-      "description": "sauvignon blanc | 12,5%",
+      "name": "2024 Yealands Estate, 'Baby Doll', Marlborough, New Zealand",
+      "description": "sauvignon blanc | 12.5%",
       "priceGlass": 38,
       "priceBigGlass": 73,
       "priceBottle": 215
     },
     {
-      "name": "2023 Marchesi Gondi, 'Sassobianco', Tuscany, Italy",
-      "description": "chardonnay, sauvignon blanc | 12,5%",
+      "name": "2023 Feudo Montoni, 'Catarratto Masso', Terre Siciliane, Italy",
+      "description": "catarratto | 13%",
+      "priceGlass": 38,
+      "priceBigGlass": 75,
+      "priceBottle": 219
+    },
+    {
+      "name": "2024 Marchesi Gondi, 'Sassobianco', Tuscany, Italy",
+      "description": "chardonnay, sauvignon blanc | 12.5%",
       "priceGlass": 39,
       "priceBigGlass": 75,
       "priceBottle": 219
     },
     {
       "name": "2022 Bodegas Frias del Val, 'El Flako', Rioja Alavesa, Spain",
-      "description": "malvasia, viura | 14,5%",
+      "description": "malvasia, viura | 14%",
       "priceGlass": 40,
       "priceBigGlass": 76,
       "priceBottle": 229
     },
     {
-      "name": "2023 Matteo Correggia, 'Roero Arneis', Piedmont, Italy",
+      "name": "2022 Matteo Correggia, 'Roero Arneis', Piedmont, Italy",
       "description": "arneis | 13%",
       "priceGlass": 42,
       "priceBigGlass": 81,
       "priceBottle": 235
     },
     {
-      "name": "2023 K.H. Schneider, 'Schloßböckelheim Vulkanstein', Nahe, Germany",
-      "description": "riesling | 12,5%",
+      "name": "2024 K.H. Schneider, 'Schloßböckelheim Vulkanstein', Nahe, Germany",
+      "description": "riesling | 12.5%",
       "priceGlass": 44,
       "priceBigGlass": 83,
       "priceBottle": 245
@@ -222,38 +229,17 @@
     },
     {
       "name": "2023 Astrolabe, 'Chardonnay', Marlborough, New Zealand",
-      "description": "chardonnay | 13,5%",
+      "description": "chardonnay | 13.5%",
       "priceGlass": 47,
       "priceBigGlass": 90,
       "priceBottle": 265
     },
     {
-      "name": "2023 Alois Lageder, 'Gewurztraminer', Alto Adige, Italy",
-      "description": "gewurztraminer | 12,5%",
+      "name": "2024 Alois Lageder, 'Gewurztraminer', Alto Adige, Italy",
+      "description": "gewurztraminer | 12.5%",
       "priceGlass": 47,
       "priceBigGlass": 91,
       "priceBottle": 259
-    },
-    {
-      "name": "2023 Pazo Señorans, 'Albariño', Galicia, Spain",
-      "description": "albariño | 13%",
-      "priceGlass": 48,
-      "priceBigGlass": 93,
-      "priceBottle": 269
-    },
-    {
-      "name": "2023 Jean Marc Millot, 'Aligoté', Burgundy, France",
-      "description": "aligoté | 13%",
-      "priceGlass": 56,
-      "priceBigGlass": 108,
-      "priceBottle": 319
-    },
-    {
-      "name": "2023 Domaine Guy Amiot et Fils, ’Cuvee Flavie’, Burgundy, France",
-      "description": "chardonnay | 13,5%",
-      "priceGlass": 73,
-      "priceBigGlass": 141,
-      "priceBottle": 419
     },
     {
       "name": "2023 Claude Riffault, Sancerre 'Mosaïque Calcaire', Loire Valley, France",
@@ -263,44 +249,30 @@
       "priceBottle": 345
     },
     {
-      "name": "2022 Chateau Yvonne, Saumur Blanc 'Cuvee Yvonne', Loire Valley, France",
-      "description": "chenin blanc | 13,9%",
-      "priceGlass": 69,
-      "priceBigGlass": 134,
-      "priceBottle": 395
-    },
-    {
-      "name": "2021 Paul Lato, 'Pro Bono', Santa Barbara Country, California, USA",
-      "description": "chardonnay | 14%",
-      "priceGlass": 76,
-      "priceBigGlass": 149,
-      "priceBottle": 439
-    },
-    {
       "name": "2023 Domaine Pinson, 'Chablis', Burgundy, France",
-      "description": "chardonnay | 12,5%",
+      "description": "chardonnay | 12.5%",
       "priceGlass": 61,
       "priceBigGlass": 119,
       "priceBottle": 349
     },
     {
-      "name": "2023 Feudo Montoni, 'Catarratto Masso', Terre Siciliane, Italy",
-      "description": "catarratto | 13%",
-      "priceGlass": 38,
-      "priceBigGlass": 75,
-      "priceBottle": 219
+      "name": "2022 Chateau Yvonne, Saumur Blanc 'Cuvee Yvonne', Loire Valley, France",
+      "description": "chenin blanc | 13.9%",
+      "priceGlass": 69,
+      "priceBigGlass": 134,
+      "priceBottle": 395
+    },
+    {
+      "name": "2020 Domaine Guy Amiot et Fils, ’Cuvee Flavie’, Burgundy, France",
+      "description": "chardonnay | 13.5%",
+      "priceGlass": 73,
+      "priceBigGlass": 141,
+      "priceBottle": 419
     }
   ],
   "redWines": [
     {
-      "name": "2019 Apollonio Casa Vinicola, 'Mani del Sud', Puglia, Italy",
-      "description": "primitivo | 15%",
-      "priceGlass": 38,
-      "priceBigGlass": 75,
-      "priceBottle": 219
-    },
-    {
-      "name": "2019 Quarisa, 'Caravan Durif', New South Wales, Australia",
+      "name": "2021 Quarisa, 'Caravan Durif', New South Wales, Australia",
       "description": "petit syrah | 14%",
       "priceGlass": 28,
       "priceBigGlass": 55,
@@ -308,17 +280,17 @@
     },
     {
       "name": "2023 Bodegas Lambuena, 'Roble', Ribera del Duero, Spain",
-      "description": "tempranillo | 14,5%",
+      "description": "tempranillo | 14.5%",
       "priceGlass": 29,
       "priceBigGlass": 56,
       "priceBottle": 159
     },
     {
-      "name": "2021 Kaiken, 'Malbec Ultra', Mendoza, Argentina",
-      "description": "malbec | 14%",
-      "priceGlass": 31,
-      "priceBigGlass": 59,
-      "priceBottle": 175
+      "name": "2023 Az. Agr. Midia, 'Zahìa', Sicily, Italy",
+      "description": "frappato | 11.5%",
+      "priceGlass": 33,
+      "priceBigGlass": 64,
+      "priceBottle": 185
     },
     {
       "name": "2020 Alves de Sousa, 'Caldas Reserva', Douro, Portugal",
@@ -328,158 +300,151 @@
       "priceBottle": 189
     },
     {
-      "name": "2023 Az. Agr. Midia, 'Zahìa', Sicily, Italy",
-      "description": "frappato | 11,5%",
-      "priceGlass": 33,
-      "priceBigGlass": 64,
-      "priceBottle": 185
-    },
-    {
       "name": "2021 Bodegas Jimenez – Landi, 'El Corralón', Castilia La Mancha, Spain",
-      "description": "grenache, syrah, cabernet sauvignon | natural wine | 14,5%",
+      "description": "grenache, syrah, cabernet sauvignon | 14.5%",
       "priceGlass": 35,
       "priceBigGlass": 67,
       "priceBottle": 189
     },
     {
-      "name": "2021 Domenico Clerico, 'Visadi', Piedmont, Italy",
+      "name": "2022 Domenico Clerico, 'Visadi', Piedmont, Italy",
       "description": "dolcetto | 13%",
       "priceGlass": 36,
       "priceBigGlass": 71,
       "priceBottle": 215
     },
     {
-      "name": "2021 Matteo Correggia, 'Roero Rosso', Piedmont, Italy",
-      "description": "nebbiolo | 14%",
-      "priceGlass": 45,
-      "priceBigGlass": 89,
-      "priceBottle": 265
+      "name": "2019 Apollonio Casa Vinicola, 'Mani del Sud', Puglia, Italy",
+      "description": "primitivo | 15%",
+      "priceGlass": 38,
+      "priceBigGlass": 75,
+      "priceBottle": 219
     },
     {
-      "name": "2021 K.H. Schneider, 'Spätburgunder', Nahe, Germany",
+      "name": "2019 Bodegas Señorio D. Pecina, 'Crianza', Rioja, Spain",
+      "description": "tempranillo, graciano, garnacha | 14.5%",
+      "priceGlass": 39,
+      "priceBigGlass": 75,
+      "priceBottle": 429
+    },
+    {
+      "name": "2022 K.H. Schneider, 'Spätburgunder', Nahe, Germany",
       "description": "pinot noir | 13%",
       "priceGlass": 40,
       "priceBigGlass": 78,
       "priceBottle": 229
     },
     {
-      "name": "2014 Bodegas Señorio D. Pecina 'Crianza', Rioja, Spain",
-      "description": "tempranillo, graciano, garnacha | en magnum | 14,5%",
-      "priceGlass": 39,
-      "priceBigGlass": 75,
-      "priceBottle": 429
-    },
-    {
-      "name": "2019 Domaine Sergent, 'Cuveé Les Noyers', Madiran, South-West, France",
-      "description": "tannat | 14,5%",
+      "name": "2021 Domaine Sergent, 'Cuvée Les Noyers', Madiran, France",
+      "description": "tannat | 14.5%",
       "priceGlass": 41,
       "priceBigGlass": 79,
       "priceBottle": 225
     },
     {
-      "name": "2020 Torbreck, 'Woodcutter’s Shiraz', Barossa Valley, Australia",
+      "name": "2019 Winnica Jakubów, 'R&R 7', Lower Silesia, Poland",
+      "description": "rondo, regent | 12.5%",
+      "priceGlass": 43,
+      "priceBigGlass": 83,
+      "priceBottle": 245
+    },
+    {
+      "name": "2022 Matteo Correggia, 'Roero Rosso', Piedmont, Italy",
+      "description": "nebbiolo | 14%",
+      "priceGlass": 45,
+      "priceBigGlass": 89,
+      "priceBottle": 265
+    },
+    {
+      "name": "2022 Torbreck, 'Woodcutter’s Shiraz', Barossa Valley, Australia",
       "description": "shiraz | 15%",
       "priceGlass": 49,
       "priceBigGlass": 99,
       "priceBottle": 295
     },
     {
-      "name": "2019 Winnica Jakubów, 'R&R 7', Lower Silesia, Poland",
-      "description": "rondo, regent | natural wine | 12,5%",
-      "priceGlass": 43,
-      "priceBigGlass": 83,
-      "priceBottle": 245
-    },
-    {
-      "name": "2020 Marchesi Gondi, 'Chianti Ruffina Riserva', Toscany, Italy",
-      "description": "sangiovese, colorino | 13,5%",
+      "name": "2021 Marchesi Gondi, 'Chianti Ruffina Riserva', Tuscany, Italy",
+      "description": "sangiovese, colorino | 13.5%",
       "priceGlass": 51,
       "priceBigGlass": 98,
       "priceBottle": 285
     },
     {
-      "name": "2021 Château La Croix Cantenac, 'Saint-Emilion Grand Cru', Bordeaux, France",
+      "name": "2022 Château La Croix Cantenac, 'Saint-Emilion Grand Cru', Bordeaux, France",
       "description": "merlot, cabernet sauvignon, cabernet franc | 14%",
       "priceGlass": 54,
       "priceBigGlass": 105,
       "priceBottle": 309
     },
     {
-      "name": "2019 Astrolabe, 'Pinot Noir', Marlborough, New Zealand",
-      "description": "pinot noir | 13,5%",
+      "name": "2020 Astrolabe, 'Pinot Noir', Marlborough, New Zealand",
+      "description": "pinot noir | 13.5%",
       "priceGlass": 56,
       "priceBigGlass": 109,
       "priceBottle": 319
     },
     {
-      "name": "2021 Francis Coppola, 'Red Label Zinfandel', California, USA",
-      "description": "zinfandel | 14,5%",
+      "name": "2020 Francis Coppola, 'Red Label Zinfandel', California, USA",
+      "description": "zinfandel | 14.5%",
       "priceGlass": 56,
       "priceBigGlass": 109,
       "priceBottle": 319
     },
     {
       "name": "2019 Jose Antonio Garcia, 'Valtuille de Abajo', Castilla y León, Spain",
-      "description": "mencia | organic | 13,5%",
+      "description": "mencia | 13.5%",
       "priceGlass": 61,
       "priceBigGlass": 118,
       "priceBottle": 349
     },
     {
-      "name": "2022 Domaine Chicotot, 'Bourgogne Cote d’Or', Burgundy, France",
+      "name": "2015 Bodegas Lambuena, 'Cabernet Sauvignon', Ribera del Duero, Spain",
+      "description": "cabernet sauvignon | 15%",
+      "priceGlass": 75,
+      "priceBigGlass": 147,
+      "priceBottle": 439
+    },
+    {
+      "name": "2023 Domaine Chicotot, 'Bourgogne Côte d’Or', Burgundy, France",
       "description": "pinot noir | 13%",
       "priceGlass": 77,
       "priceBigGlass": 152,
       "priceBottle": 439
     },
     {
-      "name": "2020 Cascina Luisin, Barbaresco 'Asili', Piedmont, Italy",
-      "description": "nebbiolo | 14,5%",
-      "priceGlass": 89,
-      "priceBigGlass": 175,
-      "priceBottle": 519
-    },
-    {
-      "name": "2021 Paul Lato, 'Pro Bono', Santa Barbara Country, California",
+      "name": "2021 Paul Lato, 'Pro Bono', Santa Barbara County, California, USA",
       "description": "pinot noir | 14%",
       "priceGlass": 84,
       "priceBigGlass": 165,
       "priceBottle": 489
     },
     {
-      "name": "2018 Château Bellegrave, Pauillac, Bordeaux, France",
+      "name": "2019 Château Bellegrave, Pauillac, Bordeaux, France",
       "description": "cabernet sauvignon, merlot | 14%",
       "priceGlass": 87,
       "priceBigGlass": 169,
       "priceBottle": 485
     },
     {
-      "name": "2016 Carlo Meroni, 'Amarone della Valpolicella Classico', Veneto, Italy",
+      "name": "2018 Carlo Meroni, 'Amarone della Valpolicella Classico', Veneto, Italy",
       "description": "molinara, rondinella, corvina | 17%",
       "priceGlass": 88,
       "priceBigGlass": 168,
       "priceBottle": 479
     },
     {
-      "name": "2020 Bodegas Mauro, 'Mauro', Castilia y Leon, Spain",
-      "description": "tempranillo, cabernet sauvignon, syrah | 14,5%",
+      "name": "2020 Cascina Luisin, Barbaresco 'Asili', Piedmont, Italy",
+      "description": "nebbiolo | 14.5%",
       "priceGlass": 89,
-      "priceBigGlass": 171,
-      "priceBottle": 499
+      "priceBigGlass": 175,
+      "priceBottle": 519
     },
     {
-      "name": "2019 Domaine Guy Amiot et Fils, 'Vieilles Vignes', Chassagne-Montrachet, France",
-      "description": "pinot noir | 14%",
-      "priceGlass": 109,
-      "priceBigGlass": 214,
-      "priceBottle": 629
-    },
-    {
-      "name": "2016 Biondi-Santi, 'Brunello Di Montalcino', Toscany, Italy",
-      "description": "sangiovese grosso | 14%",
-      "priceGlass": 279,
-      "priceBigGlass": 549,
-      "priceBottle": 1589
+      "name": "2004 Manzone, Barolo 'Le Gramolere', Piedmont, Italy",
+      "description": "nebbiolo | 14%",
+      "priceGlass": 144,
+      "priceBigGlass": 285,
+      "priceBottle": 849
     }
   ]
 }
