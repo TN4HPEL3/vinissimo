@@ -10,6 +10,7 @@
   "navigationValentines": "valentine's day",
   "navigationEaster": "Easter",
   "navigationDegustation": "champagne dinner",
+  "navigationLunchValentines": "valentine's day lunch",
 
   "aboutUsTitle": "about us",
   "aboutUsPrimaryFirst": "Vinissimo Restaurant & Wine Bar is the new brand under which Sztuczka Bistro, present at Bema 6 since 2017, has been operating since February 2024. The restaurant, run since 2022 by Łukasz Chwojnicki, in a slightly changed format and with the same irreplaceable team, invariably serves delicious and minimalist cuisine, backed by a huge wine selection and impeccable service.",
@@ -373,34 +374,62 @@
 
   "valentinesMenu": {
     "aperitif": [
-      "Winnica Jakubów, Riesling Sekt 2020",
-      "Gustavshof, Holunder Secco Demeter NV (0% alk.)"
+      "Torello, 225 Corpinat Brut Nature 2018 | Gustavshon",
+      "Holunder Secco Demeter NV (0% alk.)"
     ],
-    "amuseBouche": "goat cheese tartelette . aubergine",
+    "amuseBouche": "donut with cheese mousse . cranberry",
     "starters": [
-      "beef tartare . grilled green onion . wasabi . croûtons",
-      "shrimps gyoza . bisque . white turnip . furikake",
-      "tuna tataki . truffle ponzu . crème fraîche . fennel . cilantro",
-      "arancini with Comté . mushroom aioli . portobello . black truffle",
-      "oysters „Secrete” David Hevre no3 . rose mignonette (3 szt.)",
-      "homemade sourdough bread . onion butter with miso . pickles"
+      "beef tartare . Dijon . shallot . Jerusalem artichoke . horseradish",
+      "grilled shrimp . peri-peri sauce . pineapple . shiso",
+      "tuna tataki . Yuzu . roe . coriander . turnip . sesame",
+      "cheese churros . truffle aioli . Grana Padano . black truffle",
+      "Juline oysters no. 3 (3 pcs.) . lime . chili",
+      "sourdough bread . onion butter with miso . pickles"
     ],
     "mains": [
-      "grilled scotch salmon . cider sauce . roe . tarragon . couscous . chinese broccoli",
-      "veal hip . Diane sauce . mushroom croquette . kale",
-      "raviolo with ricotta and liquid yolk . cheese fondue . wild cauliflower . black truffle",
-      "rib-eye steak (200g) . Béarnaise sauce . french fries . salads with dressing"
+      "Skrei cod . hollandaise sauce . spinach . broccolini . potato chips",
+      "guinea fowl leg with pistachios . mushroom jus . celery . guanciale . radicchio",
+      "raviolo with mushrooms and runny yolk . cheese foam . kale . oyster mushrooms . black truffle",
+      "beef striploin (200g) . Café de Paris sauce . potatoes . leafy greens with dressing"
     ],
     "desserts": [
-      "basque cheesecake . blood orange . caramelized white chocolate",
-      "financier . plum . chocolate ganache . tonka bean"
+      "almond tart . yogurt cream . rose sorbet",
+      "sticky toffee pudding . milky ice cream . chocolate"
     ],
     "drinks": "water . coffee . tea",
     "cost": [
-      "289 zł|person (apéritif, amuse bouche, starter, main course, dessert, soft drinks)",
-      "339 zł|person (apéritif, amuse bouche, two starters, main course, dessert, soft drinks)",
+      "319 zł|person (apéritif, amuse bouche, starter, main course, dessert, soft drinks)",
+      "369 zł|person (apéritif, amuse bouche, two starters, main course, dessert, soft drinks)",
       "(additional 12.5% waiter service charge)"
     ]
+  },
+  "valentinesLunchMenu": {
+    "starters": [
+      "own baking sourdough bread . onion butter . pickles",
+      "beef tartar . smoked mayonnaise . sunflower . herb",
+      "scesar salad with shrimps . anchovies . Grana Padano",
+      "trout . ponzu . orange . coriander",
+      "cheese churros . truffle aioli"
+    ],
+    "mains": [
+      "ravioli with mushrooms . kale . oyster mushrooms . cheese sauce",
+      "steak bavette . grilled potatoes . Café de Paris sauce"
+    ],
+    "desserts": ["caramel pudding . milk ice cream . chocolate"],
+    "drinks": "mineral water",
+    "cost": [
+      "109 pln | person",
+      "129 pln | person (with a glass of wine*)",
+      "(*choice of white or red)",
+      "(service charge paid additionally, 12.5%)"
+    ]
+  },
+  "valentinesLunchMenuCategories": {
+    "starters": "starters | to share",
+    "mains": "main courses | to choose",
+    "desserts": "dessert",
+    "drinks": "drinks",
+    "cost": "price"
   },
   "valentinesMenuCategories": {
     "aperitif": "apéritif",
@@ -412,6 +441,8 @@
     "cost": "cost"
   },
   "valentinesTitleMenu": "Valentine's Dinner",
+  "valentinesLunchTitleMenu": "Valentine's Day Lunch",
+  "valentinesLunchDescription": "(served from 09.02 to 13.02 from 2:00 p.m. to 5:00 p.m.)",
 
   "cateringTitle": "Festive Menu",
 
@@ -480,38 +511,45 @@
     ],
     "cocktails": [
       {
+        "name": "Negroni",
+        "description": "Campari . The London no.3 . Carlo Alberto Riserva 30%",
+        "price": 39
+      },
+      {
         "name": "Aperol Spritz",
-        "description": "Aperol · prosecco · sparkling water · orange 10%"
+        "description": "Aperol . prosecco . sparkling water . orange 10%",
+        "price": 39
       },
       {
         "name": "Cardinale",
-        "description": "The London no.1 · Campari · Dolin dry vermouth 25%"
+        "description": "The London no.3 . Campari . Dolin dry vermouth 29%",
+        "price": 39
       },
       {
         "name": "Whisky Sour",
-        "description": "Highland Park 10yo · lemon · egg white · simple syrup · Angostura 23%"
+        "description": "Highland Park 10yo . lemon . egg albumen . simple syrup . Angostura 20.5%",
+        "price": 39
       },
       {
         "name": "Espresso Martini",
-        "description": "Distil No.9 · simple syrup · espresso · kahlua 24%"
+        "description": "Belvedere Organic . simple syrup . espresso . kahlua 19%",
+        "price": 39
       },
       {
         "name": "Pink Sour",
-        "description": "Rosolis rose · lemon · simple syrup · egg white · prosecco 22%"
+        "description": "Rosolis rose . lemon . simple syrup . egg albumen . prosecco 9.6%",
+        "price": 39
       },
       {
-        "name": "Gin & Tonic",
-        "description": "The London no.1 · Thomas Henry tonic water · lime 14%"
-      },
-      {
-        "name": "Dark & Stormy",
-        "description": "Kraken rum · ginger beer · lime 14%"
+        "name": "Sidecar",
+        "description": "Hennessy V.S. . Cointreau . simple syrup 30%",
+        "price": 39
       }
     ],
     "aperitif": [
       {
         "name": "Aperol 25%",
-        "price": 15
+        "price": 18
       },
       {
         "name": "Campari 11%",
@@ -526,6 +564,14 @@
       {
         "name": "Distil No. 9 40%",
         "price": 15
+      },
+      {
+        "name": "Belvedere 40%",
+        "price": 29
+      },
+      {
+        "name": "Belvedere 10 40%",
+        "price": 169
       }
     ],
     "highland_park": [
@@ -556,16 +602,16 @@
         "price": 22
       },
       {
-        "name": "Naked Malt 40%",
-        "price": 25
-      },
-      {
         "name": "Sexton Irish Single Malt 40%",
         "price": 25
       },
       {
         "name": "Sazerac Rye 45%",
         "price": 27
+      },
+      {
+        "name": "Naked Malt 40%",
+        "price": 29
       },
       {
         "name": "Bushmills Irish Single Malt 40%",
@@ -576,8 +622,16 @@
         "price": 31
       },
       {
-        "name": "Eagle Rare Aged 10YO",
+        "name": "Glenmorangie 12YO 40%",
         "price": 33
+      },
+      {
+        "name": "Eagle Rare Aged 10YO 40%",
+        "price": 33
+      },
+      {
+        "name": "Ardbeg 10YO 40%",
+        "price": 45
       },
       {
         "name": "Port Askaig Islay Single Malt 57.1%",
@@ -592,8 +646,12 @@
         "price": 55
       },
       {
-        "name": "The Macallan 12YO 40%",
+        "name": "The Macallan Single Malt 12YO 40%",
         "price": 59
+      },
+      {
+        "name": "Glenmorangie 18YO 40%",
+        "price": 119
       },
       {
         "name": "The Macallan Harmony Collection 44.2%",
@@ -602,17 +660,13 @@
       {
         "name": "Bushmills 18YO Spanish Brandy Casks 40%",
         "price": 159
+      },
+      {
+        "name": "Glenmorangie Signet 40%",
+        "price": 179
       }
     ],
     "rum": [
-      {
-        "name": "Brugal Dominican Anejo Superior 38%",
-        "price": 18
-      },
-      {
-        "name": "Brugal Dominican Blanco Especial 40%",
-        "price": 18
-      },
       {
         "name": "Kraken Caribbean Black Spiced 40%",
         "price": 23
@@ -635,7 +689,11 @@
       },
       {
         "name": "Brugal 1888 Dominican 40%",
-        "price": 42
+        "price": 44
+      },
+      {
+        "name": "Eminente 41.3%",
+        "price": 49
       }
     ],
     "tequila": [
@@ -662,19 +720,31 @@
     ],
     "mead": [
       {
+        "name": "Quantum Satis Mead 12% (75ml)",
+        "price": 39
+      },
+      {
         "name": "Quantum Satis Mead 12% (375ml)",
         "price": 195
       },
       {
-        "name": "Coffee Melomel 12.5% (75ml)",
-        "price": 39
+        "name": "Coffee Melomel 12.5%",
+        "price": null
       },
       {
-        "name": "Cherry 12% (info only)",
+        "name": "Cherry 12%",
         "price": null
       }
     ],
     "gin": [
+      {
+        "name": "Citadelle Gin Original 44%",
+        "price": 26
+      },
+      {
+        "name": "Citadelle Gin Jardin D’Été 41.5%",
+        "price": 26
+      },
       {
         "name": "Drumshanbo Gunpowder Irish Gin 43%",
         "price": 29
@@ -686,11 +756,19 @@
     ],
     "others": [
       {
+        "name": "Hennessy V.S 40%",
+        "price": 35
+      },
+      {
         "name": "Calvados Boulard VSOP 40%",
         "price": 39
       },
       {
         "name": "Remy Martin 1738 Accord Royal 40%",
+        "price": 59
+      },
+      {
+        "name": "Hennessy V.S.O.P 40%",
         "price": 59
       },
       {
@@ -704,16 +782,20 @@
       {
         "name": "Pliska Brandy 1983 40%",
         "price": 119
+      },
+      {
+        "name": "Hennessy X.O 40%",
+        "price": 189
       }
     ],
     "vermouth": [
       {
-        "name": "Carlo Alberto Rouge 17%",
-        "price": 35
+        "name": "Carlo Alberto Riserva 18%",
+        "price": 49
       },
       {
         "name": "1757 Vermouth Di Torino Extra Dry 18%",
-        "price": 39
+        "price": 42
       }
     ],
     "digestif": [
@@ -727,15 +809,11 @@
       },
       {
         "name": "Fernet Branca Mentha 28%",
-        "price": 22
+        "price": 25
       },
       {
         "name": "Fernet Branca 39%",
         "price": 25
-      },
-      {
-        "name": "Unicum Riserva 40%",
-        "price": 39
       },
       {
         "name": "Sessantani 60 Grappa Di Primitivo 40%",
@@ -744,11 +822,15 @@
       {
         "name": "Chartreuse Jaune 43%",
         "price": 45
+      },
+      {
+        "name": "Unicum Riserva 40%",
+        "price": 49
       }
     ],
     "liqueurs": [
       {
-        "name": "Krupnik Old Liquer",
+        "name": "Krupnik Old Liquer 38%",
         "price": 15
       },
       {
@@ -765,7 +847,7 @@
       },
       {
         "name": "Kahlua 16%",
-        "price": 15
+        "price": 19
       }
     ]
   }

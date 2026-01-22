@@ -5,13 +5,13 @@ import { ValentinesTitleAtom } from '../atoms/ValentinesTitleAtom/ValentinesTitl
 
 function ValentinesTemplate() {
   const { t } = useLanguage();
-  const { valentinesMenu, valentinesMenuCategories } = t;
+  const { valentinesMenu, valentinesMenuCategories, valentinesTitleMenu } = t;
   const categories = Object.keys(valentinesMenuCategories);
   smoothScrollToTop();
 
   return (
     <div>
-      <ValentinesTitleAtom />
+      <ValentinesTitleAtom text={valentinesTitleMenu} />
       {categories.map(category => {
         const categoryName = valentinesMenuCategories[category];
         const categoryDetails = valentinesMenu[category];
