@@ -10,6 +10,7 @@
   "navigationValentines": "valentine's day",
   "navigationEaster": "Easter",
   "navigationDegustation": "champagne dinner",
+  "navigationLunchValentines": "valentine's day lunch",
 
   "aboutUsTitle": "about us",
   "aboutUsPrimaryFirst": "Vinissimo Restaurant & Wine Bar is the new brand under which Sztuczka Bistro, present at Bema 6 since 2017, has been operating since February 2024. The restaurant, run since 2022 by Łukasz Chwojnicki, in a slightly changed format and with the same irreplaceable team, invariably serves delicious and minimalist cuisine, backed by a huge wine selection and impeccable service.",
@@ -402,6 +403,34 @@
       "(additional 12.5% waiter service charge)"
     ]
   },
+  "valentinesLunchMenu": {
+    "starters": [
+      "own baking sourdough bread . onion butter . pickles",
+      "beef tartar . smoked mayonnaise . sunflower . herb",
+      "scesar salad with shrimps . anchovies . Grana Padano",
+      "trout . ponzu . orange . coriander",
+      "cheese churros . truffle aioli"
+    ],
+    "mains": [
+      "ravioli with mushrooms . kale . oyster mushrooms . cheese sauce",
+      "steak bavette . grilled potatoes . Café de Paris sauce"
+    ],
+    "desserts": ["caramel pudding . milk ice cream . chocolate"],
+    "drinks": "mineral water",
+    "cost": [
+      "109 pln | person",
+      "129 pln | person (with a glass of wine*)",
+      "(*choice of white or red)",
+      "(service charge paid additionally, 12.5%)"
+    ]
+  },
+  "valentinesLunchMenuCategories": {
+    "starters": "starters | to share",
+    "mains": "main courses | to choose",
+    "desserts": "dessert",
+    "drinks": "drinks",
+    "cost": "price"
+  },
   "valentinesMenuCategories": {
     "aperitif": "apéritif",
     "amuseBouche": "amuse bouche",
@@ -412,6 +441,8 @@
     "cost": "cost"
   },
   "valentinesTitleMenu": "Valentine's Dinner",
+  "valentinesLunchTitleMenu": "Valentine's Day Lunch",
+  "valentinesLunchDescription": "(served from 09.02 to 13.02 from 2:00 p.m. to 5:00 p.m.)",
 
   "cateringTitle": "Festive Menu",
 
