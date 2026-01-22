@@ -369,32 +369,32 @@
 
   "valentinesMenu": {
     "aperitif": [
-      "Winnica Jakubów, Riesling Sekt 2020",
-      "Gustavshof, Holunder Secco Demeter NV (0% alk.)"
+      "Torello, 225 Corpinat Brut Nature 2018| Gustavshon",
+      "Holunder Secco Demeter NV (0% alk.)"
     ],
-    "amuseBouche": "tartaletka z kozim serem . bakłażan",
+    "amuseBouche": "pączek z musem serowym . żurawina",
     "starters": [
-      "tatar wołowy . grillowana dymka . wasabi . croûtons",
-      "gyoza z krewetkami . bisque . biała rzepa . furikake",
-      "tataki z tuńczyka . truflowe ponzu . crème fraîche . koper włoski . kolendra",
-      "arancini z Comté . grzybowe aioli . portobello . czarna trufla",
-      "ostrygi „Secrete” David Hevre no3 . różany mignonette (3 szt.)",
+      "tatar wołowy . Dijon . szalotka . topinambur . chrzan",
+      "grillowane krewetki . sos peri-peri . ananas . pachnotka",
+      "tataki z tuńczyka . Yuzu . ikra . kolendra . rzepa . sezam",
+      "churros serowe . truflowe aioli . Grana Padano . czarna truflaa",
+      "ostrygi Juline no3 (3 szt.) . limonka . chilli",
       "chleb na zakwasie . masło cebulowe z miso . pikle"
     ],
     "mains": [
-      "grillowany łosoś szkocki . sos cydrowy . ikra . estragon . kuskus . brokuł chiński",
-      "biodrówka cielęca . sos Diane . krokiet z grzybami . czarne kurki",
-      "raviolo z ricottą i płynnym żółtkiem . serowe fondue . dziki kalafior . czarna trufla",
-      "antrykot wołowy (200g) . sos Béarnaise . frytki . sałaty z dressingiem"
+      "dorsz Skrei . sos holenderski . szpinak . dziki brokuł . chipsy ziemniaczane",
+      "udko z perliczki z pistacjami . jus grzybowy . seler . Guanciale . radicchio",
+      "raviolo z grzybami i płynnym żółtkiem . piana serowa . jarmuż . boczniaki . czarna trufla",
+      "rostbef wołowy (200g) . sos Café de Paris . ziemniaki . sałaty z dressingiem"
     ],
     "desserts": [
-      "sernik baskijski . sorbet różany . karmelizowana biała czekolada",
-      "finansjer . śliwka . ganache czekoladowy . tonka"
+      "tarta migdałowa . krem jogurtowy . sorbet różany",
+      "sticky toffee pudding . lody mleczne . czekolada"
     ],
     "drinks": "woda . kawa . herbata",
     "cost": [
-      "289 zł|osoba (apéritif, amouse, przystawka, danie główne, deser, napoje)",
-      "339 zł|osoba (apéritif, amouse, dwie przystawki, danie główne, deser, napoje)",
+      "319 zł|osoba (apéritif, amouse, przystawka, danie główne, deser, napoje)",
+      "369 zł|osoba (apéritif, amouse, dwie przystawki, danie główne, deser, napoje)",
       "(serwis kelnerski, płatny dodatkowo, 12,5%)"
     ]
   },

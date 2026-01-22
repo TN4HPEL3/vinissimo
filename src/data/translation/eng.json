@@ -373,32 +373,32 @@
 
   "valentinesMenu": {
     "aperitif": [
-      "Winnica Jakubów, Riesling Sekt 2020",
-      "Gustavshof, Holunder Secco Demeter NV (0% alk.)"
+      "Torello, 225 Corpinat Brut Nature 2018 | Gustavshon",
+      "Holunder Secco Demeter NV (0% alk.)"
     ],
-    "amuseBouche": "goat cheese tartelette . aubergine",
+    "amuseBouche": "donut with cheese mousse . cranberry",
     "starters": [
-      "beef tartare . grilled green onion . wasabi . croûtons",
-      "shrimps gyoza . bisque . white turnip . furikake",
-      "tuna tataki . truffle ponzu . crème fraîche . fennel . cilantro",
-      "arancini with Comté . mushroom aioli . portobello . black truffle",
-      "oysters „Secrete” David Hevre no3 . rose mignonette (3 szt.)",
-      "homemade sourdough bread . onion butter with miso . pickles"
+      "beef tartare . Dijon . shallot . Jerusalem artichoke . horseradish",
+      "grilled shrimp . peri-peri sauce . pineapple . shiso",
+      "tuna tataki . Yuzu . roe . coriander . turnip . sesame",
+      "cheese churros . truffle aioli . Grana Padano . black truffle",
+      "Juline oysters no. 3 (3 pcs.) . lime . chili",
+      "sourdough bread . onion butter with miso . pickles"
     ],
     "mains": [
-      "grilled scotch salmon . cider sauce . roe . tarragon . couscous . chinese broccoli",
-      "veal hip . Diane sauce . mushroom croquette . kale",
-      "raviolo with ricotta and liquid yolk . cheese fondue . wild cauliflower . black truffle",
-      "rib-eye steak (200g) . Béarnaise sauce . french fries . salads with dressing"
+      "Skrei cod . hollandaise sauce . spinach . broccolini . potato chips",
+      "guinea fowl leg with pistachios . mushroom jus . celery . guanciale . radicchio",
+      "raviolo with mushrooms and runny yolk . cheese foam . kale . oyster mushrooms . black truffle",
+      "beef striploin (200g) . Café de Paris sauce . potatoes . leafy greens with dressing"
     ],
     "desserts": [
-      "basque cheesecake . blood orange . caramelized white chocolate",
-      "financier . plum . chocolate ganache . tonka bean"
+      "almond tart . yogurt cream . rose sorbet",
+      "sticky toffee pudding . milky ice cream . chocolate"
     ],
     "drinks": "water . coffee . tea",
     "cost": [
-      "289 zł|person (apéritif, amuse bouche, starter, main course, dessert, soft drinks)",
-      "339 zł|person (apéritif, amuse bouche, two starters, main course, dessert, soft drinks)",
+      "319 zł|person (apéritif, amuse bouche, starter, main course, dessert, soft drinks)",
+      "369 zł|person (apéritif, amuse bouche, two starters, main course, dessert, soft drinks)",
       "(additional 12.5% waiter service charge)"
     ]
   },
