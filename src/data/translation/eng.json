@@ -25,9 +25,9 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "oyster Gillardeau No.2 (1pc.)",
+        "firstLineName": "oyster Juline No.3 (1pc.)",
         "secondLineName": "bergamot dressing . chilli",
-        "price": 33
+        "price": 27
       },
       {
         "firstLineName": "homemade sourdough bread",
@@ -40,14 +40,9 @@
         "price": 21
       },
       {
-        "firstLineName": "Beaufort cheese",
-        "secondLineName": "Marcona almonds . quince chutney",
+        "firstLineName": "Brebis and Comté cheese",
+        "secondLineName": "buckwheat crackers . quince chutney",
         "price": 39
-      },
-      {
-        "firstLineName": "chicory",
-        "secondLineName": "apple . pumpkin . miso . walnuts . Ossau-Iraty cheese",
-        "price": 44
       },
       {
         "firstLineName": "aubergine",
@@ -55,9 +50,9 @@
         "price": 47
       },
       {
-        "firstLineName": "amberjack sashimi",
-        "secondLineName": "yuzu dressing . seaweed . radish",
-        "price": 65
+        "firstLineName": "mackerel",
+        "secondLineName": "yuzu dressing . kombu . cucumber . kohlrabi . turnip",
+        "price": 48
       },
       {
         "firstLineName": "beef tartare",
@@ -65,14 +60,14 @@
         "price": 57
       },
       {
-        "firstLineName": "grilled Argentine shrimps",
-        "secondLineName": "passion fruit . habanero . orange . lardo",
-        "price": 64
+        "firstLineName": "cheese churros",
+        "secondLineName": "Grana Padano . truffle aioli . bagnoli truffle",
+        "price": 49
       },
       {
-        "firstLineName": "veal tongue",
-        "secondLineName": "caesar sauce . artichokes . chervil . shallot",
-        "price": 53
+        "firstLineName": "brussels sprouts",
+        "secondLineName": "tamarind . hollandaise sauce . chervil",
+        "price": 43
       },
       {
         "firstLineName": "deep fried chicken wings (2pc.)",
@@ -80,21 +75,16 @@
         "price": 69
       },
       {
-        "firstLineName": "turbot fish soup",
-        "secondLineName": "tomatoes . preserved lemon . coriander",
+        "firstLineName": "onion soup",
+        "secondLineName": "croutons . Gruyère cheese",
         "price": 45
       }
     ],
     "mains": [
       {
-        "firstLineName": "ravioli with mushrooms",
+        "firstLineName": "tortelloni with mushrooms",
         "secondLineName": "oyster mushrooms . cheese sauce . kale . walnuts . bagnoli truffle",
         "price": 69
-      },
-      {
-        "firstLineName": "dumplings with beef and lamb ragu",
-        "secondLineName": "bordelaise sauce . pearl onion . Grana Padano",
-        "price": 71
       },
       {
         "firstLineName": "fish & chips",
@@ -107,19 +97,24 @@
         "price": 89
       },
       {
-        "firstLineName": "lamb rump steak",
-        "secondLineName": "onion sauce . brussels sprouts . sea buckthorn . russet apple . king oyster mushroom",
-        "price": 119
+        "firstLineName": "Skrei cod",
+        "secondLineName": "leek . lentils . beurre blanc . salsify",
+        "price": 137
       },
       {
-        "firstLineName": "white halibut",
-        "secondLineName": "shellfish bisque . cauliflower . spinach . edamame",
-        "price": 144
+        "firstLineName": "lamb loin",
+        "secondLineName": "mushroom croquette . kale . carrot . veal jus",
+        "price": 179
       },
       {
         "firstLineName": "Black Angus rib-eye steak (300 g)",
-        "secondLineName": "mustard sauce",
+        "secondLineName": "Café de Paris sauce",
         "price": 220
+      },
+      {
+        "firstLineName": "Chateaubriand (450 g)",
+        "secondLineName": "broccolini . demi-glace sauce",
+        "price": 349
       }
     ],
     "sides": [
@@ -150,17 +145,17 @@
     ],
     "desserts": [
       {
-        "firstLineName": "almond cake",
-        "secondLineName": "hazelnuts . chocolate . Maldon salt",
+        "firstLineName": "baba au rhum",
+        "secondLineName": "yoghurt cream . blood orange",
         "price": 38
       },
       {
-        "firstLineName": "gingerbread",
-        "secondLineName": "black currant chutney . salted caramel . milk ice cream",
-        "price": 38
+        "firstLineName": "jerusalem artichoke ice cream",
+        "secondLineName": "espresso . chocolate . hazelnuts",
+        "price": 32
       },
       {
-        "firstLineName": "Beaufort cheese",
+        "firstLineName": "Brebis and Comté",
         "secondLineName": "Marcona almonds . quince chutney",
         "price": 39
       }
