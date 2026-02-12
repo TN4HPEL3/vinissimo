@@ -25,9 +25,9 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "ostryga Gillardeau No.2 (1szt.)",
+        "firstLineName": "ostryga Juline No.3 (1szt.)",
         "secondLineName": "dressing z bergamotki . chilli",
-        "price": 33
+        "price": 27
       },
       {
         "firstLineName": "chleb na zakwasie własnego wypieku",
@@ -40,14 +40,9 @@
         "price": 21
       },
       {
-        "firstLineName": "ser Beaufort",
-        "secondLineName": "migdały Marcona . chutney z pigwy",
+        "firstLineName": "ser Brebis i Comté",
+        "secondLineName": "krakersy gryczane . chutney z pigwy",
         "price": 39
-      },
-      {
-        "firstLineName": "cykoria",
-        "secondLineName": "jabłko . dynia . miso . orzechy włoskie . ser Ossau-Iraty",
-        "price": 44
       },
       {
         "firstLineName": "bakłażan",
@@ -55,9 +50,9 @@
         "price": 47
       },
       {
-        "firstLineName": "sashimi z serioli",
-        "secondLineName": "dressing yuzu . wodorosty . rzodkiew",
-        "price": 65
+        "firstLineName": "makrela",
+        "secondLineName": "dressing yuzu . kombu . ogórek . rzepa",
+        "price": 48
       },
       {
         "firstLineName": "tatar wołowy",
@@ -65,14 +60,14 @@
         "price": 57
       },
       {
-        "firstLineName": "grillowane krewetki argentyńskie",
-        "secondLineName": "marakuja . habanero . pomarańcza . lardo",
-        "price": 64
+        "firstLineName": "churros serowe",
+        "secondLineName": "Grana Padano . truflowe aioli . trufla bagnoli",
+        "price": 49
       },
       {
-        "firstLineName": "ozory cielęce",
-        "secondLineName": "sos cezar . karczochy . trybula . szalotka",
-        "price": 53
+        "firstLineName": "brukselka",
+        "secondLineName": "tamaryndowiec . sos holenderski . trybula",
+        "price": 43
       },
       {
         "firstLineName": "smażone skrzydełka kurczaka (2szt.)",
@@ -80,21 +75,16 @@
         "price": 69
       },
       {
-        "firstLineName": "zupa rybna z turbota",
-        "secondLineName": "pomidory . kiszona cytryna . kolendra",
+        "firstLineName": "zupa cebulowa",
+        "secondLineName": "grzanki . ser Gruyère",
         "price": 45
       }
     ],
     "mains": [
       {
-        "firstLineName": "ravioli z grzybami",
+        "firstLineName": "tortelloni z grzybami",
         "secondLineName": "boczniaki . sos serowy . jarmuż . orzechy włoskie . trufla bagnoli",
         "price": 69
-      },
-      {
-        "firstLineName": "pierogi z ragu wołowo–jagnięcym",
-        "secondLineName": "sos bordelaise . cebula perłowa . Grana Padano",
-        "price": 71
       },
       {
         "firstLineName": "fish & chips z dorsza",
@@ -107,19 +97,24 @@
         "price": 89
       },
       {
-        "firstLineName": "biodrówka jagnięca",
-        "secondLineName": "sos cebulowy . brukselka . rokitnik . szara reneta . boczniak królewski",
-        "price": 119
+        "firstLineName": "dorsz Skrei",
+        "secondLineName": "por . soczewica . beurre blanc . skorzonera",
+        "price": 137
       },
       {
-        "firstLineName": "biały halibut",
-        "secondLineName": "bisque ze skorupiaków . kalafior . szpinak . edamame",
-        "price": 144
+        "firstLineName": "comber jagnięcy",
+        "secondLineName": "krokiet z grzybami . jarmuż . marchewka . jus cielęcy",
+        "price": 179
       },
       {
         "firstLineName": "antrykot sezonowany Black Angus (300g)",
-        "secondLineName": "sos café de Paris",
+        "secondLineName": "sos Café de Paris",
         "price": 220
+      },
+      {
+        "firstLineName": "chateaubriand (450g)",
+        "secondLineName": "brokuł gałązkowy . sos demi-glace",
+        "price": 349
       }
     ],
     "sides": [
@@ -149,17 +144,17 @@
     ],
     "desserts": [
       {
-        "firstLineName": "ciasto migdałowe",
-        "secondLineName": "orzechy laskowe . czekolada . sól Maldon",
+        "firstLineName": "rum baba",
+        "secondLineName": "krem jogurtowy . krwista pomarańcza",
         "price": 38
       },
       {
-        "firstLineName": "piernik",
-        "secondLineName": "chutney z czarnej porzeczki . słony karmel . lody mleczne",
-        "price": 38
+        "firstLineName": "lody z topinamburu",
+        "secondLineName": "espresso . czekolada . orzechy laskowe",
+        "price": 32
       },
       {
-        "firstLineName": "ser Beaufort",
+        "firstLineName": "ser Brebis i Comté",
         "secondLineName": "migdały Marcona . chutney z pigwy",
         "price": 39
       }
