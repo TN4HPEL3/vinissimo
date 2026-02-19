@@ -32,16 +32,6 @@ function NavigationListOrganisms() {
           activeRoutes={['/']}
         />
         <NavigationListItemMolecule
-          item="valentine"
-          text={navigationValentines}
-          activeRoutes={['/valentine']}
-        />
-        <NavigationListItemMolecule
-          item="valentineLunch"
-          text={navigationLunchValentines}
-          activeRoutes={['/valentineLunch']}
-        />
-        <NavigationListItemMolecule
           item="menu/food"
           text={navigationMenu}
           activeRoutes={['/menu/food', '/menu/alcohol']}

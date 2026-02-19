@@ -24,16 +24,6 @@ function MobileMenuOrganism() {
         activeRoutes={['']}
       />
       <NavigationListItemMolecule
-        item="valentines"
-        text={navigationValentines}
-        activeRoutes={['']}
-      />
-      <NavigationListItemMolecule
-        item="valentineLunch"
-        text={navigationLunchValentines}
-        activeRoutes={['']}
-      />
-      <NavigationListItemMolecule
         item="menu/food"
         text={navigationMenu}
         activeRoutes={['']}

@@ -29,9 +29,6 @@ function App() {
         </Route>
         <Route path="/events" element={<EventsPage />} />
         <Route path="/team" element={<TeamPage />} />
-        <Route path="/valentine" element={<ValentinesPage />} />
-
-        <Route path="/valentineLunch" element={<ValentinesLunchPage />} />
       </Route>
       <Route path="*" element={<Page404 />} />
     </Routes>
