@@ -19,8 +19,6 @@ function NavigationListOrganisms() {
     navigationEvents,
     navigationTeam,
     navigationReservation,
-    navigationValentines,
-    navigationLunchValentines,
   } = t;
   return (
     <div className={css.header__content}>

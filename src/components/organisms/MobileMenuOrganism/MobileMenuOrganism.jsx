@@ -12,8 +12,6 @@ function MobileMenuOrganism() {
     navigationEvents,
     navigationTeam,
     navigationReservation,
-    navigationValentines,
-    navigationLunchValentines,
   } = t;
   return (
     <>

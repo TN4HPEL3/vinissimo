@@ -7,12 +7,10 @@ import { TeamPage } from './pages/Team/TeamPage.jsx';
 import { Page404 } from './pages/Page404/Page404.jsx';
 import { EventsPage } from './pages/Events/EventsPage.jsx';
 import { SharedLayout } from './components/templates/SharedLayout/SharedLayout.jsx';
-import { ValentinesLunchPage } from './pages/ValentinesLunch/ValentinesLunchPage.jsx';
 import { WineGlassesTemplate } from './pages/Wine/templates/WineGlassesTemplate/WineGlassesTemplate.jsx';
 import { WineBottlesTemplate } from './pages/Wine/templates/WineBottlesTemplate/WineBottlesTemplate.jsx';
 import { MenuPageFoodTemplate } from './pages/Menu/templates/MenuPageFoodTemplate/MenuPageFoodTemplate.jsx';
 import { MenuPageAlcoholTemplate } from './pages/Menu/templates/MenuPageAlcoholTemplate/MenuPageAlcoholTemplate.jsx';
-import { ValentinesPage } from './pages/Valentines/ValentinesPage.jsx';
 
 function App() {
   return (
