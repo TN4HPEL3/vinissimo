@@ -36,11 +36,11 @@
       },
       {
         "firstLineName": "Manzanilla olives",
-        "secondLineName": "marinated sweet peperoncini",
+        "secondLineName": "marinated sweet pepperoncini",
         "price": 21
       },
       {
-        "firstLineName": "Brebis and Comté cheese",
+        "firstLineName": "Reblochon and Comté cheese",
         "secondLineName": "buckwheat crackers . quince chutney",
         "price": 39
       },
@@ -50,9 +50,9 @@
         "price": 47
       },
       {
-        "firstLineName": "mackerel",
-        "secondLineName": "yuzu dressing . kombu . cucumber . kohlrabi . turnip",
-        "price": 48
+        "firstLineName": "tuna tataki",
+        "secondLineName": "ponzu . coriander . kumquat . kombu",
+        "price": 55
       },
       {
         "firstLineName": "beef tartare",
@@ -61,18 +61,18 @@
       },
       {
         "firstLineName": "cheese churros",
-        "secondLineName": "Grana Padano . truffle aioli . bagnoli truffle",
+        "secondLineName": "Grana Padano . truffle aioli . Bagnoli truffle",
         "price": 49
       },
       {
-        "firstLineName": "brussels sprouts",
+        "firstLineName": "brussels sprout",
         "secondLineName": "tamarind . hollandaise sauce . chervil",
         "price": 43
       },
       {
-        "firstLineName": "deep fried chicken wings (2pc.)",
-        "secondLineName": "truffle mousse . crème fraiche . Antonius caviar",
-        "price": 69
+        "firstLineName": "grilled Argentine shrimps",
+        "secondLineName": "peri-peri sauce . pineapple . chimichurri",
+        "price": 64
       },
       {
         "firstLineName": "onion soup",
@@ -83,7 +83,7 @@
     "mains": [
       {
         "firstLineName": "tortelloni with mushrooms",
-        "secondLineName": "oyster mushrooms . cheese sauce . kale . walnuts . bagnoli truffle",
+        "secondLineName": "oyster mushrooms . cheese sauce . broccoli . walnuts . Bagnoli truffle",
         "price": 69
       },
       {
@@ -110,11 +110,6 @@
         "firstLineName": "Black Angus rib-eye steak (300 g)",
         "secondLineName": "Café de Paris sauce",
         "price": 220
-      },
-      {
-        "firstLineName": "Chateaubriand (450 g)",
-        "secondLineName": "broccolini . demi-glace sauce",
-        "price": 349
       }
     ],
     "sides": [
