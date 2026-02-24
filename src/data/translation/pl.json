@@ -36,11 +36,11 @@
       },
       {
         "firstLineName": "oliwki Manzanilla",
-        "secondLineName": "marynowane słodkie peperoncini",
+        "secondLineName": "marynowane słodkie pepperoncini",
         "price": 21
       },
       {
-        "firstLineName": "ser Brebis i Comté",
+        "firstLineName": "ser Reblochon i Comté",
         "secondLineName": "krakersy gryczane . chutney z pigwy",
         "price": 39
       },
@@ -50,9 +50,9 @@
         "price": 47
       },
       {
-        "firstLineName": "makrela",
-        "secondLineName": "dressing yuzu . kombu . ogórek . rzepa",
-        "price": 48
+        "firstLineName": "tataki z tuńczyka",
+        "secondLineName": "ponzu . kolendra . kumkwat . kombu",
+        "price": 55
       },
       {
         "firstLineName": "tatar wołowy",
@@ -61,7 +61,7 @@
       },
       {
         "firstLineName": "churros serowe",
-        "secondLineName": "Grana Padano . truflowe aioli . trufla bagnoli",
+        "secondLineName": "Grana Padano . truflowe aioli . trufla Bagnoli",
         "price": 49
       },
       {
@@ -70,9 +70,9 @@
         "price": 43
       },
       {
-        "firstLineName": "smażone skrzydełka kurczaka (2szt.)",
-        "secondLineName": "mus truflowy . crème fraiche . kawior Antonius",
-        "price": 69
+        "firstLineName": "grillowane krewetki argentyńskie",
+        "secondLineName": "sos peri-peri . ananas . chimichurri",
+        "price": 64
       },
       {
         "firstLineName": "zupa cebulowa",
@@ -83,7 +83,7 @@
     "mains": [
       {
         "firstLineName": "tortelloni z grzybami",
-        "secondLineName": "boczniaki . sos serowy . jarmuż . orzechy włoskie . trufla bagnoli",
+        "secondLineName": "boczniaki . sos serowy . brokuł . orzechy włoskie . trufla Bagnoli",
         "price": 69
       },
       {
@@ -110,11 +110,6 @@
         "firstLineName": "antrykot sezonowany Black Angus (300g)",
         "secondLineName": "sos Café de Paris",
         "price": 220
-      },
-      {
-        "firstLineName": "chateaubriand (450g)",
-        "secondLineName": "brokuł gałązkowy . sos demi-glace",
-        "price": 349
       }
     ],
     "sides": [
