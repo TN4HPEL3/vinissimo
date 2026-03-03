@@ -11,6 +11,7 @@
   "navigationEaster": "Easter",
   "navigationDegustation": "champagne dinner",
   "navigationLunchValentines": "valentine's day lunch",
+  "navigationPopUp": "pop-up",
 
   "aboutUsTitle": "about us",
   "aboutUsPrimaryFirst": "Vinissimo Restaurant & Wine Bar is the new brand under which Sztuczka Bistro, present at Bema 6 since 2017, has been operating since February 2024. The restaurant, run since 2022 by Łukasz Chwojnicki, in a slightly changed format and with the same irreplaceable team, invariably serves delicious and minimalist cuisine, backed by a huge wine selection and impeccable service.",
@@ -40,7 +41,16 @@
         "price": 21
       },
       {
-        "firstLineName": "Reblochon and Comté cheese",
+        "firstLineName": "coppa di Parma",
+        "price": 24
+      },
+      {
+        "firstLineName": "fennel",
+        "secondLineName": "apple . japanese quince . cashew nuts . Manchego cheese",
+        "price": 38
+      },
+      {
+        "firstLineName": "Reblochon and Bursztyn cheese",
         "secondLineName": "buckwheat crackers . quince chutney",
         "price": 39
       },
@@ -70,8 +80,8 @@
         "price": 43
       },
       {
-        "firstLineName": "grilled Argentine shrimps",
-        "secondLineName": "peri-peri sauce . pineapple . chimichurri",
+        "firstLineName": "duck rillettes",
+        "secondLineName": "brioche . currants . foie gras",
         "price": 64
       },
       {
@@ -205,6 +215,128 @@
     }
   },
 
+  "popUpMenu": {
+    "sushi": [
+      {
+        "firstLineName": "nigiri sake belly tataki (2 pcs.)",
+        "secondLineName": "charred salmon belly . sweet soy . spicy mayonnaise . kizami wasabi . crispy leek",
+        "price": 30
+      },
+      {
+        "firstLineName": "freshmak ebi panco Hamachi (4 pcs.)",
+        "secondLineName": "rice paper . panko shrimp . yellowtail . spinach . shiso . snow peas . lobster mayonnaise . pickled chili . grilled pineapple . ponzu",
+        "price": 37
+      },
+      {
+        "firstLineName": "maguro tatar (2 pcs.)",
+        "secondLineName": "tuna tartare . tempura shiso . mango gel . lobster mayonnaise . pickled chili",
+        "price": 50
+      },
+      {
+        "firstLineName": "ośmiornica z grilla (80g.)",
+        "secondLineName": "grilled octopus . fermented pepper emulsion . parmesan . peanuts . shiso-pickled tomatoes",
+        "price": 65
+      },
+      {
+        "firstLineName": "maguro sashimi kappa (6 pcs.)",
+        "secondLineName": "tuna . cucumber . shiso . radish . spring onion . avocado . nikiri sauce . kizami wasabi",
+        "price": 70
+      },
+      {
+        "firstLineName": "sashimi otoro (50g.)",
+        "secondLineName": "torched bluefin tuna belly . nikiri sauce . truffle salt . nori crisp . red shiso",
+        "price": 80
+      }
+    ],
+    "starters": [
+      {
+        "firstLineName": "homemade sourdough bread",
+        "secondLineName": "onion butter . pickles",
+        "price": 19
+      },
+      {
+        "firstLineName": "Gillardeau oyster No. 4 (1 szt.)",
+        "secondLineName": "lime . horseradish",
+        "price": 29
+      },
+      {
+        "firstLineName": "yakitori chicken & squid tempura",
+        "secondLineName": "sichuan pepper . garlic mayonnaise",
+        "price": 38
+      },
+      {
+        "firstLineName": "bakłażan",
+        "secondLineName": "greek yoghurt . truffle dressing . spinach . hazelnuts",
+        "price": 47
+      },
+      {
+        "firstLineName": "grilled Argentine shrimps",
+        "secondLineName": "gochujang . pineapple . shiso",
+        "price": 64
+      }
+    ],
+    "mains": [
+      {
+        "firstLineName": "tortelloni with mushrooms",
+        "secondLineName": "oyster mushroom . cheese sauce . broccoli . walnuts . Bagnoli truffle",
+        "price": 69
+      },
+      {
+        "firstLineName": "fish & chips",
+        "secondLineName": "cod . kimchi . french fries . gribiche sauce",
+        "price": 75
+      },
+      {
+        "firstLineName": "butterfly sea bream",
+        "secondLineName": "beurre blanc sauce with miso . green onion",
+        "price": 99
+      },
+      {
+        "firstLineName": "wagyu skewer",
+        "secondLineName": "shiso . teriyaki . pickled cucumbers",
+        "price": 145
+      },
+      {
+        "firstLineName": "rib-eye Black Angus (300g)",
+        "secondLineName": "Café de Paris sauce",
+        "price": 220
+      }
+    ],
+    "sides": [
+      {
+        "firstLineName": "french fries with aioli",
+        "price": 21
+      },
+      {
+        "firstLineName": "homemade kimchi",
+        "price": 19
+      },
+      {
+        "firstLineName": "roasted potatoes",
+        "secondLineName": "ranch sauce",
+        "price": 20
+      },
+      {
+        "firstLineName": "mixed leaves",
+        "secondLineName": "mustard vinaigrette . Grana Padano . sunflower seeds",
+        "price": 18
+      },
+      {
+        "firstLineName": "warm beets",
+        "secondLineName": "pumpkin seeds . cranberries . horseradish",
+        "price": 19
+      }
+    ],
+    "desserts": [
+      {
+        "firstLineName": "black sesame ice cream",
+        "secondLineName": "earl grey carmel . lime",
+        "price": 35
+      }
+    ]
+  },
+  "popUpDescription": "Zapraszamy na kolejną, trzecią już edycję pop-up, na której będziemy gotowali wspólnie z naszymi przyjaciółmi z Gyozilla Sushi & Cocktails. 14 marca od 14:00 do 22:00, zapraszamy na specjalnie przygotowane menu, które będzie pełne azjatyckich smaków i inspiracji. Dla wszystkich Gości zaserwujemy mini poczęstunek od Gyozilla Sushi. A z racji tego, że to już 2 lata pod szyldem Vinissimo, wspólnie z Champagne Taittinger przygotujemy małą degustację. Dodatkowo szampany z Domu Taittinger, będziemy serwowali w specjalnych cenach, w opcjach na kieliszek i na butelkę. Zapraszamy do rezerwacji stolików",
+
   "menuMoreButton": "more",
   "menuWineBottlesButton": "wines",
   "menuWineGlassesButton": "wines by the glass",
@@ -215,6 +347,7 @@
   "menuSidesTitle": "sides",
   "menuDessertsTitle": "desserts",
   "menuCheesesTitle": "cheeses",
+  "menuSushiTitle": "sushi",
 
   "rateUsTitle": "rate us",
 
