@@ -40,7 +40,16 @@
         "price": 21
       },
       {
-        "firstLineName": "ser Reblochon i Comté",
+        "firstLineName": "coppa di Parma",
+        "price": 24
+      },
+      {
+        "firstLineName": "koper włoski",
+        "secondLineName": "jabłko . pigwowiec . nerkowce . ser Manchego",
+        "price": 38
+      },
+      {
+        "firstLineName": "ser Reblochon i Bursztyn",
         "secondLineName": "krakersy gryczane . chutney z pigwy",
         "price": 39
       },
@@ -70,8 +79,8 @@
         "price": 43
       },
       {
-        "firstLineName": "grillowane krewetki argentyńskie",
-        "secondLineName": "sos peri-peri . ananas . chimichurri",
+        "firstLineName": "rillettes z kaczki",
+        "secondLineName": "brioche . porzeczki . foie gras",
         "price": 64
       },
       {
