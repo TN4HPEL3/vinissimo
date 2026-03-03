@@ -11,6 +11,7 @@
   "navigationEaster": "Wielkanoc",
   "navigationDegustation": "champagne dinner",
   "navigationLunchValentines": "lunch walentynkowy",
+  "navigationPopUp": "pop-up",
 
   "aboutUsTitle": "o nas",
   "aboutUsPrimaryFirst": "Vinissimo Restaurant & Wine Bar to nowa marka, pod którą od lutego 2024, działa, obecna na Bema 6 od 2017 roku - Sztuczka Bistro. Restauracja, prowadzona od 2022 roku przez Łukasza Chwojnickiego, w delikatnie zmienionym formacie i z tym samym, niezastąpionym teamem, niezmiennie serwuje przepyszną i minimalistyczną kuchnię, wspartą ogromną selekcją win i nienagannym serwisem.",
@@ -212,6 +213,127 @@
       ]
     }
   },
+  "popUpMenu": {
+    "sushi": [
+      {
+        "firstLineName": "nigiri sake belly tataki (2 szt.)",
+        "secondLineName": "opalany brzuszek z łososia . pikantny majonez . słodki sos sojowy . kizami wasabi . prażony por",
+        "price": 30
+      },
+      {
+        "firstLineName": "freshmak ebi panco Hamachi (4 szt.)",
+        "secondLineName": "papier ryżowy . krewetka w panko . seriola . szpinak . shiso . groszek cukrowy . majonez homarowy . piklowane chilli . grillowany ananas . sos ponzu",
+        "price": 37
+      },
+      {
+        "firstLineName": "maguro tatar (2 szt.)",
+        "secondLineName": "tatar z tuńczyka . shiso w tempurze . żel mango . majonez homarowy . piklowane chilli",
+        "price": 50
+      },
+      {
+        "firstLineName": "ośmiornica z grilla (80g.)",
+        "secondLineName": "ośmiornica z grilla . emulsja z kiszonej papryki . parmezan . orzeszki . piklowane pomidorki z shiso",
+        "price": 65
+      },
+      {
+        "firstLineName": "maguro sashimi kappa (6 szt.)",
+        "secondLineName": "tuńczyk . ogórek . shiso . rzodkiewka . szczypior . awokado . sos nikiri . kizami wasabi",
+        "price": 70
+      },
+      {
+        "firstLineName": "sashimi otoro (50g.)",
+        "secondLineName": "opalana część brzuszna tuńczyka bluefin . sos nikiri . sól truflowa . chips z nori . czerwone shiso",
+        "price": 80
+      }
+    ],
+    "starters": [
+      {
+        "firstLineName": "chleb na zakwasie własnego wypieku",
+        "secondLineName": "masło cebulowe . pikle",
+        "price": 19
+      },
+      {
+        "firstLineName": "ostryga Gillardeau No. 4 (1 szt.)",
+        "secondLineName": "limonka . chrzan",
+        "price": 29
+      },
+      {
+        "firstLineName": "kurczak yakitori & kalmar w tempurze",
+        "secondLineName": "pieprz syczuański . majonez czosnkowy",
+        "price": 38
+      },
+      {
+        "firstLineName": "bakłażan",
+        "secondLineName": "jogurt grecki . dressing truflowy . szpinak . orzechy laskowe",
+        "price": 47
+      },
+      {
+        "firstLineName": "grillowane krewetki argentyńskie",
+        "secondLineName": "gochujang . ananas . shiso",
+        "price": 64
+      }
+    ],
+    "mains": [
+      {
+        "firstLineName": "tortelloni z grzybami",
+        "secondLineName": "boczniaki . sos serowy . brokuł . orzechy włoskie . trufla Bagnoli",
+        "price": 69
+      },
+      {
+        "firstLineName": "fish & chips z dorsza",
+        "secondLineName": "kimchi . frytki . sos gribiche",
+        "price": 75
+      },
+      {
+        "firstLineName": "dorada butterfly",
+        "secondLineName": "sos beurre blanc z miso . dymka",
+        "price": 99
+      },
+      {
+        "firstLineName": "szaszłyk wagyu",
+        "secondLineName": "shiso . teriyaki . piklowane ogórki",
+        "price": 145
+      },
+      {
+        "firstLineName": "antrykot sezonowany Black Angus (300g)",
+        "secondLineName": "sos Café de Paris",
+        "price": 220
+      }
+    ],
+    "sides": [
+      {
+        "firstLineName": "frytki z aioli",
+        "price": 21
+      },
+      {
+        "firstLineName": "klasyczne kimchi",
+        "price": 19
+      },
+      {
+        "firstLineName": "pieczone ziemniaki",
+        "secondLineName": "sos ranczerski",
+        "price": 20
+      },
+      {
+        "firstLineName": "sałaty",
+        "secondLineName": "vinegrette musztardowy . Grana Padano . słonecznik",
+        "price": 18
+      },
+      {
+        "firstLineName": "buraki na ciepło",
+        "secondLineName": "pestki dyni . żurawina . chrzan",
+        "price": 19
+      }
+    ],
+    "desserts": [
+      {
+        "firstLineName": "lody z czarnego sezamu",
+        "secondLineName": "karmel earl grey . limonka",
+        "price": 35
+      }
+    ]
+  },
+  "popUpDescription": "Zapraszamy na kolejną, trzecią już edycję pop-up, na której będziemy gotowali wspólnie z naszymi przyjaciółmi z Gyozilla Sushi & Cocktails. 14 marca od 14:00 do 22:00, zapraszamy na specjalnie przygotowane menu, które będzie pełne azjatyckich smaków i inspiracji. Dla wszystkich Gości zaserwujemy mini poczęstunek od Gyozilla Sushi. A z racji tego, że to już 2 lata pod szyldem Vinissimo, wspólnie z Champagne Taittinger przygotujemy małą degustację. Dodatkowo szampany z Domu Taittinger, będziemy serwowali w specjalnych cenach, w opcjach na kieliszek i na butelkę. Zapraszamy do rezerwacji stolików",
 
   "menuMoreButton": "więcej",
   "menuWineBottlesButton": "wina",
@@ -223,6 +345,7 @@
   "menuSidesTitle": "dodatki",
   "menuDessertsTitle": "na słodko",
   "menuCheesesTitle": "sery",
+  "menuSushiTitle": "sushi",
 
   "rateUsTitle": "oceń nas",
 
