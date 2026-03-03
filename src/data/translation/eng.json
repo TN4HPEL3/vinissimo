@@ -40,7 +40,16 @@
         "price": 21
       },
       {
-        "firstLineName": "Reblochon and Comté cheese",
+        "firstLineName": "coppa di Parma",
+        "price": 24
+      },
+      {
+        "firstLineName": "fennel",
+        "secondLineName": "apple . japanese quince . cashew nuts . Manchego cheese",
+        "price": 38
+      },
+      {
+        "firstLineName": "Reblochon and Bursztyn cheese",
         "secondLineName": "buckwheat crackers . quince chutney",
         "price": 39
       },
@@ -70,8 +79,8 @@
         "price": 43
       },
       {
-        "firstLineName": "grilled Argentine shrimps",
-        "secondLineName": "peri-peri sauce . pineapple . chimichurri",
+        "firstLineName": "duck rillettes",
+        "secondLineName": "brioche . currants . foie gras",
         "price": 64
       },
       {
