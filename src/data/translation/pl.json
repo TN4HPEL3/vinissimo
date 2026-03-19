@@ -568,7 +568,7 @@
 
   "cateringMenuCategories": {
     "breadAndButter": "pieczywo & masło",
-    "soup": "zupy",
+    "soup": "zupa",
     "coldDishes": "na zimno",
     "hotDishes": "na ciepło",
     "sides": "dodatki",
@@ -579,38 +579,35 @@
 
   "cateringMenu": {
     "breadAndButter": [
-      "chleb pszenno-żytni (700g) | 26 zł",
-      "masło cebulowe z miso (200g) | 28 zł"
+      "chleb pszenny (700g) | 25 zł",
+      "masło cebulowe z miso (200g) | 25 zł"
     ],
     "soup": [
-      "barszcz czerwony na zakwasie (0,9l) | 47 zł",
-      "zupa grzybowa z lanymi kluskami i grillowaną kapustą (0,9l) | 65 zł"
+      "żurek staropolski na zakwasie z kiełbasą własnej roboty i majerankiem (0,9l) | 55 zł"
     ],
     "coldDishes": [
-      "tradycyjna sałatka jarzynowa (500g) | 49 zł",
-      "paprykarz z sandacza z wędzoną papryka (500g) | 65 zł",
-      "podwędzany śledź z remuladą z selera i żurawiną (300g) | 42 zł",
-      "dorsz w sosie z słodko-kwaśnym z przyprawami korzennymi (500g) | 69 zł",
-      "pâté z wątróbek z porto i Foie Gras (300g) | 64 zł",
-      "łosoś w galarecie z warzywami (500g) | 72 zł",
-      "wolno gotowana cielęcina z sosem Vitello Tonnato (250g) | 69 zł"
+      "tradycyjna sałatka jarzynowa (500g)| 37 zł",
+      "łosoś w galarecie (400g) | 39 zł",
+      "truflowa pastą jajeczna (500g)| 42 zł",
+      "pasta jajeczna z wędzonym pstrągiem i szparagami (500g) | 46 zł",
+      "pâté z wątróbki z Foie Gras (300g) | 64 zł",
+      "wolno gotowana cielęcina z sosem Vitello Tonnato i karczochami (200g) | 75 zł"
     ],
     "hotDishes": [
-      "duszona gicz jagnięca w sosie własnym z czerwonym winem (1szt, ok 350g) | 69 zł",
-      "pierogi z kapustą i grzybami (10szt) | 42 zł",
-      "konfitowana noga z kaczki z pomarańczami (1szt) | 27 zł",
-      "pstrąg z kapustą i grzybami z sosem truflowym (400g / 200g) | 49 zł"
+      "ossobuco cielęce duszone w sosie demi glace 1 szt (około 350g) | 95 zł",
+      "udo z królika w śmietanie z tymiankiem i porem 1szt (około 200g) | 43 zł",
+      "polędwica z dorsza w sosie maślanym ze szpinakiem (400g) |72 zł"
     ],
     "sides": [
-      "zasmażane buraki z żurawiną (400g) | 39zł",
-      "pieczone ziemniaki w maślę (400g) | 35 zł"
+      "zasmażana młoda kapusta z koperkiem (400g) | 39 zł",
+      "pieczone ziemniaki z palonym masłem (400g) | 35 zł"
     ],
     "desserts": [
-      "sernik baskijski z kremem waniliowym i malinami (900g) | 120 zł",
-      "piernik ze śliwką, czekoladą i orzechami laskowymi (300g) | 69 zł"
+      "rolada biszkoptowa z kremem makowym, słonym karmelem i orzechami (500g) |55 zł",
+      "sernik baskijski z rabarbarem (1100g) |159 zł"
     ],
-    "orders": "do 21.12.2025",
-    "pickup": "23.12.2025 od 12:00 do 21:00"
+    "orders": "do godziny 16:00 02.04.2026",
+    "pickup": "04.04.2026 od 12:30 do 20:00"
   },
 
   "alcohols": {
