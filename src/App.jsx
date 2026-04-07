@@ -5,9 +5,7 @@ import { MenuPage } from './pages/Menu/MenuPage.jsx';
 import { WinePage } from './pages/Wine/WinePage.jsx';
 import { TeamPage } from './pages/Team/TeamPage.jsx';
 import { Page404 } from './pages/Page404/Page404.jsx';
-import { PopUpPage } from './pages/PopUp/PopUpPage.jsx';
 import { EventsPage } from './pages/Events/EventsPage.jsx';
-import { CateringPage } from './pages/Catering/CateringPage.jsx';
 import { SharedLayout } from './components/templates/SharedLayout/SharedLayout.jsx';
 import { WineGlassesTemplate } from './pages/Wine/templates/WineGlassesTemplate/WineGlassesTemplate.jsx';
 import { WineBottlesTemplate } from './pages/Wine/templates/WineBottlesTemplate/WineBottlesTemplate.jsx';
@@ -29,8 +27,6 @@ function App() {
         </Route>
         <Route path="/events" element={<EventsPage />} />
         <Route path="/team" element={<TeamPage />} />
-        <Route path="/pop-up" element={<PopUpPage />} />
-        <Route path="/easter" element={<CateringPage />} />
       </Route>
       <Route path="*" element={<Page404 />} />
     </Routes>
