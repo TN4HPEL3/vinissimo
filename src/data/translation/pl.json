@@ -26,9 +26,9 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "ostryga Juline No.3 (1szt.)",
-        "secondLineName": "dressing z bergamotki . chilli",
-        "price": 27
+        "firstLineName": "ostryga Juline No.3 (1szt)",
+        "secondLineName": "cytryna . chrzan",
+        "price": 34
       },
       {
         "firstLineName": "chleb na zakwasie własnego wypieku",
@@ -45,12 +45,7 @@
         "price": 24
       },
       {
-        "firstLineName": "koper włoski",
-        "secondLineName": "jabłko . pigwowiec . nerkowce . ser Manchego",
-        "price": 38
-      },
-      {
-        "firstLineName": "ser Reblochon i Bursztyn",
+        "firstLineName": "ser Reblochon i Bursztyn (24m)",
         "secondLineName": "krakersy gryczane . chutney z pigwy",
         "price": 39
       },
@@ -60,13 +55,13 @@
         "price": 47
       },
       {
-        "firstLineName": "tataki z tuńczyka",
-        "secondLineName": "ponzu . kolendra . kumkwat . kombu",
-        "price": 55
+        "firstLineName": "węgorz",
+        "secondLineName": "remulada z selera . ziemniak . chrzan",
+        "price": 52
       },
       {
         "firstLineName": "tatar wołowy",
-        "secondLineName": "chipotle . majonez wędzony . kapary . chipsy ziemniaczane",
+        "secondLineName": "czosnek niedźwiedzi . rzodkiewka",
         "price": 57
       },
       {
@@ -75,31 +70,31 @@
         "price": 49
       },
       {
-        "firstLineName": "brukselka",
-        "secondLineName": "tamaryndowiec . sos holenderski . trybula",
-        "price": 43
+        "firstLineName": "zielone szparagi",
+        "secondLineName": "sos z palonego masła . kiszona cytryna . ikra",
+        "price": 49
       },
       {
-        "firstLineName": "rillettes z kaczki",
-        "secondLineName": "brioche . porzeczki . foie gras",
-        "price": 64
+        "firstLineName": "grasica cielęca",
+        "secondLineName": "smardze . sos demi-glace . rabarbar",
+        "price": 72
       },
       {
-        "firstLineName": "zupa cebulowa",
-        "secondLineName": "grzanki . ser Gruyère",
-        "price": 45
+        "firstLineName": "żurek na zakwasie",
+        "secondLineName": "biała kiełbasa . jajo . chrzan . dymka",
+        "price": 41
       }
     ],
     "mains": [
       {
-        "firstLineName": "tortelloni z grzybami",
-        "secondLineName": "boczniaki . sos serowy . brokuł . orzechy włoskie . trufla Bagnoli",
+        "firstLineName": "kopytka",
+        "secondLineName": "pesto z czosnku niedźwiedziego . ser Bursztyn . cukinia",
         "price": 69
       },
       {
         "firstLineName": "fish & chips z dorsza",
         "secondLineName": "kimchi . frytki . sos gribiche",
-        "price": 75
+        "price": 80
       },
       {
         "firstLineName": "udko z perliczki",
@@ -107,19 +102,24 @@
         "price": 89
       },
       {
-        "firstLineName": "dorsz Skrei",
+        "firstLineName": "dorsz skrei",
         "secondLineName": "por . soczewica . beurre blanc . skorzonera",
         "price": 137
       },
       {
         "firstLineName": "comber jagnięcy",
-        "secondLineName": "krokiet z grzybami . jarmuż . marchewka . jus cielęcy",
+        "secondLineName": "krokiet z grzybami . jarmuż . smardze . jus cielęcy",
         "price": 179
       },
       {
-        "firstLineName": "antrykot sezonowany Black Angus (300g)",
+        "firstLineName": "rostbef Black Angus (300g)",
         "secondLineName": "sos Café de Paris",
-        "price": 220
+        "price": 199
+      },
+      {
+        "firstLineName": "turbot (200g)",
+        "secondLineName": "szparagi . smardze",
+        "price": 249
       }
     ],
     "sides": [
@@ -132,8 +132,8 @@
         "price": 19
       },
       {
-        "firstLineName": "pieczone ziemniaki",
-        "secondLineName": "sos rancherski",
+        "firstLineName": "młode ziemniaki",
+        "secondLineName": "emulsja maślana",
         "price": 20
       },
       {
@@ -142,25 +142,25 @@
         "price": 18
       },
       {
-        "firstLineName": "buraki na ciepło",
-        "secondLineName": "żurawina . chrzan . pestki dyni",
+        "firstLineName": "młoda kapusta",
+        "secondLineName": "emulsja cytrynowa . miso . chorizo piccante",
         "price": 19
       }
     ],
     "desserts": [
       {
-        "firstLineName": "rum baba",
-        "secondLineName": "krem jogurtowy . krwista pomarańcza",
+        "firstLineName": "krem sernikowy",
+        "secondLineName": "rabarbar . lody z rabarbaru . sablé",
         "price": 38
       },
       {
-        "firstLineName": "lody z topinamburu",
-        "secondLineName": "espresso . czekolada . orzechy laskowe",
-        "price": 32
+        "firstLineName": "ciasto daktylowe",
+        "secondLineName": "lody z topinamburu . karmel . czekolada",
+        "price": 38
       },
       {
-        "firstLineName": "ser Brebis i Comté",
-        "secondLineName": "migdały Marcona . chutney z pigwy",
+        "firstLineName": "ser Reblochon i Bursztyn (24m.)",
+        "secondLineName": "krakersy gryczane . chutney z pigwy",
         "price": 39
       }
     ]
