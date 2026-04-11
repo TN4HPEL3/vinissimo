@@ -26,9 +26,9 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "oyster Juline No.3 (1pc.)",
-        "secondLineName": "bergamot dressing . chilli",
-        "price": 27
+        "firstLineName": "oyster Gillardeau No.2 (1pc.)",
+        "secondLineName": "lemon . horseradish",
+        "price": 34
       },
       {
         "firstLineName": "homemade sourdough bread",
@@ -45,12 +45,7 @@
         "price": 24
       },
       {
-        "firstLineName": "fennel",
-        "secondLineName": "apple . japanese quince . cashew nuts . Manchego cheese",
-        "price": 38
-      },
-      {
-        "firstLineName": "Reblochon and Bursztyn cheese",
+        "firstLineName": "Reblochon and Bursztyn (24m.) cheese",
         "secondLineName": "buckwheat crackers . quince chutney",
         "price": 39
       },
@@ -60,13 +55,13 @@
         "price": 47
       },
       {
-        "firstLineName": "tuna tataki",
-        "secondLineName": "ponzu . coriander . kumquat . kombu",
-        "price": 55
+        "firstLineName": "eel",
+        "secondLineName": "celeriac remoulade . potato . horseradish",
+        "price": 52
       },
       {
         "firstLineName": "beef tartare",
-        "secondLineName": "chipotle . smoked mayonnaise . capers . potato chips",
+        "secondLineName": "wild garlic . radish",
         "price": 57
       },
       {
@@ -75,31 +70,31 @@
         "price": 49
       },
       {
-        "firstLineName": "brussels sprout",
-        "secondLineName": "tamarind . hollandaise sauce . chervil",
+        "firstLineName": "green asparagus",
+        "secondLineName": "brown butter sauce . fermented lemon . roe",
         "price": 43
       },
       {
-        "firstLineName": "duck rillettes",
-        "secondLineName": "brioche . currants . foie gras",
-        "price": 64
+        "firstLineName": "veal sweetbread",
+        "secondLineName": "morel mushrooms . demi-glace sauce . rhubarb",
+        "price": 72
       },
       {
-        "firstLineName": "onion soup",
-        "secondLineName": "croutons . Gruyère cheese",
-        "price": 45
+        "firstLineName": "sour rye soup",
+        "secondLineName": "white sausage . egg . horseradish . chives",
+        "price": 41
       }
     ],
     "mains": [
       {
-        "firstLineName": "tortelloni with mushrooms",
-        "secondLineName": "oyster mushrooms . cheese sauce . broccoli . walnuts . Bagnoli truffle",
+        "firstLineName": "potato dumplings",
+        "secondLineName": "wild garlic pesto . Bursztyn cheese . zucchini",
         "price": 69
       },
       {
         "firstLineName": "fish & chips",
         "secondLineName": "cod . kimchi . french fries . gribiche sauce",
-        "price": 75
+        "price": 80
       },
       {
         "firstLineName": "guinea fowl",
@@ -107,19 +102,24 @@
         "price": 89
       },
       {
-        "firstLineName": "Skrei cod",
+        "firstLineName": "skrei cod",
         "secondLineName": "leek . lentils . beurre blanc . salsify",
         "price": 137
       },
       {
-        "firstLineName": "lamb loin",
-        "secondLineName": "mushroom croquette . kale . carrot . veal jus",
+        "firstLineName": "lamb chops",
+        "secondLineName": "mushroom croquette . kale . morel mushrooms . veal jus",
         "price": 179
       },
       {
-        "firstLineName": "Black Angus rib-eye steak (300 g)",
+        "firstLineName": "striploin steak (300g)",
         "secondLineName": "Café de Paris sauce",
-        "price": 220
+        "price": 199
+      },
+      {
+        "firstLineName": "turbot (200g)",
+        "secondLineName": "asparagus . morel mushrooms",
+        "price": 249
       }
     ],
     "sides": [
@@ -133,8 +133,8 @@
         "price": 19
       },
       {
-        "firstLineName": "roasted potatoes",
-        "secondLineName": "ranch dressing",
+        "firstLineName": "new potatoes",
+        "secondLineName": "butter emulsion",
         "price": 20
       },
       {
@@ -143,25 +143,25 @@
         "price": 18
       },
       {
-        "firstLineName": "hot served beetroots",
-        "secondLineName": "cranberry . horseradish . pumpkin seeds",
+        "firstLineName": "spring cabbage",
+        "secondLineName": "lemon emulsion . miso . chorizo piccante",
         "price": 19
       }
     ],
     "desserts": [
       {
-        "firstLineName": "baba au rhum",
-        "secondLineName": "yoghurt cream . blood orange",
+        "firstLineName": "cheesecake cream",
+        "secondLineName": "rhubarb ice cream . rhubarb . sablé",
         "price": 38
       },
       {
-        "firstLineName": "jerusalem artichoke ice cream",
-        "secondLineName": "espresso . chocolate . hazelnuts",
-        "price": 32
+        "firstLineName": "almond cake",
+        "secondLineName": "sunchoke ice cream . caramel . chocolate",
+        "price": 38
       },
       {
-        "firstLineName": "Brebis and Comté",
-        "secondLineName": "Marcona almonds . quince chutney",
+        "firstLineName": "Reblochon and Bursztyn (24m.)",
+        "secondLineName": "buckwheat crackers . quince chutney",
         "price": 39
       }
     ]
