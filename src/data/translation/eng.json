@@ -26,9 +26,9 @@
   "menu": {
     "starters": [
       {
-        "firstLineName": "oyster Gillardeau No.2 (1pc.)",
+        "firstLineName": "oyster Juline No.3 (1pc.)",
         "secondLineName": "lemon . horseradish",
-        "price": 34
+        "price": 27
       },
       {
         "firstLineName": "homemade sourdough bread",
@@ -75,6 +75,11 @@
         "price": 43
       },
       {
+        "firstLineName": "striploin tataki",
+        "secondLineName": "mustard sauce . chervil . parmesan . truffle",
+        "price": 67
+      },
+      {
         "firstLineName": "veal sweetbread",
         "secondLineName": "morel mushrooms . demi-glace sauce . rhubarb",
         "price": 72
@@ -97,9 +102,9 @@
         "price": 80
       },
       {
-        "firstLineName": "guinea fowl",
-        "secondLineName": "pistachios . celery root . guanciale . mushroom jus . radicchio Castelfranco",
-        "price": 89
+        "firstLineName": "rabbit leg",
+        "secondLineName": "broccoli . leek sauce . wild garlic",
+        "price": 79
       },
       {
         "firstLineName": "skrei cod",
@@ -115,11 +120,6 @@
         "firstLineName": "striploin steak (300g)",
         "secondLineName": "Café de Paris sauce",
         "price": 199
-      },
-      {
-        "firstLineName": "turbot (200g)",
-        "secondLineName": "asparagus . morel mushrooms",
-        "price": 249
       }
     ],
     "sides": [
