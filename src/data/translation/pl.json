@@ -28,7 +28,7 @@
       {
         "firstLineName": "ostryga Juline No.3 (1szt)",
         "secondLineName": "cytryna . chrzan",
-        "price": 34
+        "price": 27
       },
       {
         "firstLineName": "chleb na zakwasie własnego wypieku",
@@ -75,6 +75,11 @@
         "price": 49
       },
       {
+        "firstLineName": "tataki z rostbefu",
+        "secondLineName": "sos musztardowy . trybula . parmezan . trufla",
+        "price": 67
+      },
+      {
         "firstLineName": "grasica cielęca",
         "secondLineName": "smardze . sos demi-glace . rabarbar",
         "price": 72
@@ -97,9 +102,9 @@
         "price": 80
       },
       {
-        "firstLineName": "udko z perliczki",
-        "secondLineName": "pistacje . seler . guanciale . jus grzybowy . radicchio Castelfranco",
-        "price": 89
+        "firstLineName": "udo z królika",
+        "secondLineName": "brokuły . sos porowy . czosnek niedźwiedzi",
+        "price": 79
       },
       {
         "firstLineName": "dorsz skrei",
@@ -115,11 +120,6 @@
         "firstLineName": "rostbef Black Angus (300g)",
         "secondLineName": "sos Café de Paris",
         "price": 199
-      },
-      {
-        "firstLineName": "turbot (200g)",
-        "secondLineName": "szparagi . smardze",
-        "price": 249
       }
     ],
     "sides": [
