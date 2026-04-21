@@ -66,18 +66,13 @@
       },
       {
         "firstLineName": "cheese churros",
-        "secondLineName": "Grana Padano . truffle aioli . Bagnoli truffle",
+        "secondLineName": "Grana Padano . truffle aioli . summer truffle",
         "price": 49
       },
       {
         "firstLineName": "green asparagus",
         "secondLineName": "brown butter sauce . fermented lemon . roe",
         "price": 43
-      },
-      {
-        "firstLineName": "striploin tataki",
-        "secondLineName": "mustard sauce . chervil . parmesan . truffle",
-        "price": 67
       },
       {
         "firstLineName": "veal sweetbread",
@@ -102,19 +97,19 @@
         "price": 80
       },
       {
-        "firstLineName": "rabbit leg",
-        "secondLineName": "broccoli . leek sauce . wild garlic",
-        "price": 79
+        "firstLineName": "grilled Duroc pork belly",
+        "secondLineName": "charcutière sauce . paprika . field cucumbers",
+        "price": 78
       },
       {
-        "firstLineName": "skrei cod",
-        "secondLineName": "leek . lentils . beurre blanc . salsify",
-        "price": 137
+        "firstLineName": "grilled dorade",
+        "secondLineName": "samphire . butter emulsion",
+        "price": 99
       },
       {
-        "firstLineName": "lamb chops",
-        "secondLineName": "mushroom croquette . kale . morel mushrooms . veal jus",
-        "price": 179
+        "firstLineName": "veal schnitzel",
+        "secondLineName": "romaine lettuce . Caesar sauce . Grana Padano",
+        "price": 99
       },
       {
         "firstLineName": "striploin steak (300g)",

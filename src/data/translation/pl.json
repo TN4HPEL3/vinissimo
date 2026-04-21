@@ -66,18 +66,13 @@
       },
       {
         "firstLineName": "churros serowe",
-        "secondLineName": "Grana Padano . truflowe aioli . trufla Bagnoli",
+        "secondLineName": "Grana Padano . truflowe aioli . trufla letnia",
         "price": 49
       },
       {
         "firstLineName": "zielone szparagi",
         "secondLineName": "sos z palonego masła . kiszona cytryna . ikra",
         "price": 49
-      },
-      {
-        "firstLineName": "tataki z rostbefu",
-        "secondLineName": "sos musztardowy . trybula . parmezan . trufla",
-        "price": 67
       },
       {
         "firstLineName": "grasica cielęca",
@@ -102,19 +97,19 @@
         "price": 80
       },
       {
-        "firstLineName": "udo z królika",
-        "secondLineName": "brokuły . sos porowy . czosnek niedźwiedzi",
-        "price": 79
+        "firstLineName": "grillowany boczek Duroc",
+        "secondLineName": "sos charcutière . paprika . ogórki gruntowe",
+        "price": 78
       },
       {
-        "firstLineName": "dorsz skrei",
-        "secondLineName": "por . soczewica . beurre blanc . skorzonera",
-        "price": 137
+        "firstLineName": "grillowana dorada",
+        "secondLineName": "soliród . emulsja maślana",
+        "price": 99
       },
       {
-        "firstLineName": "comber jagnięcy",
-        "secondLineName": "krokiet z grzybami . jarmuż . smardze . jus cielęcy",
-        "price": 179
+        "firstLineName": "sznycel cielęcy",
+        "secondLineName": "sałata rzymska . sos Cezar . Grana Padano",
+        "price": 99
       },
       {
         "firstLineName": "rostbef Black Angus (300g)",
