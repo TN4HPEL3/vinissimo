@@ -74,11 +74,46 @@ function WineBottlesTemplate() {
         setPageNumber(0);
     }
   };
+  const handleCountryClick = e => {
+    const id = e.target.id;
+    switch (id) {
+      case 'FranceWhite':
+        setPageNumber(3);
+        break;
+      case 'ItalyWhite':
+        setPageNumber(4);
+        break;
+      case 'Germany, Austria, Serbia, Georgia':
+        setPageNumber(5);
+        break;
+      case 'Spain, Portugal, Hungary, Slovenia, Poland, Greece':
+        setPageNumber(6);
+        break;
+      case 'New World':
+        setPageNumber(7);
+        break;
+      case 'FranceRed':
+        setPageNumber(8);
+        break;
+      case 'ItalyRed':
+        setPageNumber(9);
+        break;
+      case 'SpainRed':
+        setPageNumber(10);
+        break;
+      case 'Portugal, Austria, Slovenia, Poland, Germany, Hungary, Moldova, New World':
+        setPageNumber(11);
+        break;
+      default:
+        setPageNumber(0);
+    }
+  };
   return (
     <div className={css.menu__wine}>
       <WinePageButtonsOrganism />
       <WinePageCategoriesButtonsMolecule
         handleClick={handleClick}
+        handleCountryClick={handleCountryClick}
         category={category}
         pageNumber={pageNumber}
       />
