@@ -1,4 +1,5 @@
-.wine__page__categories-buttons {
+.wine__page__categories-buttons,
+.wine__page__countries-buttons {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
@@ -9,12 +10,18 @@
   }
 }
 
+.wine__page__countries-buttons {
+  row-gap: 1rem;
+}
+
 .wine__page__categories-buttons--button {
   background-color: transparent;
   border: 2px solid var(--website-secondary-color);
   padding: 0.5rem;
   color: var(--website-secondary-color);
-  transition: border-color var(--transition), color var(--transition);
+  transition:
+    border-color var(--transition),
+    color var(--transition);
   &:hover {
     border-color: var(--website-secondary-color-hover);
     color: var(--website-secondary-color-hover);
@@ -25,8 +32,32 @@
 }
 
 .wine__page__categories-buttons--button--active {
-  transition: border-color var(--transition), background-color var(--transition),
+  transition:
+    border-color var(--transition),
+    background-color var(--transition),
     color var(--transition);
   border-color: var(--website-secondary-color-hover);
   color: var(--website-secondary-color-hover);
+}
+
+.wine__page__countries-buttons--invisible {
+  display: none;
+}
+
+.wine__page__countries-buttons--visible {
+  display: flex;
+  background-color: transparent;
+  border: 2px solid var(--website-secondary-color);
+  padding: 0.5rem;
+  color: var(--website-secondary-color);
+  transition:
+    border-color var(--transition),
+    color var(--transition);
+  &:hover {
+    border-color: var(--website-secondary-color-hover);
+    color: var(--website-secondary-color-hover);
+  }
+  @media screen and (min-width: 32rem) {
+    font-size: var(--font-size-small);
+  }
 }
