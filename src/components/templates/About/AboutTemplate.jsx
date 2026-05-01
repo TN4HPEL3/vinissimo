@@ -36,7 +36,7 @@ function AboutTemplate() {
         ) : (
           <>
             <img
-              src={publicAccess('/Seabass.jpg')}
+              src={publicAccess('/IMG_390455.jpeg')}
               alt={'A restaurant table set with a bottle of wine and a dish.'}
               className={[css['about__content__image']]}
             />
