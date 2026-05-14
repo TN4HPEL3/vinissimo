@@ -7,12 +7,12 @@ function EventsImagesMolecule() {
     <>
       <img
         className={[css['events__content__image']]}
-        src={publicAccess('/VIP2.jpg')}
+        src={publicAccess('/viproom1.jpg')}
         alt={'A restaurant table.'}
       />
       <img
         className={[css['events__content__image']]}
-        src={publicAccess('/VIP.jpg')}
+        src={publicAccess('/viproom2.jpg')}
         alt={'A restaurant table.'}
       />
     </>
