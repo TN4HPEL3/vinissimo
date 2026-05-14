@@ -10,6 +10,7 @@ function EventsImagesMolecule() {
         src={publicAccess('/Frame6.png')}
         alt={'A restaurant table.'}
       />
+      <></>
       <img
         className={[css['events__content__image']]}
         src={publicAccess('/VIPr.jpeg')}
