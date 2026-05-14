@@ -5,16 +5,17 @@ import css from './EventsImagesMolecule.module.css';
 function EventsImagesMolecule() {
   return (
     <>
-      {/* <img
+      <img
         className={[css['events__content__image']]}
         src={publicAccess('/Frame6.png')}
         alt={'A restaurant table.'}
       />
+      <></>
       <img
         className={[css['events__content__image']]}
         src={publicAccess('/VIPr.jpeg')}
         alt={'A restaurant table.'}
-      /> */}
+      />
     </>
   );
 }
