@@ -1,6 +1,6 @@
-import { publicAccess } from '../../../../helpers/publicAccess.js';
+// import { publicAccess } from '../../../../helpers/publicAccess.js';
 
-import css from './EventsImagesMolecule.module.css';
+// import css from './EventsImagesMolecule.module.css';
 
 function EventsImagesMolecule() {
   return (
