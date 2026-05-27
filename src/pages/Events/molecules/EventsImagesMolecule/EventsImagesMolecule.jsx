@@ -1,11 +1,11 @@
-import { publicAccess } from '../../../../helpers/publicAccess.js';
+// import { publicAccess } from '../../../../helpers/publicAccess.js';
 
-import css from './EventsImagesMolecule.module.css';
+// import css from './EventsImagesMolecule.module.css';
 
 function EventsImagesMolecule() {
   return (
     <>
-      <img
+      {/* <img
         className={[css['events__content__image']]}
         src={publicAccess('/VIP1.jpg')}
         alt={'A restaurant table.'}
@@ -15,7 +15,7 @@ function EventsImagesMolecule() {
         className={[css['events__content__image']]}
         src={publicAccess('/VIP2.jpg')}
         alt={'A restaurant table.'}
-      />
+      /> */}
     </>
   );
 }
