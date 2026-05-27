@@ -11,7 +11,7 @@
 }
 
 .wine__page__countries-buttons {
-  row-gap: 1rem;
+  gap: 1rem;
 }
 
 .wine__page__categories-buttons--button {
@@ -26,7 +26,11 @@
     border-color: var(--website-secondary-color-hover);
     color: var(--website-secondary-color-hover);
   }
+  @media screen and (min-width: 20rem) {
+    margin: 0;
+  }
   @media screen and (min-width: 32rem) {
+    margin: 0 1rem;
     font-size: var(--font-size-medium);
   }
 }
