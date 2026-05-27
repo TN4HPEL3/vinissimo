@@ -28,7 +28,7 @@
       {
         "firstLineName": "oyster Juline No.3 (1pc.)",
         "secondLineName": "lemon . horseradish",
-        "price": 27
+        "price": 28
       },
       {
         "firstLineName": "homemade sourdough bread",
@@ -38,51 +38,56 @@
       {
         "firstLineName": "Manzanilla olives",
         "secondLineName": "marinated sweet pepperoncini",
-        "price": 21
+        "price": 25
       },
       {
-        "firstLineName": "coppa di Parma",
-        "price": 24
+        "firstLineName": "Coppa di Parma",
+        "price": 25
       },
       {
-        "firstLineName": "Reblochon and Bursztyn (24m.) cheese",
-        "secondLineName": "buckwheat crackers . quince chutney",
+        "firstLineName": "Brillat-Savarin and Bursztyn (24m.) cheese",
+        "secondLineName": "buckwheat crackers . pear chutney",
         "price": 39
+      },
+      {
+        "firstLineName": "cod croquettes (2pcs.)",
+        "secondLineName": "shellfish bisque . saffron aioli . argentine red shrimps",
+        "price": 45
       },
       {
         "firstLineName": "aubergine",
         "secondLineName": "greek yoghurt . truffle dressing . spinach . hazelnuts",
-        "price": 47
-      },
-      {
-        "firstLineName": "eel",
-        "secondLineName": "celeriac remoulade . potato . horseradish",
-        "price": 52
-      },
-      {
-        "firstLineName": "beef tartare",
-        "secondLineName": "wild garlic . radish",
-        "price": 57
-      },
-      {
-        "firstLineName": "cheese churros",
-        "secondLineName": "Grana Padano . truffle aioli . summer truffle",
-        "price": 49
+        "price": 48
       },
       {
         "firstLineName": "green asparagus",
         "secondLineName": "brown butter sauce . fermented lemon . roe",
-        "price": 43
+        "price": 49
+      },
+      {
+        "firstLineName": "scotch salmon",
+        "secondLineName": "chilli . orange . ground cucumber . cilantro",
+        "price": 54
+      },
+      {
+        "firstLineName": "beef tartare",
+        "secondLineName": "wild garlic . radish",
+        "price": 59
       },
       {
         "firstLineName": "veal sweetbread",
         "secondLineName": "morel mushrooms . demi-glace sauce . rhubarb",
-        "price": 72
+        "price": 75
+      },
+      {
+        "firstLineName": "brioche with snow crab (2pcs.)",
+        "secondLineName": "Antonius caviar supplement 5g/50zł",
+        "price": 49
       },
       {
         "firstLineName": "sour rye soup",
-        "secondLineName": "white sausage . egg . horseradish . chives",
-        "price": 41
+        "secondLineName": "white sausage . egg . horseradish . chives . sorrel",
+        "price": 42
       }
     ],
     "mains": [
@@ -94,17 +99,17 @@
       {
         "firstLineName": "fish & chips",
         "secondLineName": "cod . kimchi . french fries . gribiche sauce",
-        "price": 80
+        "price": 85
       },
       {
         "firstLineName": "grilled Duroc pork belly",
         "secondLineName": "charcutière sauce . paprika . field cucumbers",
-        "price": 78
+        "price": 79
       },
       {
-        "firstLineName": "grilled dorade",
-        "secondLineName": "samphire . butter emulsion",
-        "price": 99
+        "firstLineName": "sea bass",
+        "secondLineName": "samphire . miso sauce . white asparagus . nori",
+        "price": 109
       },
       {
         "firstLineName": "veal schnitzel",
@@ -115,13 +120,18 @@
         "firstLineName": "striploin steak (300g)",
         "secondLineName": "Café de Paris sauce",
         "price": 199
+      },
+      {
+        "firstLineName": "turbot",
+        "secondLineName": "green asparagus . beurre blanc . roe",
+        "price": 239
       }
     ],
     "sides": [
       {
         "firstLineName": "french fries",
         "secondLineName": "aioli",
-        "price": 21
+        "price": 22
       },
       {
         "firstLineName": "classic kimchi",
@@ -135,7 +145,7 @@
       {
         "firstLineName": "lettuces",
         "secondLineName": "mustard vinaigrette . Grana Padano . sunflower seeds",
-        "price": 18
+        "price": 22
       },
       {
         "firstLineName": "spring cabbage",
@@ -146,17 +156,17 @@
     "desserts": [
       {
         "firstLineName": "cheesecake cream",
-        "secondLineName": "rhubarb ice cream . rhubarb . sablé",
+        "secondLineName": "strawberries . crumble . rose granita",
         "price": 38
       },
       {
-        "firstLineName": "almond cake",
-        "secondLineName": "sunchoke ice cream . caramel . chocolate",
+        "firstLineName": "chocolate cake",
+        "secondLineName": "chocolate ganache . mascarpone . cherries",
         "price": 38
       },
       {
-        "firstLineName": "Reblochon and Bursztyn (24m.)",
-        "secondLineName": "buckwheat crackers . quince chutney",
+        "firstLineName": "Brillat-Savarin and Bursztyn (2YO)",
+        "secondLineName": "buckwheat crackers . pear chutney",
         "price": 39
       }
     ]
