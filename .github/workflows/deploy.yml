@@ -24,6 +24,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: build/
+          clean: true
           protocol: 'ftps'
           timeout: 60000
           log-level: verbose
